@@ -72,3 +72,46 @@ providers:
     - name: nforce.com
       asns:
         - AS43350
+    - name: Performive LLC
+      asns:
+        - AS46562
+    - name: THG HOSTING
+      asns:
+        - AS13213
+    - name: GorillaServers
+      asns:
+        - AS53850
+    - name: Oy Crea Nova
+      asns:
+        - AS51765
+    - name: Orion Network
+      asns:
+        - AS41564
+        - AS58065
+    - name: GSL Networks
+      asns:
+        - AS137409
+    - name: HostRoyale
+      asns:
+        - AS203020
+    - name: Cloud Lease
+      asns:
+        - AS206446
+    - name: Gcore
+      asns:
+        - AS199524
+    - name: Interserver
+      asns:
+        - AS19318
+    - name: NAVEGALO
+      asns:
+        - AS28110
+    - name: AltusHost
+      asns:
+        - AS51430
+    - name: UAB Bacloud
+      asns:
+        - AS61272
+    - name: Convergence Group
+      asns:
+        - AS16247

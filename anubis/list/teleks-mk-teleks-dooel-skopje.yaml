@@ -1,0 +1,14 @@
+- name: anti teleks-mk-teleks-dooel-skopje
+  action: CHALLENGE
+  challenge:
+    difficulty: 16
+    algorithm: fast
+  remote_addresses:
+  - 185.225.28.0/24
+  - 185.225.29.0/24
+  - 185.225.30.0/24
+  - 185.225.31.0/24
+  - 185.233.208.0/22
+  - 2a0d:4500::/29
+  - 2a0d:6280::/29
+  - 2a0d:6880::/29

@@ -1,0 +1,7 @@
+- name: anti alojarpt-almouroltec-servicos-de-informatica-e-internet-lda
+  action: CHALLENGE
+  challenge:
+    difficulty: 16
+    algorithm: fast
+  remote_addresses:
+  - 94.46.24.0/24

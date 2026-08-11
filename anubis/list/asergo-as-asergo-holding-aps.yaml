@@ -1,0 +1,8 @@
+- name: anti asergo-as-asergo-holding-aps
+  action: CHALLENGE
+  challenge:
+    difficulty: 16
+    algorithm: fast
+  remote_addresses:
+  - 2a00:9080::/32
+  - 82.103.128.0/18

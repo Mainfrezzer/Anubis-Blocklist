@@ -7,6 +7,9 @@ providers:
       asns:
         - AS396982
         - AS16550
+    - name: amazon
+      asns:
+        - AS16509
     - name: tencent
       asns:
         - AS45090

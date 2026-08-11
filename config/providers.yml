@@ -20,3 +20,12 @@ providers:
     - name: digitalocean
       asns:
         - AS14061
+    - name: censys
+      asns:
+        - AS398324
+    - name: akamai (linode)
+      asns:
+        - AS63949
+    - name: ucloud.cn
+      asns:
+        - AS135377

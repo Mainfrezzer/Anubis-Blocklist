@@ -35,3 +35,40 @@ providers:
     - name: Amarutu
       asns:
         - AS206264
+    - name: Datacamp
+      asns:
+        - AS212238
+        - AS60068
+    - name: Proton
+      asns:
+        - AS209103
+    - name: MivoCloud
+      asns:
+        - AS39798
+    - name: Host Universal
+      asns:
+        - AS136557
+    - name: Farice
+      asns:
+        - AS56704
+    - name: WorldStream
+      asns:
+        - AS49981
+    - name: Bahnhof AB (never heard of it, lmao)
+      asns:
+        - AS8473
+    - name: EstNOC
+      asns:
+        - AS206804
+    - name: M247
+      asns:
+        - AS9009
+    - name: owl.net
+      asns:
+        - AS23959
+    - name: xTom
+      asns:
+        - AS4785
+    - name: nforce.com
+      asns:
+        - AS43350

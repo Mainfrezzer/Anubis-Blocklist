@@ -63,6 +63,7 @@ providers:
     - name: M247
       asns:
         - AS9009
+        - AS16247
     - name: owl.net
       asns:
         - AS23959
@@ -117,9 +118,6 @@ providers:
     - name: UAB Bacloud
       asns:
         - AS61272
-    - name: Convergence Group
-      asns:
-        - AS16247
     - name: Latitude.sh
       asns:
         - AS396356

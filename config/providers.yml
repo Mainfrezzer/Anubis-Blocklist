@@ -276,7 +276,3 @@ providers:
     - name: ptisp.pt
       asns:
         - AS213277
-    - name: QuadraNet
-      asns:
-        - AS8100
-        - AS7185

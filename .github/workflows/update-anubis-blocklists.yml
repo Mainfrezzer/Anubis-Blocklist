@@ -1,0 +1,299 @@
+name: Update Anubis blocklists
+
+on:
+  workflow_dispatch:
+  schedule:
+  - cron: "17 3 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+ update-blocklists:
+  runs-on: 
+   - ubuntu-latest
+
+  steps:
+  - name: Checkout
+    uses: actions/checkout@v4
+
+  - name: Install Python YAML 
+    run: | 
+        sudo apt-get update 
+        sudo apt-get install -y python3-yaml
+
+  - name: Generate blocklists
+    env:
+      CONFIG: config/providers.yml
+      OUTPUT_DIR: anubis/list
+    run: |
+      set -euo pipefail
+
+      mkdir -p "$OUTPUT_DIR"
+
+      python3 <<'PY'
+      import json
+      import os
+      import re
+      import sys
+      import urllib.request
+
+      import yaml
+
+      config_file = os.environ["CONFIG"]
+      output_dir = os.environ["OUTPUT_DIR"]
+
+      with open(config_file, "r", encoding="utf-8") as f:
+          config = yaml.safe_load(f)
+
+      providers = config.get("providers", [])
+
+      if not providers:
+          raise SystemExit("No providers configured")
+
+      def get_json(url):
+          request = urllib.request.Request(
+              url,
+              headers={"User-Agent": "anubis-blocklist-generator/1.0"},
+          )
+
+          with urllib.request.urlopen(request, timeout=60) as response:
+              return json.load(response)
+
+      def slugify(value):
+          value = value.lower()
+          value = re.sub(r"[^a-z0-9]+", "-", value)
+          value = re.sub(r"-+", "-", value)
+          return value.strip("-")
+
+      all_prefixes = set()
+
+      # Remove old generated lists.
+      for filename in os.listdir(output_dir):
+          if filename.endswith(".yaml"):
+              os.remove(os.path.join(output_dir, filename))
+
+      for provider in providers:
+          provider_name = provider["name"]
+          asns = provider["asns"]
+
+          provider_prefixes = set()
+          holder_names = []
+
+          for configured_asn in asns:
+              asn = str(configured_asn).upper()
+
+              if not asn.startswith("AS"):
+                  asn = "AS" + asn
+
+              if not re.fullmatch(r"AS[0-9]+", asn):
+                  raise SystemExit(f"Invalid ASN: {configured_asn}")
+
+              print(f"Fetching {asn}")
+
+              prefixes_url = (
+                  "https://stat.ripe.net/data/"
+                  f"announced-prefixes/data.json?resource={asn}"
+              )
+
+              prefixes_data = get_json(prefixes_url)
+
+              prefixes = {
+                  item["prefix"]
+                  for item in prefixes_data["data"]["prefixes"]
+                  if item.get("prefix")
+              }
+
+              if not prefixes:
+                  raise SystemExit(
+                      f"No announced prefixes returned for {asn}"
+                  )
+
+              provider_prefixes.update(prefixes)
+              all_prefixes.update(prefixes)
+
+              overview_url = (
+                  "https://stat.ripe.net/data/"
+                  f"as-overview/data.json?resource={asn}"
+              )
+
+              overview = get_json(overview_url)
+
+              holder = overview.get("data", {}).get("holder")
+
+              if holder:
+                  holder_names.append(holder)
+
+              print(f"  {len(prefixes)} prefixes")
+
+          # Prefer the AS holder returned by RIPEstat.
+          # Fall back to the configured provider name.
+          if holder_names:
+              rule_name_source = holder_names[0]
+          else:
+              rule_name_source = provider_name
+
+          slug = slugify(rule_name_source)
+
+          if not slug:
+              slug = slugify(provider_name)
+
+          filename = os.path.join(
+              output_dir,
+              f"{slug}.yaml",
+          )
+
+          rule = [
+              {
+                  "name": f"anti {slug}",
+                  "action": "CHALLENGE",
+                  "challenge": {
+                      "difficulty": 16,
+                      "algorithm": "fast",
+                  },
+                  "remote_addresses": sorted(provider_prefixes),
+              }
+          ]
+
+          with open(filename, "w", encoding="utf-8") as f:
+              yaml.safe_dump(
+                  rule,
+                  f,
+                  sort_keys=False,
+                  default_flow_style=False,
+              )
+
+          print(
+              f"Generated {filename}: "
+              f"{len(provider_prefixes)} unique prefixes"
+          )
+
+      # Generate one giant blocklist.
+      combined = [
+          {
+              "name": "anti all configured providers",
+              "action": "CHALLENGE",
+              "challenge": {
+                  "difficulty": 16,
+                  "algorithm": "fast",
+            },
+              "remote_addresses": sorted(all_prefixes),
+          }
+      ]
+
+      combined_file = os.path.join(
+          output_dir,
+          "blocklist.yaml",
+      )
+
+      with open(combined_file, "w", encoding="utf-8") as f:
+          yaml.safe_dump(
+              combined,
+              f,
+              sort_keys=False,
+              default_flow_style=False,
+          )
+
+      print(
+          f"Generated {combined_file}: "
+          f"{len(all_prefixes)} unique prefixes"
+      )
+      PY
+
+  - name: Validate YAML
+    run: |
+      set -euo pipefail
+
+      python3 <<'PY'
+      import glob
+      import yaml
+
+      files = glob.glob("anubis/list/*.yaml")
+
+      if not files:
+          raise SystemExit("No YAML files generated")
+
+      for filename in files:
+          print(f"Checking {filename}")
+
+          with open(filename, "r", encoding="utf-8") as f:
+              data = yaml.safe_load(f)
+
+          if not isinstance(data, list):
+              raise SystemExit(
+                  f"{filename}: root must be a list"
+              )
+
+          for rule in data:
+              if not isinstance(rule, dict):
+                  raise SystemExit(
+                      f"{filename}: rule must be a mapping"
+                  )
+
+              # Hauptschlüssel der Regel prüfen
+              required_root = [
+                  "name",
+                  "action",
+                  "challenge",
+                  "remote_addresses",
+              ]
+
+              for key in required_root:
+                  if key not in rule:
+                      raise SystemExit(
+                          f"{filename}: missing {key}"
+                      )
+
+              if rule["action"] != "CHALLENGE":
+                  raise SystemExit(
+                      f"{filename}: invalid action"
+                  )
+
+              if not isinstance(rule["remote_addresses"], list):
+                  raise SystemExit(
+                      f"{filename}: remote_addresses is not a list"
+                  )
+
+              # Das verschachtelte challenge-Objekt validieren
+              challenge = rule["challenge"]
+              if not isinstance(challenge, dict):
+                  raise SystemExit(
+                      f"{filename}: challenge must be a mapping"
+                  )
+
+              required_challenge = ["difficulty", "algorithm"]
+              for key in required_challenge:
+                  if key not in challenge:
+                      raise SystemExit(
+                          f"{filename}: challenge is missing {key}"
+                      )
+
+              if challenge["difficulty"] != 16:
+                  raise SystemExit(
+                      f"{filename}: invalid difficulty inside challenge"
+                  )
+
+              if challenge["algorithm"] != "fast":
+                  raise SystemExit(
+                      f"{filename}: invalid algorithm inside challenge"
+                  )
+
+      print("YAML validation successful")
+      PY
+
+  - name: Commit changes
+    run: |
+      set -euo pipefail
+
+      git config user.name "github-actions[bot]"
+      git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      git add anubis/list/
+
+      if git diff --cached --quiet; then
+        echo "No changes."
+        exit 0
+      fi
+
+      git commit -m "chore: update Anubis blocklists"
+      git push

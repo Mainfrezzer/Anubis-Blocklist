@@ -1,0 +1,22 @@
+providers:
+
+    - name: ovh
+      asns:
+        - AS16276
+    - name: google
+      asns:
+        - AS396982
+        - AS16550
+    - name: tencent
+      asns:
+        - AS45090
+        - AS132203
+    - name: Hetzner
+      asns:
+        - AS24940
+    - name: microsoft
+      asns:
+        - AS8075
+    - name: digitalocean
+      asns:
+        - AS14061

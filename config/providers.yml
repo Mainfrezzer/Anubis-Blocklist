@@ -115,3 +115,43 @@ providers:
     - name: Convergence Group
       asns:
         - AS16247
+    - name: Latitude.sh
+      asns:
+        - AS396356
+        - AS262287
+    - name: Intergrid AU
+      asns:
+        - AS133480
+    - name: FDCservers.net
+      asns:
+        - AS30058
+    - name: HostingInside
+      asns:
+        - AS9678
+    - name: Cablenet CY
+      asns:
+        - AS35432
+    - name: Fiber Grid
+      asns:
+        - AS37518
+    - name: plus.hr
+      asns:
+        - AS12417
+    - name: ukserver.com
+      asns:
+        - AS42831
+    - name: GRUPO ZGH SPA
+      asns:
+        - AS263702
+    - name: Global Layer
+      asns:
+        - AS49453
+    - name: Gigabit Hosting
+      asns:
+        - AS55720
+    - name: PacketHub
+      asns:
+        - AS141039
+    - name: nexeon.com
+      asns:
+        - AS20278

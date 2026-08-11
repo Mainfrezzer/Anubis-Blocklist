@@ -66,9 +66,13 @@ providers:
     - name: owl.net
       asns:
         - AS23959
+        - AS43357
     - name: xTom
       asns:
         - AS4785
+        - AS9312
+        - AS3214
+        - AS6233
     - name: nforce.com
       asns:
         - AS43350
@@ -233,3 +237,46 @@ providers:
     - name: Data Miners Racknation.cr
       asns:
         - AS52423
+    - name: Ufinet Brasil Wixnet
+      asns:
+        - AS53013
+    - name: tzulo
+      asns:
+        - AS11878
+    - name: 31173 Services AB
+      asns:
+        - AS39351
+    - name: eSecureData
+      asns:
+        - AS11831
+    - name: Private Layer INC
+      asns:
+        - AS51852
+    - name: Blix Solutions AS
+      asns:
+        - AS50304
+    - name: LEASEWEB (HK)
+      asns:
+        - AS133752
+    - name: Asimia Damaskou
+      asns:
+        - AS205053
+    - name: nano.lv
+      asns:
+        - AS43513
+    - name: Sharktech
+      asns:
+        - AS46844
+    - name: qnax.sh
+      asns:
+        - AS268581
+    - name: Asergo
+      asns:
+        - AS30736
+    - name: ptisp.pt
+      asns:
+        - AS213277
+    - name: QuadraNet
+      asns:
+        - AS8100
+		- AS7185

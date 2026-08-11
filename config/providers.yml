@@ -29,3 +29,9 @@ providers:
     - name: ucloud.cn
       asns:
         - AS135377
+    - name: alibaba
+      asns:
+        - AS45102
+    - name: Amarutu
+      asns:
+        - AS206264

@@ -94,6 +94,7 @@ providers:
     - name: HostRoyale
       asns:
         - AS203020
+        - AS207990
     - name: Cloud Lease
       asns:
         - AS206446
@@ -152,6 +153,44 @@ providers:
     - name: PacketHub
       asns:
         - AS141039
+        - AS136787
+        - AS147049
     - name: nexeon.com
       asns:
         - AS20278
+    - name: Clouvider Limited
+      asns:
+        - AS62240
+    - name: ntdatacenter.net
+      asns:
+        - AS9335
+    - name: bandwidth.co.uk
+      asns:
+        - AS25369
+    - name: Scaleway
+      asns:
+        - AS12876
+    - name: Keminet
+      asns:
+        - AS197706
+    - name: velia.net
+      asns:
+        - AS30083
+    - name: GoDaddy
+      asns:
+        - AS26496
+    - name: Internet Vikings
+      asns:
+        - AS51747
+    - name: 2cloud.eu
+      asns:
+        - AS39845
+    - name: Trabia
+      asns:
+        - AS43289
+    - name: ehostidc.com
+      asns:
+        - AS45382
+    - name: Globalhost
+      asns:
+        - AS200698

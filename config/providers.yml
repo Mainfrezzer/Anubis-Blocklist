@@ -147,6 +147,7 @@ providers:
     - name: Global Layer
       asns:
         - AS49453
+        - AS57172
     - name: Gigabit Hosting
       asns:
         - AS55720
@@ -155,9 +156,11 @@ providers:
         - AS141039
         - AS136787
         - AS147049
+        - AS207137
     - name: nexeon.com
       asns:
         - AS20278
+        - AS131199
     - name: Clouvider Limited
       asns:
         - AS62240
@@ -194,3 +197,39 @@ providers:
     - name: Globalhost
       asns:
         - AS200698
+    - name: Psychz Networks
+      asns:
+        - AS40676
+    - name: Global Custom Data Limited
+      asns:
+        - AS48950
+    - name: VIVID-HOSTING
+      asns:
+        - AS64200
+    - name: TELEKS DOOEL
+      asns:
+        - AS205119
+    - name: Korea Telecom
+      asns:
+        - AS4766
+    - name: Viettel
+      asns:
+        - AS38731
+    - name: vnpt.vn
+      asns:
+        - AS45899
+    - name: Angelnet Limited
+      asns:
+        - AS46805
+    - name: vultr
+      asns:
+        - AS20473
+    - name: HostPapa
+      asns:
+        - AS36352 
+    - name: Proservice
+      asns:
+        - AS47810
+    - name: Data Miners Racknation.cr
+      asns:
+        - AS52423

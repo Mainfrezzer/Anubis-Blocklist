@@ -1,0 +1,440 @@
+name: Update MikroTik blocklists
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "27 3 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  update-mikrotik-blocklists:
+    runs-on:
+      - ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        
+      - name: Install Python YAML 
+        run: | 
+            sudo apt-get update 
+            sudo apt-get install -y python3-yaml
+            
+      - name: Generate MikroTik blocklists
+        env:
+          CONFIG: config/providers.yml
+          OUTPUT_DIR: mikrotik/list
+        run: |
+          set -euo pipefail
+
+          mkdir -p "$OUTPUT_DIR"
+
+          python3 <<'PY'
+          import json
+          import os
+          import re
+          import time
+          import urllib.request
+
+          import yaml
+
+          config_file = os.environ["CONFIG"]
+          output_dir = os.environ["OUTPUT_DIR"]
+
+          with open(config_file, "r", encoding="utf-8") as f:
+              config = yaml.safe_load(f)
+
+          providers = config.get("providers", [])
+
+          if not providers:
+              raise SystemExit("No providers configured")
+
+          def get_json(url, retries=4, timeout=120):
+              request = urllib.request.Request(
+                  url,
+                  headers={
+                      "User-Agent": "mikrotik-blocklist-generator/1.0",
+                      "Accept": "application/json",
+                  },
+              )
+
+              last_error = None
+
+              for attempt in range(1, retries + 1):
+                  try:
+                      with urllib.request.urlopen(
+                          request,
+                          timeout=timeout,
+                      ) as response:
+                          return json.load(response)
+
+                  except Exception as exc:
+                      last_error = exc
+
+                      if attempt == retries:
+                          break
+
+                      delay = 2 ** (attempt - 1)
+
+                      print(
+                          f"Request failed (attempt {attempt}/{retries}): "
+                          f"{exc}"
+                      )
+                      print(f"Retrying in {delay}s...")
+
+                      time.sleep(delay)
+
+              raise RuntimeError(
+                  f"Failed to fetch {url} after {retries} attempts"
+              ) from last_error
+
+          def slugify(value):
+              value = value.lower()
+              value = re.sub(r"[^a-z0-9]+", "-", value)
+              value = re.sub(r"-+", "-", value)
+              return value.strip("-")
+
+          def routeros_quote(value):
+              value = str(value)
+              value = value.replace("\\", "\\\\")
+              value = value.replace('"', '\\"')
+              return f'"{value}"'
+
+          def write_mikrotik_list(
+              filename,
+              list_name,
+              prefixes,
+              family,
+              comment,
+          ):
+              # Don't create empty files.
+              if not prefixes:
+                  print(
+                      f"Skipping {filename}: "
+                      f"no {family} prefixes"
+                  )
+                  return False
+
+              if family == "ipv4":
+                  menu = "/ip firewall address-list"
+              elif family == "ipv6":
+                  menu = "/ipv6 firewall address-list"
+              else:
+                  raise ValueError(
+                      f"Unknown address family: {family}"
+                  )
+
+              sorted_prefixes = sorted(prefixes)
+
+              with open(filename, "w", encoding="utf-8") as f:
+                  f.write(
+                      "# Generated automatically. Do not edit manually.\n"
+                  )
+                  f.write(f"# {comment}\n")
+                  f.write(f"# Entries: {len(sorted_prefixes)}\n")
+                  f.write("#\n")
+                  f.write(f"{menu}\n")
+
+                  for prefix in sorted_prefixes:
+                      f.write(
+                          "add "
+                          f"list={routeros_quote(list_name)} "
+                          f"address={routeros_quote(prefix)} "
+                          f"comment={routeros_quote(comment)}\n"
+                      )
+
+              print(
+                  f"Generated {filename}: "
+                  f"{len(sorted_prefixes)} {family} prefixes"
+              )
+
+              return True
+
+          # Remove old generated lists.
+          for filename in os.listdir(output_dir):
+              if filename.endswith(".rsc"):
+                  os.remove(os.path.join(output_dir, filename))
+
+          all_prefixes = set()
+
+          for provider in providers:
+              provider_name = provider["name"]
+              asns = provider["asns"]
+
+              provider_prefixes = set()
+              holder_names = []
+
+              for configured_asn in asns:
+                  asn = str(configured_asn).upper()
+
+                  if not asn.startswith("AS"):
+                      asn = "AS" + asn
+
+                  if not re.fullmatch(r"AS[0-9]+", asn):
+                      raise SystemExit(
+                          f"Invalid ASN: {configured_asn}"
+                      )
+
+                  print(f"Fetching {asn}")
+
+                  prefixes_url = (
+                      "https://stat.ripe.net/data/"
+                      f"announced-prefixes/data.json?resource={asn}"
+                  )
+
+                  prefixes_data = get_json(prefixes_url)
+
+                  prefixes = {
+                      item["prefix"]
+                      for item in prefixes_data["data"]["prefixes"]
+                      if item.get("prefix")
+                  }
+
+                  if not prefixes:
+                      raise SystemExit(
+                          f"No announced prefixes returned for {asn}"
+                      )
+
+                  provider_prefixes.update(prefixes)
+                  all_prefixes.update(prefixes)
+
+                  overview_url = (
+                      "https://stat.ripe.net/data/"
+                      f"as-overview/data.json?resource={asn}"
+                  )
+
+                  overview = get_json(overview_url)
+
+                  holder = overview.get("data", {}).get("holder")
+
+                  if holder:
+                      holder_names.append(holder)
+
+                  print(f"  {len(prefixes)} prefixes")
+
+              # Prefer the AS holder returned by RIPEstat.
+              # Fall back to the configured provider name.
+              if holder_names:
+                  rule_name_source = holder_names[0]
+              else:
+                  rule_name_source = provider_name
+
+              slug = slugify(rule_name_source)
+
+              if not slug:
+                  slug = slugify(provider_name)
+
+              list_name = f"anti-{slug}"
+
+              ipv4_prefixes = {
+                  prefix
+                  for prefix in provider_prefixes
+                  if ":" not in prefix
+              }
+
+              ipv6_prefixes = {
+                  prefix
+                  for prefix in provider_prefixes
+                  if ":" in prefix
+              }
+
+              # Provider IPv4 list.
+              write_mikrotik_list(
+                  os.path.join(
+                      output_dir,
+                      f"{slug}-ipv4.rsc",
+                  ),
+                  list_name,
+                  ipv4_prefixes,
+                  "ipv4",
+                  f"Generated blocklist for {provider_name}",
+              )
+
+              # Provider IPv6 list.
+              write_mikrotik_list(
+                  os.path.join(
+                      output_dir,
+                      f"{slug}-ipv6.rsc",
+                  ),
+                  list_name,
+                  ipv6_prefixes,
+                  "ipv6",
+                  f"Generated blocklist for {provider_name}",
+              )
+
+          # --------------------------------------------------------------
+          # Combined IPv4 list
+          # --------------------------------------------------------------
+
+          all_ipv4 = {
+              prefix
+              for prefix in all_prefixes
+              if ":" not in prefix
+          }
+
+          write_mikrotik_list(
+              os.path.join(
+                  output_dir,
+                  "blocklist-ipv4.rsc",
+              ),
+              "anti-all-configured-providers",
+              all_ipv4,
+              "ipv4",
+              "Generated blocklist for all configured providers",
+          )
+
+          # --------------------------------------------------------------
+          # Combined IPv6 list
+          # --------------------------------------------------------------
+
+          all_ipv6 = {
+              prefix
+              for prefix in all_prefixes
+              if ":" in prefix
+          }
+
+          write_mikrotik_list(
+              os.path.join(
+                  output_dir,
+                  "blocklist-ipv6.rsc",
+              ),
+              "anti-all-configured-providers",
+              all_ipv6,
+              "ipv6",
+              "Generated blocklist for all configured providers",
+          )
+
+          print(
+              f"Total unique prefixes: {len(all_prefixes)}"
+          )
+
+          print(
+              f"Total IPv4 prefixes: {len(all_ipv4)}"
+          )
+
+          print(
+              f"Total IPv6 prefixes: {len(all_ipv6)}"
+          )
+          PY
+
+      - name: Validate MikroTik lists
+        run: |
+          set -euo pipefail
+
+          python3 <<'PY'
+          import glob
+          import ipaddress
+          import re
+
+          files = glob.glob("mikrotik/list/*.rsc")
+
+          if not files:
+              raise SystemExit(
+                  "No MikroTik .rsc files generated"
+              )
+
+          add_pattern = re.compile(
+              r'^add\s+'
+              r'list="([^"]+)"\s+'
+              r'address="([^"]+)"\s+'
+              r'comment="([^"]*)"$'
+          )
+
+          for filename in files:
+              print(f"Checking {filename}")
+
+              if filename.endswith("-ipv4.rsc"):
+                  family = 4
+                  expected_menu = "/ip firewall address-list"
+
+              elif filename.endswith("-ipv6.rsc"):
+                  family = 6
+                  expected_menu = "/ipv6 firewall address-list"
+
+              else:
+                  raise SystemExit(
+                      f"{filename}: unexpected filename"
+                  )
+
+              with open(filename, "r", encoding="utf-8") as f:
+                  lines = [
+                      line.rstrip("\n")
+                      for line in f
+                  ]
+
+              if expected_menu not in lines:
+                  raise SystemExit(
+                      f"{filename}: missing {expected_menu}"
+                  )
+
+              entries = 0
+
+              for line in lines:
+                  if not line or line.startswith("#"):
+                      continue
+
+                  if line == expected_menu:
+                      continue
+
+                  match = add_pattern.fullmatch(line)
+
+                  if not match:
+                      raise SystemExit(
+                          f"{filename}: invalid RouterOS line:\n{line}"
+                      )
+
+                  list_name, address, comment = match.groups()
+
+                  try:
+                      network = ipaddress.ip_network(
+                          address,
+                          strict=False,
+                      )
+                  except ValueError as exc:
+                      raise SystemExit(
+                          f"{filename}: invalid address {address}"
+                      ) from exc
+
+                  if network.version != family:
+                      raise SystemExit(
+                          f"{filename}: {address} is not IPv{family}"
+                      )
+
+                  if not list_name:
+                      raise SystemExit(
+                          f"{filename}: empty list name"
+                      )
+
+                  entries += 1
+
+              if entries == 0:
+                  raise SystemExit(
+                      f"{filename}: no address-list entries"
+                  )
+
+              print(
+                  f"  valid RouterOS IPv{family} list: "
+                  f"{entries} entries"
+              )
+
+          print("MikroTik validation successful")
+          PY
+
+      - name: Commit changes
+        run: |
+          set -euo pipefail
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add mikrotik/list/
+
+          if git diff --cached --quiet; then
+            echo "No changes."
+            exit 0
+          fi
+
+          git commit -m "chore: update MikroTik blocklists"
+          git push

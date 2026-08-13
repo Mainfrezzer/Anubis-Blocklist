@@ -277,3 +277,6 @@ providers:
     - name: ptisp.pt
       asns:
         - AS213277
+    - name: Omegatech LTD
+      asns:
+        - AS202412

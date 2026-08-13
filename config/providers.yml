@@ -17,6 +17,7 @@ providers:
     - name: Hetzner
       asns:
         - AS24940
+        - AS213230
     - name: microsoft
       asns:
         - AS8075

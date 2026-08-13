@@ -1,0 +1,23 @@
+# Generated automatically. Do not edit manually.
+# Generated blocklist for Fiber Grid
+# Entries: 18
+#
+/ip firewall address-list
+add list="anti-fiber-grid-inc-fiber-grid-inc" address="165.231.0.0/16" comment="Generated blocklist for Fiber Grid"
+add list="anti-fiber-grid-inc-fiber-grid-inc" address="196.196.0.0/16" comment="Generated blocklist for Fiber Grid"
+add list="anti-fiber-grid-inc-fiber-grid-inc" address="196.197.0.0/16" comment="Generated blocklist for Fiber Grid"
+add list="anti-fiber-grid-inc-fiber-grid-inc" address="196.197.28.0/24" comment="Generated blocklist for Fiber Grid"
+add list="anti-fiber-grid-inc-fiber-grid-inc" address="196.198.0.0/16" comment="Generated blocklist for Fiber Grid"
+add list="anti-fiber-grid-inc-fiber-grid-inc" address="196.199.0.0/16" comment="Generated blocklist for Fiber Grid"
+add list="anti-fiber-grid-inc-fiber-grid-inc" address="196.240.0.0/15" comment="Generated blocklist for Fiber Grid"
+add list="anti-fiber-grid-inc-fiber-grid-inc" address="196.240.122.0/24" comment="Generated blocklist for Fiber Grid"
+add list="anti-fiber-grid-inc-fiber-grid-inc" address="196.240.129.0/24" comment="Generated blocklist for Fiber Grid"
+add list="anti-fiber-grid-inc-fiber-grid-inc" address="196.242.0.0/15" comment="Generated blocklist for Fiber Grid"
+add list="anti-fiber-grid-inc-fiber-grid-inc" address="196.244.0.0/16" comment="Generated blocklist for Fiber Grid"
+add list="anti-fiber-grid-inc-fiber-grid-inc" address="196.245.0.0/16" comment="Generated blocklist for Fiber Grid"
+add list="anti-fiber-grid-inc-fiber-grid-inc" address="196.247.0.0/16" comment="Generated blocklist for Fiber Grid"
+add list="anti-fiber-grid-inc-fiber-grid-inc" address="196.48.0.0/16" comment="Generated blocklist for Fiber Grid"
+add list="anti-fiber-grid-inc-fiber-grid-inc" address="196.56.0.0/16" comment="Generated blocklist for Fiber Grid"
+add list="anti-fiber-grid-inc-fiber-grid-inc" address="196.57.0.0/16" comment="Generated blocklist for Fiber Grid"
+add list="anti-fiber-grid-inc-fiber-grid-inc" address="196.58.0.0/16" comment="Generated blocklist for Fiber Grid"
+add list="anti-fiber-grid-inc-fiber-grid-inc" address="196.59.0.0/16" comment="Generated blocklist for Fiber Grid"

@@ -1,0 +1,32 @@
+# Generated automatically. Do not edit manually.
+# Generated blocklist for HostPapa
+# Entries: 27
+#
+/ipv6 firewall address-list
+add list="anti-as-colocrossing-hostpapa" address="2602:f692:1::/48" comment="Generated blocklist for HostPapa"
+add list="anti-as-colocrossing-hostpapa" address="2602:f692:2::/48" comment="Generated blocklist for HostPapa"
+add list="anti-as-colocrossing-hostpapa" address="2604:fc80:5200::/40" comment="Generated blocklist for HostPapa"
+add list="anti-as-colocrossing-hostpapa" address="2605:6f01::/32" comment="Generated blocklist for HostPapa"
+add list="anti-as-colocrossing-hostpapa" address="2605:6f02::/32" comment="Generated blocklist for HostPapa"
+add list="anti-as-colocrossing-hostpapa" address="2605:6f04::/32" comment="Generated blocklist for HostPapa"
+add list="anti-as-colocrossing-hostpapa" address="2605:6f05::/32" comment="Generated blocklist for HostPapa"
+add list="anti-as-colocrossing-hostpapa" address="2605:6f06::/32" comment="Generated blocklist for HostPapa"
+add list="anti-as-colocrossing-hostpapa" address="2605:6f08::/32" comment="Generated blocklist for HostPapa"
+add list="anti-as-colocrossing-hostpapa" address="2605:6f09::/32" comment="Generated blocklist for HostPapa"
+add list="anti-as-colocrossing-hostpapa" address="2605:6f0a::/32" comment="Generated blocklist for HostPapa"
+add list="anti-as-colocrossing-hostpapa" address="2605:6f0b::/32" comment="Generated blocklist for HostPapa"
+add list="anti-as-colocrossing-hostpapa" address="2606:6680:9::/48" comment="Generated blocklist for HostPapa"
+add list="anti-as-colocrossing-hostpapa" address="2606:c680::/32" comment="Generated blocklist for HostPapa"
+add list="anti-as-colocrossing-hostpapa" address="2607:5dc0:1::/48" comment="Generated blocklist for HostPapa"
+add list="anti-as-colocrossing-hostpapa" address="2607:5dc0:9::/48" comment="Generated blocklist for HostPapa"
+add list="anti-as-colocrossing-hostpapa" address="2607:5dc0::/48" comment="Generated blocklist for HostPapa"
+add list="anti-as-colocrossing-hostpapa" address="2607:9d00::/32" comment="Generated blocklist for HostPapa"
+add list="anti-as-colocrossing-hostpapa" address="2a04:6ac0::/32" comment="Generated blocklist for HostPapa"
+add list="anti-as-colocrossing-hostpapa" address="2a04:6ac1::/32" comment="Generated blocklist for HostPapa"
+add list="anti-as-colocrossing-hostpapa" address="2a04:6ac2::/32" comment="Generated blocklist for HostPapa"
+add list="anti-as-colocrossing-hostpapa" address="2a04:6ac3::/32" comment="Generated blocklist for HostPapa"
+add list="anti-as-colocrossing-hostpapa" address="2a04:6ac4::/32" comment="Generated blocklist for HostPapa"
+add list="anti-as-colocrossing-hostpapa" address="2a04:6ac5::/32" comment="Generated blocklist for HostPapa"
+add list="anti-as-colocrossing-hostpapa" address="2a04:6ac6::/32" comment="Generated blocklist for HostPapa"
+add list="anti-as-colocrossing-hostpapa" address="2a04:6ac7::/32" comment="Generated blocklist for HostPapa"
+add list="anti-as-colocrossing-hostpapa" address="2a0e:3840:3::/48" comment="Generated blocklist for HostPapa"

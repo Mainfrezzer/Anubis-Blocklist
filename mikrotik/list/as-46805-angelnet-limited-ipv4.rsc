@@ -1,0 +1,32 @@
+# Generated automatically. Do not edit manually.
+# Generated blocklist for Angelnet Limited
+# Entries: 27
+#
+/ip firewall address-list
+add list="anti-as-46805-angelnet-limited" address="104.160.0.0/24" comment="Generated blocklist for Angelnet Limited"
+add list="anti-as-46805-angelnet-limited" address="104.160.22.0/24" comment="Generated blocklist for Angelnet Limited"
+add list="anti-as-46805-angelnet-limited" address="104.160.23.0/24" comment="Generated blocklist for Angelnet Limited"
+add list="anti-as-46805-angelnet-limited" address="104.160.24.0/24" comment="Generated blocklist for Angelnet Limited"
+add list="anti-as-46805-angelnet-limited" address="104.160.25.0/24" comment="Generated blocklist for Angelnet Limited"
+add list="anti-as-46805-angelnet-limited" address="104.160.26.0/24" comment="Generated blocklist for Angelnet Limited"
+add list="anti-as-46805-angelnet-limited" address="104.160.27.0/24" comment="Generated blocklist for Angelnet Limited"
+add list="anti-as-46805-angelnet-limited" address="104.160.5.0/24" comment="Generated blocklist for Angelnet Limited"
+add list="anti-as-46805-angelnet-limited" address="104.160.8.0/24" comment="Generated blocklist for Angelnet Limited"
+add list="anti-as-46805-angelnet-limited" address="107.150.80.0/24" comment="Generated blocklist for Angelnet Limited"
+add list="anti-as-46805-angelnet-limited" address="107.150.92.0/24" comment="Generated blocklist for Angelnet Limited"
+add list="anti-as-46805-angelnet-limited" address="165.231.139.0/24" comment="Generated blocklist for Angelnet Limited"
+add list="anti-as-46805-angelnet-limited" address="165.231.49.0/24" comment="Generated blocklist for Angelnet Limited"
+add list="anti-as-46805-angelnet-limited" address="165.231.50.0/24" comment="Generated blocklist for Angelnet Limited"
+add list="anti-as-46805-angelnet-limited" address="165.231.51.0/24" comment="Generated blocklist for Angelnet Limited"
+add list="anti-as-46805-angelnet-limited" address="165.231.52.0/24" comment="Generated blocklist for Angelnet Limited"
+add list="anti-as-46805-angelnet-limited" address="192.40.95.0/24" comment="Generated blocklist for Angelnet Limited"
+add list="anti-as-46805-angelnet-limited" address="196.196.232.0/24" comment="Generated blocklist for Angelnet Limited"
+add list="anti-as-46805-angelnet-limited" address="196.196.233.0/24" comment="Generated blocklist for Angelnet Limited"
+add list="anti-as-46805-angelnet-limited" address="196.243.212.0/24" comment="Generated blocklist for Angelnet Limited"
+add list="anti-as-46805-angelnet-limited" address="196.245.7.0/24" comment="Generated blocklist for Angelnet Limited"
+add list="anti-as-46805-angelnet-limited" address="196.247.230.0/24" comment="Generated blocklist for Angelnet Limited"
+add list="anti-as-46805-angelnet-limited" address="196.247.3.0/24" comment="Generated blocklist for Angelnet Limited"
+add list="anti-as-46805-angelnet-limited" address="196.58.131.0/24" comment="Generated blocklist for Angelnet Limited"
+add list="anti-as-46805-angelnet-limited" address="23.92.112.0/24" comment="Generated blocklist for Angelnet Limited"
+add list="anti-as-46805-angelnet-limited" address="23.92.113.0/24" comment="Generated blocklist for Angelnet Limited"
+add list="anti-as-46805-angelnet-limited" address="23.92.114.0/24" comment="Generated blocklist for Angelnet Limited"

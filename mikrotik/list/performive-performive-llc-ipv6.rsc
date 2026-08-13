@@ -1,0 +1,32 @@
+# Generated automatically. Do not edit manually.
+# Generated blocklist for Performive LLC
+# Entries: 27
+#
+/ipv6 firewall address-list
+add list="anti-performive-performive-llc" address="2407:c40:1::/48" comment="Generated blocklist for Performive LLC"
+add list="anti-performive-performive-llc" address="2407:c40:2::/48" comment="Generated blocklist for Performive LLC"
+add list="anti-performive-performive-llc" address="2604:2880::/48" comment="Generated blocklist for Performive LLC"
+add list="anti-performive-performive-llc" address="2607:6b80:5::/48" comment="Generated blocklist for Performive LLC"
+add list="anti-performive-performive-llc" address="2607:6b80:63::/48" comment="Generated blocklist for Performive LLC"
+add list="anti-performive-performive-llc" address="2607:f7a0:10::/48" comment="Generated blocklist for Performive LLC"
+add list="anti-performive-performive-llc" address="2607:f7a0:11::/48" comment="Generated blocklist for Performive LLC"
+add list="anti-performive-performive-llc" address="2607:f7a0:12::/48" comment="Generated blocklist for Performive LLC"
+add list="anti-performive-performive-llc" address="2607:f7a0:14::/48" comment="Generated blocklist for Performive LLC"
+add list="anti-performive-performive-llc" address="2607:f7a0:15::/48" comment="Generated blocklist for Performive LLC"
+add list="anti-performive-performive-llc" address="2607:f7a0:16::/48" comment="Generated blocklist for Performive LLC"
+add list="anti-performive-performive-llc" address="2607:f7a0:17::/48" comment="Generated blocklist for Performive LLC"
+add list="anti-performive-performive-llc" address="2607:f7a0:18::/48" comment="Generated blocklist for Performive LLC"
+add list="anti-performive-performive-llc" address="2607:f7a0:19::/48" comment="Generated blocklist for Performive LLC"
+add list="anti-performive-performive-llc" address="2607:f7a0:1::/48" comment="Generated blocklist for Performive LLC"
+add list="anti-performive-performive-llc" address="2607:f7a0:1a::/48" comment="Generated blocklist for Performive LLC"
+add list="anti-performive-performive-llc" address="2607:f7a0:1c::/48" comment="Generated blocklist for Performive LLC"
+add list="anti-performive-performive-llc" address="2607:f7a0:2::/48" comment="Generated blocklist for Performive LLC"
+add list="anti-performive-performive-llc" address="2607:f7a0:3::/48" comment="Generated blocklist for Performive LLC"
+add list="anti-performive-performive-llc" address="2607:f7a0:5::/48" comment="Generated blocklist for Performive LLC"
+add list="anti-performive-performive-llc" address="2607:f7a0:6::/48" comment="Generated blocklist for Performive LLC"
+add list="anti-performive-performive-llc" address="2607:f7a0:8::/48" comment="Generated blocklist for Performive LLC"
+add list="anti-performive-performive-llc" address="2607:f7a0:9::/48" comment="Generated blocklist for Performive LLC"
+add list="anti-performive-performive-llc" address="2607:f7a0:c::/48" comment="Generated blocklist for Performive LLC"
+add list="anti-performive-performive-llc" address="2607:f7a0:e::/48" comment="Generated blocklist for Performive LLC"
+add list="anti-performive-performive-llc" address="2607:f7a0:f::/48" comment="Generated blocklist for Performive LLC"
+add list="anti-performive-performive-llc" address="2a0c:3ac0::/48" comment="Generated blocklist for Performive LLC"

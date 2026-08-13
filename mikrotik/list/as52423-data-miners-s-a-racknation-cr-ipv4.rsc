@@ -1,0 +1,32 @@
+# Generated automatically. Do not edit manually.
+# Generated blocklist for Data Miners Racknation.cr
+# Entries: 27
+#
+/ip firewall address-list
+add list="anti-as52423-data-miners-s-a-racknation-cr" address="138.59.16.0/24" comment="Generated blocklist for Data Miners Racknation.cr"
+add list="anti-as52423-data-miners-s-a-racknation-cr" address="138.59.17.0/24" comment="Generated blocklist for Data Miners Racknation.cr"
+add list="anti-as52423-data-miners-s-a-racknation-cr" address="138.59.18.0/24" comment="Generated blocklist for Data Miners Racknation.cr"
+add list="anti-as52423-data-miners-s-a-racknation-cr" address="138.59.19.0/24" comment="Generated blocklist for Data Miners Racknation.cr"
+add list="anti-as52423-data-miners-s-a-racknation-cr" address="143.202.160.0/24" comment="Generated blocklist for Data Miners Racknation.cr"
+add list="anti-as52423-data-miners-s-a-racknation-cr" address="143.202.161.0/24" comment="Generated blocklist for Data Miners Racknation.cr"
+add list="anti-as52423-data-miners-s-a-racknation-cr" address="143.202.162.0/24" comment="Generated blocklist for Data Miners Racknation.cr"
+add list="anti-as52423-data-miners-s-a-racknation-cr" address="143.202.163.0/24" comment="Generated blocklist for Data Miners Racknation.cr"
+add list="anti-as52423-data-miners-s-a-racknation-cr" address="145.14.131.0/24" comment="Generated blocklist for Data Miners Racknation.cr"
+add list="anti-as52423-data-miners-s-a-racknation-cr" address="148.224.31.0/24" comment="Generated blocklist for Data Miners Racknation.cr"
+add list="anti-as52423-data-miners-s-a-racknation-cr" address="160.223.203.0/24" comment="Generated blocklist for Data Miners Racknation.cr"
+add list="anti-as52423-data-miners-s-a-racknation-cr" address="168.197.96.0/24" comment="Generated blocklist for Data Miners Racknation.cr"
+add list="anti-as52423-data-miners-s-a-racknation-cr" address="168.197.97.0/24" comment="Generated blocklist for Data Miners Racknation.cr"
+add list="anti-as52423-data-miners-s-a-racknation-cr" address="168.197.98.0/24" comment="Generated blocklist for Data Miners Racknation.cr"
+add list="anti-as52423-data-miners-s-a-racknation-cr" address="168.197.99.0/24" comment="Generated blocklist for Data Miners Racknation.cr"
+add list="anti-as52423-data-miners-s-a-racknation-cr" address="179.48.248.0/24" comment="Generated blocklist for Data Miners Racknation.cr"
+add list="anti-as52423-data-miners-s-a-racknation-cr" address="179.48.249.0/24" comment="Generated blocklist for Data Miners Racknation.cr"
+add list="anti-as52423-data-miners-s-a-racknation-cr" address="179.48.250.0/24" comment="Generated blocklist for Data Miners Racknation.cr"
+add list="anti-as52423-data-miners-s-a-racknation-cr" address="179.48.251.0/24" comment="Generated blocklist for Data Miners Racknation.cr"
+add list="anti-as52423-data-miners-s-a-racknation-cr" address="190.112.220.0/24" comment="Generated blocklist for Data Miners Racknation.cr"
+add list="anti-as52423-data-miners-s-a-racknation-cr" address="190.112.221.0/24" comment="Generated blocklist for Data Miners Racknation.cr"
+add list="anti-as52423-data-miners-s-a-racknation-cr" address="190.112.222.0/24" comment="Generated blocklist for Data Miners Racknation.cr"
+add list="anti-as52423-data-miners-s-a-racknation-cr" address="190.112.223.0/24" comment="Generated blocklist for Data Miners Racknation.cr"
+add list="anti-as52423-data-miners-s-a-racknation-cr" address="190.123.14.0/24" comment="Generated blocklist for Data Miners Racknation.cr"
+add list="anti-as52423-data-miners-s-a-racknation-cr" address="199.33.68.0/24" comment="Generated blocklist for Data Miners Racknation.cr"
+add list="anti-as52423-data-miners-s-a-racknation-cr" address="199.60.215.0/24" comment="Generated blocklist for Data Miners Racknation.cr"
+add list="anti-as52423-data-miners-s-a-racknation-cr" address="65.38.100.0/24" comment="Generated blocklist for Data Miners Racknation.cr"

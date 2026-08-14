@@ -3,7 +3,7 @@ name: Update MikroTik blocklists
 on:
   workflow_dispatch:
   schedule:
-    - cron: "27 3 * * *"
+    - cron: '27 3 * * *'
 
 permissions:
   contents: write

@@ -297,3 +297,6 @@ providers:
     - name: UAB Host Baltic (serveroffer.lt)
       asns:
         - AS209605
+    - name: Timeless Network Services Ltd
+      asns:
+        - AS328555

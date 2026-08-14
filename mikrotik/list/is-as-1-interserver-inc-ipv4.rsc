@@ -1,6 +1,6 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for Interserver
-# Entries: 116
+# Entries: 114
 #
 /ip firewall address-list
 add list="anti-is-as-1-interserver-inc" address="103.114.42.0/24" comment="Generated blocklist for Interserver"
@@ -86,7 +86,6 @@ add list="anti-is-as-1-interserver-inc" address="216.225.154.0/23" comment="Gene
 add list="anti-is-as-1-interserver-inc" address="216.225.156.0/22" comment="Generated blocklist for Interserver"
 add list="anti-is-as-1-interserver-inc" address="38.156.12.0/24" comment="Generated blocklist for Interserver"
 add list="anti-is-as-1-interserver-inc" address="45.12.61.0/24" comment="Generated blocklist for Interserver"
-add list="anti-is-as-1-interserver-inc" address="45.135.128.0/24" comment="Generated blocklist for Interserver"
 add list="anti-is-as-1-interserver-inc" address="45.202.80.0/21" comment="Generated blocklist for Interserver"
 add list="anti-is-as-1-interserver-inc" address="45.85.160.0/24" comment="Generated blocklist for Interserver"
 add list="anti-is-as-1-interserver-inc" address="45.86.12.0/24" comment="Generated blocklist for Interserver"
@@ -103,7 +102,6 @@ add list="anti-is-as-1-interserver-inc" address="66.45.224.0/19" comment="Genera
 add list="anti-is-as-1-interserver-inc" address="67.211.208.0/20" comment="Generated blocklist for Interserver"
 add list="anti-is-as-1-interserver-inc" address="67.217.48.0/20" comment="Generated blocklist for Interserver"
 add list="anti-is-as-1-interserver-inc" address="68.168.208.0/20" comment="Generated blocklist for Interserver"
-add list="anti-is-as-1-interserver-inc" address="68.168.212.0/24" comment="Generated blocklist for Interserver"
 add list="anti-is-as-1-interserver-inc" address="69.10.32.0/19" comment="Generated blocklist for Interserver"
 add list="anti-is-as-1-interserver-inc" address="69.10.32.0/20" comment="Generated blocklist for Interserver"
 add list="anti-is-as-1-interserver-inc" address="69.10.48.0/20" comment="Generated blocklist for Interserver"

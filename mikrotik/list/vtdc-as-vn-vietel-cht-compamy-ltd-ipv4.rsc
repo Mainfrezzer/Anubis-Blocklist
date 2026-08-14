@@ -1,6 +1,6 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for Viettel
-# Entries: 103
+# Entries: 104
 #
 /ip firewall address-list
 add list="anti-vtdc-as-vn-vietel-cht-compamy-ltd" address="103.1.208.0/22" comment="Generated blocklist for Viettel"
@@ -17,6 +17,7 @@ add list="anti-vtdc-as-vn-vietel-cht-compamy-ltd" address="116.97.184.0/24" comm
 add list="anti-vtdc-as-vn-vietel-cht-compamy-ltd" address="116.97.185.0/24" comment="Generated blocklist for Viettel"
 add list="anti-vtdc-as-vn-vietel-cht-compamy-ltd" address="116.97.186.0/24" comment="Generated blocklist for Viettel"
 add list="anti-vtdc-as-vn-vietel-cht-compamy-ltd" address="116.97.187.0/24" comment="Generated blocklist for Viettel"
+add list="anti-vtdc-as-vn-vietel-cht-compamy-ltd" address="116.97.189.0/24" comment="Generated blocklist for Viettel"
 add list="anti-vtdc-as-vn-vietel-cht-compamy-ltd" address="117.1.149.0/24" comment="Generated blocklist for Viettel"
 add list="anti-vtdc-as-vn-vietel-cht-compamy-ltd" address="117.1.150.0/24" comment="Generated blocklist for Viettel"
 add list="anti-vtdc-as-vn-vietel-cht-compamy-ltd" address="125.212.192.0/22" comment="Generated blocklist for Viettel"

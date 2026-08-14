@@ -288,3 +288,12 @@ providers:
     - name: Green Web Samaneh Novin PJSC
       asns:
         - AS61173
+    - name: Limited Network LTD (btcloud.ro)
+      asns:
+        - AS213790
+    - name: CIPHER OPERATIONS (ir.irost)
+      asns:
+        - AS215930
+    - name: UAB Host Baltic (serveroffer.lt)
+      asns:
+        - AS209605

@@ -1,0 +1,14 @@
+- name: anti timeless-network-services-ltd-timeless-network-services-ltd
+  action: CHALLENGE
+  challenge:
+    difficulty: 16
+    algorithm: fast
+  remote_addresses:
+  - 102.211.40.0/24
+  - 102.211.41.0/24
+  - 102.211.42.0/24
+  - 102.36.228.0/22
+  - 102.36.228.0/24
+  - 102.36.229.0/24
+  - 102.36.230.0/24
+  - 102.36.231.0/24

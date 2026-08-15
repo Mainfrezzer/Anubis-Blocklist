@@ -1,0 +1,7 @@
+- name: anti cod-cipher-operations-doo-beograd-novi-beograd
+  action: CHALLENGE
+  challenge:
+    difficulty: 16
+    algorithm: fast
+  remote_addresses:
+  - 62.60.130.0/24

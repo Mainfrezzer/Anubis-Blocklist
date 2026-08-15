@@ -1,6 +1,6 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for vnpt.vn
-# Entries: 3407
+# Entries: 3410
 #
 /ip firewall address-list
 add list="anti-vnpt-as-vn-vnpt-corp" address="103.107.180.0/22" comment="Generated blocklist for vnpt.vn"
@@ -439,6 +439,9 @@ add list="anti-vnpt-as-vn-vnpt-corp" address="113.171.146.0/24" comment="Generat
 add list="anti-vnpt-as-vn-vnpt-corp" address="113.171.147.0/24" comment="Generated blocklist for vnpt.vn"
 add list="anti-vnpt-as-vn-vnpt-corp" address="113.171.148.0/24" comment="Generated blocklist for vnpt.vn"
 add list="anti-vnpt-as-vn-vnpt-corp" address="113.171.149.0/24" comment="Generated blocklist for vnpt.vn"
+add list="anti-vnpt-as-vn-vnpt-corp" address="113.171.152.0/24" comment="Generated blocklist for vnpt.vn"
+add list="anti-vnpt-as-vn-vnpt-corp" address="113.171.153.0/24" comment="Generated blocklist for vnpt.vn"
+add list="anti-vnpt-as-vn-vnpt-corp" address="113.171.154.0/24" comment="Generated blocklist for vnpt.vn"
 add list="anti-vnpt-as-vn-vnpt-corp" address="113.171.16.0/20" comment="Generated blocklist for vnpt.vn"
 add list="anti-vnpt-as-vn-vnpt-corp" address="113.171.160.0/24" comment="Generated blocklist for vnpt.vn"
 add list="anti-vnpt-as-vn-vnpt-corp" address="113.171.161.0/24" comment="Generated blocklist for vnpt.vn"

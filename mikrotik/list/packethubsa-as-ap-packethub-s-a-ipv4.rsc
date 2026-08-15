@@ -1,6 +1,6 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for PacketHub
-# Entries: 1189
+# Entries: 1190
 #
 /ip firewall address-list
 add list="anti-packethubsa-as-ap-packethub-s-a" address="103.173.150.0/24" comment="Generated blocklist for PacketHub"
@@ -304,6 +304,7 @@ add list="anti-packethubsa-as-ap-packethub-s-a" address="187.15.106.0/24" commen
 add list="anti-packethubsa-as-ap-packethub-s-a" address="187.15.107.0/24" comment="Generated blocklist for PacketHub"
 add list="anti-packethubsa-as-ap-packethub-s-a" address="187.15.108.0/24" comment="Generated blocklist for PacketHub"
 add list="anti-packethubsa-as-ap-packethub-s-a" address="187.15.109.0/24" comment="Generated blocklist for PacketHub"
+add list="anti-packethubsa-as-ap-packethub-s-a" address="187.15.111.0/24" comment="Generated blocklist for PacketHub"
 add list="anti-packethubsa-as-ap-packethub-s-a" address="187.15.113.0/24" comment="Generated blocklist for PacketHub"
 add list="anti-packethubsa-as-ap-packethub-s-a" address="187.15.114.0/24" comment="Generated blocklist for PacketHub"
 add list="anti-packethubsa-as-ap-packethub-s-a" address="187.15.115.0/24" comment="Generated blocklist for PacketHub"

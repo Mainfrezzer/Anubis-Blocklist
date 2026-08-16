@@ -179,7 +179,7 @@ jobs:
                   "name": f"anti {slug}",
                   "action": "CHALLENGE",
                   "challenge": {
-                      "difficulty": 16,
+                      "difficulty": 64,
                       "algorithm": "fast",
                   },
                   "remote_addresses": sorted(provider_prefixes),
@@ -205,7 +205,7 @@ jobs:
               "name": "anti all configured providers",
               "action": "CHALLENGE",
               "challenge": {
-                  "difficulty": 16,
+                  "difficulty": 64,
                   "algorithm": "fast",
             },
               "remote_addresses": sorted(all_prefixes),
@@ -299,7 +299,7 @@ jobs:
                           f"{filename}: challenge is missing {key}"
                       )
 
-              if challenge["difficulty"] != 16:
+              if challenge["difficulty"] != 64:
                   raise SystemExit(
                       f"{filename}: invalid difficulty inside challenge"
                   )

@@ -1,7 +1,7 @@
 - name: anti hostroyale-hostroyale-technologies-pvt-ltd
   action: CHALLENGE
   challenge:
-    difficulty: 16
+    difficulty: 64
     algorithm: fast
   remote_addresses:
   - 103.102.246.0/23

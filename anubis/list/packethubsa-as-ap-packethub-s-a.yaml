@@ -1,7 +1,7 @@
 - name: anti packethubsa-as-ap-packethub-s-a
   action: CHALLENGE
   challenge:
-    difficulty: 16
+    difficulty: 64
     algorithm: fast
   remote_addresses:
   - 103.173.150.0/24

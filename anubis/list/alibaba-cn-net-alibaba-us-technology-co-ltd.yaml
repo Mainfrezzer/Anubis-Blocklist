@@ -1,7 +1,7 @@
 - name: anti alibaba-cn-net-alibaba-us-technology-co-ltd
   action: CHALLENGE
   challenge:
-    difficulty: 16
+    difficulty: 64
     algorithm: fast
   remote_addresses:
   - 103.135.210.0/23

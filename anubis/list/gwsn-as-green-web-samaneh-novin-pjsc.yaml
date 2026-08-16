@@ -1,7 +1,7 @@
 - name: anti gwsn-as-green-web-samaneh-novin-pjsc
   action: CHALLENGE
   challenge:
-    difficulty: 16
+    difficulty: 64
     algorithm: fast
   remote_addresses:
   - 185.116.160.0/24

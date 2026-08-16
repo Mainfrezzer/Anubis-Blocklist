@@ -1,7 +1,7 @@
 - name: anti amarutu-technology-amarutu-technology-ltd
   action: CHALLENGE
   challenge:
-    difficulty: 16
+    difficulty: 64
     algorithm: fast
   remote_addresses:
   - 103.100.170.0/24

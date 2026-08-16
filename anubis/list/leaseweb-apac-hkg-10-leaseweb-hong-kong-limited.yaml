@@ -1,7 +1,7 @@
 - name: anti leaseweb-apac-hkg-10-leaseweb-hong-kong-limited
   action: CHALLENGE
   challenge:
-    difficulty: 16
+    difficulty: 64
     algorithm: fast
   remote_addresses:
   - 103.138.32.0/24

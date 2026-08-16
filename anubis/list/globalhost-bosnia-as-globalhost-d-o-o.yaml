@@ -1,7 +1,7 @@
 - name: anti globalhost-bosnia-as-globalhost-d-o-o
   action: CHALLENGE
   challenge:
-    difficulty: 16
+    difficulty: 64
     algorithm: fast
   remote_addresses:
   - 185.164.32.0/22

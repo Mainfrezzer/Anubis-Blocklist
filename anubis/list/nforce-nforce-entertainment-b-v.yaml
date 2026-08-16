@@ -1,7 +1,7 @@
 - name: anti nforce-nforce-entertainment-b-v
   action: CHALLENGE
   challenge:
-    difficulty: 16
+    difficulty: 64
     algorithm: fast
   remote_addresses:
   - 107.181.137.0/24

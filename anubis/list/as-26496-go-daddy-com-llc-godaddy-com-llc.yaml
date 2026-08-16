@@ -1,7 +1,7 @@
 - name: anti as-26496-go-daddy-com-llc-godaddy-com-llc
   action: CHALLENGE
   challenge:
-    difficulty: 16
+    difficulty: 64
     algorithm: fast
   remote_addresses:
   - 103.44.220.0/24

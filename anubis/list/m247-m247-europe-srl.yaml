@@ -1,7 +1,7 @@
 - name: anti m247-m247-europe-srl
   action: CHALLENGE
   challenge:
-    difficulty: 16
+    difficulty: 64
     algorithm: fast
   remote_addresses:
   - 102.128.164.0/24

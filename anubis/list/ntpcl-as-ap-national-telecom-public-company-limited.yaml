@@ -1,7 +1,7 @@
 - name: anti ntpcl-as-ap-national-telecom-public-company-limited
   action: CHALLENGE
   challenge:
-    difficulty: 16
+    difficulty: 64
     algorithm: fast
   remote_addresses:
   - 103.114.200.0/22

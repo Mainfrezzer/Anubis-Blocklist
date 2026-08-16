@@ -1,7 +1,7 @@
 - name: anti worldstream-worldstream-b-v
   action: CHALLENGE
   challenge:
-    difficulty: 16
+    difficulty: 64
     algorithm: fast
   remote_addresses:
   - 104.234.138.0/24

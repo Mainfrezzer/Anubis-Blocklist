@@ -1,7 +1,7 @@
 - name: anti blix-blix-solutions-as
   action: CHALLENGE
   challenge:
-    difficulty: 16
+    difficulty: 64
     algorithm: fast
   remote_addresses:
   - 104.143.252.0/24

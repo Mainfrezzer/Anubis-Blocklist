@@ -1,7 +1,7 @@
 - name: anti proservice-proservice-llc
   action: CHALLENGE
   challenge:
-    difficulty: 16
+    difficulty: 64
     algorithm: fast
   remote_addresses:
   - 185.163.201.0/24

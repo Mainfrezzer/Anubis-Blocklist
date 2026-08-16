@@ -1,7 +1,7 @@
 - name: anti as263702-grupo-zgh-spa
   action: CHALLENGE
   challenge:
-    difficulty: 16
+    difficulty: 64
     algorithm: fast
   remote_addresses:
   - 109.72.119.0/24

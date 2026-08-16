@@ -1,7 +1,7 @@
 - name: anti hostinginside-intl-hostinginside-ltd
   action: CHALLENGE
   challenge:
-    difficulty: 16
+    difficulty: 64
     algorithm: fast
   remote_addresses:
   - 103.131.189.0/24

@@ -1,7 +1,7 @@
 - name: anti internetbolaget-internet-vikings-international-ab
   action: CHALLENGE
   challenge:
-    difficulty: 16
+    difficulty: 64
     algorithm: fast
   remote_addresses:
   - 103.146.80.0/23

@@ -1,7 +1,7 @@
 - name: anti as-30083-us-velia-net-velia-net
   action: CHALLENGE
   challenge:
-    difficulty: 16
+    difficulty: 64
     algorithm: fast
   remote_addresses:
   - 148.72.128.0/24

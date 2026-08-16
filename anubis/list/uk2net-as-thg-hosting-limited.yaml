@@ -1,7 +1,7 @@
 - name: anti uk2net-as-thg-hosting-limited
   action: CHALLENGE
   challenge:
-    difficulty: 16
+    difficulty: 64
     algorithm: fast
   remote_addresses:
   - 107.182.225.0/24

@@ -1,7 +1,7 @@
 - name: anti gcore-g-core-labs-s-a
   action: CHALLENGE
   challenge:
-    difficulty: 16
+    difficulty: 64
     algorithm: fast
   remote_addresses:
   - 103.22.193.0/24
@@ -546,7 +546,6 @@
   - 92.38.134.0/24
   - 92.38.141.0/24
   - 92.38.142.0/24
-  - 92.38.143.55/32
   - 92.38.144.0/24
   - 92.38.145.0/24
   - 92.38.146.0/24

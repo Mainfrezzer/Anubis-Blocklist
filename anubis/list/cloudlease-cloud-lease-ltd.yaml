@@ -1,7 +1,7 @@
 - name: anti cloudlease-cloud-lease-ltd
   action: CHALLENGE
   challenge:
-    difficulty: 16
+    difficulty: 64
     algorithm: fast
   remote_addresses:
   - 181.214.135.0/24

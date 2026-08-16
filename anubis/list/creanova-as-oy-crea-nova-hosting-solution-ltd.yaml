@@ -1,7 +1,7 @@
 - name: anti creanova-as-oy-crea-nova-hosting-solution-ltd
   action: CHALLENGE
   challenge:
-    difficulty: 16
+    difficulty: 64
     algorithm: fast
   remote_addresses:
   - 103.101.88.0/22

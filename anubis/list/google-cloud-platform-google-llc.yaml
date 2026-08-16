@@ -1,7 +1,7 @@
 - name: anti google-cloud-platform-google-llc
   action: CHALLENGE
   challenge:
-    difficulty: 16
+    difficulty: 64
     algorithm: fast
   remote_addresses:
   - 1.179.112.0/20

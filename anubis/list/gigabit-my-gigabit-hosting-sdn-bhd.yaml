@@ -1,7 +1,7 @@
 - name: anti gigabit-my-gigabit-hosting-sdn-bhd
   action: CHALLENGE
   challenge:
-    difficulty: 16
+    difficulty: 64
     algorithm: fast
   remote_addresses:
   - 102.211.234.0/24

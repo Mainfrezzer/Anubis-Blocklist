@@ -1,6 +1,6 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for amazon
-# Entries: 6485
+# Entries: 6487
 #
 /ipv6 firewall address-list
 add list="anti-amazon-02-amazon-com-inc" address="2001:3fc0:800::/40" comment="Generated blocklist for amazon"
@@ -4484,6 +4484,7 @@ add list="anti-amazon-02-amazon-com-inc" address="2605:9cc0:c0a::/48" comment="G
 add list="anti-amazon-02-amazon-com-inc" address="2605:9cc0:c0f::/48" comment="Generated blocklist for amazon"
 add list="anti-amazon-02-amazon-com-inc" address="2605:9cc0:c15::/48" comment="Generated blocklist for amazon"
 add list="anti-amazon-02-amazon-com-inc" address="2605:9cc0:c16::/48" comment="Generated blocklist for amazon"
+add list="anti-amazon-02-amazon-com-inc" address="2605:9cc0:c1a::/48" comment="Generated blocklist for amazon"
 add list="anti-amazon-02-amazon-com-inc" address="2605:9cc0:f03e::/48" comment="Generated blocklist for amazon"
 add list="anti-amazon-02-amazon-com-inc" address="2605:a7c0:100::/48" comment="Generated blocklist for amazon"
 add list="anti-amazon-02-amazon-com-inc" address="2605:a7c0:101::/48" comment="Generated blocklist for amazon"
@@ -5393,6 +5394,7 @@ add list="anti-amazon-02-amazon-com-inc" address="2a00:4bc0:2400::/40" comment="
 add list="anti-amazon-02-amazon-com-inc" address="2a00:4bc0:2500::/40" comment="Generated blocklist for amazon"
 add list="anti-amazon-02-amazon-com-inc" address="2a00:a401::/32" comment="Generated blocklist for amazon"
 add list="anti-amazon-02-amazon-com-inc" address="2a00:a640:20a0::/48" comment="Generated blocklist for amazon"
+add list="anti-amazon-02-amazon-com-inc" address="2a00:a640:20a1::/48" comment="Generated blocklist for amazon"
 add list="anti-amazon-02-amazon-com-inc" address="2a00:d1a0:10::/48" comment="Generated blocklist for amazon"
 add list="anti-amazon-02-amazon-com-inc" address="2a00:de61:100::/40" comment="Generated blocklist for amazon"
 add list="anti-amazon-02-amazon-com-inc" address="2a00:de61:200::/40" comment="Generated blocklist for amazon"

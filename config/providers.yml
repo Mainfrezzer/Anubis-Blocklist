@@ -285,6 +285,9 @@ providers:
     - name: Tube-Hosting
       asns:
         - AS49581
+    - name: Tech Tide Portugal Unipessoal LDA (novacloud-hosting.com)
+      asns:
+        - AS209874
     - name: Green Web Samaneh Novin PJSC
       asns:
         - AS61173

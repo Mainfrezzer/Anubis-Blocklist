@@ -108,6 +108,7 @@ add list="anti-worldstream-worldstream-b-v" address="82.29.108.0/24" comment="Ge
 add list="anti-worldstream-worldstream-b-v" address="82.39.154.0/24" comment="Generated blocklist for WorldStream"
 add list="anti-worldstream-worldstream-b-v" address="82.41.131.0/24" comment="Generated blocklist for WorldStream"
 add list="anti-worldstream-worldstream-b-v" address="85.136.114.0/24" comment="Generated blocklist for WorldStream"
+add list="anti-worldstream-worldstream-b-v" address="87.232.81.0/24" comment="Generated blocklist for WorldStream"
 add list="anti-worldstream-worldstream-b-v" address="87.232.85.0/24" comment="Generated blocklist for WorldStream"
 add list="anti-worldstream-worldstream-b-v" address="87.236.147.0/24" comment="Generated blocklist for WorldStream"
 add list="anti-worldstream-worldstream-b-v" address="89.248.66.0/24" comment="Generated blocklist for WorldStream"
@@ -121,4 +122,3 @@ add list="anti-worldstream-worldstream-b-v" address="91.232.105.0/24" comment="G
 add list="anti-worldstream-worldstream-b-v" address="91.234.254.0/24" comment="Generated blocklist for WorldStream"
 add list="anti-worldstream-worldstream-b-v" address="93.190.136.0/21" comment="Generated blocklist for WorldStream"
 add list="anti-worldstream-worldstream-b-v" address="95.135.200.0/24" comment="Generated blocklist for WorldStream"
-add list="anti-worldstream-worldstream-b-v" address="95.141.253.0/24" comment="Generated blocklist for WorldStream"

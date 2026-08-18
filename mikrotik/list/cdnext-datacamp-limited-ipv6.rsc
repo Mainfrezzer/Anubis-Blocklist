@@ -1,6 +1,6 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for Datacamp
-# Entries: 746
+# Entries: 747
 #
 /ipv6 firewall address-list
 add list="anti-cdnext-datacamp-limited" address="2400:52e0:1e00::/48" comment="Generated blocklist for Datacamp"
@@ -133,6 +133,7 @@ add list="anti-cdnext-datacamp-limited" address="2a02:6ea0:6500::/40" comment="G
 add list="anti-cdnext-datacamp-limited" address="2a02:6ea0:6600::/40" comment="Generated blocklist for Datacamp"
 add list="anti-cdnext-datacamp-limited" address="2a02:6ea0:700::/40" comment="Generated blocklist for Datacamp"
 add list="anti-cdnext-datacamp-limited" address="2a02:6ea0:7100::/40" comment="Generated blocklist for Datacamp"
+add list="anti-cdnext-datacamp-limited" address="2a02:6ea0:7200::/40" comment="Generated blocklist for Datacamp"
 add list="anti-cdnext-datacamp-limited" address="2a02:6ea0:7300::/40" comment="Generated blocklist for Datacamp"
 add list="anti-cdnext-datacamp-limited" address="2a02:6ea0:7400::/40" comment="Generated blocklist for Datacamp"
 add list="anti-cdnext-datacamp-limited" address="2a02:6ea0:7500::/40" comment="Generated blocklist for Datacamp"

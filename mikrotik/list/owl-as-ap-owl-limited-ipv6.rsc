@@ -1,6 +1,6 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for owl.net
-# Entries: 269
+# Entries: 270
 #
 /ipv6 firewall address-list
 add list="anti-owl-as-ap-owl-limited" address="2403:fbc0:7000::/48" comment="Generated blocklist for owl.net"
@@ -18,6 +18,7 @@ add list="anti-owl-as-ap-owl-limited" address="2a07:d883:701::/48" comment="Gene
 add list="anti-owl-as-ap-owl-limited" address="2a07:d883:702::/48" comment="Generated blocklist for owl.net"
 add list="anti-owl-as-ap-owl-limited" address="2a07:d883:703::/48" comment="Generated blocklist for owl.net"
 add list="anti-owl-as-ap-owl-limited" address="2a07:d883:704::/48" comment="Generated blocklist for owl.net"
+add list="anti-owl-as-ap-owl-limited" address="2a07:d883:705::/48" comment="Generated blocklist for owl.net"
 add list="anti-owl-as-ap-owl-limited" address="2a07:d884:100::/48" comment="Generated blocklist for owl.net"
 add list="anti-owl-as-ap-owl-limited" address="2a07:d884::/48" comment="Generated blocklist for owl.net"
 add list="anti-owl-as-ap-owl-limited" address="2a07:d887:1000::/40" comment="Generated blocklist for owl.net"

@@ -1,6 +1,6 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for Korea Telecom
-# Entries: 2154
+# Entries: 2153
 #
 /ip firewall address-list
 add list="anti-kixs-as-kr-kr-korea-telecom" address="1.100.0.0/14" comment="Generated blocklist for Korea Telecom"
@@ -432,7 +432,6 @@ add list="anti-kixs-as-kr-kr-korea-telecom" address="14.63.248.0/23" comment="Ge
 add list="anti-kixs-as-kr-kr-korea-telecom" address="14.64.0.0/12" comment="Generated blocklist for Korea Telecom"
 add list="anti-kixs-as-kr-kr-korea-telecom" address="14.80.0.0/12" comment="Generated blocklist for Korea Telecom"
 add list="anti-kixs-as-kr-kr-korea-telecom" address="141.98.150.0/24" comment="Generated blocklist for Korea Telecom"
-add list="anti-kixs-as-kr-kr-korea-telecom" address="142.248.228.0/22" comment="Generated blocklist for Korea Telecom"
 add list="anti-kixs-as-kr-kr-korea-telecom" address="144.225.244.0/23" comment="Generated blocklist for Korea Telecom"
 add list="anti-kixs-as-kr-kr-korea-telecom" address="147.6.0.0/16" comment="Generated blocklist for Korea Telecom"
 add list="anti-kixs-as-kr-kr-korea-telecom" address="147.6.0.0/17" comment="Generated blocklist for Korea Telecom"

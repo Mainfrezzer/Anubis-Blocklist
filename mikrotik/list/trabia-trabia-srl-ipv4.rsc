@@ -1,6 +1,6 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for Trabia
-# Entries: 22
+# Entries: 21
 #
 /ip firewall address-list
 add list="anti-trabia-trabia-srl" address="103.197.148.0/22" comment="Generated blocklist for Trabia"
@@ -9,7 +9,6 @@ add list="anti-trabia-trabia-srl" address="178.17.174.0/24" comment="Generated b
 add list="anti-trabia-trabia-srl" address="178.175.128.0/20" comment="Generated blocklist for Trabia"
 add list="anti-trabia-trabia-srl" address="178.175.129.0/24" comment="Generated blocklist for Trabia"
 add list="anti-trabia-trabia-srl" address="178.175.131.0/24" comment="Generated blocklist for Trabia"
-add list="anti-trabia-trabia-srl" address="178.175.137.0/24" comment="Generated blocklist for Trabia"
 add list="anti-trabia-trabia-srl" address="178.175.138.0/24" comment="Generated blocklist for Trabia"
 add list="anti-trabia-trabia-srl" address="178.175.140.0/24" comment="Generated blocklist for Trabia"
 add list="anti-trabia-trabia-srl" address="178.175.143.0/24" comment="Generated blocklist for Trabia"

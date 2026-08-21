@@ -1,6 +1,6 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for THG HOSTING
-# Entries: 127
+# Entries: 124
 #
 /ip firewall address-list
 add list="anti-uk2net-as-thg-hosting-limited" address="107.182.225.0/24" comment="Generated blocklist for THG HOSTING"
@@ -22,7 +22,6 @@ add list="anti-uk2net-as-thg-hosting-limited" address="109.123.82.0/23" comment=
 add list="anti-uk2net-as-thg-hosting-limited" address="109.123.84.0/22" comment="Generated blocklist for THG HOSTING"
 add list="anti-uk2net-as-thg-hosting-limited" address="109.123.88.0/21" comment="Generated blocklist for THG HOSTING"
 add list="anti-uk2net-as-thg-hosting-limited" address="109.123.96.0/22" comment="Generated blocklist for THG HOSTING"
-add list="anti-uk2net-as-thg-hosting-limited" address="155.2.190.0/24" comment="Generated blocklist for THG HOSTING"
 add list="anti-uk2net-as-thg-hosting-limited" address="173.244.195.0/24" comment="Generated blocklist for THG HOSTING"
 add list="anti-uk2net-as-thg-hosting-limited" address="173.244.208.0/23" comment="Generated blocklist for THG HOSTING"
 add list="anti-uk2net-as-thg-hosting-limited" address="173.244.210.0/24" comment="Generated blocklist for THG HOSTING"
@@ -100,10 +99,8 @@ add list="anti-uk2net-as-thg-hosting-limited" address="50.115.120.0/24" comment=
 add list="anti-uk2net-as-thg-hosting-limited" address="67.212.232.0/21" comment="Generated blocklist for THG HOSTING"
 add list="anti-uk2net-as-thg-hosting-limited" address="67.212.235.0/24" comment="Generated blocklist for THG HOSTING"
 add list="anti-uk2net-as-thg-hosting-limited" address="67.213.208.0/23" comment="Generated blocklist for THG HOSTING"
-add list="anti-uk2net-as-thg-hosting-limited" address="67.213.208.0/24" comment="Generated blocklist for THG HOSTING"
 add list="anti-uk2net-as-thg-hosting-limited" address="67.213.209.0/24" comment="Generated blocklist for THG HOSTING"
 add list="anti-uk2net-as-thg-hosting-limited" address="67.213.211.0/24" comment="Generated blocklist for THG HOSTING"
-add list="anti-uk2net-as-thg-hosting-limited" address="67.213.214.0/23" comment="Generated blocklist for THG HOSTING"
 add list="anti-uk2net-as-thg-hosting-limited" address="68.169.32.0/20" comment="Generated blocklist for THG HOSTING"
 add list="anti-uk2net-as-thg-hosting-limited" address="69.36.161.0/24" comment="Generated blocklist for THG HOSTING"
 add list="anti-uk2net-as-thg-hosting-limited" address="69.36.165.0/24" comment="Generated blocklist for THG HOSTING"

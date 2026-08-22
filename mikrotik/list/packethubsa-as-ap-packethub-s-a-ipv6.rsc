@@ -1,6 +1,6 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for PacketHub
-# Entries: 116
+# Entries: 125
 #
 /ipv6 firewall address-list
 add list="anti-packethubsa-as-ap-packethub-s-a" address="2407:e8c0:10::/48" comment="Generated blocklist for PacketHub"
@@ -64,10 +64,13 @@ add list="anti-packethubsa-as-ap-packethub-s-a" address="2a13:240:2400::/40" com
 add list="anti-packethubsa-as-ap-packethub-s-a" address="2a13:240:2600::/40" comment="Generated blocklist for PacketHub"
 add list="anti-packethubsa-as-ap-packethub-s-a" address="2a13:240:2900::/40" comment="Generated blocklist for PacketHub"
 add list="anti-packethubsa-as-ap-packethub-s-a" address="2a13:240:2::/48" comment="Generated blocklist for PacketHub"
+add list="anti-packethubsa-as-ap-packethub-s-a" address="2a13:240:2b00::/40" comment="Generated blocklist for PacketHub"
 add list="anti-packethubsa-as-ap-packethub-s-a" address="2a13:240:2c00::/40" comment="Generated blocklist for PacketHub"
 add list="anti-packethubsa-as-ap-packethub-s-a" address="2a13:240:3000::/40" comment="Generated blocklist for PacketHub"
+add list="anti-packethubsa-as-ap-packethub-s-a" address="2a13:240:3100::/40" comment="Generated blocklist for PacketHub"
 add list="anti-packethubsa-as-ap-packethub-s-a" address="2a13:240:3300::/40" comment="Generated blocklist for PacketHub"
 add list="anti-packethubsa-as-ap-packethub-s-a" address="2a13:240:3500::/40" comment="Generated blocklist for PacketHub"
+add list="anti-packethubsa-as-ap-packethub-s-a" address="2a13:240:3600::/40" comment="Generated blocklist for PacketHub"
 add list="anti-packethubsa-as-ap-packethub-s-a" address="2a13:240:3700::/40" comment="Generated blocklist for PacketHub"
 add list="anti-packethubsa-as-ap-packethub-s-a" address="2a13:240:3800::/40" comment="Generated blocklist for PacketHub"
 add list="anti-packethubsa-as-ap-packethub-s-a" address="2a13:240:3::/48" comment="Generated blocklist for PacketHub"
@@ -89,8 +92,12 @@ add list="anti-packethubsa-as-ap-packethub-s-a" address="2a13:240:5800::/40" com
 add list="anti-packethubsa-as-ap-packethub-s-a" address="2a13:240:5::/48" comment="Generated blocklist for PacketHub"
 add list="anti-packethubsa-as-ap-packethub-s-a" address="2a13:240:5b00::/40" comment="Generated blocklist for PacketHub"
 add list="anti-packethubsa-as-ap-packethub-s-a" address="2a13:240:5c00::/40" comment="Generated blocklist for PacketHub"
+add list="anti-packethubsa-as-ap-packethub-s-a" address="2a13:240:6300::/40" comment="Generated blocklist for PacketHub"
 add list="anti-packethubsa-as-ap-packethub-s-a" address="2a13:240:6900::/40" comment="Generated blocklist for PacketHub"
 add list="anti-packethubsa-as-ap-packethub-s-a" address="2a13:240:6::/48" comment="Generated blocklist for PacketHub"
+add list="anti-packethubsa-as-ap-packethub-s-a" address="2a13:240:6e00::/40" comment="Generated blocklist for PacketHub"
+add list="anti-packethubsa-as-ap-packethub-s-a" address="2a13:240:7100::/40" comment="Generated blocklist for PacketHub"
+add list="anti-packethubsa-as-ap-packethub-s-a" address="2a13:240:7200::/40" comment="Generated blocklist for PacketHub"
 add list="anti-packethubsa-as-ap-packethub-s-a" address="2a13:240:7600::/40" comment="Generated blocklist for PacketHub"
 add list="anti-packethubsa-as-ap-packethub-s-a" address="2a13:240:7::/48" comment="Generated blocklist for PacketHub"
 add list="anti-packethubsa-as-ap-packethub-s-a" address="2a13:240:7a00::/40" comment="Generated blocklist for PacketHub"
@@ -102,6 +109,7 @@ add list="anti-packethubsa-as-ap-packethub-s-a" address="2a13:240:8600::/40" com
 add list="anti-packethubsa-as-ap-packethub-s-a" address="2a13:240:8700::/40" comment="Generated blocklist for PacketHub"
 add list="anti-packethubsa-as-ap-packethub-s-a" address="2a13:240:8888::/48" comment="Generated blocklist for PacketHub"
 add list="anti-packethubsa-as-ap-packethub-s-a" address="2a13:240:8::/48" comment="Generated blocklist for PacketHub"
+add list="anti-packethubsa-as-ap-packethub-s-a" address="2a13:240:8c00::/40" comment="Generated blocklist for PacketHub"
 add list="anti-packethubsa-as-ap-packethub-s-a" address="2a13:240:8d00::/40" comment="Generated blocklist for PacketHub"
 add list="anti-packethubsa-as-ap-packethub-s-a" address="2a13:240:8f00::/40" comment="Generated blocklist for PacketHub"
 add list="anti-packethubsa-as-ap-packethub-s-a" address="2a13:240:9100::/40" comment="Generated blocklist for PacketHub"
@@ -111,6 +119,7 @@ add list="anti-packethubsa-as-ap-packethub-s-a" address="2a13:240:9999::/48" com
 add list="anti-packethubsa-as-ap-packethub-s-a" address="2a13:240:9::/48" comment="Generated blocklist for PacketHub"
 add list="anti-packethubsa-as-ap-packethub-s-a" address="2a13:240::/48" comment="Generated blocklist for PacketHub"
 add list="anti-packethubsa-as-ap-packethub-s-a" address="2a13:240:a::/48" comment="Generated blocklist for PacketHub"
+add list="anti-packethubsa-as-ap-packethub-s-a" address="2a13:240:b600::/40" comment="Generated blocklist for PacketHub"
 add list="anti-packethubsa-as-ap-packethub-s-a" address="2a13:240:b700::/40" comment="Generated blocklist for PacketHub"
 add list="anti-packethubsa-as-ap-packethub-s-a" address="2a13:240:b800::/40" comment="Generated blocklist for PacketHub"
 add list="anti-packethubsa-as-ap-packethub-s-a" address="2a13:240:b900::/40" comment="Generated blocklist for PacketHub"

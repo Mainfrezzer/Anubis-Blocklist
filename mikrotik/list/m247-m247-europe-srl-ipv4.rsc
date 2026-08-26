@@ -1,6 +1,6 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for M247
-# Entries: 4475
+# Entries: 4479
 #
 /ip firewall address-list
 add list="anti-m247-m247-europe-srl" address="102.128.164.0/24" comment="Generated blocklist for M247"
@@ -108,6 +108,9 @@ add list="anti-m247-m247-europe-srl" address="103.49.153.0/24" comment="Generate
 add list="anti-m247-m247-europe-srl" address="103.49.154.0/24" comment="Generated blocklist for M247"
 add list="anti-m247-m247-europe-srl" address="103.49.155.0/24" comment="Generated blocklist for M247"
 add list="anti-m247-m247-europe-srl" address="103.49.84.0/22" comment="Generated blocklist for M247"
+add list="anti-m247-m247-europe-srl" address="103.49.84.0/24" comment="Generated blocklist for M247"
+add list="anti-m247-m247-europe-srl" address="103.49.85.0/24" comment="Generated blocklist for M247"
+add list="anti-m247-m247-europe-srl" address="103.49.87.0/24" comment="Generated blocklist for M247"
 add list="anti-m247-m247-europe-srl" address="103.55.11.0/24" comment="Generated blocklist for M247"
 add list="anti-m247-m247-europe-srl" address="103.57.248.0/24" comment="Generated blocklist for M247"
 add list="anti-m247-m247-europe-srl" address="103.57.251.0/24" comment="Generated blocklist for M247"
@@ -867,6 +870,7 @@ add list="anti-m247-m247-europe-srl" address="146.70.97.0/24" comment="Generated
 add list="anti-m247-m247-europe-srl" address="146.70.98.0/24" comment="Generated blocklist for M247"
 add list="anti-m247-m247-europe-srl" address="146.70.99.0/24" comment="Generated blocklist for M247"
 add list="anti-m247-m247-europe-srl" address="147.79.28.0/24" comment="Generated blocklist for M247"
+add list="anti-m247-m247-europe-srl" address="147.90.202.0/24" comment="Generated blocklist for M247"
 add list="anti-m247-m247-europe-srl" address="148.135.212.0/22" comment="Generated blocklist for M247"
 add list="anti-m247-m247-europe-srl" address="148.135.220.0/22" comment="Generated blocklist for M247"
 add list="anti-m247-m247-europe-srl" address="148.135.228.0/22" comment="Generated blocklist for M247"

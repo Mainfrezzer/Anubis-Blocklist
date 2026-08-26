@@ -306,3 +306,9 @@ providers:
     - name: UNMANAGED LTD
       asns:
         - AS47890
+    - name: Cari.net (fiberalley)
+      asns:
+        - AS10439
+    - name: NextGenWebs (naranja.tech)
+      asns:
+        - AS41608

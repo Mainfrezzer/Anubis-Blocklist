@@ -1,6 +1,6 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for google
-# Entries: 303
+# Entries: 307
 #
 /ipv6 firewall address-list
 add list="anti-google-cloud-platform-google-llc" address="2001:671:fc00::/40" comment="Generated blocklist for google"
@@ -75,6 +75,7 @@ add list="anti-google-cloud-platform-google-llc" address="2600:1901:4026::/48" c
 add list="anti-google-cloud-platform-google-llc" address="2600:1901:4027::/48" comment="Generated blocklist for google"
 add list="anti-google-cloud-platform-google-llc" address="2600:1901:4028::/48" comment="Generated blocklist for google"
 add list="anti-google-cloud-platform-google-llc" address="2600:1901:4029::/48" comment="Generated blocklist for google"
+add list="anti-google-cloud-platform-google-llc" address="2600:1901:4400::/39" comment="Generated blocklist for google"
 add list="anti-google-cloud-platform-google-llc" address="2600:1901:4600::/40" comment="Generated blocklist for google"
 add list="anti-google-cloud-platform-google-llc" address="2600:1901:8100::/44" comment="Generated blocklist for google"
 add list="anti-google-cloud-platform-google-llc" address="2600:1901:8110::/44" comment="Generated blocklist for google"
@@ -176,6 +177,7 @@ add list="anti-google-cloud-platform-google-llc" address="2604:a940:300::/48" co
 add list="anti-google-cloud-platform-google-llc" address="2604:a940:301::/48" comment="Generated blocklist for google"
 add list="anti-google-cloud-platform-google-llc" address="2604:a940:302::/48" comment="Generated blocklist for google"
 add list="anti-google-cloud-platform-google-llc" address="2604:b040:13::/48" comment="Generated blocklist for google"
+add list="anti-google-cloud-platform-google-llc" address="2605:3e40::/48" comment="Generated blocklist for google"
 add list="anti-google-cloud-platform-google-llc" address="2605:a7c0:200::/48" comment="Generated blocklist for google"
 add list="anti-google-cloud-platform-google-llc" address="2605:a7c0:240::/48" comment="Generated blocklist for google"
 add list="anti-google-cloud-platform-google-llc" address="2605:a7c0:280::/48" comment="Generated blocklist for google"
@@ -295,6 +297,8 @@ add list="anti-google-cloud-platform-google-llc" address="2620:ce:e000::/48" com
 add list="anti-google-cloud-platform-google-llc" address="2620:ce:e001::/48" comment="Generated blocklist for google"
 add list="anti-google-cloud-platform-google-llc" address="2a06:7ac0:f00::/48" comment="Generated blocklist for google"
 add list="anti-google-cloud-platform-google-llc" address="2a07:8241::/36" comment="Generated blocklist for google"
+add list="anti-google-cloud-platform-google-llc" address="2a0a:7a80:1::/48" comment="Generated blocklist for google"
+add list="anti-google-cloud-platform-google-llc" address="2a0a:7a80::/48" comment="Generated blocklist for google"
 add list="anti-google-cloud-platform-google-llc" address="2a0b:4e07:cb9::/48" comment="Generated blocklist for google"
 add list="anti-google-cloud-platform-google-llc" address="2a0d:5980:100::/48" comment="Generated blocklist for google"
 add list="anti-google-cloud-platform-google-llc" address="2a0e:f600:55::/48" comment="Generated blocklist for google"

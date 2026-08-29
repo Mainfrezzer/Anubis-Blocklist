@@ -1,6 +1,6 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for Gigabit Hosting
-# Entries: 270
+# Entries: 272
 #
 /ip firewall address-list
 add list="anti-gigabit-my-gigabit-hosting-sdn-bhd" address="102.211.234.0/24" comment="Generated blocklist for Gigabit Hosting"
@@ -242,6 +242,8 @@ add list="anti-gigabit-my-gigabit-hosting-sdn-bhd" address="45.204.20.0/24" comm
 add list="anti-gigabit-my-gigabit-hosting-sdn-bhd" address="45.207.32.0/24" comment="Generated blocklist for Gigabit Hosting"
 add list="anti-gigabit-my-gigabit-hosting-sdn-bhd" address="5.181.132.0/24" comment="Generated blocklist for Gigabit Hosting"
 add list="anti-gigabit-my-gigabit-hosting-sdn-bhd" address="59.153.148.0/24" comment="Generated blocklist for Gigabit Hosting"
+add list="anti-gigabit-my-gigabit-hosting-sdn-bhd" address="59.153.150.0/24" comment="Generated blocklist for Gigabit Hosting"
+add list="anti-gigabit-my-gigabit-hosting-sdn-bhd" address="59.153.151.0/24" comment="Generated blocklist for Gigabit Hosting"
 add list="anti-gigabit-my-gigabit-hosting-sdn-bhd" address="61.4.100.0/24" comment="Generated blocklist for Gigabit Hosting"
 add list="anti-gigabit-my-gigabit-hosting-sdn-bhd" address="61.4.101.0/24" comment="Generated blocklist for Gigabit Hosting"
 add list="anti-gigabit-my-gigabit-hosting-sdn-bhd" address="61.4.102.0/24" comment="Generated blocklist for Gigabit Hosting"

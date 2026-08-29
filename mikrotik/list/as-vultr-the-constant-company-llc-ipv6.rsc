@@ -1,6 +1,6 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for vultr
-# Entries: 1214
+# Entries: 1215
 #
 /ipv6 firewall address-list
 add list="anti-as-vultr-the-constant-company-llc" address="2001:19f0:1000::/38" comment="Generated blocklist for vultr"
@@ -1039,7 +1039,6 @@ add list="anti-as-vultr-the-constant-company-llc" address="2a06:de01:d0::/44" co
 add list="anti-as-vultr-the-constant-company-llc" address="2a07:5580::/32" comment="Generated blocklist for vultr"
 add list="anti-as-vultr-the-constant-company-llc" address="2a07:a341::/32" comment="Generated blocklist for vultr"
 add list="anti-as-vultr-the-constant-company-llc" address="2a07:e000:100::/40" comment="Generated blocklist for vultr"
-add list="anti-as-vultr-the-constant-company-llc" address="2a07:e000:10::/44" comment="Generated blocklist for vultr"
 add list="anti-as-vultr-the-constant-company-llc" address="2a07:e000:400::/38" comment="Generated blocklist for vultr"
 add list="anti-as-vultr-the-constant-company-llc" address="2a07:e000:600::/39" comment="Generated blocklist for vultr"
 add list="anti-as-vultr-the-constant-company-llc" address="2a07:eb80:b::/48" comment="Generated blocklist for vultr"
@@ -1062,8 +1061,10 @@ add list="anti-as-vultr-the-constant-company-llc" address="2a0e:4001:10::/48" co
 add list="anti-as-vultr-the-constant-company-llc" address="2a0e:4001:11::/48" comment="Generated blocklist for vultr"
 add list="anti-as-vultr-the-constant-company-llc" address="2a0e:7d45:781c::/48" comment="Generated blocklist for vultr"
 add list="anti-as-vultr-the-constant-company-llc" address="2a0e:7d45:781d::/48" comment="Generated blocklist for vultr"
+add list="anti-as-vultr-the-constant-company-llc" address="2a0e:7d45:781e::/48" comment="Generated blocklist for vultr"
 add list="anti-as-vultr-the-constant-company-llc" address="2a0e:7d45:7830::/48" comment="Generated blocklist for vultr"
 add list="anti-as-vultr-the-constant-company-llc" address="2a0e:7d45:7831::/48" comment="Generated blocklist for vultr"
+add list="anti-as-vultr-the-constant-company-llc" address="2a0e:7d45:7832::/48" comment="Generated blocklist for vultr"
 add list="anti-as-vultr-the-constant-company-llc" address="2a0e:9d40::/32" comment="Generated blocklist for vultr"
 add list="anti-as-vultr-the-constant-company-llc" address="2a0e:b107:df2::/48" comment="Generated blocklist for vultr"
 add list="anti-as-vultr-the-constant-company-llc" address="2a0e:b800:aaaa::/48" comment="Generated blocklist for vultr"
@@ -1146,7 +1147,6 @@ add list="anti-as-vultr-the-constant-company-llc" address="2a10:ccc1:43c::/48" c
 add list="anti-as-vultr-the-constant-company-llc" address="2a10:ccc1:43d::/48" comment="Generated blocklist for vultr"
 add list="anti-as-vultr-the-constant-company-llc" address="2a10:ccc1:43e::/48" comment="Generated blocklist for vultr"
 add list="anti-as-vultr-the-constant-company-llc" address="2a10:ccc1:442::/48" comment="Generated blocklist for vultr"
-add list="anti-as-vultr-the-constant-company-llc" address="2a10:ccc1:443::/48" comment="Generated blocklist for vultr"
 add list="anti-as-vultr-the-constant-company-llc" address="2a10:ccc1:444::/48" comment="Generated blocklist for vultr"
 add list="anti-as-vultr-the-constant-company-llc" address="2a10:ccc1:445::/48" comment="Generated blocklist for vultr"
 add list="anti-as-vultr-the-constant-company-llc" address="2a10:ccc1:448::/48" comment="Generated blocklist for vultr"
@@ -1156,7 +1156,6 @@ add list="anti-as-vultr-the-constant-company-llc" address="2a10:ccc1:44b::/48" c
 add list="anti-as-vultr-the-constant-company-llc" address="2a10:ccc1:44c::/48" comment="Generated blocklist for vultr"
 add list="anti-as-vultr-the-constant-company-llc" address="2a10:ccc1:44e::/48" comment="Generated blocklist for vultr"
 add list="anti-as-vultr-the-constant-company-llc" address="2a10:ccc1:44f::/48" comment="Generated blocklist for vultr"
-add list="anti-as-vultr-the-constant-company-llc" address="2a10:ccc1:451::/48" comment="Generated blocklist for vultr"
 add list="anti-as-vultr-the-constant-company-llc" address="2a10:ccc1:452::/48" comment="Generated blocklist for vultr"
 add list="anti-as-vultr-the-constant-company-llc" address="2a10:ccc1:453::/48" comment="Generated blocklist for vultr"
 add list="anti-as-vultr-the-constant-company-llc" address="2a10:ccc1:455::/48" comment="Generated blocklist for vultr"
@@ -1173,12 +1172,14 @@ add list="anti-as-vultr-the-constant-company-llc" address="2a10:ccc1:46c::/48" c
 add list="anti-as-vultr-the-constant-company-llc" address="2a10:ccc1:46d::/48" comment="Generated blocklist for vultr"
 add list="anti-as-vultr-the-constant-company-llc" address="2a10:ccc1:46e::/48" comment="Generated blocklist for vultr"
 add list="anti-as-vultr-the-constant-company-llc" address="2a10:ccc1:46f::/48" comment="Generated blocklist for vultr"
+add list="anti-as-vultr-the-constant-company-llc" address="2a10:ccc1:470::/48" comment="Generated blocklist for vultr"
 add list="anti-as-vultr-the-constant-company-llc" address="2a10:ccc1:475::/48" comment="Generated blocklist for vultr"
 add list="anti-as-vultr-the-constant-company-llc" address="2a10:ccc1:476::/48" comment="Generated blocklist for vultr"
 add list="anti-as-vultr-the-constant-company-llc" address="2a10:ccc1:478::/48" comment="Generated blocklist for vultr"
 add list="anti-as-vultr-the-constant-company-llc" address="2a10:ccc1:47a::/48" comment="Generated blocklist for vultr"
 add list="anti-as-vultr-the-constant-company-llc" address="2a10:ccc1:47b::/48" comment="Generated blocklist for vultr"
 add list="anti-as-vultr-the-constant-company-llc" address="2a10:ccc1:47d::/48" comment="Generated blocklist for vultr"
+add list="anti-as-vultr-the-constant-company-llc" address="2a10:ccc1:47e::/48" comment="Generated blocklist for vultr"
 add list="anti-as-vultr-the-constant-company-llc" address="2a10:fa80:2000::/36" comment="Generated blocklist for vultr"
 add list="anti-as-vultr-the-constant-company-llc" address="2a10:fa80:5::/48" comment="Generated blocklist for vultr"
 add list="anti-as-vultr-the-constant-company-llc" address="2a10:fa80:6::/48" comment="Generated blocklist for vultr"

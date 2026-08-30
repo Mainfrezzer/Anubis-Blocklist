@@ -1,6 +1,6 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for Tube-Hosting
-# Entries: 38
+# Entries: 39
 #
 /ip firewall address-list
 add list="anti-tube-hosting-ferdinand-zink-trading-as-tube-hosting" address="104.224.45.0/24" comment="Generated blocklist for Tube-Hosting"
@@ -41,3 +41,4 @@ add list="anti-tube-hosting-ferdinand-zink-trading-as-tube-hosting" address="92.
 add list="anti-tube-hosting-ferdinand-zink-trading-as-tube-hosting" address="94.183.252.0/24" comment="Generated blocklist for Tube-Hosting"
 add list="anti-tube-hosting-ferdinand-zink-trading-as-tube-hosting" address="94.183.253.0/24" comment="Generated blocklist for Tube-Hosting"
 add list="anti-tube-hosting-ferdinand-zink-trading-as-tube-hosting" address="94.249.230.0/24" comment="Generated blocklist for Tube-Hosting"
+add list="anti-tube-hosting-ferdinand-zink-trading-as-tube-hosting" address="94.249.246.0/24" comment="Generated blocklist for Tube-Hosting"

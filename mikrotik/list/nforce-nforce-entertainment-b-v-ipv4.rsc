@@ -1,6 +1,6 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for nforce.com
-# Entries: 99
+# Entries: 98
 #
 /ip firewall address-list
 add list="anti-nforce-nforce-entertainment-b-v" address="107.181.137.0/24" comment="Generated blocklist for nforce.com"
@@ -8,7 +8,6 @@ add list="anti-nforce-nforce-entertainment-b-v" address="109.201.128.0/19" comme
 add list="anti-nforce-nforce-entertainment-b-v" address="141.98.80.0/24" comment="Generated blocklist for nforce.com"
 add list="anti-nforce-nforce-entertainment-b-v" address="143.20.82.0/24" comment="Generated blocklist for nforce.com"
 add list="anti-nforce-nforce-entertainment-b-v" address="147.90.217.0/24" comment="Generated blocklist for nforce.com"
-add list="anti-nforce-nforce-entertainment-b-v" address="166.0.12.0/24" comment="Generated blocklist for nforce.com"
 add list="anti-nforce-nforce-entertainment-b-v" address="167.150.21.0/24" comment="Generated blocklist for nforce.com"
 add list="anti-nforce-nforce-entertainment-b-v" address="178.214.210.0/24" comment="Generated blocklist for nforce.com"
 add list="anti-nforce-nforce-entertainment-b-v" address="178.83.140.0/24" comment="Generated blocklist for nforce.com"

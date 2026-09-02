@@ -1,6 +1,6 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for ntdatacenter.net
-# Entries: 143
+# Entries: 138
 #
 /ip firewall address-list
 add list="anti-ntpcl-as-ap-national-telecom-public-company-limited" address="103.114.200.0/24" comment="Generated blocklist for ntdatacenter.net"
@@ -10,7 +10,6 @@ add list="anti-ntpcl-as-ap-national-telecom-public-company-limited" address="110
 add list="anti-ntpcl-as-ap-national-telecom-public-company-limited" address="110.78.200.0/24" comment="Generated blocklist for ntdatacenter.net"
 add list="anti-ntpcl-as-ap-national-telecom-public-company-limited" address="110.78.201.0/24" comment="Generated blocklist for ntdatacenter.net"
 add list="anti-ntpcl-as-ap-national-telecom-public-company-limited" address="110.78.203.0/24" comment="Generated blocklist for ntdatacenter.net"
-add list="anti-ntpcl-as-ap-national-telecom-public-company-limited" address="110.78.208.0/21" comment="Generated blocklist for ntdatacenter.net"
 add list="anti-ntpcl-as-ap-national-telecom-public-company-limited" address="110.78.208.0/24" comment="Generated blocklist for ntdatacenter.net"
 add list="anti-ntpcl-as-ap-national-telecom-public-company-limited" address="110.78.209.0/24" comment="Generated blocklist for ntdatacenter.net"
 add list="anti-ntpcl-as-ap-national-telecom-public-company-limited" address="110.78.210.0/24" comment="Generated blocklist for ntdatacenter.net"
@@ -18,7 +17,6 @@ add list="anti-ntpcl-as-ap-national-telecom-public-company-limited" address="110
 add list="anti-ntpcl-as-ap-national-telecom-public-company-limited" address="110.78.213.0/24" comment="Generated blocklist for ntdatacenter.net"
 add list="anti-ntpcl-as-ap-national-telecom-public-company-limited" address="110.78.214.0/24" comment="Generated blocklist for ntdatacenter.net"
 add list="anti-ntpcl-as-ap-national-telecom-public-company-limited" address="110.78.215.0/24" comment="Generated blocklist for ntdatacenter.net"
-add list="anti-ntpcl-as-ap-national-telecom-public-company-limited" address="110.78.216.0/22" comment="Generated blocklist for ntdatacenter.net"
 add list="anti-ntpcl-as-ap-national-telecom-public-company-limited" address="110.78.216.0/24" comment="Generated blocklist for ntdatacenter.net"
 add list="anti-ntpcl-as-ap-national-telecom-public-company-limited" address="110.78.217.0/24" comment="Generated blocklist for ntdatacenter.net"
 add list="anti-ntpcl-as-ap-national-telecom-public-company-limited" address="110.78.218.0/24" comment="Generated blocklist for ntdatacenter.net"
@@ -42,7 +40,6 @@ add list="anti-ntpcl-as-ap-national-telecom-public-company-limited" address="122
 add list="anti-ntpcl-as-ap-national-telecom-public-company-limited" address="122.155.12.0/24" comment="Generated blocklist for ntdatacenter.net"
 add list="anti-ntpcl-as-ap-national-telecom-public-company-limited" address="122.155.13.0/24" comment="Generated blocklist for ntdatacenter.net"
 add list="anti-ntpcl-as-ap-national-telecom-public-company-limited" address="122.155.14.0/24" comment="Generated blocklist for ntdatacenter.net"
-add list="anti-ntpcl-as-ap-national-telecom-public-company-limited" address="122.155.144.0/21" comment="Generated blocklist for ntdatacenter.net"
 add list="anti-ntpcl-as-ap-national-telecom-public-company-limited" address="122.155.144.0/24" comment="Generated blocklist for ntdatacenter.net"
 add list="anti-ntpcl-as-ap-national-telecom-public-company-limited" address="122.155.145.0/24" comment="Generated blocklist for ntdatacenter.net"
 add list="anti-ntpcl-as-ap-national-telecom-public-company-limited" address="122.155.146.0/24" comment="Generated blocklist for ntdatacenter.net"
@@ -86,7 +83,6 @@ add list="anti-ntpcl-as-ap-national-telecom-public-company-limited" address="122
 add list="anti-ntpcl-as-ap-national-telecom-public-company-limited" address="122.155.202.0/24" comment="Generated blocklist for ntdatacenter.net"
 add list="anti-ntpcl-as-ap-national-telecom-public-company-limited" address="122.155.203.0/24" comment="Generated blocklist for ntdatacenter.net"
 add list="anti-ntpcl-as-ap-national-telecom-public-company-limited" address="122.155.204.0/24" comment="Generated blocklist for ntdatacenter.net"
-add list="anti-ntpcl-as-ap-national-telecom-public-company-limited" address="122.155.205.0/24" comment="Generated blocklist for ntdatacenter.net"
 add list="anti-ntpcl-as-ap-national-telecom-public-company-limited" address="122.155.206.0/24" comment="Generated blocklist for ntdatacenter.net"
 add list="anti-ntpcl-as-ap-national-telecom-public-company-limited" address="122.155.207.0/24" comment="Generated blocklist for ntdatacenter.net"
 add list="anti-ntpcl-as-ap-national-telecom-public-company-limited" address="122.155.208.0/24" comment="Generated blocklist for ntdatacenter.net"
@@ -119,7 +115,6 @@ add list="anti-ntpcl-as-ap-national-telecom-public-company-limited" address="185
 add list="anti-ntpcl-as-ap-national-telecom-public-company-limited" address="185.78.167.0/24" comment="Generated blocklist for ntdatacenter.net"
 add list="anti-ntpcl-as-ap-national-telecom-public-company-limited" address="202.129.2.0/24" comment="Generated blocklist for ntdatacenter.net"
 add list="anti-ntpcl-as-ap-national-telecom-public-company-limited" address="202.129.50.0/24" comment="Generated blocklist for ntdatacenter.net"
-add list="anti-ntpcl-as-ap-national-telecom-public-company-limited" address="202.139.192.0/22" comment="Generated blocklist for ntdatacenter.net"
 add list="anti-ntpcl-as-ap-national-telecom-public-company-limited" address="202.139.192.0/24" comment="Generated blocklist for ntdatacenter.net"
 add list="anti-ntpcl-as-ap-national-telecom-public-company-limited" address="202.139.193.0/24" comment="Generated blocklist for ntdatacenter.net"
 add list="anti-ntpcl-as-ap-national-telecom-public-company-limited" address="202.139.194.0/24" comment="Generated blocklist for ntdatacenter.net"

@@ -1,6 +1,6 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for akamai (linode)
-# Entries: 96
+# Entries: 94
 #
 /ipv6 firewall address-list
 add list="anti-akamai-linode-ap-akamai-connected-cloud" address="2400:8901::/32" comment="Generated blocklist for akamai (linode)"
@@ -49,7 +49,6 @@ add list="anti-akamai-linode-ap-akamai-connected-cloud" address="2600:3c0f:35::/
 add list="anti-akamai-linode-ap-akamai-connected-cloud" address="2600:3c0f:37::/48" comment="Generated blocklist for akamai (linode)"
 add list="anti-akamai-linode-ap-akamai-connected-cloud" address="2600:3c0f:38::/48" comment="Generated blocklist for akamai (linode)"
 add list="anti-akamai-linode-ap-akamai-connected-cloud" address="2600:3c0f:3::/48" comment="Generated blocklist for akamai (linode)"
-add list="anti-akamai-linode-ap-akamai-connected-cloud" address="2600:3c0f:40::/48" comment="Generated blocklist for akamai (linode)"
 add list="anti-akamai-linode-ap-akamai-connected-cloud" address="2600:3c0f:41::/48" comment="Generated blocklist for akamai (linode)"
 add list="anti-akamai-linode-ap-akamai-connected-cloud" address="2600:3c0f:42::/48" comment="Generated blocklist for akamai (linode)"
 add list="anti-akamai-linode-ap-akamai-connected-cloud" address="2600:3c0f:43::/48" comment="Generated blocklist for akamai (linode)"
@@ -75,7 +74,6 @@ add list="anti-akamai-linode-ap-akamai-connected-cloud" address="2600:3c12:300::
 add list="anti-akamai-linode-ap-akamai-connected-cloud" address="2600:3c12:400::/40" comment="Generated blocklist for akamai (linode)"
 add list="anti-akamai-linode-ap-akamai-connected-cloud" address="2600:3c12:500::/40" comment="Generated blocklist for akamai (linode)"
 add list="anti-akamai-linode-ap-akamai-connected-cloud" address="2600:3c12:600::/40" comment="Generated blocklist for akamai (linode)"
-add list="anti-akamai-linode-ap-akamai-connected-cloud" address="2600:3c12:700::/40" comment="Generated blocklist for akamai (linode)"
 add list="anti-akamai-linode-ap-akamai-connected-cloud" address="2600:3c12:800::/40" comment="Generated blocklist for akamai (linode)"
 add list="anti-akamai-linode-ap-akamai-connected-cloud" address="2600:3c12:900::/40" comment="Generated blocklist for akamai (linode)"
 add list="anti-akamai-linode-ap-akamai-connected-cloud" address="2600:3c12:a00::/40" comment="Generated blocklist for akamai (linode)"

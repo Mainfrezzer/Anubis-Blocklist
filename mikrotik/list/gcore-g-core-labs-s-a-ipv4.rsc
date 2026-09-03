@@ -1,6 +1,6 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for Gcore
-# Entries: 458
+# Entries: 457
 #
 /ip firewall address-list
 add list="anti-gcore-g-core-labs-s-a" address="103.22.193.0/24" comment="Generated blocklist for Gcore"
@@ -278,7 +278,6 @@ add list="anti-gcore-g-core-labs-s-a" address="85.234.84.0/24" comment="Generate
 add list="anti-gcore-g-core-labs-s-a" address="85.234.86.0/24" comment="Generated blocklist for Gcore"
 add list="anti-gcore-g-core-labs-s-a" address="85.234.86.0/32" comment="Generated blocklist for Gcore"
 add list="anti-gcore-g-core-labs-s-a" address="85.234.86.7/32" comment="Generated blocklist for Gcore"
-add list="anti-gcore-g-core-labs-s-a" address="85.234.86.77/32" comment="Generated blocklist for Gcore"
 add list="anti-gcore-g-core-labs-s-a" address="85.234.87.0/24" comment="Generated blocklist for Gcore"
 add list="anti-gcore-g-core-labs-s-a" address="85.234.88.0/24" comment="Generated blocklist for Gcore"
 add list="anti-gcore-g-core-labs-s-a" address="85.234.92.0/24" comment="Generated blocklist for Gcore"

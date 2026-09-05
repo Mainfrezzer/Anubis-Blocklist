@@ -1,6 +1,6 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for google
-# Entries: 3477
+# Entries: 3479
 #
 /ip firewall address-list
 add list="anti-google-cloud-platform-google-llc" address="1.179.112.0/20" comment="Generated blocklist for google"
@@ -468,6 +468,7 @@ add list="anti-google-cloud-platform-google-llc" address="153.72.128.0/19" comme
 add list="anti-google-cloud-platform-google-llc" address="153.72.160.0/19" comment="Generated blocklist for google"
 add list="anti-google-cloud-platform-google-llc" address="153.72.224.0/22" comment="Generated blocklist for google"
 add list="anti-google-cloud-platform-google-llc" address="153.72.228.0/24" comment="Generated blocklist for google"
+add list="anti-google-cloud-platform-google-llc" address="153.72.229.0/24" comment="Generated blocklist for google"
 add list="anti-google-cloud-platform-google-llc" address="153.72.234.0/24" comment="Generated blocklist for google"
 add list="anti-google-cloud-platform-google-llc" address="153.72.235.0/24" comment="Generated blocklist for google"
 add list="anti-google-cloud-platform-google-llc" address="153.72.236.0/24" comment="Generated blocklist for google"
@@ -3428,6 +3429,7 @@ add list="anti-google-cloud-platform-google-llc" address="8.235.0.0/17" comment=
 add list="anti-google-cloud-platform-google-llc" address="8.235.128.0/17" comment="Generated blocklist for google"
 add list="anti-google-cloud-platform-google-llc" address="8.236.0.0/15" comment="Generated blocklist for google"
 add list="anti-google-cloud-platform-google-llc" address="8.236.128.0/21" comment="Generated blocklist for google"
+add list="anti-google-cloud-platform-google-llc" address="8.236.144.0/20" comment="Generated blocklist for google"
 add list="anti-google-cloud-platform-google-llc" address="8.236.192.0/18" comment="Generated blocklist for google"
 add list="anti-google-cloud-platform-google-llc" address="8.237.0.0/18" comment="Generated blocklist for google"
 add list="anti-google-cloud-platform-google-llc" address="8.34.208.0/21" comment="Generated blocklist for google"

@@ -1,6 +1,6 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for Private Layer INC
-# Entries: 88
+# Entries: 90
 #
 /ip firewall address-list
 add list="anti-pli-as-private-layer-inc" address="141.255.160.0/21" comment="Generated blocklist for Private Layer INC"
@@ -15,6 +15,8 @@ add list="anti-pli-as-private-layer-inc" address="179.43.131.0/24" comment="Gene
 add list="anti-pli-as-private-layer-inc" address="179.43.132.0/24" comment="Generated blocklist for Private Layer INC"
 add list="anti-pli-as-private-layer-inc" address="179.43.133.0/24" comment="Generated blocklist for Private Layer INC"
 add list="anti-pli-as-private-layer-inc" address="179.43.134.0/24" comment="Generated blocklist for Private Layer INC"
+add list="anti-pli-as-private-layer-inc" address="179.43.135.0/24" comment="Generated blocklist for Private Layer INC"
+add list="anti-pli-as-private-layer-inc" address="179.43.136.0/24" comment="Generated blocklist for Private Layer INC"
 add list="anti-pli-as-private-layer-inc" address="179.43.137.0/24" comment="Generated blocklist for Private Layer INC"
 add list="anti-pli-as-private-layer-inc" address="179.43.138.0/24" comment="Generated blocklist for Private Layer INC"
 add list="anti-pli-as-private-layer-inc" address="179.43.139.0/24" comment="Generated blocklist for Private Layer INC"

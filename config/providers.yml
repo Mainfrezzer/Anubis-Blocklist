@@ -312,3 +312,31 @@ providers:
     - name: NextGenWebs (naranja.tech)
       asns:
         - AS41608
+    - name: iOVZ Networks Limited
+      asns:
+        - AS139803
+        - AS23532
+    - name: HGC Global Communications Limited (announce for iOVZ for example)
+      asns:
+        - AS9304
+    - name: Cloudie Limited
+      asns:
+        - AS55933
+    - name: VNPT Corp
+      asns:
+        - AS45899
+    - name: Cogent
+      asns:
+        - AS174
+    - name: Canadian Fiber Optics Corp (have hosting customer)
+      asns:
+        - AS399016
+    - name: Intech Online Private Limited
+      asns:
+        - AS58678
+    - name: Internetport Sweden AB
+      asns:
+        - AS49770
+    - name: Korbank S. A.
+      asns:
+        - AS35179

@@ -1,6 +1,6 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for amazon
-# Entries: 18149
+# Entries: 18152
 #
 /ip firewall address-list
 add list="anti-amazon-02-amazon-com-inc" address="1.118.3.0/24" comment="Generated blocklist for amazon"
@@ -5391,6 +5391,8 @@ add list="anti-amazon-02-amazon-com-inc" address="161.69.246.0/24" comment="Gene
 add list="anti-amazon-02-amazon-com-inc" address="161.69.247.0/24" comment="Generated blocklist for amazon"
 add list="anti-amazon-02-amazon-com-inc" address="161.69.248.0/24" comment="Generated blocklist for amazon"
 add list="anti-amazon-02-amazon-com-inc" address="161.99.128.0/17" comment="Generated blocklist for amazon"
+add list="anti-amazon-02-amazon-com-inc" address="162.10.14.0/24" comment="Generated blocklist for amazon"
+add list="anti-amazon-02-amazon-com-inc" address="162.10.34.0/24" comment="Generated blocklist for amazon"
 add list="anti-amazon-02-amazon-com-inc" address="162.117.20.0/24" comment="Generated blocklist for amazon"
 add list="anti-amazon-02-amazon-com-inc" address="162.120.24.0/21" comment="Generated blocklist for amazon"
 add list="anti-amazon-02-amazon-com-inc" address="162.120.32.0/21" comment="Generated blocklist for amazon"
@@ -17322,6 +17324,7 @@ add list="anti-amazon-02-amazon-com-inc" address="79.75.0.0/16" comment="Generat
 add list="anti-amazon-02-amazon-com-inc" address="80.126.0.0/15" comment="Generated blocklist for amazon"
 add list="anti-amazon-02-amazon-com-inc" address="80.203.128.0/17" comment="Generated blocklist for amazon"
 add list="anti-amazon-02-amazon-com-inc" address="80.241.160.0/20" comment="Generated blocklist for amazon"
+add list="anti-amazon-02-amazon-com-inc" address="80.247.217.0/24" comment="Generated blocklist for amazon"
 add list="anti-amazon-02-amazon-com-inc" address="80.250.111.0/24" comment="Generated blocklist for amazon"
 add list="anti-amazon-02-amazon-com-inc" address="80.254.228.0/24" comment="Generated blocklist for amazon"
 add list="anti-amazon-02-amazon-com-inc" address="81.161.62.0/24" comment="Generated blocklist for amazon"

@@ -1,6 +1,6 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for Omegatech LTD
-# Entries: 23
+# Entries: 24
 #
 /ip firewall address-list
 add list="anti-omegatech-as-omegatech-ltd" address="130.12.180.0/24" comment="Generated blocklist for Omegatech LTD"
@@ -24,5 +24,6 @@ add list="anti-omegatech-as-omegatech-ltd" address="91.92.241.0/24" comment="Gen
 add list="anti-omegatech-as-omegatech-ltd" address="91.92.242.0/24" comment="Generated blocklist for Omegatech LTD"
 add list="anti-omegatech-as-omegatech-ltd" address="91.92.243.0/24" comment="Generated blocklist for Omegatech LTD"
 add list="anti-omegatech-as-omegatech-ltd" address="94.154.35.0/24" comment="Generated blocklist for Omegatech LTD"
+add list="anti-omegatech-as-omegatech-ltd" address="94.154.40.0/24" comment="Generated blocklist for Omegatech LTD"
 add list="anti-omegatech-as-omegatech-ltd" address="94.154.46.0/24" comment="Generated blocklist for Omegatech LTD"
 add list="anti-omegatech-as-omegatech-ltd" address="94.26.38.0/24" comment="Generated blocklist for Omegatech LTD"

@@ -1,6 +1,6 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for all configured providers
-# Entries: 70483
+# Entries: 70489
 #
 /ip firewall address-list
 add list="anti-all-configured-providers" address="1.100.0.0/14" comment="Generated blocklist for all configured providers"
@@ -15236,6 +15236,7 @@ add list="anti-all-configured-providers" address="144.225.95.0/24" comment="Gene
 add list="anti-all-configured-providers" address="144.225.99.0/24" comment="Generated blocklist for all configured providers"
 add list="anti-all-configured-providers" address="144.228.0.0/15" comment="Generated blocklist for all configured providers"
 add list="anti-all-configured-providers" address="144.232.0.0/16" comment="Generated blocklist for all configured providers"
+add list="anti-all-configured-providers" address="144.250.22.0/24" comment="Generated blocklist for all configured providers"
 add list="anti-all-configured-providers" address="144.250.23.0/24" comment="Generated blocklist for all configured providers"
 add list="anti-all-configured-providers" address="144.31.10.0/24" comment="Generated blocklist for all configured providers"
 add list="anti-all-configured-providers" address="144.31.149.0/24" comment="Generated blocklist for all configured providers"
@@ -33044,6 +33045,7 @@ add list="anti-all-configured-providers" address="192.121.87.0/24" comment="Gene
 add list="anti-all-configured-providers" address="192.121.88.0/24" comment="Generated blocklist for all configured providers"
 add list="anti-all-configured-providers" address="192.122.255.0/24" comment="Generated blocklist for all configured providers"
 add list="anti-all-configured-providers" address="192.124.112.0/24" comment="Generated blocklist for all configured providers"
+add list="anti-all-configured-providers" address="192.124.129.0/24" comment="Generated blocklist for all configured providers"
 add list="anti-all-configured-providers" address="192.124.170.0/24" comment="Generated blocklist for all configured providers"
 add list="anti-all-configured-providers" address="192.129.128.0/24" comment="Generated blocklist for all configured providers"
 add list="anti-all-configured-providers" address="192.129.133.0/24" comment="Generated blocklist for all configured providers"
@@ -39403,6 +39405,7 @@ add list="anti-all-configured-providers" address="206.158.0.0/15" comment="Gener
 add list="anti-all-configured-providers" address="206.159.100.0/24" comment="Generated blocklist for all configured providers"
 add list="anti-all-configured-providers" address="206.160.0.0/16" comment="Generated blocklist for all configured providers"
 add list="anti-all-configured-providers" address="206.162.244.0/24" comment="Generated blocklist for all configured providers"
+add list="anti-all-configured-providers" address="206.162.254.0/24" comment="Generated blocklist for all configured providers"
 add list="anti-all-configured-providers" address="206.166.248.0/23" comment="Generated blocklist for all configured providers"
 add list="anti-all-configured-providers" address="206.168.174.0/23" comment="Generated blocklist for all configured providers"
 add list="anti-all-configured-providers" address="206.168.186.0/24" comment="Generated blocklist for all configured providers"
@@ -40328,6 +40331,7 @@ add list="anti-all-configured-providers" address="209.114.2.0/24" comment="Gener
 add list="anti-all-configured-providers" address="209.114.224.0/19" comment="Generated blocklist for all configured providers"
 add list="anti-all-configured-providers" address="209.114.3.0/24" comment="Generated blocklist for all configured providers"
 add list="anti-all-configured-providers" address="209.115.0.0/17" comment="Generated blocklist for all configured providers"
+add list="anti-all-configured-providers" address="209.126.103.0/24" comment="Generated blocklist for all configured providers"
 add list="anti-all-configured-providers" address="209.126.110.0/24" comment="Generated blocklist for all configured providers"
 add list="anti-all-configured-providers" address="209.126.111.0/24" comment="Generated blocklist for all configured providers"
 add list="anti-all-configured-providers" address="209.126.117.0/24" comment="Generated blocklist for all configured providers"
@@ -59243,6 +59247,7 @@ add list="anti-all-configured-providers" address="52.223.32.0/20" comment="Gener
 add list="anti-all-configured-providers" address="52.223.48.0/20" comment="Generated blocklist for all configured providers"
 add list="anti-all-configured-providers" address="52.223.64.0/24" comment="Generated blocklist for all configured providers"
 add list="anti-all-configured-providers" address="52.223.66.0/24" comment="Generated blocklist for all configured providers"
+add list="anti-all-configured-providers" address="52.223.67.0/24" comment="Generated blocklist for all configured providers"
 add list="anti-all-configured-providers" address="52.223.68.0/24" comment="Generated blocklist for all configured providers"
 add list="anti-all-configured-providers" address="52.223.71.0/24" comment="Generated blocklist for all configured providers"
 add list="anti-all-configured-providers" address="52.223.80.0/20" comment="Generated blocklist for all configured providers"
@@ -66861,6 +66866,7 @@ add list="anti-all-configured-providers" address="85.234.84.0/24" comment="Gener
 add list="anti-all-configured-providers" address="85.234.86.0/24" comment="Generated blocklist for all configured providers"
 add list="anti-all-configured-providers" address="85.234.86.0/32" comment="Generated blocklist for all configured providers"
 add list="anti-all-configured-providers" address="85.234.86.7/32" comment="Generated blocklist for all configured providers"
+add list="anti-all-configured-providers" address="85.234.86.77/32" comment="Generated blocklist for all configured providers"
 add list="anti-all-configured-providers" address="85.234.87.0/24" comment="Generated blocklist for all configured providers"
 add list="anti-all-configured-providers" address="85.234.88.0/24" comment="Generated blocklist for all configured providers"
 add list="anti-all-configured-providers" address="85.234.92.0/24" comment="Generated blocklist for all configured providers"
@@ -67614,6 +67620,7 @@ add list="anti-all-configured-providers" address="89.117.98.0/24" comment="Gener
 add list="anti-all-configured-providers" address="89.117.99.0/24" comment="Generated blocklist for all configured providers"
 add list="anti-all-configured-providers" address="89.124.224.0/24" comment="Generated blocklist for all configured providers"
 add list="anti-all-configured-providers" address="89.124.225.0/24" comment="Generated blocklist for all configured providers"
+add list="anti-all-configured-providers" address="89.124.226.0/24" comment="Generated blocklist for all configured providers"
 add list="anti-all-configured-providers" address="89.125.108.0/22" comment="Generated blocklist for all configured providers"
 add list="anti-all-configured-providers" address="89.125.154.0/24" comment="Generated blocklist for all configured providers"
 add list="anti-all-configured-providers" address="89.125.155.0/24" comment="Generated blocklist for all configured providers"
@@ -69266,6 +69273,7 @@ add list="anti-all-configured-providers" address="94.154.159.0/24" comment="Gene
 add list="anti-all-configured-providers" address="94.154.171.0/24" comment="Generated blocklist for all configured providers"
 add list="anti-all-configured-providers" address="94.154.35.0/24" comment="Generated blocklist for all configured providers"
 add list="anti-all-configured-providers" address="94.154.36.0/24" comment="Generated blocklist for all configured providers"
+add list="anti-all-configured-providers" address="94.154.40.0/24" comment="Generated blocklist for all configured providers"
 add list="anti-all-configured-providers" address="94.154.42.0/24" comment="Generated blocklist for all configured providers"
 add list="anti-all-configured-providers" address="94.154.46.0/24" comment="Generated blocklist for all configured providers"
 add list="anti-all-configured-providers" address="94.156.14.0/24" comment="Generated blocklist for all configured providers"
@@ -69954,10 +69962,8 @@ add list="anti-all-configured-providers" address="97.74.4.0/24" comment="Generat
 add list="anti-all-configured-providers" address="97.74.64.0/20" comment="Generated blocklist for all configured providers"
 add list="anti-all-configured-providers" address="97.74.80.0/20" comment="Generated blocklist for all configured providers"
 add list="anti-all-configured-providers" address="97.74.80.0/21" comment="Generated blocklist for all configured providers"
-add list="anti-all-configured-providers" address="97.74.84.0/24" comment="Generated blocklist for all configured providers"
 add list="anti-all-configured-providers" address="97.74.87.0/24" comment="Generated blocklist for all configured providers"
 add list="anti-all-configured-providers" address="97.74.88.0/21" comment="Generated blocklist for all configured providers"
-add list="anti-all-configured-providers" address="97.74.95.0/24" comment="Generated blocklist for all configured providers"
 add list="anti-all-configured-providers" address="97.74.96.0/19" comment="Generated blocklist for all configured providers"
 add list="anti-all-configured-providers" address="98.128.0.0/16" comment="Generated blocklist for all configured providers"
 add list="anti-all-configured-providers" address="98.130.0.0/15" comment="Generated blocklist for all configured providers"

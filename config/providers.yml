@@ -340,3 +340,6 @@ providers:
     - name: Korbank S. A.
       asns:
         - AS35179
+    - name: China Telecom Beijing IDC Network
+      asns:
+        - AS23724

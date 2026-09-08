@@ -1,6 +1,6 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for Host Universal
-# Entries: 82
+# Entries: 83
 #
 /ip firewall address-list
 add list="anti-host-as-ap-host-universal-pty-ltd" address="103.108.229.0/24" comment="Generated blocklist for Host Universal"
@@ -81,6 +81,7 @@ add list="anti-host-as-ap-host-universal-pty-ltd" address="45.252.188.0/24" comm
 add list="anti-host-as-ap-host-universal-pty-ltd" address="45.252.189.0/24" comment="Generated blocklist for Host Universal"
 add list="anti-host-as-ap-host-universal-pty-ltd" address="45.252.191.0/24" comment="Generated blocklist for Host Universal"
 add list="anti-host-as-ap-host-universal-pty-ltd" address="45.67.86.0/24" comment="Generated blocklist for Host Universal"
+add list="anti-host-as-ap-host-universal-pty-ltd" address="5.183.77.0/24" comment="Generated blocklist for Host Universal"
 add list="anti-host-as-ap-host-universal-pty-ltd" address="61.248.255.0/24" comment="Generated blocklist for Host Universal"
 add list="anti-host-as-ap-host-universal-pty-ltd" address="66.118.247.0/24" comment="Generated blocklist for Host Universal"
 add list="anti-host-as-ap-host-universal-pty-ltd" address="91.190.106.0/24" comment="Generated blocklist for Host Universal"

@@ -1,6 +1,6 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for vultr
-# Entries: 1736
+# Entries: 1732
 #
 /ip firewall address-list
 add list="anti-as-vultr-the-constant-company-llc" address="103.122.125.0/24" comment="Generated blocklist for vultr"
@@ -1381,9 +1381,6 @@ add list="anti-as-vultr-the-constant-company-llc" address="5.102.114.0/24" comme
 add list="anti-as-vultr-the-constant-company-llc" address="5.102.115.0/24" comment="Generated blocklist for vultr"
 add list="anti-as-vultr-the-constant-company-llc" address="5.182.22.0/24" comment="Generated blocklist for vultr"
 add list="anti-as-vultr-the-constant-company-llc" address="5.199.15.0/24" comment="Generated blocklist for vultr"
-add list="anti-as-vultr-the-constant-company-llc" address="5.199.22.0/24" comment="Generated blocklist for vultr"
-add list="anti-as-vultr-the-constant-company-llc" address="5.199.23.0/24" comment="Generated blocklist for vultr"
-add list="anti-as-vultr-the-constant-company-llc" address="5.199.24.0/24" comment="Generated blocklist for vultr"
 add list="anti-as-vultr-the-constant-company-llc" address="5.83.210.0/24" comment="Generated blocklist for vultr"
 add list="anti-as-vultr-the-constant-company-llc" address="5.83.212.0/24" comment="Generated blocklist for vultr"
 add list="anti-as-vultr-the-constant-company-llc" address="50.114.238.0/24" comment="Generated blocklist for vultr"
@@ -1507,7 +1504,6 @@ add list="anti-as-vultr-the-constant-company-llc" address="72.11.136.0/23" comme
 add list="anti-as-vultr-the-constant-company-llc" address="74.49.196.0/22" comment="Generated blocklist for vultr"
 add list="anti-as-vultr-the-constant-company-llc" address="74.49.204.0/23" comment="Generated blocklist for vultr"
 add list="anti-as-vultr-the-constant-company-llc" address="74.49.206.0/24" comment="Generated blocklist for vultr"
-add list="anti-as-vultr-the-constant-company-llc" address="74.49.213.0/24" comment="Generated blocklist for vultr"
 add list="anti-as-vultr-the-constant-company-llc" address="74.49.225.0/24" comment="Generated blocklist for vultr"
 add list="anti-as-vultr-the-constant-company-llc" address="74.49.226.0/24" comment="Generated blocklist for vultr"
 add list="anti-as-vultr-the-constant-company-llc" address="74.49.228.0/24" comment="Generated blocklist for vultr"

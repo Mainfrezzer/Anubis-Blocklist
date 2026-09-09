@@ -1,6 +1,6 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for HostRoyale
-# Entries: 2747
+# Entries: 2746
 #
 /ip firewall address-list
 add list="anti-hostroyale-hostroyale-technologies-pvt-ltd" address="103.102.246.0/23" comment="Generated blocklist for HostRoyale"
@@ -524,7 +524,6 @@ add list="anti-hostroyale-hostroyale-technologies-pvt-ltd" address="153.52.214.0
 add list="anti-hostroyale-hostroyale-technologies-pvt-ltd" address="153.52.216.0/24" comment="Generated blocklist for HostRoyale"
 add list="anti-hostroyale-hostroyale-technologies-pvt-ltd" address="153.52.221.0/24" comment="Generated blocklist for HostRoyale"
 add list="anti-hostroyale-hostroyale-technologies-pvt-ltd" address="153.52.222.0/24" comment="Generated blocklist for HostRoyale"
-add list="anti-hostroyale-hostroyale-technologies-pvt-ltd" address="153.79.112.0/20" comment="Generated blocklist for HostRoyale"
 add list="anti-hostroyale-hostroyale-technologies-pvt-ltd" address="154.73.248.0/24" comment="Generated blocklist for HostRoyale"
 add list="anti-hostroyale-hostroyale-technologies-pvt-ltd" address="154.73.249.0/24" comment="Generated blocklist for HostRoyale"
 add list="anti-hostroyale-hostroyale-technologies-pvt-ltd" address="154.73.250.0/24" comment="Generated blocklist for HostRoyale"

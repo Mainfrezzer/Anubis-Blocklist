@@ -1,9 +1,8 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for UNMANAGED LTD
-# Entries: 24
+# Entries: 23
 #
 /ip firewall address-list
-add list="anti-unmanaged-dedicated-servers-unmanaged-ltd" address="154.214.198.0/24" comment="Generated blocklist for UNMANAGED LTD"
 add list="anti-unmanaged-dedicated-servers-unmanaged-ltd" address="154.214.205.0/24" comment="Generated blocklist for UNMANAGED LTD"
 add list="anti-unmanaged-dedicated-servers-unmanaged-ltd" address="154.214.213.0/24" comment="Generated blocklist for UNMANAGED LTD"
 add list="anti-unmanaged-dedicated-servers-unmanaged-ltd" address="185.232.64.0/24" comment="Generated blocklist for UNMANAGED LTD"

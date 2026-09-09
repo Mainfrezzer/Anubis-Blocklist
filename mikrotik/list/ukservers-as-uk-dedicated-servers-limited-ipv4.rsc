@@ -1,6 +1,6 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for ukserver.com
-# Entries: 311
+# Entries: 306
 #
 /ip firewall address-list
 add list="anti-ukservers-as-uk-dedicated-servers-limited" address="102.165.56.0/24" comment="Generated blocklist for ukserver.com"
@@ -195,8 +195,6 @@ add list="anti-ukservers-as-uk-dedicated-servers-limited" address="45.150.4.0/24
 add list="anti-ukservers-as-uk-dedicated-servers-limited" address="45.155.100.0/23" comment="Generated blocklist for ukserver.com"
 add list="anti-ukservers-as-uk-dedicated-servers-limited" address="45.43.86.0/24" comment="Generated blocklist for ukserver.com"
 add list="anti-ukservers-as-uk-dedicated-servers-limited" address="45.8.184.0/24" comment="Generated blocklist for ukserver.com"
-add list="anti-ukservers-as-uk-dedicated-servers-limited" address="46.102.158.0/24" comment="Generated blocklist for ukserver.com"
-add list="anti-ukservers-as-uk-dedicated-servers-limited" address="46.102.159.0/24" comment="Generated blocklist for ukserver.com"
 add list="anti-ukservers-as-uk-dedicated-servers-limited" address="46.182.22.0/24" comment="Generated blocklist for ukserver.com"
 add list="anti-ukservers-as-uk-dedicated-servers-limited" address="46.203.105.0/24" comment="Generated blocklist for ukserver.com"
 add list="anti-ukservers-as-uk-dedicated-servers-limited" address="46.203.93.0/24" comment="Generated blocklist for ukserver.com"
@@ -209,7 +207,6 @@ add list="anti-ukservers-as-uk-dedicated-servers-limited" address="5.101.168.0/2
 add list="anti-ukservers-as-uk-dedicated-servers-limited" address="5.181.124.0/24" comment="Generated blocklist for ukserver.com"
 add list="anti-ukservers-as-uk-dedicated-servers-limited" address="5.252.78.0/24" comment="Generated blocklist for ukserver.com"
 add list="anti-ukservers-as-uk-dedicated-servers-limited" address="5.56.31.0/24" comment="Generated blocklist for ukserver.com"
-add list="anti-ukservers-as-uk-dedicated-servers-limited" address="5.8.251.0/24" comment="Generated blocklist for ukserver.com"
 add list="anti-ukservers-as-uk-dedicated-servers-limited" address="5.83.215.0/24" comment="Generated blocklist for ukserver.com"
 add list="anti-ukservers-as-uk-dedicated-servers-limited" address="50.114.244.0/22" comment="Generated blocklist for ukserver.com"
 add list="anti-ukservers-as-uk-dedicated-servers-limited" address="50.114.252.0/22" comment="Generated blocklist for ukserver.com"
@@ -297,8 +294,6 @@ add list="anti-ukservers-as-uk-dedicated-servers-limited" address="92.62.248.0/2
 add list="anti-ukservers-as-uk-dedicated-servers-limited" address="93.88.152.0/24" comment="Generated blocklist for ukserver.com"
 add list="anti-ukservers-as-uk-dedicated-servers-limited" address="93.88.159.0/24" comment="Generated blocklist for ukserver.com"
 add list="anti-ukservers-as-uk-dedicated-servers-limited" address="94.136.168.0/22" comment="Generated blocklist for ukserver.com"
-add list="anti-ukservers-as-uk-dedicated-servers-limited" address="94.177.134.0/24" comment="Generated blocklist for ukserver.com"
-add list="anti-ukservers-as-uk-dedicated-servers-limited" address="94.177.135.0/24" comment="Generated blocklist for ukserver.com"
 add list="anti-ukservers-as-uk-dedicated-servers-limited" address="94.229.64.0/20" comment="Generated blocklist for ukserver.com"
 add list="anti-ukservers-as-uk-dedicated-servers-limited" address="94.232.254.0/24" comment="Generated blocklist for ukserver.com"
 add list="anti-ukservers-as-uk-dedicated-servers-limited" address="94.46.184.0/22" comment="Generated blocklist for ukserver.com"

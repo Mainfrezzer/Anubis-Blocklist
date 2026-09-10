@@ -1,11 +1,15 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for Ufinet Brasil Wixnet
-# Entries: 19
+# Entries: 23
 #
 /ip firewall address-list
 add list="anti-as53013-ufinet-brasil-s-a" address="177.67.80.0/22" comment="Generated blocklist for Ufinet Brasil Wixnet"
 add list="anti-as53013-ufinet-brasil-s-a" address="177.67.80.0/23" comment="Generated blocklist for Ufinet Brasil Wixnet"
+add list="anti-as53013-ufinet-brasil-s-a" address="177.67.80.0/24" comment="Generated blocklist for Ufinet Brasil Wixnet"
+add list="anti-as53013-ufinet-brasil-s-a" address="177.67.81.0/24" comment="Generated blocklist for Ufinet Brasil Wixnet"
 add list="anti-as53013-ufinet-brasil-s-a" address="177.67.82.0/23" comment="Generated blocklist for Ufinet Brasil Wixnet"
+add list="anti-as53013-ufinet-brasil-s-a" address="177.67.82.0/24" comment="Generated blocklist for Ufinet Brasil Wixnet"
+add list="anti-as53013-ufinet-brasil-s-a" address="177.67.83.0/24" comment="Generated blocklist for Ufinet Brasil Wixnet"
 add list="anti-as53013-ufinet-brasil-s-a" address="177.67.84.0/24" comment="Generated blocklist for Ufinet Brasil Wixnet"
 add list="anti-as53013-ufinet-brasil-s-a" address="177.67.85.0/24" comment="Generated blocklist for Ufinet Brasil Wixnet"
 add list="anti-as53013-ufinet-brasil-s-a" address="177.67.86.0/24" comment="Generated blocklist for Ufinet Brasil Wixnet"

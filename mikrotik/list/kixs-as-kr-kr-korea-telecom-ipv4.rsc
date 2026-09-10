@@ -1,6 +1,6 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for Korea Telecom
-# Entries: 2368
+# Entries: 2362
 #
 /ip firewall address-list
 add list="anti-kixs-as-kr-kr-korea-telecom" address="1.100.0.0/14" comment="Generated blocklist for Korea Telecom"
@@ -1709,7 +1709,6 @@ add list="anti-kixs-as-kr-kr-korea-telecom" address="220.120.122.0/24" comment="
 add list="anti-kixs-as-kr-kr-korea-telecom" address="220.120.228.0/23" comment="Generated blocklist for Korea Telecom"
 add list="anti-kixs-as-kr-kr-korea-telecom" address="220.121.131.128/25" comment="Generated blocklist for Korea Telecom"
 add list="anti-kixs-as-kr-kr-korea-telecom" address="220.123.193.0/24" comment="Generated blocklist for Korea Telecom"
-add list="anti-kixs-as-kr-kr-korea-telecom" address="220.125.107.0/24" comment="Generated blocklist for Korea Telecom"
 add list="anti-kixs-as-kr-kr-korea-telecom" address="220.125.109.0/24" comment="Generated blocklist for Korea Telecom"
 add list="anti-kixs-as-kr-kr-korea-telecom" address="220.125.139.0/24" comment="Generated blocklist for Korea Telecom"
 add list="anti-kixs-as-kr-kr-korea-telecom" address="220.125.143.0/24" comment="Generated blocklist for Korea Telecom"
@@ -1983,10 +1982,6 @@ add list="anti-kixs-as-kr-kr-korea-telecom" address="220.90.110.0/24" comment="G
 add list="anti-kixs-as-kr-kr-korea-telecom" address="220.90.112.0/22" comment="Generated blocklist for Korea Telecom"
 add list="anti-kixs-as-kr-kr-korea-telecom" address="220.90.116.0/24" comment="Generated blocklist for Korea Telecom"
 add list="anti-kixs-as-kr-kr-korea-telecom" address="220.90.140.0/24" comment="Generated blocklist for Korea Telecom"
-add list="anti-kixs-as-kr-kr-korea-telecom" address="220.90.141.0/24" comment="Generated blocklist for Korea Telecom"
-add list="anti-kixs-as-kr-kr-korea-telecom" address="220.90.142.0/23" comment="Generated blocklist for Korea Telecom"
-add list="anti-kixs-as-kr-kr-korea-telecom" address="220.90.144.0/21" comment="Generated blocklist for Korea Telecom"
-add list="anti-kixs-as-kr-kr-korea-telecom" address="220.90.152.0/22" comment="Generated blocklist for Korea Telecom"
 add list="anti-kixs-as-kr-kr-korea-telecom" address="220.90.166.0/24" comment="Generated blocklist for Korea Telecom"
 add list="anti-kixs-as-kr-kr-korea-telecom" address="220.90.25.0/24" comment="Generated blocklist for Korea Telecom"
 add list="anti-kixs-as-kr-kr-korea-telecom" address="220.90.96.0/25" comment="Generated blocklist for Korea Telecom"
@@ -2060,7 +2055,6 @@ add list="anti-kixs-as-kr-kr-korea-telecom" address="222.109.174.0/24" comment="
 add list="anti-kixs-as-kr-kr-korea-telecom" address="222.109.236.0/24" comment="Generated blocklist for Korea Telecom"
 add list="anti-kixs-as-kr-kr-korea-telecom" address="222.112.0.0/13" comment="Generated blocklist for Korea Telecom"
 add list="anti-kixs-as-kr-kr-korea-telecom" address="222.116.119.0/24" comment="Generated blocklist for Korea Telecom"
-add list="anti-kixs-as-kr-kr-korea-telecom" address="222.116.120.0/21" comment="Generated blocklist for Korea Telecom"
 add list="anti-kixs-as-kr-kr-korea-telecom" address="222.116.133.0/24" comment="Generated blocklist for Korea Telecom"
 add list="anti-kixs-as-kr-kr-korea-telecom" address="222.116.134.0/23" comment="Generated blocklist for Korea Telecom"
 add list="anti-kixs-as-kr-kr-korea-telecom" address="222.116.136.0/24" comment="Generated blocklist for Korea Telecom"

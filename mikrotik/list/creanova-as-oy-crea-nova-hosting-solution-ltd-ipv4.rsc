@@ -1,6 +1,6 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for Oy Crea Nova
-# Entries: 81
+# Entries: 80
 #
 /ip firewall address-list
 add list="anti-creanova-as-oy-crea-nova-hosting-solution-ltd" address="103.101.88.0/22" comment="Generated blocklist for Oy Crea Nova"
@@ -83,4 +83,3 @@ add list="anti-creanova-as-oy-crea-nova-hosting-solution-ltd" address="91.233.11
 add list="anti-creanova-as-oy-crea-nova-hosting-solution-ltd" address="94.26.107.0/24" comment="Generated blocklist for Oy Crea Nova"
 add list="anti-creanova-as-oy-crea-nova-hosting-solution-ltd" address="94.26.33.0/24" comment="Generated blocklist for Oy Crea Nova"
 add list="anti-creanova-as-oy-crea-nova-hosting-solution-ltd" address="94.26.34.0/24" comment="Generated blocklist for Oy Crea Nova"
-add list="anti-creanova-as-oy-crea-nova-hosting-solution-ltd" address="94.26.70.0/24" comment="Generated blocklist for Oy Crea Nova"

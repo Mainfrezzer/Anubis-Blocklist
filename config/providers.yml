@@ -346,3 +346,6 @@ providers:
     - name: Hangzhou Alibaba Advertising
       asns:
         - AS37963
+    - name: PT Telkom Indonesia Tb
+      asns:
+        - AS7713

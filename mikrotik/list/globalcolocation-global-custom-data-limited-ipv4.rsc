@@ -1,6 +1,6 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for Global Custom Data Limited
-# Entries: 41
+# Entries: 42
 #
 /ip firewall address-list
 add list="anti-globalcolocation-global-custom-data-limited" address="158.222.3.0/24" comment="Generated blocklist for Global Custom Data Limited"
@@ -39,6 +39,7 @@ add list="anti-globalcolocation-global-custom-data-limited" address="196.242.141
 add list="anti-globalcolocation-global-custom-data-limited" address="196.242.70.0/24" comment="Generated blocklist for Global Custom Data Limited"
 add list="anti-globalcolocation-global-custom-data-limited" address="196.242.72.0/24" comment="Generated blocklist for Global Custom Data Limited"
 add list="anti-globalcolocation-global-custom-data-limited" address="196.242.77.0/24" comment="Generated blocklist for Global Custom Data Limited"
+add list="anti-globalcolocation-global-custom-data-limited" address="196.244.200.0/24" comment="Generated blocklist for Global Custom Data Limited"
 add list="anti-globalcolocation-global-custom-data-limited" address="196.245.231.0/24" comment="Generated blocklist for Global Custom Data Limited"
 add list="anti-globalcolocation-global-custom-data-limited" address="196.247.43.0/24" comment="Generated blocklist for Global Custom Data Limited"
 add list="anti-globalcolocation-global-custom-data-limited" address="196.58.13.0/24" comment="Generated blocklist for Global Custom Data Limited"

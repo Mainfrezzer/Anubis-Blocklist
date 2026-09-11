@@ -1,6 +1,6 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for Global Layer
-# Entries: 117
+# Entries: 114
 #
 /ip firewall address-list
 add list="anti-globallayer-global-layer-b-v" address="109.202.100.0/24" comment="Generated blocklist for Global Layer"
@@ -61,9 +61,6 @@ add list="anti-globallayer-global-layer-b-v" address="188.95.51.0/24" comment="G
 add list="anti-globallayer-global-layer-b-v" address="188.95.53.0/24" comment="Generated blocklist for Global Layer"
 add list="anti-globallayer-global-layer-b-v" address="188.95.54.0/24" comment="Generated blocklist for Global Layer"
 add list="anti-globallayer-global-layer-b-v" address="188.95.55.0/24" comment="Generated blocklist for Global Layer"
-add list="anti-globallayer-global-layer-b-v" address="194.77.24.0/24" comment="Generated blocklist for Global Layer"
-add list="anti-globallayer-global-layer-b-v" address="194.77.25.0/24" comment="Generated blocklist for Global Layer"
-add list="anti-globallayer-global-layer-b-v" address="194.77.60.0/24" comment="Generated blocklist for Global Layer"
 add list="anti-globallayer-global-layer-b-v" address="212.135.104.0/22" comment="Generated blocklist for Global Layer"
 add list="anti-globallayer-global-layer-b-v" address="212.135.104.0/23" comment="Generated blocklist for Global Layer"
 add list="anti-globallayer-global-layer-b-v" address="212.135.106.0/23" comment="Generated blocklist for Global Layer"

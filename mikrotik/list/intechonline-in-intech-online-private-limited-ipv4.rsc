@@ -1,6 +1,6 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for Intech Online Private Limited
-# Entries: 151
+# Entries: 150
 #
 /ip firewall address-list
 add list="anti-intechonline-in-intech-online-private-limited" address="103.111.132.0/24" comment="Generated blocklist for Intech Online Private Limited"
@@ -138,7 +138,6 @@ add list="anti-intechonline-in-intech-online-private-limited" address="45.114.19
 add list="anti-intechonline-in-intech-online-private-limited" address="45.114.194.0/24" comment="Generated blocklist for Intech Online Private Limited"
 add list="anti-intechonline-in-intech-online-private-limited" address="45.114.195.0/24" comment="Generated blocklist for Intech Online Private Limited"
 add list="anti-intechonline-in-intech-online-private-limited" address="45.117.0.0/24" comment="Generated blocklist for Intech Online Private Limited"
-add list="anti-intechonline-in-intech-online-private-limited" address="45.117.2.0/24" comment="Generated blocklist for Intech Online Private Limited"
 add list="anti-intechonline-in-intech-online-private-limited" address="45.117.3.0/24" comment="Generated blocklist for Intech Online Private Limited"
 add list="anti-intechonline-in-intech-online-private-limited" address="45.127.120.0/24" comment="Generated blocklist for Intech Online Private Limited"
 add list="anti-intechonline-in-intech-online-private-limited" address="45.127.121.0/24" comment="Generated blocklist for Intech Online Private Limited"

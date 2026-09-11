@@ -349,3 +349,6 @@ providers:
     - name: PT Telkom Indonesia Tb
       asns:
         - AS7713
+    - name: Oracle Cloud
+      asns:
+        - AS31898

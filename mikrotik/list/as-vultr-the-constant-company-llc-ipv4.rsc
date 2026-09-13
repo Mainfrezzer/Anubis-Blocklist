@@ -1,6 +1,6 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for vultr
-# Entries: 1736
+# Entries: 1738
 #
 /ip firewall address-list
 add list="anti-as-vultr-the-constant-company-llc" address="103.122.125.0/24" comment="Generated blocklist for vultr"
@@ -43,6 +43,7 @@ add list="anti-as-vultr-the-constant-company-llc" address="104.207.144.0/22" com
 add list="anti-as-vultr-the-constant-company-llc" address="104.207.148.0/22" comment="Generated blocklist for vultr"
 add list="anti-as-vultr-the-constant-company-llc" address="104.207.152.0/22" comment="Generated blocklist for vultr"
 add list="anti-as-vultr-the-constant-company-llc" address="104.207.156.0/22" comment="Generated blocklist for vultr"
+add list="anti-as-vultr-the-constant-company-llc" address="104.224.44.0/24" comment="Generated blocklist for vultr"
 add list="anti-as-vultr-the-constant-company-llc" address="104.234.150.0/24" comment="Generated blocklist for vultr"
 add list="anti-as-vultr-the-constant-company-llc" address="104.234.242.0/24" comment="Generated blocklist for vultr"
 add list="anti-as-vultr-the-constant-company-llc" address="104.238.128.0/21" comment="Generated blocklist for vultr"
@@ -1674,6 +1675,7 @@ add list="anti-as-vultr-the-constant-company-llc" address="89.38.107.0/24" comme
 add list="anti-as-vultr-the-constant-company-llc" address="89.39.214.0/24" comment="Generated blocklist for vultr"
 add list="anti-as-vultr-the-constant-company-llc" address="89.40.43.0/24" comment="Generated blocklist for vultr"
 add list="anti-as-vultr-the-constant-company-llc" address="91.103.141.0/24" comment="Generated blocklist for vultr"
+add list="anti-as-vultr-the-constant-company-llc" address="91.108.252.0/24" comment="Generated blocklist for vultr"
 add list="anti-as-vultr-the-constant-company-llc" address="91.124.196.0/24" comment="Generated blocklist for vultr"
 add list="anti-as-vultr-the-constant-company-llc" address="91.124.238.0/24" comment="Generated blocklist for vultr"
 add list="anti-as-vultr-the-constant-company-llc" address="91.206.48.0/24" comment="Generated blocklist for vultr"

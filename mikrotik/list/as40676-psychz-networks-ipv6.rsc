@@ -1,6 +1,6 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for Psychz Networks
-# Entries: 117
+# Entries: 118
 #
 /ipv6 firewall address-list
 add list="anti-as40676-psychz-networks" address="2406:4f40:10::/46" comment="Generated blocklist for Psychz Networks"
@@ -61,6 +61,7 @@ add list="anti-as40676-psychz-networks" address="2604:6600:fd00::/48" comment="G
 add list="anti-as40676-psychz-networks" address="2604:6600:fdb6::/48" comment="Generated blocklist for Psychz Networks"
 add list="anti-as40676-psychz-networks" address="2604:6600:fdc0::/48" comment="Generated blocklist for Psychz Networks"
 add list="anti-as40676-psychz-networks" address="2604:6600:fe7c::/48" comment="Generated blocklist for Psychz Networks"
+add list="anti-as40676-psychz-networks" address="2604:6600:fffb::/48" comment="Generated blocklist for Psychz Networks"
 add list="anti-as40676-psychz-networks" address="2604:6600:fffc::/48" comment="Generated blocklist for Psychz Networks"
 add list="anti-as40676-psychz-networks" address="2604:6600:fffd::/48" comment="Generated blocklist for Psychz Networks"
 add list="anti-as40676-psychz-networks" address="2604:980:1::/48" comment="Generated blocklist for Psychz Networks"

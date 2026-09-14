@@ -1,6 +1,6 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for amazon
-# Entries: 19446
+# Entries: 19455
 #
 /ip firewall address-list
 add list="anti-amazon-02-amazon-com-inc" address="1.118.3.0/24" comment="Generated blocklist for amazon"
@@ -4344,6 +4344,7 @@ add list="anti-amazon-02-amazon-com-inc" address="15.197.6.0/23" comment="Genera
 add list="anti-amazon-02-amazon-com-inc" address="15.197.6.0/24" comment="Generated blocklist for amazon"
 add list="anti-amazon-02-amazon-com-inc" address="15.197.64.0/20" comment="Generated blocklist for amazon"
 add list="anti-amazon-02-amazon-com-inc" address="15.197.7.0/24" comment="Generated blocklist for amazon"
+add list="anti-amazon-02-amazon-com-inc" address="15.197.8.0/24" comment="Generated blocklist for amazon"
 add list="anti-amazon-02-amazon-com-inc" address="15.197.80.0/20" comment="Generated blocklist for amazon"
 add list="anti-amazon-02-amazon-com-inc" address="15.198.0.0/16" comment="Generated blocklist for amazon"
 add list="anti-amazon-02-amazon-com-inc" address="15.199.0.0/16" comment="Generated blocklist for amazon"
@@ -5123,6 +5124,8 @@ add list="anti-amazon-02-amazon-com-inc" address="159.172.202.0/24" comment="Gen
 add list="anti-amazon-02-amazon-com-inc" address="159.172.203.0/24" comment="Generated blocklist for amazon"
 add list="anti-amazon-02-amazon-com-inc" address="159.172.204.0/24" comment="Generated blocklist for amazon"
 add list="anti-amazon-02-amazon-com-inc" address="159.172.205.0/24" comment="Generated blocklist for amazon"
+add list="anti-amazon-02-amazon-com-inc" address="159.172.206.0/24" comment="Generated blocklist for amazon"
+add list="anti-amazon-02-amazon-com-inc" address="159.172.207.0/24" comment="Generated blocklist for amazon"
 add list="anti-amazon-02-amazon-com-inc" address="159.172.224.0/24" comment="Generated blocklist for amazon"
 add list="anti-amazon-02-amazon-com-inc" address="159.172.225.0/24" comment="Generated blocklist for amazon"
 add list="anti-amazon-02-amazon-com-inc" address="159.172.226.0/24" comment="Generated blocklist for amazon"
@@ -5552,6 +5555,10 @@ add list="anti-amazon-02-amazon-com-inc" address="16.192.0.0/16" comment="Genera
 add list="anti-amazon-02-amazon-com-inc" address="16.192.0.0/17" comment="Generated blocklist for amazon"
 add list="anti-amazon-02-amazon-com-inc" address="16.192.128.0/17" comment="Generated blocklist for amazon"
 add list="anti-amazon-02-amazon-com-inc" address="16.20.0.0/16" comment="Generated blocklist for amazon"
+add list="anti-amazon-02-amazon-com-inc" address="16.20.0.0/22" comment="Generated blocklist for amazon"
+add list="anti-amazon-02-amazon-com-inc" address="16.20.0.0/24" comment="Generated blocklist for amazon"
+add list="anti-amazon-02-amazon-com-inc" address="16.20.16.0/22" comment="Generated blocklist for amazon"
+add list="anti-amazon-02-amazon-com-inc" address="16.20.16.0/24" comment="Generated blocklist for amazon"
 add list="anti-amazon-02-amazon-com-inc" address="16.20.200.0/22" comment="Generated blocklist for amazon"
 add list="anti-amazon-02-amazon-com-inc" address="16.20.200.0/24" comment="Generated blocklist for amazon"
 add list="anti-amazon-02-amazon-com-inc" address="16.20.201.0/24" comment="Generated blocklist for amazon"
@@ -5611,6 +5618,8 @@ add list="anti-amazon-02-amazon-com-inc" address="16.20.252.0/22" comment="Gener
 add list="anti-amazon-02-amazon-com-inc" address="16.20.252.0/24" comment="Generated blocklist for amazon"
 add list="anti-amazon-02-amazon-com-inc" address="16.20.253.0/24" comment="Generated blocklist for amazon"
 add list="anti-amazon-02-amazon-com-inc" address="16.20.254.0/24" comment="Generated blocklist for amazon"
+add list="anti-amazon-02-amazon-com-inc" address="16.20.32.0/22" comment="Generated blocklist for amazon"
+add list="anti-amazon-02-amazon-com-inc" address="16.20.32.0/24" comment="Generated blocklist for amazon"
 add list="anti-amazon-02-amazon-com-inc" address="16.20.40.0/22" comment="Generated blocklist for amazon"
 add list="anti-amazon-02-amazon-com-inc" address="16.20.8.0/22" comment="Generated blocklist for amazon"
 add list="anti-amazon-02-amazon-com-inc" address="16.20.8.0/24" comment="Generated blocklist for amazon"

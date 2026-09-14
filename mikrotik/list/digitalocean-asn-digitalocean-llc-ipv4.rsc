@@ -1,6 +1,6 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for digitalocean
-# Entries: 868
+# Entries: 869
 #
 /ip firewall address-list
 add list="anti-digitalocean-asn-digitalocean-llc" address="103.253.144.0/22" comment="Generated blocklist for digitalocean"
@@ -706,6 +706,7 @@ add list="anti-digitalocean-asn-digitalocean-llc" address="198.211.96.0/20" comm
 add list="anti-digitalocean-asn-digitalocean-llc" address="201.79.0.0/20" comment="Generated blocklist for digitalocean"
 add list="anti-digitalocean-asn-digitalocean-llc" address="201.79.16.0/20" comment="Generated blocklist for digitalocean"
 add list="anti-digitalocean-asn-digitalocean-llc" address="201.79.32.0/20" comment="Generated blocklist for digitalocean"
+add list="anti-digitalocean-asn-digitalocean-llc" address="201.79.48.0/20" comment="Generated blocklist for digitalocean"
 add list="anti-digitalocean-asn-digitalocean-llc" address="204.48.16.0/20" comment="Generated blocklist for digitalocean"
 add list="anti-digitalocean-asn-digitalocean-llc" address="206.189.0.0/20" comment="Generated blocklist for digitalocean"
 add list="anti-digitalocean-asn-digitalocean-llc" address="206.189.112.0/20" comment="Generated blocklist for digitalocean"

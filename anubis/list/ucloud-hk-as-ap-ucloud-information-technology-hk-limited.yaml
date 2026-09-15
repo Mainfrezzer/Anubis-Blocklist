@@ -4,6 +4,7 @@
     difficulty: 64
     algorithm: fast
   remote_addresses:
+  - 101.237.228.0/24
   - 101.237.229.0/24
   - 101.237.232.0/24
   - 101.237.233.0/24

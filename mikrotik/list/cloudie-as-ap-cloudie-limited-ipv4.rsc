@@ -1,12 +1,14 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for Cloudie Limited
-# Entries: 360
+# Entries: 359
 #
 /ip firewall address-list
 add list="anti-cloudie-as-ap-cloudie-limited" address="102.134.32.0/22" comment="Generated blocklist for Cloudie Limited"
 add list="anti-cloudie-as-ap-cloudie-limited" address="102.134.32.0/23" comment="Generated blocklist for Cloudie Limited"
 add list="anti-cloudie-as-ap-cloudie-limited" address="102.134.34.0/23" comment="Generated blocklist for Cloudie Limited"
 add list="anti-cloudie-as-ap-cloudie-limited" address="102.220.88.0/22" comment="Generated blocklist for Cloudie Limited"
+add list="anti-cloudie-as-ap-cloudie-limited" address="102.220.88.0/24" comment="Generated blocklist for Cloudie Limited"
+add list="anti-cloudie-as-ap-cloudie-limited" address="102.220.91.0/24" comment="Generated blocklist for Cloudie Limited"
 add list="anti-cloudie-as-ap-cloudie-limited" address="103.100.158.0/23" comment="Generated blocklist for Cloudie Limited"
 add list="anti-cloudie-as-ap-cloudie-limited" address="103.100.159.0/24" comment="Generated blocklist for Cloudie Limited"
 add list="anti-cloudie-as-ap-cloudie-limited" address="103.104.198.0/23" comment="Generated blocklist for Cloudie Limited"
@@ -217,9 +219,6 @@ add list="anti-cloudie-as-ap-cloudie-limited" address="156.254.7.0/24" comment="
 add list="anti-cloudie-as-ap-cloudie-limited" address="161.248.108.0/23" comment="Generated blocklist for Cloudie Limited"
 add list="anti-cloudie-as-ap-cloudie-limited" address="161.248.108.0/24" comment="Generated blocklist for Cloudie Limited"
 add list="anti-cloudie-as-ap-cloudie-limited" address="161.248.109.0/24" comment="Generated blocklist for Cloudie Limited"
-add list="anti-cloudie-as-ap-cloudie-limited" address="178.255.244.0/23" comment="Generated blocklist for Cloudie Limited"
-add list="anti-cloudie-as-ap-cloudie-limited" address="178.255.244.0/24" comment="Generated blocklist for Cloudie Limited"
-add list="anti-cloudie-as-ap-cloudie-limited" address="178.255.245.0/24" comment="Generated blocklist for Cloudie Limited"
 add list="anti-cloudie-as-ap-cloudie-limited" address="182.237.0.0/22" comment="Generated blocklist for Cloudie Limited"
 add list="anti-cloudie-as-ap-cloudie-limited" address="182.237.0.0/23" comment="Generated blocklist for Cloudie Limited"
 add list="anti-cloudie-as-ap-cloudie-limited" address="182.237.2.0/23" comment="Generated blocklist for Cloudie Limited"

@@ -1,6 +1,6 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for Global Layer
-# Entries: 114
+# Entries: 108
 #
 /ip firewall address-list
 add list="anti-globallayer-global-layer-b-v" address="109.202.100.0/24" comment="Generated blocklist for Global Layer"
@@ -25,9 +25,6 @@ add list="anti-globallayer-global-layer-b-v" address="109.232.228.0/24" comment=
 add list="anti-globallayer-global-layer-b-v" address="109.232.229.0/24" comment="Generated blocklist for Global Layer"
 add list="anti-globallayer-global-layer-b-v" address="109.232.230.0/24" comment="Generated blocklist for Global Layer"
 add list="anti-globallayer-global-layer-b-v" address="109.232.231.0/24" comment="Generated blocklist for Global Layer"
-add list="anti-globallayer-global-layer-b-v" address="13.141.124.0/22" comment="Generated blocklist for Global Layer"
-add list="anti-globallayer-global-layer-b-v" address="13.141.36.0/22" comment="Generated blocklist for Global Layer"
-add list="anti-globallayer-global-layer-b-v" address="13.141.52.0/22" comment="Generated blocklist for Global Layer"
 add list="anti-globallayer-global-layer-b-v" address="134.19.177.0/24" comment="Generated blocklist for Global Layer"
 add list="anti-globallayer-global-layer-b-v" address="134.19.178.0/24" comment="Generated blocklist for Global Layer"
 add list="anti-globallayer-global-layer-b-v" address="134.19.179.0/24" comment="Generated blocklist for Global Layer"
@@ -44,7 +41,6 @@ add list="anti-globallayer-global-layer-b-v" address="134.19.190.0/23" comment="
 add list="anti-globallayer-global-layer-b-v" address="143.20.108.0/22" comment="Generated blocklist for Global Layer"
 add list="anti-globallayer-global-layer-b-v" address="143.20.108.0/23" comment="Generated blocklist for Global Layer"
 add list="anti-globallayer-global-layer-b-v" address="143.20.110.0/23" comment="Generated blocklist for Global Layer"
-add list="anti-globallayer-global-layer-b-v" address="151.246.24.0/21" comment="Generated blocklist for Global Layer"
 add list="anti-globallayer-global-layer-b-v" address="151.246.24.0/22" comment="Generated blocklist for Global Layer"
 add list="anti-globallayer-global-layer-b-v" address="151.246.28.0/22" comment="Generated blocklist for Global Layer"
 add list="anti-globallayer-global-layer-b-v" address="154.193.189.0/24" comment="Generated blocklist for Global Layer"
@@ -61,7 +57,6 @@ add list="anti-globallayer-global-layer-b-v" address="188.95.51.0/24" comment="G
 add list="anti-globallayer-global-layer-b-v" address="188.95.53.0/24" comment="Generated blocklist for Global Layer"
 add list="anti-globallayer-global-layer-b-v" address="188.95.54.0/24" comment="Generated blocklist for Global Layer"
 add list="anti-globallayer-global-layer-b-v" address="188.95.55.0/24" comment="Generated blocklist for Global Layer"
-add list="anti-globallayer-global-layer-b-v" address="212.135.104.0/22" comment="Generated blocklist for Global Layer"
 add list="anti-globallayer-global-layer-b-v" address="212.135.104.0/23" comment="Generated blocklist for Global Layer"
 add list="anti-globallayer-global-layer-b-v" address="212.135.106.0/23" comment="Generated blocklist for Global Layer"
 add list="anti-globallayer-global-layer-b-v" address="212.168.200.0/24" comment="Generated blocklist for Global Layer"
@@ -114,6 +109,5 @@ add list="anti-globallayer-global-layer-b-v" address="45.133.250.0/24" comment="
 add list="anti-globallayer-global-layer-b-v" address="5.188.86.0/24" comment="Generated blocklist for Global Layer"
 add list="anti-globallayer-global-layer-b-v" address="5.188.87.0/24" comment="Generated blocklist for Global Layer"
 add list="anti-globallayer-global-layer-b-v" address="78.41.63.0/24" comment="Generated blocklist for Global Layer"
-add list="anti-globallayer-global-layer-b-v" address="82.40.24.0/21" comment="Generated blocklist for Global Layer"
 add list="anti-globallayer-global-layer-b-v" address="95.155.152.0/23" comment="Generated blocklist for Global Layer"
 add list="anti-globallayer-global-layer-b-v" address="95.155.154.0/23" comment="Generated blocklist for Global Layer"

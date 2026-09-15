@@ -1,8 +1,9 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for ucloud.cn
-# Entries: 741
+# Entries: 742
 #
 /ip firewall address-list
+add list="anti-ucloud-hk-as-ap-ucloud-information-technology-hk-limited" address="101.237.228.0/24" comment="Generated blocklist for ucloud.cn"
 add list="anti-ucloud-hk-as-ap-ucloud-information-technology-hk-limited" address="101.237.229.0/24" comment="Generated blocklist for ucloud.cn"
 add list="anti-ucloud-hk-as-ap-ucloud-information-technology-hk-limited" address="101.237.232.0/24" comment="Generated blocklist for ucloud.cn"
 add list="anti-ucloud-hk-as-ap-ucloud-information-technology-hk-limited" address="101.237.233.0/24" comment="Generated blocklist for ucloud.cn"

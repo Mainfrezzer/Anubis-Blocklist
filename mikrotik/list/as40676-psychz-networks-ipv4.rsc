@@ -1,6 +1,6 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for Psychz Networks
-# Entries: 495
+# Entries: 493
 #
 /ip firewall address-list
 add list="anti-as40676-psychz-networks" address="103.126.136.0/24" comment="Generated blocklist for Psychz Networks"
@@ -26,7 +26,6 @@ add list="anti-as40676-psychz-networks" address="104.244.153.0/24" comment="Gene
 add list="anti-as40676-psychz-networks" address="104.244.154.0/24" comment="Generated blocklist for Psychz Networks"
 add list="anti-as40676-psychz-networks" address="104.244.155.0/24" comment="Generated blocklist for Psychz Networks"
 add list="anti-as40676-psychz-networks" address="104.244.157.0/24" comment="Generated blocklist for Psychz Networks"
-add list="anti-as40676-psychz-networks" address="104.245.232.0/24" comment="Generated blocklist for Psychz Networks"
 add list="anti-as40676-psychz-networks" address="104.253.252.0/24" comment="Generated blocklist for Psychz Networks"
 add list="anti-as40676-psychz-networks" address="104.253.253.0/24" comment="Generated blocklist for Psychz Networks"
 add list="anti-as40676-psychz-networks" address="104.253.254.0/24" comment="Generated blocklist for Psychz Networks"
@@ -323,7 +322,6 @@ add list="anti-as40676-psychz-networks" address="2.56.9.0/24" comment="Generated
 add list="anti-as40676-psychz-networks" address="201.24.166.0/23" comment="Generated blocklist for Psychz Networks"
 add list="anti-as40676-psychz-networks" address="201.24.172.0/23" comment="Generated blocklist for Psychz Networks"
 add list="anti-as40676-psychz-networks" address="201.24.190.0/23" comment="Generated blocklist for Psychz Networks"
-add list="anti-as40676-psychz-networks" address="202.155.136.0/24" comment="Generated blocklist for Psychz Networks"
 add list="anti-as40676-psychz-networks" address="202.5.25.0/24" comment="Generated blocklist for Psychz Networks"
 add list="anti-as40676-psychz-networks" address="205.196.131.0/24" comment="Generated blocklist for Psychz Networks"
 add list="anti-as40676-psychz-networks" address="205.196.132.0/24" comment="Generated blocklist for Psychz Networks"

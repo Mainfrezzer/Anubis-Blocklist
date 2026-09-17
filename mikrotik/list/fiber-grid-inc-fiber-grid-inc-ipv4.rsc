@@ -1,10 +1,12 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for Fiber Grid
-# Entries: 18
+# Entries: 20
 #
 /ip firewall address-list
 add list="anti-fiber-grid-inc-fiber-grid-inc" address="165.231.0.0/16" comment="Generated blocklist for Fiber Grid"
+add list="anti-fiber-grid-inc-fiber-grid-inc" address="165.231.188.0/24" comment="Generated blocklist for Fiber Grid"
 add list="anti-fiber-grid-inc-fiber-grid-inc" address="196.196.0.0/16" comment="Generated blocklist for Fiber Grid"
+add list="anti-fiber-grid-inc-fiber-grid-inc" address="196.196.3.0/24" comment="Generated blocklist for Fiber Grid"
 add list="anti-fiber-grid-inc-fiber-grid-inc" address="196.197.0.0/16" comment="Generated blocklist for Fiber Grid"
 add list="anti-fiber-grid-inc-fiber-grid-inc" address="196.197.28.0/24" comment="Generated blocklist for Fiber Grid"
 add list="anti-fiber-grid-inc-fiber-grid-inc" address="196.198.0.0/16" comment="Generated blocklist for Fiber Grid"

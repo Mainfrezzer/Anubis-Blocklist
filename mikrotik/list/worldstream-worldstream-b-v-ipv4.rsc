@@ -1,6 +1,6 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for WorldStream
-# Entries: 120
+# Entries: 122
 #
 /ip firewall address-list
 add list="anti-worldstream-worldstream-b-v" address="104.234.138.0/24" comment="Generated blocklist for WorldStream"
@@ -61,6 +61,7 @@ add list="anti-worldstream-worldstream-b-v" address="188.208.196.0/24" comment="
 add list="anti-worldstream-worldstream-b-v" address="188.213.216.0/24" comment="Generated blocklist for WorldStream"
 add list="anti-worldstream-worldstream-b-v" address="190.2.128.0/20" comment="Generated blocklist for WorldStream"
 add list="anti-worldstream-worldstream-b-v" address="190.2.144.0/20" comment="Generated blocklist for WorldStream"
+add list="anti-worldstream-worldstream-b-v" address="191.40.16.0/24" comment="Generated blocklist for WorldStream"
 add list="anti-worldstream-worldstream-b-v" address="191.44.97.0/24" comment="Generated blocklist for WorldStream"
 add list="anti-worldstream-worldstream-b-v" address="192.71.151.0/24" comment="Generated blocklist for WorldStream"
 add list="anti-worldstream-worldstream-b-v" address="193.176.184.0/24" comment="Generated blocklist for WorldStream"
@@ -110,6 +111,7 @@ add list="anti-worldstream-worldstream-b-v" address="82.41.131.0/24" comment="Ge
 add list="anti-worldstream-worldstream-b-v" address="87.232.81.0/24" comment="Generated blocklist for WorldStream"
 add list="anti-worldstream-worldstream-b-v" address="87.232.85.0/24" comment="Generated blocklist for WorldStream"
 add list="anti-worldstream-worldstream-b-v" address="87.236.147.0/24" comment="Generated blocklist for WorldStream"
+add list="anti-worldstream-worldstream-b-v" address="89.126.224.0/24" comment="Generated blocklist for WorldStream"
 add list="anti-worldstream-worldstream-b-v" address="89.126.227.0/24" comment="Generated blocklist for WorldStream"
 add list="anti-worldstream-worldstream-b-v" address="89.213.119.0/24" comment="Generated blocklist for WorldStream"
 add list="anti-worldstream-worldstream-b-v" address="89.248.66.0/24" comment="Generated blocklist for WorldStream"

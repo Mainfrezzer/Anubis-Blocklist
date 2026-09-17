@@ -1,6 +1,6 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for Scaleway
-# Entries: 21
+# Entries: 22
 #
 /ip firewall address-list
 add list="anti-as12876-scaleway-sas" address="151.115.0.0/17" comment="Generated blocklist for Scaleway"
@@ -23,4 +23,5 @@ add list="anti-as12876-scaleway-sas" address="51.158.128.0/17" comment="Generate
 add list="anti-as12876-scaleway-sas" address="51.159.224.0/19" comment="Generated blocklist for Scaleway"
 add list="anti-as12876-scaleway-sas" address="62.210.0.0/16" comment="Generated blocklist for Scaleway"
 add list="anti-as12876-scaleway-sas" address="62.4.0.0/19" comment="Generated blocklist for Scaleway"
+add list="anti-as12876-scaleway-sas" address="78.232.0.0/16" comment="Generated blocklist for Scaleway"
 add list="anti-as12876-scaleway-sas" address="78.232.0.0/17" comment="Generated blocklist for Scaleway"

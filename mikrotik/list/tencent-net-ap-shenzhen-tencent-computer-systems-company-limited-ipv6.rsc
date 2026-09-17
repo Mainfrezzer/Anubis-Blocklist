@@ -1,6 +1,6 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for tencent
-# Entries: 73
+# Entries: 72
 #
 /ipv6 firewall address-list
 add list="anti-tencent-net-ap-shenzhen-tencent-computer-systems-company-limited" address="2402:4e00:1000::/40" comment="Generated blocklist for tencent"
@@ -73,6 +73,5 @@ add list="anti-tencent-net-ap-shenzhen-tencent-computer-systems-company-limited"
 add list="anti-tencent-net-ap-shenzhen-tencent-computer-systems-company-limited" address="240d:c010:20::/44" comment="Generated blocklist for tencent"
 add list="anti-tencent-net-ap-shenzhen-tencent-computer-systems-company-limited" address="240d:c010:58::/48" comment="Generated blocklist for tencent"
 add list="anti-tencent-net-ap-shenzhen-tencent-computer-systems-company-limited" address="240d:c010:5c::/48" comment="Generated blocklist for tencent"
-add list="anti-tencent-net-ap-shenzhen-tencent-computer-systems-company-limited" address="240d:c010:68::/48" comment="Generated blocklist for tencent"
 add list="anti-tencent-net-ap-shenzhen-tencent-computer-systems-company-limited" address="240d:c040:10::/44" comment="Generated blocklist for tencent"
 add list="anti-tencent-net-ap-shenzhen-tencent-computer-systems-company-limited" address="240d:c040::/44" comment="Generated blocklist for tencent"

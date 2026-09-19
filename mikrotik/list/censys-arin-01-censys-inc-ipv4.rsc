@@ -1,6 +1,6 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for censys
-# Entries: 16
+# Entries: 17
 #
 /ip firewall address-list
 add list="anti-censys-arin-01-censys-inc" address="162.142.125.0/24" comment="Generated blocklist for censys"
@@ -16,6 +16,7 @@ add list="anti-censys-arin-01-censys-inc" address="66.132.180.0/24" comment="Gen
 add list="anti-censys-arin-01-censys-inc" address="66.132.186.0/24" comment="Generated blocklist for censys"
 add list="anti-censys-arin-01-censys-inc" address="66.132.195.0/24" comment="Generated blocklist for censys"
 add list="anti-censys-arin-01-censys-inc" address="66.132.198.0/24" comment="Generated blocklist for censys"
+add list="anti-censys-arin-01-censys-inc" address="66.132.209.0/24" comment="Generated blocklist for censys"
 add list="anti-censys-arin-01-censys-inc" address="66.132.224.0/24" comment="Generated blocklist for censys"
 add list="anti-censys-arin-01-censys-inc" address="66.132.228.0/24" comment="Generated blocklist for censys"
 add list="anti-censys-arin-01-censys-inc" address="66.234.1.0/24" comment="Generated blocklist for censys"

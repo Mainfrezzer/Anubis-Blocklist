@@ -1,6 +1,6 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for NAVEGALO
-# Entries: 41
+# Entries: 43
 #
 /ip firewall address-list
 add list="anti-as28110-navegalo-s-a" address="131.196.32.0/24" comment="Generated blocklist for NAVEGALO"
@@ -14,8 +14,10 @@ add list="anti-as28110-navegalo-s-a" address="138.59.133.0/24" comment="Generate
 add list="anti-as28110-navegalo-s-a" address="138.59.134.0/24" comment="Generated blocklist for NAVEGALO"
 add list="anti-as28110-navegalo-s-a" address="138.59.135.0/24" comment="Generated blocklist for NAVEGALO"
 add list="anti-as28110-navegalo-s-a" address="149.18.26.0/24" comment="Generated blocklist for NAVEGALO"
+add list="anti-as28110-navegalo-s-a" address="149.18.35.0/24" comment="Generated blocklist for NAVEGALO"
 add list="anti-as28110-navegalo-s-a" address="149.18.5.0/24" comment="Generated blocklist for NAVEGALO"
 add list="anti-as28110-navegalo-s-a" address="149.57.62.0/24" comment="Generated blocklist for NAVEGALO"
+add list="anti-as28110-navegalo-s-a" address="149.57.86.0/24" comment="Generated blocklist for NAVEGALO"
 add list="anti-as28110-navegalo-s-a" address="154.6.3.0/24" comment="Generated blocklist for NAVEGALO"
 add list="anti-as28110-navegalo-s-a" address="154.6.62.0/24" comment="Generated blocklist for NAVEGALO"
 add list="anti-as28110-navegalo-s-a" address="181.174.168.0/24" comment="Generated blocklist for NAVEGALO"

@@ -1,6 +1,6 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for PT Telkom Indonesia Tb
-# Entries: 3621
+# Entries: 3623
 #
 /ip firewall address-list
 add list="anti-telkomnet-as-ap-pt-telekomunikasi-indonesia" address="103.30.172.0/23" comment="Generated blocklist for PT Telkom Indonesia Tb"
@@ -2340,6 +2340,7 @@ add list="anti-telkomnet-as-ap-pt-telekomunikasi-indonesia" address="36.64.131.0
 add list="anti-telkomnet-as-ap-pt-telekomunikasi-indonesia" address="36.64.134.0/24" comment="Generated blocklist for PT Telkom Indonesia Tb"
 add list="anti-telkomnet-as-ap-pt-telekomunikasi-indonesia" address="36.64.135.0/24" comment="Generated blocklist for PT Telkom Indonesia Tb"
 add list="anti-telkomnet-as-ap-pt-telekomunikasi-indonesia" address="36.64.137.0/24" comment="Generated blocklist for PT Telkom Indonesia Tb"
+add list="anti-telkomnet-as-ap-pt-telekomunikasi-indonesia" address="36.64.155.0/24" comment="Generated blocklist for PT Telkom Indonesia Tb"
 add list="anti-telkomnet-as-ap-pt-telekomunikasi-indonesia" address="36.64.164.0/24" comment="Generated blocklist for PT Telkom Indonesia Tb"
 add list="anti-telkomnet-as-ap-pt-telekomunikasi-indonesia" address="36.64.170.0/24" comment="Generated blocklist for PT Telkom Indonesia Tb"
 add list="anti-telkomnet-as-ap-pt-telekomunikasi-indonesia" address="36.64.171.0/24" comment="Generated blocklist for PT Telkom Indonesia Tb"
@@ -3308,6 +3309,7 @@ add list="anti-telkomnet-as-ap-pt-telekomunikasi-indonesia" address="36.91.206.0
 add list="anti-telkomnet-as-ap-pt-telekomunikasi-indonesia" address="36.91.207.0/24" comment="Generated blocklist for PT Telkom Indonesia Tb"
 add list="anti-telkomnet-as-ap-pt-telekomunikasi-indonesia" address="36.91.217.0/24" comment="Generated blocklist for PT Telkom Indonesia Tb"
 add list="anti-telkomnet-as-ap-pt-telekomunikasi-indonesia" address="36.91.218.0/24" comment="Generated blocklist for PT Telkom Indonesia Tb"
+add list="anti-telkomnet-as-ap-pt-telekomunikasi-indonesia" address="36.91.221.0/24" comment="Generated blocklist for PT Telkom Indonesia Tb"
 add list="anti-telkomnet-as-ap-pt-telekomunikasi-indonesia" address="36.91.222.0/24" comment="Generated blocklist for PT Telkom Indonesia Tb"
 add list="anti-telkomnet-as-ap-pt-telekomunikasi-indonesia" address="36.91.231.0/24" comment="Generated blocklist for PT Telkom Indonesia Tb"
 add list="anti-telkomnet-as-ap-pt-telekomunikasi-indonesia" address="36.91.232.0/24" comment="Generated blocklist for PT Telkom Indonesia Tb"

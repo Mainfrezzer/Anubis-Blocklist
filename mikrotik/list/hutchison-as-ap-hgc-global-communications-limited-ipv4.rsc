@@ -1,6 +1,6 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for HGC Global Communications Limited (announce for iOVZ for example)
-# Entries: 2228
+# Entries: 2227
 #
 /ip firewall address-list
 add list="anti-hutchison-as-ap-hgc-global-communications-limited" address="102.165.12.0/24" comment="Generated blocklist for HGC Global Communications Limited (announce for iOVZ for example)"
@@ -523,7 +523,6 @@ add list="anti-hutchison-as-ap-hgc-global-communications-limited" address="152.2
 add list="anti-hutchison-as-ap-hgc-global-communications-limited" address="152.237.255.0/24" comment="Generated blocklist for HGC Global Communications Limited (announce for iOVZ for example)"
 add list="anti-hutchison-as-ap-hgc-global-communications-limited" address="154.196.134.0/24" comment="Generated blocklist for HGC Global Communications Limited (announce for iOVZ for example)"
 add list="anti-hutchison-as-ap-hgc-global-communications-limited" address="154.199.4.0/24" comment="Generated blocklist for HGC Global Communications Limited (announce for iOVZ for example)"
-add list="anti-hutchison-as-ap-hgc-global-communications-limited" address="154.203.204.0/23" comment="Generated blocklist for HGC Global Communications Limited (announce for iOVZ for example)"
 add list="anti-hutchison-as-ap-hgc-global-communications-limited" address="154.203.241.0/24" comment="Generated blocklist for HGC Global Communications Limited (announce for iOVZ for example)"
 add list="anti-hutchison-as-ap-hgc-global-communications-limited" address="154.203.242.0/24" comment="Generated blocklist for HGC Global Communications Limited (announce for iOVZ for example)"
 add list="anti-hutchison-as-ap-hgc-global-communications-limited" address="154.208.76.0/22" comment="Generated blocklist for HGC Global Communications Limited (announce for iOVZ for example)"

@@ -1,6 +1,6 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for Orion Network
-# Entries: 588
+# Entries: 590
 #
 /ip firewall address-list
 add list="anti-as41564-orion-network-limited" address="104.160.10.0/24" comment="Generated blocklist for Orion Network"
@@ -117,6 +117,7 @@ add list="anti-as41564-orion-network-limited" address="165.231.223.0/24" comment
 add list="anti-as41564-orion-network-limited" address="165.231.225.0/24" comment="Generated blocklist for Orion Network"
 add list="anti-as41564-orion-network-limited" address="165.231.227.0/24" comment="Generated blocklist for Orion Network"
 add list="anti-as41564-orion-network-limited" address="165.231.234.0/24" comment="Generated blocklist for Orion Network"
+add list="anti-as41564-orion-network-limited" address="165.231.240.0/24" comment="Generated blocklist for Orion Network"
 add list="anti-as41564-orion-network-limited" address="165.231.248.0/24" comment="Generated blocklist for Orion Network"
 add list="anti-as41564-orion-network-limited" address="165.231.249.0/24" comment="Generated blocklist for Orion Network"
 add list="anti-as41564-orion-network-limited" address="165.231.251.0/24" comment="Generated blocklist for Orion Network"
@@ -298,6 +299,7 @@ add list="anti-as41564-orion-network-limited" address="196.198.212.0/24" comment
 add list="anti-as41564-orion-network-limited" address="196.198.4.0/24" comment="Generated blocklist for Orion Network"
 add list="anti-as41564-orion-network-limited" address="196.198.64.0/24" comment="Generated blocklist for Orion Network"
 add list="anti-as41564-orion-network-limited" address="196.199.10.0/24" comment="Generated blocklist for Orion Network"
+add list="anti-as41564-orion-network-limited" address="196.199.101.0/24" comment="Generated blocklist for Orion Network"
 add list="anti-as41564-orion-network-limited" address="196.199.104.0/24" comment="Generated blocklist for Orion Network"
 add list="anti-as41564-orion-network-limited" address="196.199.119.0/24" comment="Generated blocklist for Orion Network"
 add list="anti-as41564-orion-network-limited" address="196.199.122.0/24" comment="Generated blocklist for Orion Network"

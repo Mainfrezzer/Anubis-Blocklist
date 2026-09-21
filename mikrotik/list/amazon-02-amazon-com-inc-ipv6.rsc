@@ -1,6 +1,6 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for amazon
-# Entries: 6637
+# Entries: 6639
 #
 /ipv6 firewall address-list
 add list="anti-amazon-02-amazon-com-inc" address="2001:3fc0:800::/40" comment="Generated blocklist for amazon"
@@ -492,8 +492,10 @@ add list="anti-amazon-02-amazon-com-inc" address="2406:da61:8000::/46" comment="
 add list="anti-amazon-02-amazon-com-inc" address="2406:da61:8004::/46" comment="Generated blocklist for amazon"
 add list="anti-amazon-02-amazon-com-inc" address="2406:da61:8008::/46" comment="Generated blocklist for amazon"
 add list="anti-amazon-02-amazon-com-inc" address="2406:da61:8040::/44" comment="Generated blocklist for amazon"
+add list="anti-amazon-02-amazon-com-inc" address="2406:da61:804::/46" comment="Generated blocklist for amazon"
 add list="anti-amazon-02-amazon-com-inc" address="2406:da61:8080::/44" comment="Generated blocklist for amazon"
 add list="anti-amazon-02-amazon-com-inc" address="2406:da61:80c0::/44" comment="Generated blocklist for amazon"
+add list="anti-amazon-02-amazon-com-inc" address="2406:da61:840::/44" comment="Generated blocklist for amazon"
 add list="anti-amazon-02-amazon-com-inc" address="2406:da68:1000::/40" comment="Generated blocklist for amazon"
 add list="anti-amazon-02-amazon-com-inc" address="2406:da68:1040::/46" comment="Generated blocklist for amazon"
 add list="anti-amazon-02-amazon-com-inc" address="2406:da68:1080::/46" comment="Generated blocklist for amazon"

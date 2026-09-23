@@ -1,6 +1,6 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for HostPapa
-# Entries: 3220
+# Entries: 3218
 #
 /ip firewall address-list
 add list="anti-as-colocrossing-hostpapa" address="103.21.208.0/22" comment="Generated blocklist for HostPapa"
@@ -1097,7 +1097,6 @@ add list="anti-as-colocrossing-hostpapa" address="121.46.80.0/24" comment="Gener
 add list="anti-as-colocrossing-hostpapa" address="121.46.81.0/24" comment="Generated blocklist for HostPapa"
 add list="anti-as-colocrossing-hostpapa" address="121.46.82.0/24" comment="Generated blocklist for HostPapa"
 add list="anti-as-colocrossing-hostpapa" address="121.46.83.0/24" comment="Generated blocklist for HostPapa"
-add list="anti-as-colocrossing-hostpapa" address="136.0.52.0/24" comment="Generated blocklist for HostPapa"
 add list="anti-as-colocrossing-hostpapa" address="141.98.46.0/24" comment="Generated blocklist for HostPapa"
 add list="anti-as-colocrossing-hostpapa" address="142.11.197.0/24" comment="Generated blocklist for HostPapa"
 add list="anti-as-colocrossing-hostpapa" address="142.11.207.0/24" comment="Generated blocklist for HostPapa"
@@ -1225,7 +1224,6 @@ add list="anti-as-colocrossing-hostpapa" address="167.160.188.0/24" comment="Gen
 add list="anti-as-colocrossing-hostpapa" address="167.160.189.0/24" comment="Generated blocklist for HostPapa"
 add list="anti-as-colocrossing-hostpapa" address="167.160.190.0/24" comment="Generated blocklist for HostPapa"
 add list="anti-as-colocrossing-hostpapa" address="167.160.191.0/24" comment="Generated blocklist for HostPapa"
-add list="anti-as-colocrossing-hostpapa" address="168.222.84.0/24" comment="Generated blocklist for HostPapa"
 add list="anti-as-colocrossing-hostpapa" address="169.150.135.0/24" comment="Generated blocklist for HostPapa"
 add list="anti-as-colocrossing-hostpapa" address="172.245.100.0/24" comment="Generated blocklist for HostPapa"
 add list="anti-as-colocrossing-hostpapa" address="172.245.101.0/24" comment="Generated blocklist for HostPapa"

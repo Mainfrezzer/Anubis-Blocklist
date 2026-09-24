@@ -1,6 +1,6 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for LEASEWEB (HK)
-# Entries: 38
+# Entries: 39
 #
 /ip firewall address-list
 add list="anti-leaseweb-apac-hkg-10-leaseweb-hong-kong-limited" address="103.138.32.0/24" comment="Generated blocklist for LEASEWEB (HK)"
@@ -8,6 +8,7 @@ add list="anti-leaseweb-apac-hkg-10-leaseweb-hong-kong-limited" address="103.161
 add list="anti-leaseweb-apac-hkg-10-leaseweb-hong-kong-limited" address="103.21.220.0/24" comment="Generated blocklist for LEASEWEB (HK)"
 add list="anti-leaseweb-apac-hkg-10-leaseweb-hong-kong-limited" address="103.75.117.0/24" comment="Generated blocklist for LEASEWEB (HK)"
 add list="anti-leaseweb-apac-hkg-10-leaseweb-hong-kong-limited" address="104.164.38.0/24" comment="Generated blocklist for LEASEWEB (HK)"
+add list="anti-leaseweb-apac-hkg-10-leaseweb-hong-kong-limited" address="142.228.74.0/23" comment="Generated blocklist for LEASEWEB (HK)"
 add list="anti-leaseweb-apac-hkg-10-leaseweb-hong-kong-limited" address="172.241.216.0/21" comment="Generated blocklist for LEASEWEB (HK)"
 add list="anti-leaseweb-apac-hkg-10-leaseweb-hong-kong-limited" address="172.96.185.0/24" comment="Generated blocklist for LEASEWEB (HK)"
 add list="anti-leaseweb-apac-hkg-10-leaseweb-hong-kong-limited" address="178.16.235.0/24" comment="Generated blocklist for LEASEWEB (HK)"

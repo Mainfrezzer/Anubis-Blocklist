@@ -1,6 +1,6 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for google
-# Entries: 364
+# Entries: 363
 #
 /ipv6 firewall address-list
 add list="anti-google-cloud-platform-google-llc" address="2001:671:fc00::/40" comment="Generated blocklist for google"
@@ -363,7 +363,6 @@ add list="anti-google-cloud-platform-google-llc" address="2a0e:f600:55::/48" com
 add list="anti-google-cloud-platform-google-llc" address="2a12:7280::/29" comment="Generated blocklist for google"
 add list="anti-google-cloud-platform-google-llc" address="2a14:2a00::/40" comment="Generated blocklist for google"
 add list="anti-google-cloud-platform-google-llc" address="2a14:2ec0:edea::/48" comment="Generated blocklist for google"
-add list="anti-google-cloud-platform-google-llc" address="2a14:67c2:1020::/48" comment="Generated blocklist for google"
 add list="anti-google-cloud-platform-google-llc" address="2a14:67c2:577::/48" comment="Generated blocklist for google"
 add list="anti-google-cloud-platform-google-llc" address="2a14:b580::/40" comment="Generated blocklist for google"
 add list="anti-google-cloud-platform-google-llc" address="2a14:f180:1200::/40" comment="Generated blocklist for google"

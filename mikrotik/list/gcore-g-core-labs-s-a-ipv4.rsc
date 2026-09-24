@@ -1,6 +1,6 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for Gcore
-# Entries: 466
+# Entries: 467
 #
 /ip firewall address-list
 add list="anti-gcore-g-core-labs-s-a" address="103.22.193.0/24" comment="Generated blocklist for Gcore"
@@ -41,6 +41,7 @@ add list="anti-gcore-g-core-labs-s-a" address="162.213.60.0/24" comment="Generat
 add list="anti-gcore-g-core-labs-s-a" address="162.213.61.0/24" comment="Generated blocklist for Gcore"
 add list="anti-gcore-g-core-labs-s-a" address="162.213.63.0/24" comment="Generated blocklist for Gcore"
 add list="anti-gcore-g-core-labs-s-a" address="162.216.231.0/24" comment="Generated blocklist for Gcore"
+add list="anti-gcore-g-core-labs-s-a" address="162.216.231.145/32" comment="Generated blocklist for Gcore"
 add list="anti-gcore-g-core-labs-s-a" address="162.33.20.0/24" comment="Generated blocklist for Gcore"
 add list="anti-gcore-g-core-labs-s-a" address="165.217.130.0/23" comment="Generated blocklist for Gcore"
 add list="anti-gcore-g-core-labs-s-a" address="165.217.132.0/22" comment="Generated blocklist for Gcore"
@@ -131,7 +132,7 @@ add list="anti-gcore-g-core-labs-s-a" address="216.201.72.0/23" comment="Generat
 add list="anti-gcore-g-core-labs-s-a" address="216.201.78.0/23" comment="Generated blocklist for Gcore"
 add list="anti-gcore-g-core-labs-s-a" address="217.195.193.0/24" comment="Generated blocklist for Gcore"
 add list="anti-gcore-g-core-labs-s-a" address="217.195.200.0/24" comment="Generated blocklist for Gcore"
-add list="anti-gcore-g-core-labs-s-a" address="217.195.200.40/32" comment="Generated blocklist for Gcore"
+add list="anti-gcore-g-core-labs-s-a" address="217.195.200.239/32" comment="Generated blocklist for Gcore"
 add list="anti-gcore-g-core-labs-s-a" address="217.195.201.0/24" comment="Generated blocklist for Gcore"
 add list="anti-gcore-g-core-labs-s-a" address="217.28.137.0/24" comment="Generated blocklist for Gcore"
 add list="anti-gcore-g-core-labs-s-a" address="31.13.213.0/24" comment="Generated blocklist for Gcore"

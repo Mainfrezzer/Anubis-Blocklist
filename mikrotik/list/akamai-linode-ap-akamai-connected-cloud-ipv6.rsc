@@ -1,6 +1,6 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for akamai (linode)
-# Entries: 95
+# Entries: 96
 #
 /ipv6 firewall address-list
 add list="anti-akamai-linode-ap-akamai-connected-cloud" address="2400:8901::/32" comment="Generated blocklist for akamai (linode)"
@@ -92,6 +92,7 @@ add list="anti-akamai-linode-ap-akamai-connected-cloud" address="2600:3c19::/32"
 add list="anti-akamai-linode-ap-akamai-connected-cloud" address="2600:3c1a::/32" comment="Generated blocklist for akamai (linode)"
 add list="anti-akamai-linode-ap-akamai-connected-cloud" address="2600:3c1b::/32" comment="Generated blocklist for akamai (linode)"
 add list="anti-akamai-linode-ap-akamai-connected-cloud" address="2600:3c1c::/32" comment="Generated blocklist for akamai (linode)"
+add list="anti-akamai-linode-ap-akamai-connected-cloud" address="2600:3c1e::/32" comment="Generated blocklist for akamai (linode)"
 add list="anti-akamai-linode-ap-akamai-connected-cloud" address="2a01:7e00::/32" comment="Generated blocklist for akamai (linode)"
 add list="anti-akamai-linode-ap-akamai-connected-cloud" address="2a01:7e01::/32" comment="Generated blocklist for akamai (linode)"
 add list="anti-akamai-linode-ap-akamai-connected-cloud" address="2a01:7e02::/32" comment="Generated blocklist for akamai (linode)"

@@ -1,6 +1,6 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for microsoft
-# Entries: 1208
+# Entries: 1210
 #
 /ip firewall address-list
 add list="anti-microsoft-corp-msn-as-block-microsoft-corporation" address="1.186.0.0/16" comment="Generated blocklist for microsoft"
@@ -21,7 +21,6 @@ add list="anti-microsoft-corp-msn-as-block-microsoft-corporation" address="103.2
 add list="anti-microsoft-corp-msn-as-block-microsoft-corporation" address="103.249.63.0/24" comment="Generated blocklist for microsoft"
 add list="anti-microsoft-corp-msn-as-block-microsoft-corporation" address="103.254.7.0/24" comment="Generated blocklist for microsoft"
 add list="anti-microsoft-corp-msn-as-block-microsoft-corporation" address="103.36.129.0/24" comment="Generated blocklist for microsoft"
-add list="anti-microsoft-corp-msn-as-block-microsoft-corporation" address="103.56.150.0/24" comment="Generated blocklist for microsoft"
 add list="anti-microsoft-corp-msn-as-block-microsoft-corporation" address="103.58.119.0/24" comment="Generated blocklist for microsoft"
 add list="anti-microsoft-corp-msn-as-block-microsoft-corporation" address="103.61.61.0/24" comment="Generated blocklist for microsoft"
 add list="anti-microsoft-corp-msn-as-block-microsoft-corporation" address="103.61.62.0/24" comment="Generated blocklist for microsoft"
@@ -460,6 +459,7 @@ add list="anti-microsoft-corp-msn-as-block-microsoft-corporation" address="167.9
 add list="anti-microsoft-corp-msn-as-block-microsoft-corporation" address="168.137.64.0/21" comment="Generated blocklist for microsoft"
 add list="anti-microsoft-corp-msn-as-block-microsoft-corporation" address="168.137.72.0/21" comment="Generated blocklist for microsoft"
 add list="anti-microsoft-corp-msn-as-block-microsoft-corporation" address="168.151.52.0/24" comment="Generated blocklist for microsoft"
+add list="anti-microsoft-corp-msn-as-block-microsoft-corporation" address="168.151.53.0/24" comment="Generated blocklist for microsoft"
 add list="anti-microsoft-corp-msn-as-block-microsoft-corporation" address="168.61.0.0/16" comment="Generated blocklist for microsoft"
 add list="anti-microsoft-corp-msn-as-block-microsoft-corporation" address="168.62.0.0/15" comment="Generated blocklist for microsoft"
 add list="anti-microsoft-corp-msn-as-block-microsoft-corporation" address="168.98.112.0/21" comment="Generated blocklist for microsoft"
@@ -775,6 +775,8 @@ add list="anti-microsoft-corp-msn-as-block-microsoft-corporation" address="205.2
 add list="anti-microsoft-corp-msn-as-block-microsoft-corporation" address="206.109.76.0/24" comment="Generated blocklist for microsoft"
 add list="anti-microsoft-corp-msn-as-block-microsoft-corporation" address="206.130.81.0/24" comment="Generated blocklist for microsoft"
 add list="anti-microsoft-corp-msn-as-block-microsoft-corporation" address="206.138.168.0/21" comment="Generated blocklist for microsoft"
+add list="anti-microsoft-corp-msn-as-block-microsoft-corporation" address="206.187.24.0/22" comment="Generated blocklist for microsoft"
+add list="anti-microsoft-corp-msn-as-block-microsoft-corporation" address="206.187.28.0/22" comment="Generated blocklist for microsoft"
 add list="anti-microsoft-corp-msn-as-block-microsoft-corporation" address="206.187.68.0/22" comment="Generated blocklist for microsoft"
 add list="anti-microsoft-corp-msn-as-block-microsoft-corporation" address="206.191.224.0/19" comment="Generated blocklist for microsoft"
 add list="anti-microsoft-corp-msn-as-block-microsoft-corporation" address="206.195.220.0/24" comment="Generated blocklist for microsoft"

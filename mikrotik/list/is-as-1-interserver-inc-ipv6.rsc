@@ -1,10 +1,11 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for Interserver
-# Entries: 29
+# Entries: 30
 #
 /ipv6 firewall address-list
 add list="anti-is-as-1-interserver-inc" address="2601:2018::/29" comment="Generated blocklist for Interserver"
 add list="anti-is-as-1-interserver-inc" address="2601:2020::/29" comment="Generated blocklist for Interserver"
+add list="anti-is-as-1-interserver-inc" address="2601:2020::/32" comment="Generated blocklist for Interserver"
 add list="anti-is-as-1-interserver-inc" address="2601:2023::/32" comment="Generated blocklist for Interserver"
 add list="anti-is-as-1-interserver-inc" address="2601:2024::/32" comment="Generated blocklist for Interserver"
 add list="anti-is-as-1-interserver-inc" address="2601:2025::/32" comment="Generated blocklist for Interserver"

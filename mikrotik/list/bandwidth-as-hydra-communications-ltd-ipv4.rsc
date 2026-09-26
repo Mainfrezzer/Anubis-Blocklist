@@ -1,6 +1,6 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for bandwidth.co.uk
-# Entries: 294
+# Entries: 295
 #
 /ip firewall address-list
 add list="anti-bandwidth-as-hydra-communications-ltd" address="103.236.149.0/24" comment="Generated blocklist for bandwidth.co.uk"
@@ -235,6 +235,7 @@ add list="anti-bandwidth-as-hydra-communications-ltd" address="82.38.3.0/24" com
 add list="anti-bandwidth-as-hydra-communications-ltd" address="82.39.141.0/24" comment="Generated blocklist for bandwidth.co.uk"
 add list="anti-bandwidth-as-hydra-communications-ltd" address="82.39.189.0/24" comment="Generated blocklist for bandwidth.co.uk"
 add list="anti-bandwidth-as-hydra-communications-ltd" address="82.39.209.0/24" comment="Generated blocklist for bandwidth.co.uk"
+add list="anti-bandwidth-as-hydra-communications-ltd" address="82.40.24.0/24" comment="Generated blocklist for bandwidth.co.uk"
 add list="anti-bandwidth-as-hydra-communications-ltd" address="82.47.244.0/24" comment="Generated blocklist for bandwidth.co.uk"
 add list="anti-bandwidth-as-hydra-communications-ltd" address="82.97.192.0/23" comment="Generated blocklist for bandwidth.co.uk"
 add list="anti-bandwidth-as-hydra-communications-ltd" address="84.247.0.0/24" comment="Generated blocklist for bandwidth.co.uk"

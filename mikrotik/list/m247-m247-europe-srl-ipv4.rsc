@@ -1,6 +1,6 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for M247
-# Entries: 4621
+# Entries: 4618
 #
 /ip firewall address-list
 add list="anti-m247-m247-europe-srl" address="102.128.164.0/24" comment="Generated blocklist for M247"
@@ -355,6 +355,7 @@ add list="anti-m247-m247-europe-srl" address="109.70.66.0/23" comment="Generated
 add list="anti-m247-m247-europe-srl" address="114.129.8.0/24" comment="Generated blocklist for M247"
 add list="anti-m247-m247-europe-srl" address="128.0.48.0/24" comment="Generated blocklist for M247"
 add list="anti-m247-m247-europe-srl" address="128.0.51.0/24" comment="Generated blocklist for M247"
+add list="anti-m247-m247-europe-srl" address="13.141.62.0/24" comment="Generated blocklist for M247"
 add list="anti-m247-m247-europe-srl" address="13.143.116.0/23" comment="Generated blocklist for M247"
 add list="anti-m247-m247-europe-srl" address="130.195.209.0/24" comment="Generated blocklist for M247"
 add list="anti-m247-m247-europe-srl" address="130.195.210.0/24" comment="Generated blocklist for M247"
@@ -684,7 +685,6 @@ add list="anti-m247-m247-europe-srl" address="144.225.83.0/24" comment="Generate
 add list="anti-m247-m247-europe-srl" address="144.225.99.0/24" comment="Generated blocklist for M247"
 add list="anti-m247-m247-europe-srl" address="145.223.41.0/24" comment="Generated blocklist for M247"
 add list="anti-m247-m247-europe-srl" address="145.223.47.0/24" comment="Generated blocklist for M247"
-add list="anti-m247-m247-europe-srl" address="145.223.6.0/24" comment="Generated blocklist for M247"
 add list="anti-m247-m247-europe-srl" address="145.79.170.0/24" comment="Generated blocklist for M247"
 add list="anti-m247-m247-europe-srl" address="146.66.214.0/24" comment="Generated blocklist for M247"
 add list="anti-m247-m247-europe-srl" address="146.70.10.0/24" comment="Generated blocklist for M247"
@@ -975,6 +975,7 @@ add list="anti-m247-m247-europe-srl" address="149.33.51.0/24" comment="Generated
 add list="anti-m247-m247-europe-srl" address="149.33.55.0/24" comment="Generated blocklist for M247"
 add list="anti-m247-m247-europe-srl" address="150.241.174.0/24" comment="Generated blocklist for M247"
 add list="anti-m247-m247-europe-srl" address="150.241.234.0/24" comment="Generated blocklist for M247"
+add list="anti-m247-m247-europe-srl" address="150.241.240.0/24" comment="Generated blocklist for M247"
 add list="anti-m247-m247-europe-srl" address="150.251.229.0/24" comment="Generated blocklist for M247"
 add list="anti-m247-m247-europe-srl" address="151.236.11.0/24" comment="Generated blocklist for M247"
 add list="anti-m247-m247-europe-srl" address="151.236.15.0/24" comment="Generated blocklist for M247"
@@ -1202,7 +1203,7 @@ add list="anti-m247-m247-europe-srl" address="162.252.173.0/24" comment="Generat
 add list="anti-m247-m247-europe-srl" address="162.252.174.0/24" comment="Generated blocklist for M247"
 add list="anti-m247-m247-europe-srl" address="163.5.74.0/24" comment="Generated blocklist for M247"
 add list="anti-m247-m247-europe-srl" address="163.5.83.0/24" comment="Generated blocklist for M247"
-add list="anti-m247-m247-europe-srl" address="164.37.201.0/24" comment="Generated blocklist for M247"
+add list="anti-m247-m247-europe-srl" address="164.37.234.0/24" comment="Generated blocklist for M247"
 add list="anti-m247-m247-europe-srl" address="164.39.24.0/23" comment="Generated blocklist for M247"
 add list="anti-m247-m247-europe-srl" address="164.39.24.0/24" comment="Generated blocklist for M247"
 add list="anti-m247-m247-europe-srl" address="164.39.25.0/24" comment="Generated blocklist for M247"
@@ -2568,8 +2569,6 @@ add list="anti-m247-m247-europe-srl" address="212.103.50.0/24" comment="Generate
 add list="anti-m247-m247-europe-srl" address="212.103.51.0/24" comment="Generated blocklist for M247"
 add list="anti-m247-m247-europe-srl" address="212.189.118.0/24" comment="Generated blocklist for M247"
 add list="anti-m247-m247-europe-srl" address="212.192.254.0/24" comment="Generated blocklist for M247"
-add list="anti-m247-m247-europe-srl" address="212.60.146.0/24" comment="Generated blocklist for M247"
-add list="anti-m247-m247-europe-srl" address="212.60.147.0/24" comment="Generated blocklist for M247"
 add list="anti-m247-m247-europe-srl" address="212.80.200.0/22" comment="Generated blocklist for M247"
 add list="anti-m247-m247-europe-srl" address="212.80.220.0/24" comment="Generated blocklist for M247"
 add list="anti-m247-m247-europe-srl" address="212.80.223.0/24" comment="Generated blocklist for M247"
@@ -2920,7 +2919,6 @@ add list="anti-m247-m247-europe-srl" address="31.56.69.0/24" comment="Generated 
 add list="anti-m247-m247-europe-srl" address="31.57.41.0/24" comment="Generated blocklist for M247"
 add list="anti-m247-m247-europe-srl" address="31.57.42.0/24" comment="Generated blocklist for M247"
 add list="anti-m247-m247-europe-srl" address="31.57.82.0/24" comment="Generated blocklist for M247"
-add list="anti-m247-m247-europe-srl" address="31.58.116.0/22" comment="Generated blocklist for M247"
 add list="anti-m247-m247-europe-srl" address="31.59.0.0/24" comment="Generated blocklist for M247"
 add list="anti-m247-m247-europe-srl" address="31.59.1.0/24" comment="Generated blocklist for M247"
 add list="anti-m247-m247-europe-srl" address="31.59.2.0/24" comment="Generated blocklist for M247"
@@ -4387,7 +4385,6 @@ add list="anti-m247-m247-europe-srl" address="91.90.126.0/24" comment="Generated
 add list="anti-m247-m247-europe-srl" address="92.112.100.0/22" comment="Generated blocklist for M247"
 add list="anti-m247-m247-europe-srl" address="92.112.120.0/22" comment="Generated blocklist for M247"
 add list="anti-m247-m247-europe-srl" address="92.112.2.0/23" comment="Generated blocklist for M247"
-add list="anti-m247-m247-europe-srl" address="92.112.214.0/24" comment="Generated blocklist for M247"
 add list="anti-m247-m247-europe-srl" address="92.112.221.0/24" comment="Generated blocklist for M247"
 add list="anti-m247-m247-europe-srl" address="92.112.226.0/24" comment="Generated blocklist for M247"
 add list="anti-m247-m247-europe-srl" address="92.112.234.0/24" comment="Generated blocklist for M247"

@@ -1,6 +1,6 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for VIVID-HOSTING
-# Entries: 60
+# Entries: 58
 #
 /ip firewall address-list
 add list="anti-vividhosting-vivid-hosting-llc" address="103.105.167.0/24" comment="Generated blocklist for VIVID-HOSTING"
@@ -14,7 +14,6 @@ add list="anti-vividhosting-vivid-hosting-llc" address="185.171.127.0/24" commen
 add list="anti-vividhosting-vivid-hosting-llc" address="185.198.88.0/24" comment="Generated blocklist for VIVID-HOSTING"
 add list="anti-vividhosting-vivid-hosting-llc" address="190.99.81.0/24" comment="Generated blocklist for VIVID-HOSTING"
 add list="anti-vividhosting-vivid-hosting-llc" address="190.99.83.0/24" comment="Generated blocklist for VIVID-HOSTING"
-add list="anti-vividhosting-vivid-hosting-llc" address="192.145.68.0/24" comment="Generated blocklist for VIVID-HOSTING"
 add list="anti-vividhosting-vivid-hosting-llc" address="192.154.192.0/22" comment="Generated blocklist for VIVID-HOSTING"
 add list="anti-vividhosting-vivid-hosting-llc" address="192.154.196.0/24" comment="Generated blocklist for VIVID-HOSTING"
 add list="anti-vividhosting-vivid-hosting-llc" address="192.154.197.0/24" comment="Generated blocklist for VIVID-HOSTING"
@@ -49,7 +48,6 @@ add list="anti-vividhosting-vivid-hosting-llc" address="63.246.139.0/24" comment
 add list="anti-vividhosting-vivid-hosting-llc" address="63.246.142.0/24" comment="Generated blocklist for VIVID-HOSTING"
 add list="anti-vividhosting-vivid-hosting-llc" address="63.246.145.0/24" comment="Generated blocklist for VIVID-HOSTING"
 add list="anti-vividhosting-vivid-hosting-llc" address="63.246.146.0/23" comment="Generated blocklist for VIVID-HOSTING"
-add list="anti-vividhosting-vivid-hosting-llc" address="63.246.149.0/24" comment="Generated blocklist for VIVID-HOSTING"
 add list="anti-vividhosting-vivid-hosting-llc" address="67.22.63.0/24" comment="Generated blocklist for VIVID-HOSTING"
 add list="anti-vividhosting-vivid-hosting-llc" address="68.64.128.0/23" comment="Generated blocklist for VIVID-HOSTING"
 add list="anti-vividhosting-vivid-hosting-llc" address="68.64.136.0/23" comment="Generated blocklist for VIVID-HOSTING"

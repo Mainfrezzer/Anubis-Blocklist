@@ -1,6 +1,6 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for Clouvider Limited
-# Entries: 1382
+# Entries: 1381
 #
 /ip firewall address-list
 add list="anti-clouvider-clouvider-limited" address="103.103.98.0/23" comment="Generated blocklist for Clouvider Limited"
@@ -727,7 +727,6 @@ add list="anti-clouvider-clouvider-limited" address="185.215.181.0/24" comment="
 add list="anti-clouvider-clouvider-limited" address="185.216.201.0/24" comment="Generated blocklist for Clouvider Limited"
 add list="anti-clouvider-clouvider-limited" address="185.217.117.0/24" comment="Generated blocklist for Clouvider Limited"
 add list="anti-clouvider-clouvider-limited" address="185.222.41.0/24" comment="Generated blocklist for Clouvider Limited"
-add list="anti-clouvider-clouvider-limited" address="185.230.12.0/24" comment="Generated blocklist for Clouvider Limited"
 add list="anti-clouvider-clouvider-limited" address="185.238.28.0/24" comment="Generated blocklist for Clouvider Limited"
 add list="anti-clouvider-clouvider-limited" address="185.238.90.0/24" comment="Generated blocklist for Clouvider Limited"
 add list="anti-clouvider-clouvider-limited" address="185.238.91.0/24" comment="Generated blocklist for Clouvider Limited"

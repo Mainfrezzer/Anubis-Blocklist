@@ -1,6 +1,6 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for amazon
-# Entries: 6673
+# Entries: 6675
 #
 /ipv6 firewall address-list
 add list="anti-amazon-02-amazon-com-inc" address="2001:3fc0:800::/40" comment="Generated blocklist for amazon"
@@ -930,6 +930,7 @@ add list="anti-amazon-02-amazon-com-inc" address="2600:1f01:493e::/47" comment="
 add list="anti-amazon-02-amazon-com-inc" address="2600:1f01:4940::/47" comment="Generated blocklist for amazon"
 add list="anti-amazon-02-amazon-com-inc" address="2600:1f01:4944::/47" comment="Generated blocklist for amazon"
 add list="anti-amazon-02-amazon-com-inc" address="2600:1f01:4946::/47" comment="Generated blocklist for amazon"
+add list="anti-amazon-02-amazon-com-inc" address="2600:1f01:494a::/47" comment="Generated blocklist for amazon"
 add list="anti-amazon-02-amazon-com-inc" address="2600:1f10:2000::/36" comment="Generated blocklist for amazon"
 add list="anti-amazon-02-amazon-com-inc" address="2600:1f10:4000::/36" comment="Generated blocklist for amazon"
 add list="anti-amazon-02-amazon-com-inc" address="2600:1f10:c000::/36" comment="Generated blocklist for amazon"
@@ -4634,6 +4635,7 @@ add list="anti-amazon-02-amazon-com-inc" address="2605:9cc0:c0a::/48" comment="G
 add list="anti-amazon-02-amazon-com-inc" address="2605:9cc0:c0b::/48" comment="Generated blocklist for amazon"
 add list="anti-amazon-02-amazon-com-inc" address="2605:9cc0:c0c::/48" comment="Generated blocklist for amazon"
 add list="anti-amazon-02-amazon-com-inc" address="2605:9cc0:c0f::/48" comment="Generated blocklist for amazon"
+add list="anti-amazon-02-amazon-com-inc" address="2605:9cc0:c12::/48" comment="Generated blocklist for amazon"
 add list="anti-amazon-02-amazon-com-inc" address="2605:9cc0:c14::/48" comment="Generated blocklist for amazon"
 add list="anti-amazon-02-amazon-com-inc" address="2605:9cc0:c15::/48" comment="Generated blocklist for amazon"
 add list="anti-amazon-02-amazon-com-inc" address="2605:9cc0:c17::/48" comment="Generated blocklist for amazon"

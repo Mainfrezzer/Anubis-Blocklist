@@ -1,6 +1,6 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for EstNOC
-# Entries: 59
+# Entries: 58
 #
 /ip firewall address-list
 add list="anti-estnoc-global-estnoc-ou" address="103.140.186.0/24" comment="Generated blocklist for EstNOC"
@@ -54,7 +54,6 @@ add list="anti-estnoc-global-estnoc-ou" address="45.138.86.0/24" comment="Genera
 add list="anti-estnoc-global-estnoc-ou" address="45.138.87.0/24" comment="Generated blocklist for EstNOC"
 add list="anti-estnoc-global-estnoc-ou" address="45.139.48.0/24" comment="Generated blocklist for EstNOC"
 add list="anti-estnoc-global-estnoc-ou" address="45.139.49.0/24" comment="Generated blocklist for EstNOC"
-add list="anti-estnoc-global-estnoc-ou" address="45.146.221.0/24" comment="Generated blocklist for EstNOC"
 add list="anti-estnoc-global-estnoc-ou" address="45.146.222.0/24" comment="Generated blocklist for EstNOC"
 add list="anti-estnoc-global-estnoc-ou" address="45.146.223.0/24" comment="Generated blocklist for EstNOC"
 add list="anti-estnoc-global-estnoc-ou" address="45.86.201.0/24" comment="Generated blocklist for EstNOC"

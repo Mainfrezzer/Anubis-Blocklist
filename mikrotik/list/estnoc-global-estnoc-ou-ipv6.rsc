@@ -1,9 +1,8 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for EstNOC
-# Entries: 13
+# Entries: 12
 #
 /ipv6 firewall address-list
-add list="anti-estnoc-global-estnoc-ou" address="2001:1548:206::/48" comment="Generated blocklist for EstNOC"
 add list="anti-estnoc-global-estnoc-ou" address="2401:eaa0:1::/48" comment="Generated blocklist for EstNOC"
 add list="anti-estnoc-global-estnoc-ou" address="2604:ea80:6200::/40" comment="Generated blocklist for EstNOC"
 add list="anti-estnoc-global-estnoc-ou" address="2604:ea80:6600::/40" comment="Generated blocklist for EstNOC"

@@ -1,13 +1,12 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for VIVID-HOSTING
-# Entries: 58
+# Entries: 56
 #
 /ip firewall address-list
 add list="anti-vividhosting-vivid-hosting-llc" address="103.105.167.0/24" comment="Generated blocklist for VIVID-HOSTING"
 add list="anti-vividhosting-vivid-hosting-llc" address="103.111.60.0/24" comment="Generated blocklist for VIVID-HOSTING"
 add list="anti-vividhosting-vivid-hosting-llc" address="104.232.39.0/24" comment="Generated blocklist for VIVID-HOSTING"
 add list="anti-vividhosting-vivid-hosting-llc" address="104.247.92.0/24" comment="Generated blocklist for VIVID-HOSTING"
-add list="anti-vividhosting-vivid-hosting-llc" address="149.143.156.0/22" comment="Generated blocklist for VIVID-HOSTING"
 add list="anti-vividhosting-vivid-hosting-llc" address="185.171.124.0/24" comment="Generated blocklist for VIVID-HOSTING"
 add list="anti-vividhosting-vivid-hosting-llc" address="185.171.125.0/24" comment="Generated blocklist for VIVID-HOSTING"
 add list="anti-vividhosting-vivid-hosting-llc" address="185.171.127.0/24" comment="Generated blocklist for VIVID-HOSTING"
@@ -52,7 +51,6 @@ add list="anti-vividhosting-vivid-hosting-llc" address="67.22.63.0/24" comment="
 add list="anti-vividhosting-vivid-hosting-llc" address="68.64.128.0/23" comment="Generated blocklist for VIVID-HOSTING"
 add list="anti-vividhosting-vivid-hosting-llc" address="68.64.136.0/23" comment="Generated blocklist for VIVID-HOSTING"
 add list="anti-vividhosting-vivid-hosting-llc" address="69.30.78.0/24" comment="Generated blocklist for VIVID-HOSTING"
-add list="anti-vividhosting-vivid-hosting-llc" address="69.30.86.0/23" comment="Generated blocklist for VIVID-HOSTING"
 add list="anti-vividhosting-vivid-hosting-llc" address="72.1.188.0/23" comment="Generated blocklist for VIVID-HOSTING"
 add list="anti-vividhosting-vivid-hosting-llc" address="72.236.86.0/23" comment="Generated blocklist for VIVID-HOSTING"
 add list="anti-vividhosting-vivid-hosting-llc" address="72.237.36.0/24" comment="Generated blocklist for VIVID-HOSTING"

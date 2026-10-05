@@ -1,6 +1,6 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for alibaba
-# Entries: 1145
+# Entries: 1144
 #
 /ip firewall address-list
 add list="anti-alibaba-cn-net-alibaba-us-technology-co-ltd" address="103.135.210.0/23" comment="Generated blocklist for alibaba"
@@ -204,7 +204,6 @@ add list="anti-alibaba-cn-net-alibaba-us-technology-co-ltd" address="43.108.128.
 add list="anti-alibaba-cn-net-alibaba-us-technology-co-ltd" address="43.108.128.0/18" comment="Generated blocklist for alibaba"
 add list="anti-alibaba-cn-net-alibaba-us-technology-co-ltd" address="43.108.192.0/18" comment="Generated blocklist for alibaba"
 add list="anti-alibaba-cn-net-alibaba-us-technology-co-ltd" address="43.108.196.0/22" comment="Generated blocklist for alibaba"
-add list="anti-alibaba-cn-net-alibaba-us-technology-co-ltd" address="43.108.6.0/24" comment="Generated blocklist for alibaba"
 add list="anti-alibaba-cn-net-alibaba-us-technology-co-ltd" address="43.108.60.0/22" comment="Generated blocklist for alibaba"
 add list="anti-alibaba-cn-net-alibaba-us-technology-co-ltd" address="43.108.64.0/18" comment="Generated blocklist for alibaba"
 add list="anti-alibaba-cn-net-alibaba-us-technology-co-ltd" address="43.110.0.0/16" comment="Generated blocklist for alibaba"

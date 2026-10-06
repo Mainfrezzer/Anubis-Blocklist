@@ -1,6 +1,6 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for xTom
-# Entries: 131
+# Entries: 132
 #
 /ipv6 firewall address-list
 add list="anti-xtom-as-jp-xtom" address="2400:ddc0:1000::/48" comment="Generated blocklist for xTom"
@@ -119,6 +119,7 @@ add list="anti-xtom-as-jp-xtom" address="2a09:0:6::/48" comment="Generated block
 add list="anti-xtom-as-jp-xtom" address="2a09:0:7::/48" comment="Generated blocklist for xTom"
 add list="anti-xtom-as-jp-xtom" address="2a09:0:8000::/48" comment="Generated blocklist for xTom"
 add list="anti-xtom-as-jp-xtom" address="2a09:0:8001::/48" comment="Generated blocklist for xTom"
+add list="anti-xtom-as-jp-xtom" address="2a09:0:8002::/48" comment="Generated blocklist for xTom"
 add list="anti-xtom-as-jp-xtom" address="2a09:0:8::/48" comment="Generated blocklist for xTom"
 add list="anti-xtom-as-jp-xtom" address="2a09:0:9000::/40" comment="Generated blocklist for xTom"
 add list="anti-xtom-as-jp-xtom" address="2a09:0:9::/48" comment="Generated blocklist for xTom"

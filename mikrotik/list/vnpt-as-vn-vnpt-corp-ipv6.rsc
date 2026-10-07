@@ -1,6 +1,6 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for VNPT Corp
-# Entries: 334
+# Entries: 333
 #
 /ipv6 firewall address-list
 add list="anti-vnpt-as-vn-vnpt-corp" address="2001:df2:ce00::/48" comment="Generated blocklist for VNPT Corp"
@@ -220,7 +220,6 @@ add list="anti-vnpt-as-vn-vnpt-corp" address="2001:ee0:9200::/42" comment="Gener
 add list="anti-vnpt-as-vn-vnpt-corp" address="2001:ee0:9400::/42" comment="Generated blocklist for VNPT Corp"
 add list="anti-vnpt-as-vn-vnpt-corp" address="2001:ee0:9700::/42" comment="Generated blocklist for VNPT Corp"
 add list="anti-vnpt-as-vn-vnpt-corp" address="2001:ee0:9800::/42" comment="Generated blocklist for VNPT Corp"
-add list="anti-vnpt-as-vn-vnpt-corp" address="2001:ee0:9b00::/42" comment="Generated blocklist for VNPT Corp"
 add list="anti-vnpt-as-vn-vnpt-corp" address="2001:ee0:9c00::/42" comment="Generated blocklist for VNPT Corp"
 add list="anti-vnpt-as-vn-vnpt-corp" address="2001:ee0:9c40::/42" comment="Generated blocklist for VNPT Corp"
 add list="anti-vnpt-as-vn-vnpt-corp" address="2001:ee0:9f00::/42" comment="Generated blocklist for VNPT Corp"

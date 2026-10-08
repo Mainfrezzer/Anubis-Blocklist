@@ -1,6 +1,6 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for FDCservers.net
-# Entries: 844
+# Entries: 842
 #
 /ip firewall address-list
 add list="anti-fdcservers-fdcservers-net" address="103.119.112.0/24" comment="Generated blocklist for FDCservers.net"
@@ -219,7 +219,6 @@ add list="anti-fdcservers-fdcservers-net" address="209.101.4.0/23" comment="Gene
 add list="anti-fdcservers-fdcservers-net" address="209.101.6.0/23" comment="Generated blocklist for FDCservers.net"
 add list="anti-fdcservers-fdcservers-net" address="209.166.4.0/23" comment="Generated blocklist for FDCservers.net"
 add list="anti-fdcservers-fdcservers-net" address="209.182.103.0/24" comment="Generated blocklist for FDCservers.net"
-add list="anti-fdcservers-fdcservers-net" address="212.134.206.0/24" comment="Generated blocklist for FDCservers.net"
 add list="anti-fdcservers-fdcservers-net" address="212.135.14.0/23" comment="Generated blocklist for FDCservers.net"
 add list="anti-fdcservers-fdcservers-net" address="212.135.176.0/23" comment="Generated blocklist for FDCservers.net"
 add list="anti-fdcservers-fdcservers-net" address="212.135.182.0/23" comment="Generated blocklist for FDCservers.net"
@@ -555,7 +554,6 @@ add list="anti-fdcservers-fdcservers-net" address="50.7.63.0/24" comment="Genera
 add list="anti-fdcservers-fdcservers-net" address="50.7.64.0/22" comment="Generated blocklist for FDCservers.net"
 add list="anti-fdcservers-fdcservers-net" address="50.7.68.0/22" comment="Generated blocklist for FDCservers.net"
 add list="anti-fdcservers-fdcservers-net" address="50.7.72.0/22" comment="Generated blocklist for FDCservers.net"
-add list="anti-fdcservers-fdcservers-net" address="50.7.8.0/24" comment="Generated blocklist for FDCservers.net"
 add list="anti-fdcservers-fdcservers-net" address="50.7.80.0/22" comment="Generated blocklist for FDCservers.net"
 add list="anti-fdcservers-fdcservers-net" address="50.7.84.0/22" comment="Generated blocklist for FDCservers.net"
 add list="anti-fdcservers-fdcservers-net" address="50.7.88.0/22" comment="Generated blocklist for FDCservers.net"

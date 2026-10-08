@@ -1,8 +1,9 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for Orion Network
-# Entries: 13
+# Entries: 14
 #
 /ipv6 firewall address-list
+add list="anti-as41564-orion-network-limited" address="2a02:5740:101::/48" comment="Generated blocklist for Orion Network"
 add list="anti-as41564-orion-network-limited" address="2a02:5740:10::/48" comment="Generated blocklist for Orion Network"
 add list="anti-as41564-orion-network-limited" address="2a02:5740:11::/48" comment="Generated blocklist for Orion Network"
 add list="anti-as41564-orion-network-limited" address="2a02:5740:14::/48" comment="Generated blocklist for Orion Network"

@@ -1,6 +1,6 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for Viettel
-# Entries: 110
+# Entries: 112
 #
 /ip firewall address-list
 add list="anti-vtdc-as-vn-vietel-cht-compamy-ltd" address="103.1.208.0/22" comment="Generated blocklist for Viettel"
@@ -29,6 +29,7 @@ add list="anti-vtdc-as-vn-vietel-cht-compamy-ltd" address="125.212.196.0/22" com
 add list="anti-vtdc-as-vn-vietel-cht-compamy-ltd" address="125.212.196.0/24" comment="Generated blocklist for Viettel"
 add list="anti-vtdc-as-vn-vietel-cht-compamy-ltd" address="125.212.198.0/24" comment="Generated blocklist for Viettel"
 add list="anti-vtdc-as-vn-vietel-cht-compamy-ltd" address="125.212.200.0/22" comment="Generated blocklist for Viettel"
+add list="anti-vtdc-as-vn-vietel-cht-compamy-ltd" address="125.212.200.0/24" comment="Generated blocklist for Viettel"
 add list="anti-vtdc-as-vn-vietel-cht-compamy-ltd" address="125.212.204.0/22" comment="Generated blocklist for Viettel"
 add list="anti-vtdc-as-vn-vietel-cht-compamy-ltd" address="125.212.224.0/21" comment="Generated blocklist for Viettel"
 add list="anti-vtdc-as-vn-vietel-cht-compamy-ltd" address="125.212.224.0/24" comment="Generated blocklist for Viettel"
@@ -67,6 +68,7 @@ add list="anti-vtdc-as-vn-vietel-cht-compamy-ltd" address="171.244.198.0/23" com
 add list="anti-vtdc-as-vn-vietel-cht-compamy-ltd" address="171.244.4.0/22" comment="Generated blocklist for Viettel"
 add list="anti-vtdc-as-vn-vietel-cht-compamy-ltd" address="171.244.48.0/22" comment="Generated blocklist for Viettel"
 add list="anti-vtdc-as-vn-vietel-cht-compamy-ltd" address="171.244.49.0/24" comment="Generated blocklist for Viettel"
+add list="anti-vtdc-as-vn-vietel-cht-compamy-ltd" address="171.244.5.0/24" comment="Generated blocklist for Viettel"
 add list="anti-vtdc-as-vn-vietel-cht-compamy-ltd" address="171.244.51.0/24" comment="Generated blocklist for Viettel"
 add list="anti-vtdc-as-vn-vietel-cht-compamy-ltd" address="171.244.52.0/22" comment="Generated blocklist for Viettel"
 add list="anti-vtdc-as-vn-vietel-cht-compamy-ltd" address="171.244.53.0/24" comment="Generated blocklist for Viettel"

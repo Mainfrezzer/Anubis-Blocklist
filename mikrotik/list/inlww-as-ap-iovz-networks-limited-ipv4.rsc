@@ -1,6 +1,6 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for iOVZ Networks Limited
-# Entries: 42
+# Entries: 40
 #
 /ip firewall address-list
 add list="anti-inlww-as-ap-iovz-networks-limited" address="148.135.234.0/24" comment="Generated blocklist for iOVZ Networks Limited"
@@ -24,7 +24,6 @@ add list="anti-inlww-as-ap-iovz-networks-limited" address="199.188.196.0/24" com
 add list="anti-inlww-as-ap-iovz-networks-limited" address="206.237.73.0/24" comment="Generated blocklist for iOVZ Networks Limited"
 add list="anti-inlww-as-ap-iovz-networks-limited" address="206.237.74.0/24" comment="Generated blocklist for iOVZ Networks Limited"
 add list="anti-inlww-as-ap-iovz-networks-limited" address="206.237.76.0/24" comment="Generated blocklist for iOVZ Networks Limited"
-add list="anti-inlww-as-ap-iovz-networks-limited" address="207.180.30.0/24" comment="Generated blocklist for iOVZ Networks Limited"
 add list="anti-inlww-as-ap-iovz-networks-limited" address="216.40.70.0/24" comment="Generated blocklist for iOVZ Networks Limited"
 add list="anti-inlww-as-ap-iovz-networks-limited" address="216.40.71.0/24" comment="Generated blocklist for iOVZ Networks Limited"
 add list="anti-inlww-as-ap-iovz-networks-limited" address="38.30.253.0/24" comment="Generated blocklist for iOVZ Networks Limited"
@@ -36,7 +35,6 @@ add list="anti-inlww-as-ap-iovz-networks-limited" address="85.149.200.0/21" comm
 add list="anti-inlww-as-ap-iovz-networks-limited" address="85.149.200.0/22" comment="Generated blocklist for iOVZ Networks Limited"
 add list="anti-inlww-as-ap-iovz-networks-limited" address="85.149.204.0/22" comment="Generated blocklist for iOVZ Networks Limited"
 add list="anti-inlww-as-ap-iovz-networks-limited" address="95.135.188.0/24" comment="Generated blocklist for iOVZ Networks Limited"
-add list="anti-inlww-as-ap-iovz-networks-limited" address="96.62.19.0/24" comment="Generated blocklist for iOVZ Networks Limited"
 add list="anti-inlww-as-ap-iovz-networks-limited" address="96.62.24.0/24" comment="Generated blocklist for iOVZ Networks Limited"
 add list="anti-inlww-as-ap-iovz-networks-limited" address="96.62.25.0/24" comment="Generated blocklist for iOVZ Networks Limited"
 add list="anti-inlww-as-ap-iovz-networks-limited" address="96.62.30.0/24" comment="Generated blocklist for iOVZ Networks Limited"

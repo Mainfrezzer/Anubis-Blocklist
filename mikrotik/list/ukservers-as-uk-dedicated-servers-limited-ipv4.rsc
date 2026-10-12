@@ -1,6 +1,6 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for ukserver.com
-# Entries: 273
+# Entries: 272
 #
 /ip firewall address-list
 add list="anti-ukservers-as-uk-dedicated-servers-limited" address="102.165.56.0/24" comment="Generated blocklist for ukserver.com"
@@ -34,7 +34,6 @@ add list="anti-ukservers-as-uk-dedicated-servers-limited" address="143.20.193.0/
 add list="anti-ukservers-as-uk-dedicated-servers-limited" address="143.20.46.0/24" comment="Generated blocklist for ukserver.com"
 add list="anti-ukservers-as-uk-dedicated-servers-limited" address="143.20.67.0/24" comment="Generated blocklist for ukserver.com"
 add list="anti-ukservers-as-uk-dedicated-servers-limited" address="146.103.28.0/24" comment="Generated blocklist for ukserver.com"
-add list="anti-ukservers-as-uk-dedicated-servers-limited" address="147.79.4.0/24" comment="Generated blocklist for ukserver.com"
 add list="anti-ukservers-as-uk-dedicated-servers-limited" address="148.135.174.0/24" comment="Generated blocklist for ukserver.com"
 add list="anti-ukservers-as-uk-dedicated-servers-limited" address="150.241.132.0/24" comment="Generated blocklist for ukserver.com"
 add list="anti-ukservers-as-uk-dedicated-servers-limited" address="150.241.133.0/24" comment="Generated blocklist for ukserver.com"

@@ -1,6 +1,6 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for Datacamp
-# Entries: 4077
+# Entries: 4084
 #
 /ip firewall address-list
 add list="anti-cdnext-datacamp-limited" address="102.129.132.0/24" comment="Generated blocklist for Datacamp"
@@ -1082,6 +1082,8 @@ add list="anti-cdnext-datacamp-limited" address="163.5.36.0/24" comment="Generat
 add list="anti-cdnext-datacamp-limited" address="163.5.95.0/24" comment="Generated blocklist for Datacamp"
 add list="anti-cdnext-datacamp-limited" address="163.8.44.0/24" comment="Generated blocklist for Datacamp"
 add list="anti-cdnext-datacamp-limited" address="164.37.223.0/24" comment="Generated blocklist for Datacamp"
+add list="anti-cdnext-datacamp-limited" address="164.37.226.0/24" comment="Generated blocklist for Datacamp"
+add list="anti-cdnext-datacamp-limited" address="164.37.228.0/24" comment="Generated blocklist for Datacamp"
 add list="anti-cdnext-datacamp-limited" address="166.0.156.0/24" comment="Generated blocklist for Datacamp"
 add list="anti-cdnext-datacamp-limited" address="166.0.203.0/24" comment="Generated blocklist for Datacamp"
 add list="anti-cdnext-datacamp-limited" address="166.0.205.0/24" comment="Generated blocklist for Datacamp"
@@ -1334,6 +1336,8 @@ add list="anti-cdnext-datacamp-limited" address="172.81.144.0/24" comment="Gener
 add list="anti-cdnext-datacamp-limited" address="172.81.145.0/24" comment="Generated blocklist for Datacamp"
 add list="anti-cdnext-datacamp-limited" address="172.81.146.0/24" comment="Generated blocklist for Datacamp"
 add list="anti-cdnext-datacamp-limited" address="172.81.147.0/24" comment="Generated blocklist for Datacamp"
+add list="anti-cdnext-datacamp-limited" address="172.82.168.0/24" comment="Generated blocklist for Datacamp"
+add list="anti-cdnext-datacamp-limited" address="172.82.169.0/24" comment="Generated blocklist for Datacamp"
 add list="anti-cdnext-datacamp-limited" address="172.94.1.0/24" comment="Generated blocklist for Datacamp"
 add list="anti-cdnext-datacamp-limited" address="172.94.10.0/24" comment="Generated blocklist for Datacamp"
 add list="anti-cdnext-datacamp-limited" address="172.94.104.0/24" comment="Generated blocklist for Datacamp"
@@ -3196,6 +3200,7 @@ add list="anti-cdnext-datacamp-limited" address="64.202.105.0/24" comment="Gener
 add list="anti-cdnext-datacamp-limited" address="64.202.106.0/24" comment="Generated blocklist for Datacamp"
 add list="anti-cdnext-datacamp-limited" address="64.202.99.0/24" comment="Generated blocklist for Datacamp"
 add list="anti-cdnext-datacamp-limited" address="64.204.130.0/24" comment="Generated blocklist for Datacamp"
+add list="anti-cdnext-datacamp-limited" address="64.204.167.0/24" comment="Generated blocklist for Datacamp"
 add list="anti-cdnext-datacamp-limited" address="64.204.170.0/24" comment="Generated blocklist for Datacamp"
 add list="anti-cdnext-datacamp-limited" address="64.204.202.0/24" comment="Generated blocklist for Datacamp"
 add list="anti-cdnext-datacamp-limited" address="64.204.207.0/24" comment="Generated blocklist for Datacamp"
@@ -3427,6 +3432,8 @@ add list="anti-cdnext-datacamp-limited" address="79.176.255.0/24" comment="Gener
 add list="anti-cdnext-datacamp-limited" address="79.182.18.0/24" comment="Generated blocklist for Datacamp"
 add list="anti-cdnext-datacamp-limited" address="79.182.38.0/24" comment="Generated blocklist for Datacamp"
 add list="anti-cdnext-datacamp-limited" address="79.182.6.0/24" comment="Generated blocklist for Datacamp"
+add list="anti-cdnext-datacamp-limited" address="79.182.7.0/24" comment="Generated blocklist for Datacamp"
+add list="anti-cdnext-datacamp-limited" address="79.182.8.0/24" comment="Generated blocklist for Datacamp"
 add list="anti-cdnext-datacamp-limited" address="79.98.183.0/24" comment="Generated blocklist for Datacamp"
 add list="anti-cdnext-datacamp-limited" address="79.99.150.0/23" comment="Generated blocklist for Datacamp"
 add list="anti-cdnext-datacamp-limited" address="79.99.75.0/24" comment="Generated blocklist for Datacamp"

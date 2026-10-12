@@ -1,6 +1,6 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for Cogent
-# Entries: 534
+# Entries: 533
 #
 /ipv6 firewall address-list
 add list="anti-cogent-174-cogent-communications-llc" address="2001:550:100:8::/64" comment="Generated blocklist for Cogent"
@@ -235,6 +235,7 @@ add list="anti-cogent-174-cogent-communications-llc" address="2001:550:5c0a:14::
 add list="anti-cogent-174-cogent-communications-llc" address="2001:550:5c0a:15::/64" comment="Generated blocklist for Cogent"
 add list="anti-cogent-174-cogent-communications-llc" address="2001:550:5c0a:16::/64" comment="Generated blocklist for Cogent"
 add list="anti-cogent-174-cogent-communications-llc" address="2001:550:5c0a:17::/64" comment="Generated blocklist for Cogent"
+add list="anti-cogent-174-cogent-communications-llc" address="2001:550:5c0a:28::/64" comment="Generated blocklist for Cogent"
 add list="anti-cogent-174-cogent-communications-llc" address="2001:550:5c0a::/48" comment="Generated blocklist for Cogent"
 add list="anti-cogent-174-cogent-communications-llc" address="2001:550:5c0b:11::/64" comment="Generated blocklist for Cogent"
 add list="anti-cogent-174-cogent-communications-llc" address="2001:550:5c0b:12::/64" comment="Generated blocklist for Cogent"
@@ -530,8 +531,6 @@ add list="anti-cogent-174-cogent-communications-llc" address="2a0f:3b80::/32" co
 add list="anti-cogent-174-cogent-communications-llc" address="2a0f:3b81::/32" comment="Generated blocklist for Cogent"
 add list="anti-cogent-174-cogent-communications-llc" address="2a0f:3b82::/32" comment="Generated blocklist for Cogent"
 add list="anti-cogent-174-cogent-communications-llc" address="2a0f:3b83::/32" comment="Generated blocklist for Cogent"
-add list="anti-cogent-174-cogent-communications-llc" address="2a0f:cac0:2::/48" comment="Generated blocklist for Cogent"
-add list="anti-cogent-174-cogent-communications-llc" address="2a0f:cac0:3::/48" comment="Generated blocklist for Cogent"
 add list="anti-cogent-174-cogent-communications-llc" address="2a0f:cac0:4::/48" comment="Generated blocklist for Cogent"
 add list="anti-cogent-174-cogent-communications-llc" address="2a0f:cac0:5::/48" comment="Generated blocklist for Cogent"
 add list="anti-cogent-174-cogent-communications-llc" address="2a13:9500:14f::/48" comment="Generated blocklist for Cogent"

@@ -1,6 +1,6 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for Datacamp
-# Entries: 789
+# Entries: 799
 #
 /ipv6 firewall address-list
 add list="anti-cdnext-datacamp-limited" address="2400:52e0:1e00::/48" comment="Generated blocklist for Datacamp"
@@ -617,7 +617,17 @@ add list="anti-cdnext-datacamp-limited" address="2a10:9fc1::/32" comment="Genera
 add list="anti-cdnext-datacamp-limited" address="2a10:9fc2::/32" comment="Generated blocklist for Datacamp"
 add list="anti-cdnext-datacamp-limited" address="2a10:9fc3::/32" comment="Generated blocklist for Datacamp"
 add list="anti-cdnext-datacamp-limited" address="2a10:9fc4::/32" comment="Generated blocklist for Datacamp"
+add list="anti-cdnext-datacamp-limited" address="2a10:9fc5::/32" comment="Generated blocklist for Datacamp"
+add list="anti-cdnext-datacamp-limited" address="2a10:9fc6::/32" comment="Generated blocklist for Datacamp"
 add list="anti-cdnext-datacamp-limited" address="2a10:9fc7::/32" comment="Generated blocklist for Datacamp"
+add list="anti-cdnext-datacamp-limited" address="2a10:a040::/32" comment="Generated blocklist for Datacamp"
+add list="anti-cdnext-datacamp-limited" address="2a10:a041::/32" comment="Generated blocklist for Datacamp"
+add list="anti-cdnext-datacamp-limited" address="2a10:a042::/32" comment="Generated blocklist for Datacamp"
+add list="anti-cdnext-datacamp-limited" address="2a10:a043::/32" comment="Generated blocklist for Datacamp"
+add list="anti-cdnext-datacamp-limited" address="2a10:a044::/32" comment="Generated blocklist for Datacamp"
+add list="anti-cdnext-datacamp-limited" address="2a10:a045::/32" comment="Generated blocklist for Datacamp"
+add list="anti-cdnext-datacamp-limited" address="2a10:a046::/32" comment="Generated blocklist for Datacamp"
+add list="anti-cdnext-datacamp-limited" address="2a10:a047::/32" comment="Generated blocklist for Datacamp"
 add list="anti-cdnext-datacamp-limited" address="2a10:aa40::/32" comment="Generated blocklist for Datacamp"
 add list="anti-cdnext-datacamp-limited" address="2a10:aa41::/32" comment="Generated blocklist for Datacamp"
 add list="anti-cdnext-datacamp-limited" address="2a10:aa42::/32" comment="Generated blocklist for Datacamp"

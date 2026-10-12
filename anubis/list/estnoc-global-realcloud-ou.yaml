@@ -1,4 +1,4 @@
-- name: anti estnoc-global-estnoc-ou
+- name: anti estnoc-global-realcloud-ou
   action: CHALLENGE
   challenge:
     difficulty: 64

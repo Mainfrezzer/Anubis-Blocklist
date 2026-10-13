@@ -1,6 +1,6 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for Cloudie Limited
-# Entries: 348
+# Entries: 349
 #
 /ip firewall address-list
 add list="anti-cloudie-as-ap-cloudie-limited" address="102.134.32.0/22" comment="Generated blocklist for Cloudie Limited"
@@ -226,6 +226,7 @@ add list="anti-cloudie-as-ap-cloudie-limited" address="185.239.86.0/23" comment=
 add list="anti-cloudie-as-ap-cloudie-limited" address="185.239.87.0/24" comment="Generated blocklist for Cloudie Limited"
 add list="anti-cloudie-as-ap-cloudie-limited" address="185.242.232.0/22" comment="Generated blocklist for Cloudie Limited"
 add list="anti-cloudie-as-ap-cloudie-limited" address="185.242.232.0/23" comment="Generated blocklist for Cloudie Limited"
+add list="anti-cloudie-as-ap-cloudie-limited" address="185.242.232.0/24" comment="Generated blocklist for Cloudie Limited"
 add list="anti-cloudie-as-ap-cloudie-limited" address="185.242.234.0/23" comment="Generated blocklist for Cloudie Limited"
 add list="anti-cloudie-as-ap-cloudie-limited" address="185.242.234.0/24" comment="Generated blocklist for Cloudie Limited"
 add list="anti-cloudie-as-ap-cloudie-limited" address="185.245.40.0/23" comment="Generated blocklist for Cloudie Limited"

@@ -1,6 +1,6 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for Oracle Cloud
-# Entries: 2831
+# Entries: 2832
 #
 /ip firewall address-list
 add list="anti-oracle-bmc-31898-oracle-corporation" address="101.0.112.0/21" comment="Generated blocklist for Oracle Cloud"
@@ -96,6 +96,7 @@ add list="anti-oracle-bmc-31898-oracle-corporation" address="129.121.152.0/22" c
 add list="anti-oracle-bmc-31898-oracle-corporation" address="129.121.156.0/23" comment="Generated blocklist for Oracle Cloud"
 add list="anti-oracle-bmc-31898-oracle-corporation" address="129.121.160.0/21" comment="Generated blocklist for Oracle Cloud"
 add list="anti-oracle-bmc-31898-oracle-corporation" address="129.121.168.0/22" comment="Generated blocklist for Oracle Cloud"
+add list="anti-oracle-bmc-31898-oracle-corporation" address="129.121.172.0/22" comment="Generated blocklist for Oracle Cloud"
 add list="anti-oracle-bmc-31898-oracle-corporation" address="129.121.32.0/22" comment="Generated blocklist for Oracle Cloud"
 add list="anti-oracle-bmc-31898-oracle-corporation" address="129.121.36.0/22" comment="Generated blocklist for Oracle Cloud"
 add list="anti-oracle-bmc-31898-oracle-corporation" address="129.121.40.0/22" comment="Generated blocklist for Oracle Cloud"

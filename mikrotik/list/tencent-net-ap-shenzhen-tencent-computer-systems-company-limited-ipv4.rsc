@@ -1,6 +1,6 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for tencent
-# Entries: 3367
+# Entries: 3368
 #
 /ip firewall address-list
 add list="anti-tencent-net-ap-shenzhen-tencent-computer-systems-company-limited" address="1.116.0.0/15" comment="Generated blocklist for tencent"
@@ -1924,6 +1924,7 @@ add list="anti-tencent-net-ap-shenzhen-tencent-computer-systems-company-limited"
 add list="anti-tencent-net-ap-shenzhen-tencent-computer-systems-company-limited" address="142.86.128.0/19" comment="Generated blocklist for tencent"
 add list="anti-tencent-net-ap-shenzhen-tencent-computer-systems-company-limited" address="142.86.160.0/19" comment="Generated blocklist for tencent"
 add list="anti-tencent-net-ap-shenzhen-tencent-computer-systems-company-limited" address="142.86.192.0/22" comment="Generated blocklist for tencent"
+add list="anti-tencent-net-ap-shenzhen-tencent-computer-systems-company-limited" address="142.86.192.0/23" comment="Generated blocklist for tencent"
 add list="anti-tencent-net-ap-shenzhen-tencent-computer-systems-company-limited" address="142.86.196.0/22" comment="Generated blocklist for tencent"
 add list="anti-tencent-net-ap-shenzhen-tencent-computer-systems-company-limited" address="142.86.64.0/18" comment="Generated blocklist for tencent"
 add list="anti-tencent-net-ap-shenzhen-tencent-computer-systems-company-limited" address="146.56.192.0/18" comment="Generated blocklist for tencent"
@@ -2454,7 +2455,6 @@ add list="anti-tencent-net-ap-shenzhen-tencent-computer-systems-company-limited"
 add list="anti-tencent-net-ap-shenzhen-tencent-computer-systems-company-limited" address="182.254.80.0/23" comment="Generated blocklist for tencent"
 add list="anti-tencent-net-ap-shenzhen-tencent-computer-systems-company-limited" address="182.254.82.0/23" comment="Generated blocklist for tencent"
 add list="anti-tencent-net-ap-shenzhen-tencent-computer-systems-company-limited" address="182.254.84.0/23" comment="Generated blocklist for tencent"
-add list="anti-tencent-net-ap-shenzhen-tencent-computer-systems-company-limited" address="182.254.85.0/24" comment="Generated blocklist for tencent"
 add list="anti-tencent-net-ap-shenzhen-tencent-computer-systems-company-limited" address="182.254.86.0/23" comment="Generated blocklist for tencent"
 add list="anti-tencent-net-ap-shenzhen-tencent-computer-systems-company-limited" address="182.254.88.0/23" comment="Generated blocklist for tencent"
 add list="anti-tencent-net-ap-shenzhen-tencent-computer-systems-company-limited" address="182.254.90.0/23" comment="Generated blocklist for tencent"
@@ -3124,6 +3124,7 @@ add list="anti-tencent-net-ap-shenzhen-tencent-computer-systems-company-limited"
 add list="anti-tencent-net-ap-shenzhen-tencent-computer-systems-company-limited" address="43.180.192.0/19" comment="Generated blocklist for tencent"
 add list="anti-tencent-net-ap-shenzhen-tencent-computer-systems-company-limited" address="43.180.224.0/20" comment="Generated blocklist for tencent"
 add list="anti-tencent-net-ap-shenzhen-tencent-computer-systems-company-limited" address="43.180.240.0/20" comment="Generated blocklist for tencent"
+add list="anti-tencent-net-ap-shenzhen-tencent-computer-systems-company-limited" address="43.180.32.0/19" comment="Generated blocklist for tencent"
 add list="anti-tencent-net-ap-shenzhen-tencent-computer-systems-company-limited" address="43.180.64.0/19" comment="Generated blocklist for tencent"
 add list="anti-tencent-net-ap-shenzhen-tencent-computer-systems-company-limited" address="43.180.96.0/20" comment="Generated blocklist for tencent"
 add list="anti-tencent-net-ap-shenzhen-tencent-computer-systems-company-limited" address="43.242.252.0/22" comment="Generated blocklist for tencent"

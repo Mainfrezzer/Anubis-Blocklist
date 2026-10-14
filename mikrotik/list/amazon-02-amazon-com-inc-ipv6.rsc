@@ -1,6 +1,6 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for amazon
-# Entries: 6724
+# Entries: 6727
 #
 /ipv6 firewall address-list
 add list="anti-amazon-02-amazon-com-inc" address="2001:3fc0:800::/40" comment="Generated blocklist for amazon"
@@ -4354,6 +4354,8 @@ add list="anti-amazon-02-amazon-com-inc" address="2601:9200:f3::/48" comment="Ge
 add list="anti-amazon-02-amazon-com-inc" address="2601:9200:f4::/48" comment="Generated blocklist for amazon"
 add list="anti-amazon-02-amazon-com-inc" address="2601:9200:f5::/48" comment="Generated blocklist for amazon"
 add list="anti-amazon-02-amazon-com-inc" address="2601:9200:f6::/48" comment="Generated blocklist for amazon"
+add list="anti-amazon-02-amazon-com-inc" address="2601:9200:f8::/48" comment="Generated blocklist for amazon"
+add list="anti-amazon-02-amazon-com-inc" address="2601:9200:f9::/48" comment="Generated blocklist for amazon"
 add list="anti-amazon-02-amazon-com-inc" address="2601:9201:13::/48" comment="Generated blocklist for amazon"
 add list="anti-amazon-02-amazon-com-inc" address="2602:277:d02::/47" comment="Generated blocklist for amazon"
 add list="anti-amazon-02-amazon-com-inc" address="2602:277:f00::/48" comment="Generated blocklist for amazon"
@@ -4455,6 +4457,7 @@ add list="anti-amazon-02-amazon-com-inc" address="2602:f805:7b2::/48" comment="G
 add list="anti-amazon-02-amazon-com-inc" address="2602:f805:959::/48" comment="Generated blocklist for amazon"
 add list="anti-amazon-02-amazon-com-inc" address="2602:f805:cd9::/48" comment="Generated blocklist for amazon"
 add list="anti-amazon-02-amazon-com-inc" address="2602:f805:ef::/48" comment="Generated blocklist for amazon"
+add list="anti-amazon-02-amazon-com-inc" address="2602:f848::/40" comment="Generated blocklist for amazon"
 add list="anti-amazon-02-amazon-com-inc" address="2602:f8b4:2::/48" comment="Generated blocklist for amazon"
 add list="anti-amazon-02-amazon-com-inc" address="2602:f8d4:6::/48" comment="Generated blocklist for amazon"
 add list="anti-amazon-02-amazon-com-inc" address="2602:f8d4:7::/48" comment="Generated blocklist for amazon"

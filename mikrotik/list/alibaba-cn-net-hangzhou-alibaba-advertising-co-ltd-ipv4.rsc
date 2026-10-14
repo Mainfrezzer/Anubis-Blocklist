@@ -1,6 +1,6 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for Hangzhou Alibaba Advertising
-# Entries: 791
+# Entries: 793
 #
 /ip firewall address-list
 add list="anti-alibaba-cn-net-hangzhou-alibaba-advertising-co-ltd" address="101.132.0.0/15" comment="Generated blocklist for Hangzhou Alibaba Advertising"
@@ -84,7 +84,9 @@ add list="anti-alibaba-cn-net-hangzhou-alibaba-advertising-co-ltd" address="110.
 add list="anti-alibaba-cn-net-hangzhou-alibaba-advertising-co-ltd" address="110.76.2.0/23" comment="Generated blocklist for Hangzhou Alibaba Advertising"
 add list="anti-alibaba-cn-net-hangzhou-alibaba-advertising-co-ltd" address="110.76.2.0/24" comment="Generated blocklist for Hangzhou Alibaba Advertising"
 add list="anti-alibaba-cn-net-hangzhou-alibaba-advertising-co-ltd" address="110.76.20.0/24" comment="Generated blocklist for Hangzhou Alibaba Advertising"
+add list="anti-alibaba-cn-net-hangzhou-alibaba-advertising-co-ltd" address="110.76.21.0/24" comment="Generated blocklist for Hangzhou Alibaba Advertising"
 add list="anti-alibaba-cn-net-hangzhou-alibaba-advertising-co-ltd" address="110.76.22.0/24" comment="Generated blocklist for Hangzhou Alibaba Advertising"
+add list="anti-alibaba-cn-net-hangzhou-alibaba-advertising-co-ltd" address="110.76.23.0/24" comment="Generated blocklist for Hangzhou Alibaba Advertising"
 add list="anti-alibaba-cn-net-hangzhou-alibaba-advertising-co-ltd" address="110.76.24.0/24" comment="Generated blocklist for Hangzhou Alibaba Advertising"
 add list="anti-alibaba-cn-net-hangzhou-alibaba-advertising-co-ltd" address="110.76.26.0/24" comment="Generated blocklist for Hangzhou Alibaba Advertising"
 add list="anti-alibaba-cn-net-hangzhou-alibaba-advertising-co-ltd" address="110.76.27.0/24" comment="Generated blocklist for Hangzhou Alibaba Advertising"

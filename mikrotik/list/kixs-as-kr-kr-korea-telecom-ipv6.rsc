@@ -1,6 +1,6 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for Korea Telecom
-# Entries: 48
+# Entries: 51
 #
 /ipv6 firewall address-list
 add list="anti-kixs-as-kr-kr-korea-telecom" address="2400:0:611::/48" comment="Generated blocklist for Korea Telecom"
@@ -14,7 +14,9 @@ add list="anti-kixs-as-kr-kr-korea-telecom" address="2400:0:870::/44" comment="G
 add list="anti-kixs-as-kr-kr-korea-telecom" address="2400:100::/32" comment="Generated blocklist for Korea Telecom"
 add list="anti-kixs-as-kr-kr-korea-telecom" address="2400:101::/32" comment="Generated blocklist for Korea Telecom"
 add list="anti-kixs-as-kr-kr-korea-telecom" address="2400:102::/32" comment="Generated blocklist for Korea Telecom"
+add list="anti-kixs-as-kr-kr-korea-telecom" address="2400:103::/32" comment="Generated blocklist for Korea Telecom"
 add list="anti-kixs-as-kr-kr-korea-telecom" address="2400:103:c009::/48" comment="Generated blocklist for Korea Telecom"
+add list="anti-kixs-as-kr-kr-korea-telecom" address="2400:104::/30" comment="Generated blocklist for Korea Telecom"
 add list="anti-kixs-as-kr-kr-korea-telecom" address="2400:108::/32" comment="Generated blocklist for Korea Telecom"
 add list="anti-kixs-as-kr-kr-korea-telecom" address="2400:109::/32" comment="Generated blocklist for Korea Telecom"
 add list="anti-kixs-as-kr-kr-korea-telecom" address="2400:110::/32" comment="Generated blocklist for Korea Telecom"
@@ -33,6 +35,7 @@ add list="anti-kixs-as-kr-kr-korea-telecom" address="2400:140:c009::/48" comment
 add list="anti-kixs-as-kr-kr-korea-telecom" address="2400:144::/30" comment="Generated blocklist for Korea Telecom"
 add list="anti-kixs-as-kr-kr-korea-telecom" address="2400:144:c009::/48" comment="Generated blocklist for Korea Telecom"
 add list="anti-kixs-as-kr-kr-korea-telecom" address="2400:148::/32" comment="Generated blocklist for Korea Telecom"
+add list="anti-kixs-as-kr-kr-korea-telecom" address="2400:150::/30" comment="Generated blocklist for Korea Telecom"
 add list="anti-kixs-as-kr-kr-korea-telecom" address="2400:150:c009::/48" comment="Generated blocklist for Korea Telecom"
 add list="anti-kixs-as-kr-kr-korea-telecom" address="2400:154::/31" comment="Generated blocklist for Korea Telecom"
 add list="anti-kixs-as-kr-kr-korea-telecom" address="2400:156::/32" comment="Generated blocklist for Korea Telecom"

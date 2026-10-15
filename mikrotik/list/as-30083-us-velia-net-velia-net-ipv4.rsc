@@ -1,6 +1,6 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for velia.net
-# Entries: 116
+# Entries: 118
 #
 /ip firewall address-list
 add list="anti-as-30083-us-velia-net-velia-net" address="148.72.128.0/24" comment="Generated blocklist for velia.net"
@@ -62,6 +62,7 @@ add list="anti-as-30083-us-velia-net-velia-net" address="173.201.16.0/20" commen
 add list="anti-as-30083-us-velia-net-velia-net" address="173.201.16.0/24" comment="Generated blocklist for velia.net"
 add list="anti-as-30083-us-velia-net-velia-net" address="173.201.17.0/24" comment="Generated blocklist for velia.net"
 add list="anti-as-30083-us-velia-net-velia-net" address="173.201.18.0/24" comment="Generated blocklist for velia.net"
+add list="anti-as-30083-us-velia-net-velia-net" address="173.201.20.0/24" comment="Generated blocklist for velia.net"
 add list="anti-as-30083-us-velia-net-velia-net" address="173.201.21.0/24" comment="Generated blocklist for velia.net"
 add list="anti-as-30083-us-velia-net-velia-net" address="173.201.32.0/21" comment="Generated blocklist for velia.net"
 add list="anti-as-30083-us-velia-net-velia-net" address="173.201.32.0/24" comment="Generated blocklist for velia.net"
@@ -87,6 +88,7 @@ add list="anti-as-30083-us-velia-net-velia-net" address="192.155.103.0/24" comme
 add list="anti-as-30083-us-velia-net-velia-net" address="192.155.96.0/23" comment="Generated blocklist for velia.net"
 add list="anti-as-30083-us-velia-net-velia-net" address="192.155.96.0/24" comment="Generated blocklist for velia.net"
 add list="anti-as-30083-us-velia-net-velia-net" address="192.155.97.0/24" comment="Generated blocklist for velia.net"
+add list="anti-as-30083-us-velia-net-velia-net" address="192.155.98.0/24" comment="Generated blocklist for velia.net"
 add list="anti-as-30083-us-velia-net-velia-net" address="199.189.84.0/22" comment="Generated blocklist for velia.net"
 add list="anti-as-30083-us-velia-net-velia-net" address="199.189.85.0/24" comment="Generated blocklist for velia.net"
 add list="anti-as-30083-us-velia-net-velia-net" address="199.217.112.0/21" comment="Generated blocklist for velia.net"

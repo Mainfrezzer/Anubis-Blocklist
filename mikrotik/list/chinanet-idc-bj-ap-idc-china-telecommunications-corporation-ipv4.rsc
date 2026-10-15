@@ -1,6 +1,6 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for China Telecom Beijing IDC Network
-# Entries: 818
+# Entries: 839
 #
 /ip firewall address-list
 add list="anti-chinanet-idc-bj-ap-idc-china-telecommunications-corporation" address="1.203.115.0/24" comment="Generated blocklist for China Telecom Beijing IDC Network"
@@ -235,6 +235,9 @@ add list="anti-chinanet-idc-bj-ap-idc-china-telecommunications-corporation" addr
 add list="anti-chinanet-idc-bj-ap-idc-china-telecommunications-corporation" address="114.116.64.0/19" comment="Generated blocklist for China Telecom Beijing IDC Network"
 add list="anti-chinanet-idc-bj-ap-idc-china-telecommunications-corporation" address="114.116.96.0/19" comment="Generated blocklist for China Telecom Beijing IDC Network"
 add list="anti-chinanet-idc-bj-ap-idc-china-telecommunications-corporation" address="114.118.0.0/21" comment="Generated blocklist for China Telecom Beijing IDC Network"
+add list="anti-chinanet-idc-bj-ap-idc-china-telecommunications-corporation" address="114.118.104.0/21" comment="Generated blocklist for China Telecom Beijing IDC Network"
+add list="anti-chinanet-idc-bj-ap-idc-china-telecommunications-corporation" address="114.118.112.0/21" comment="Generated blocklist for China Telecom Beijing IDC Network"
+add list="anti-chinanet-idc-bj-ap-idc-china-telecommunications-corporation" address="114.118.120.0/21" comment="Generated blocklist for China Telecom Beijing IDC Network"
 add list="anti-chinanet-idc-bj-ap-idc-china-telecommunications-corporation" address="114.118.16.0/21" comment="Generated blocklist for China Telecom Beijing IDC Network"
 add list="anti-chinanet-idc-bj-ap-idc-china-telecommunications-corporation" address="114.118.24.0/21" comment="Generated blocklist for China Telecom Beijing IDC Network"
 add list="anti-chinanet-idc-bj-ap-idc-china-telecommunications-corporation" address="114.118.64.0/21" comment="Generated blocklist for China Telecom Beijing IDC Network"
@@ -274,10 +277,28 @@ add list="anti-chinanet-idc-bj-ap-idc-china-telecommunications-corporation" addr
 add list="anti-chinanet-idc-bj-ap-idc-china-telecommunications-corporation" address="117.118.160.0/19" comment="Generated blocklist for China Telecom Beijing IDC Network"
 add list="anti-chinanet-idc-bj-ap-idc-china-telecommunications-corporation" address="117.118.192.0/19" comment="Generated blocklist for China Telecom Beijing IDC Network"
 add list="anti-chinanet-idc-bj-ap-idc-china-telecommunications-corporation" address="117.118.224.0/19" comment="Generated blocklist for China Telecom Beijing IDC Network"
+add list="anti-chinanet-idc-bj-ap-idc-china-telecommunications-corporation" address="117.48.100.0/22" comment="Generated blocklist for China Telecom Beijing IDC Network"
+add list="anti-chinanet-idc-bj-ap-idc-china-telecommunications-corporation" address="117.48.104.0/22" comment="Generated blocklist for China Telecom Beijing IDC Network"
+add list="anti-chinanet-idc-bj-ap-idc-china-telecommunications-corporation" address="117.48.108.0/22" comment="Generated blocklist for China Telecom Beijing IDC Network"
 add list="anti-chinanet-idc-bj-ap-idc-china-telecommunications-corporation" address="117.48.112.0/22" comment="Generated blocklist for China Telecom Beijing IDC Network"
 add list="anti-chinanet-idc-bj-ap-idc-china-telecommunications-corporation" address="117.48.116.0/22" comment="Generated blocklist for China Telecom Beijing IDC Network"
 add list="anti-chinanet-idc-bj-ap-idc-china-telecommunications-corporation" address="117.48.120.0/22" comment="Generated blocklist for China Telecom Beijing IDC Network"
 add list="anti-chinanet-idc-bj-ap-idc-china-telecommunications-corporation" address="117.48.124.0/22" comment="Generated blocklist for China Telecom Beijing IDC Network"
+add list="anti-chinanet-idc-bj-ap-idc-china-telecommunications-corporation" address="117.48.32.0/22" comment="Generated blocklist for China Telecom Beijing IDC Network"
+add list="anti-chinanet-idc-bj-ap-idc-china-telecommunications-corporation" address="117.48.36.0/22" comment="Generated blocklist for China Telecom Beijing IDC Network"
+add list="anti-chinanet-idc-bj-ap-idc-china-telecommunications-corporation" address="117.48.40.0/22" comment="Generated blocklist for China Telecom Beijing IDC Network"
+add list="anti-chinanet-idc-bj-ap-idc-china-telecommunications-corporation" address="117.48.44.0/22" comment="Generated blocklist for China Telecom Beijing IDC Network"
+add list="anti-chinanet-idc-bj-ap-idc-china-telecommunications-corporation" address="117.48.48.0/22" comment="Generated blocklist for China Telecom Beijing IDC Network"
+add list="anti-chinanet-idc-bj-ap-idc-china-telecommunications-corporation" address="117.48.52.0/22" comment="Generated blocklist for China Telecom Beijing IDC Network"
+add list="anti-chinanet-idc-bj-ap-idc-china-telecommunications-corporation" address="117.48.56.0/22" comment="Generated blocklist for China Telecom Beijing IDC Network"
+add list="anti-chinanet-idc-bj-ap-idc-china-telecommunications-corporation" address="117.48.60.0/22" comment="Generated blocklist for China Telecom Beijing IDC Network"
+add list="anti-chinanet-idc-bj-ap-idc-china-telecommunications-corporation" address="117.48.64.0/22" comment="Generated blocklist for China Telecom Beijing IDC Network"
+add list="anti-chinanet-idc-bj-ap-idc-china-telecommunications-corporation" address="117.48.68.0/22" comment="Generated blocklist for China Telecom Beijing IDC Network"
+add list="anti-chinanet-idc-bj-ap-idc-china-telecommunications-corporation" address="117.48.72.0/22" comment="Generated blocklist for China Telecom Beijing IDC Network"
+add list="anti-chinanet-idc-bj-ap-idc-china-telecommunications-corporation" address="117.48.76.0/22" comment="Generated blocklist for China Telecom Beijing IDC Network"
+add list="anti-chinanet-idc-bj-ap-idc-china-telecommunications-corporation" address="117.48.80.0/22" comment="Generated blocklist for China Telecom Beijing IDC Network"
+add list="anti-chinanet-idc-bj-ap-idc-china-telecommunications-corporation" address="117.48.84.0/22" comment="Generated blocklist for China Telecom Beijing IDC Network"
+add list="anti-chinanet-idc-bj-ap-idc-china-telecommunications-corporation" address="117.48.88.0/22" comment="Generated blocklist for China Telecom Beijing IDC Network"
 add list="anti-chinanet-idc-bj-ap-idc-china-telecommunications-corporation" address="117.50.0.0/19" comment="Generated blocklist for China Telecom Beijing IDC Network"
 add list="anti-chinanet-idc-bj-ap-idc-china-telecommunications-corporation" address="117.50.128.0/19" comment="Generated blocklist for China Telecom Beijing IDC Network"
 add list="anti-chinanet-idc-bj-ap-idc-china-telecommunications-corporation" address="117.50.160.0/19" comment="Generated blocklist for China Telecom Beijing IDC Network"

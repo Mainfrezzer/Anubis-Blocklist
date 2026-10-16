@@ -1,0 +1,9 @@
+- name: anti dmzhost-techoff-srv-limited
+  action: CHALLENGE
+  challenge:
+    difficulty: 64
+    algorithm: fast
+  remote_addresses:
+  - 195.178.110.0/24
+  - 45.148.10.0/24
+  - 93.123.109.0/24

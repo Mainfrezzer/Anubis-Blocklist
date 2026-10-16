@@ -353,3 +353,6 @@ providers:
     - name: Oracle Cloud
       asns:
         - AS31898
+    - name: TECHOFF SRV LIMITED (dmzhost.co)
+      asns:
+        - AS48090

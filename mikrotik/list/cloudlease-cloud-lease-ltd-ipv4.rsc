@@ -1,6 +1,6 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for Cloud Lease
-# Entries: 31
+# Entries: 30
 #
 /ip firewall address-list
 add list="anti-cloudlease-cloud-lease-ltd" address="181.214.135.0/24" comment="Generated blocklist for Cloud Lease"
@@ -24,7 +24,6 @@ add list="anti-cloudlease-cloud-lease-ltd" address="31.222.204.0/24" comment="Ge
 add list="anti-cloudlease-cloud-lease-ltd" address="31.222.205.0/24" comment="Generated blocklist for Cloud Lease"
 add list="anti-cloudlease-cloud-lease-ltd" address="31.222.206.0/24" comment="Generated blocklist for Cloud Lease"
 add list="anti-cloudlease-cloud-lease-ltd" address="31.222.207.0/24" comment="Generated blocklist for Cloud Lease"
-add list="anti-cloudlease-cloud-lease-ltd" address="31.58.97.0/24" comment="Generated blocklist for Cloud Lease"
 add list="anti-cloudlease-cloud-lease-ltd" address="45.93.46.0/24" comment="Generated blocklist for Cloud Lease"
 add list="anti-cloudlease-cloud-lease-ltd" address="46.232.235.0/24" comment="Generated blocklist for Cloud Lease"
 add list="anti-cloudlease-cloud-lease-ltd" address="77.91.69.0/24" comment="Generated blocklist for Cloud Lease"

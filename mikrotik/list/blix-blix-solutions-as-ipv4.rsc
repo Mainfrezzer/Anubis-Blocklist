@@ -1,6 +1,6 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for Blix Solutions AS
-# Entries: 90
+# Entries: 84
 #
 /ip firewall address-list
 add list="anti-blix-blix-solutions-as" address="104.143.252.0/24" comment="Generated blocklist for Blix Solutions AS"
@@ -18,8 +18,6 @@ add list="anti-blix-blix-solutions-as" address="154.36.85.0/24" comment="Generat
 add list="anti-blix-blix-solutions-as" address="172.102.222.0/23" comment="Generated blocklist for Blix Solutions AS"
 add list="anti-blix-blix-solutions-as" address="172.102.222.0/24" comment="Generated blocklist for Blix Solutions AS"
 add list="anti-blix-blix-solutions-as" address="172.102.223.0/24" comment="Generated blocklist for Blix Solutions AS"
-add list="anti-blix-blix-solutions-as" address="172.84.182.0/24" comment="Generated blocklist for Blix Solutions AS"
-add list="anti-blix-blix-solutions-as" address="172.84.183.0/24" comment="Generated blocklist for Blix Solutions AS"
 add list="anti-blix-blix-solutions-as" address="176.125.232.0/22" comment="Generated blocklist for Blix Solutions AS"
 add list="anti-blix-blix-solutions-as" address="178.255.144.0/21" comment="Generated blocklist for Blix Solutions AS"
 add list="anti-blix-blix-solutions-as" address="181.214.15.0/24" comment="Generated blocklist for Blix Solutions AS"
@@ -27,8 +25,6 @@ add list="anti-blix-blix-solutions-as" address="181.214.19.0/24" comment="Genera
 add list="anti-blix-blix-solutions-as" address="181.214.28.0/24" comment="Generated blocklist for Blix Solutions AS"
 add list="anti-blix-blix-solutions-as" address="181.214.3.0/24" comment="Generated blocklist for Blix Solutions AS"
 add list="anti-blix-blix-solutions-as" address="181.214.32.0/24" comment="Generated blocklist for Blix Solutions AS"
-add list="anti-blix-blix-solutions-as" address="185.101.144.0/24" comment="Generated blocklist for Blix Solutions AS"
-add list="anti-blix-blix-solutions-as" address="185.101.145.0/24" comment="Generated blocklist for Blix Solutions AS"
 add list="anti-blix-blix-solutions-as" address="185.12.56.0/22" comment="Generated blocklist for Blix Solutions AS"
 add list="anti-blix-blix-solutions-as" address="185.12.72.0/22" comment="Generated blocklist for Blix Solutions AS"
 add list="anti-blix-blix-solutions-as" address="185.135.10.0/24" comment="Generated blocklist for Blix Solutions AS"
@@ -43,8 +39,6 @@ add list="anti-blix-blix-solutions-as" address="185.247.12.0/23" comment="Genera
 add list="anti-blix-blix-solutions-as" address="185.35.200.0/22" comment="Generated blocklist for Blix Solutions AS"
 add list="anti-blix-blix-solutions-as" address="185.35.200.0/24" comment="Generated blocklist for Blix Solutions AS"
 add list="anti-blix-blix-solutions-as" address="185.35.201.0/24" comment="Generated blocklist for Blix Solutions AS"
-add list="anti-blix-blix-solutions-as" address="185.37.0.0/24" comment="Generated blocklist for Blix Solutions AS"
-add list="anti-blix-blix-solutions-as" address="185.37.1.0/24" comment="Generated blocklist for Blix Solutions AS"
 add list="anti-blix-blix-solutions-as" address="185.41.240.0/22" comment="Generated blocklist for Blix Solutions AS"
 add list="anti-blix-blix-solutions-as" address="185.41.240.0/23" comment="Generated blocklist for Blix Solutions AS"
 add list="anti-blix-blix-solutions-as" address="185.41.242.0/24" comment="Generated blocklist for Blix Solutions AS"

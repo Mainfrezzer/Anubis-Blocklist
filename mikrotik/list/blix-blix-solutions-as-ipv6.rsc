@@ -1,6 +1,6 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for Blix Solutions AS
-# Entries: 24
+# Entries: 23
 #
 /ipv6 firewall address-list
 add list="anti-blix-blix-solutions-as" address="2001:67c:27ec::/48" comment="Generated blocklist for Blix Solutions AS"
@@ -26,4 +26,3 @@ add list="anti-blix-blix-solutions-as" address="2a05:e885::/36" comment="Generat
 add list="anti-blix-blix-solutions-as" address="2a07:7d80::/29" comment="Generated blocklist for Blix Solutions AS"
 add list="anti-blix-blix-solutions-as" address="2a0b:8340::/29" comment="Generated blocklist for Blix Solutions AS"
 add list="anti-blix-blix-solutions-as" address="2a0c:5a00::/29" comment="Generated blocklist for Blix Solutions AS"
-add list="anti-blix-blix-solutions-as" address="2a0d:b680::/29" comment="Generated blocklist for Blix Solutions AS"

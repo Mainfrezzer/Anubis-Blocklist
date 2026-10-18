@@ -1,6 +1,6 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for vultr
-# Entries: 1922
+# Entries: 1923
 #
 /ip firewall address-list
 add list="anti-as-vultr-the-constant-company-llc" address="103.102.133.0/24" comment="Generated blocklist for vultr"
@@ -1290,6 +1290,7 @@ add list="anti-as-vultr-the-constant-company-llc" address="44.30.211.0/24" comme
 add list="anti-as-vultr-the-constant-company-llc" address="44.30.212.0/24" comment="Generated blocklist for vultr"
 add list="anti-as-vultr-the-constant-company-llc" address="44.30.213.0/24" comment="Generated blocklist for vultr"
 add list="anti-as-vultr-the-constant-company-llc" address="44.30.223.0/24" comment="Generated blocklist for vultr"
+add list="anti-as-vultr-the-constant-company-llc" address="44.30.229.0/24" comment="Generated blocklist for vultr"
 add list="anti-as-vultr-the-constant-company-llc" address="44.30.36.0/24" comment="Generated blocklist for vultr"
 add list="anti-as-vultr-the-constant-company-llc" address="44.30.44.0/24" comment="Generated blocklist for vultr"
 add list="anti-as-vultr-the-constant-company-llc" address="44.30.52.0/24" comment="Generated blocklist for vultr"

@@ -1,0 +1,11 @@
+- name: anti zkillu-zkillu-sas
+  action: CHALLENGE
+  challenge:
+    difficulty: 64
+    algorithm: fast
+  remote_addresses:
+  - 169.40.142.0/24
+  - 2a0c:b641:b0::/44
+  - 2a10:4646:410::/44
+  - 31.56.58.0/24
+  - 82.152.54.0/24

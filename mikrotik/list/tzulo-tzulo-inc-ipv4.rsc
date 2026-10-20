@@ -1,6 +1,6 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for tzulo
-# Entries: 196
+# Entries: 192
 #
 /ip firewall address-list
 add list="anti-tzulo-tzulo-inc" address="107.152.32.0/24" comment="Generated blocklist for tzulo"
@@ -20,11 +20,7 @@ add list="anti-tzulo-tzulo-inc" address="107.152.45.0/24" comment="Generated blo
 add list="anti-tzulo-tzulo-inc" address="107.152.46.0/24" comment="Generated blocklist for tzulo"
 add list="anti-tzulo-tzulo-inc" address="107.152.47.0/24" comment="Generated blocklist for tzulo"
 add list="anti-tzulo-tzulo-inc" address="130.12.190.0/24" comment="Generated blocklist for tzulo"
-add list="anti-tzulo-tzulo-inc" address="130.12.72.0/22" comment="Generated blocklist for tzulo"
 add list="anti-tzulo-tzulo-inc" address="130.12.72.0/24" comment="Generated blocklist for tzulo"
-add list="anti-tzulo-tzulo-inc" address="130.12.73.0/24" comment="Generated blocklist for tzulo"
-add list="anti-tzulo-tzulo-inc" address="130.12.74.0/24" comment="Generated blocklist for tzulo"
-add list="anti-tzulo-tzulo-inc" address="130.12.75.0/24" comment="Generated blocklist for tzulo"
 add list="anti-tzulo-tzulo-inc" address="130.51.20.0/24" comment="Generated blocklist for tzulo"
 add list="anti-tzulo-tzulo-inc" address="130.51.21.0/24" comment="Generated blocklist for tzulo"
 add list="anti-tzulo-tzulo-inc" address="130.51.22.0/24" comment="Generated blocklist for tzulo"

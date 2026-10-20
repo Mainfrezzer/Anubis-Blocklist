@@ -345,6 +345,7 @@ add list="anti-google-cloud-platform-google-llc" address="2607:4240:4005::/48" c
 add list="anti-google-cloud-platform-google-llc" address="2607:4240::/48" comment="Generated blocklist for google"
 add list="anti-google-cloud-platform-google-llc" address="2607:6bc0:8007::/48" comment="Generated blocklist for google"
 add list="anti-google-cloud-platform-google-llc" address="2607:8d40:ff0::/48" comment="Generated blocklist for google"
+add list="anti-google-cloud-platform-google-llc" address="2607:9180:1000::/40" comment="Generated blocklist for google"
 add list="anti-google-cloud-platform-google-llc" address="2607:d0c0:bffe::/47" comment="Generated blocklist for google"
 add list="anti-google-cloud-platform-google-llc" address="2620:117:bff0::/44" comment="Generated blocklist for google"
 add list="anti-google-cloud-platform-google-llc" address="2620:121:5050::/44" comment="Generated blocklist for google"
@@ -367,4 +368,3 @@ add list="anti-google-cloud-platform-google-llc" address="2a0e:f600:55::/48" com
 add list="anti-google-cloud-platform-google-llc" address="2a14:2a00::/40" comment="Generated blocklist for google"
 add list="anti-google-cloud-platform-google-llc" address="2a14:67c2:577::/48" comment="Generated blocklist for google"
 add list="anti-google-cloud-platform-google-llc" address="2a14:b580::/40" comment="Generated blocklist for google"
-add list="anti-google-cloud-platform-google-llc" address="2a14:f180:1200::/40" comment="Generated blocklist for google"

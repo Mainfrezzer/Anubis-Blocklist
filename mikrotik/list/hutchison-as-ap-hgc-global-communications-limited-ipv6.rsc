@@ -1,6 +1,6 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for HGC Global Communications Limited (announce for iOVZ for example)
-# Entries: 69
+# Entries: 71
 #
 /ipv6 firewall address-list
 add list="anti-hutchison-as-ap-hgc-global-communications-limited" address="2001:df3:3d00::/48" comment="Generated blocklist for HGC Global Communications Limited (announce for iOVZ for example)"
@@ -18,6 +18,8 @@ add list="anti-hutchison-as-ap-hgc-global-communications-limited" address="2403:
 add list="anti-hutchison-as-ap-hgc-global-communications-limited" address="2403:5000:300::/48" comment="Generated blocklist for HGC Global Communications Limited (announce for iOVZ for example)"
 add list="anti-hutchison-as-ap-hgc-global-communications-limited" address="2403:5000:301::/48" comment="Generated blocklist for HGC Global Communications Limited (announce for iOVZ for example)"
 add list="anti-hutchison-as-ap-hgc-global-communications-limited" address="2403:5000::/32" comment="Generated blocklist for HGC Global Communications Limited (announce for iOVZ for example)"
+add list="anti-hutchison-as-ap-hgc-global-communications-limited" address="2602:f2b9::/48" comment="Generated blocklist for HGC Global Communications Limited (announce for iOVZ for example)"
+add list="anti-hutchison-as-ap-hgc-global-communications-limited" address="2602:f2c3::/48" comment="Generated blocklist for HGC Global Communications Limited (announce for iOVZ for example)"
 add list="anti-hutchison-as-ap-hgc-global-communications-limited" address="2602:f37a::/48" comment="Generated blocklist for HGC Global Communications Limited (announce for iOVZ for example)"
 add list="anti-hutchison-as-ap-hgc-global-communications-limited" address="2602:f390::/48" comment="Generated blocklist for HGC Global Communications Limited (announce for iOVZ for example)"
 add list="anti-hutchison-as-ap-hgc-global-communications-limited" address="2602:f3d9::/48" comment="Generated blocklist for HGC Global Communications Limited (announce for iOVZ for example)"

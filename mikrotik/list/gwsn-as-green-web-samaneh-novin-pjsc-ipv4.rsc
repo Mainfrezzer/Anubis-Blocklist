@@ -1,6 +1,6 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for Green Web Samaneh Novin PJSC
-# Entries: 31
+# Entries: 32
 #
 /ip firewall address-list
 add list="anti-gwsn-as-green-web-samaneh-novin-pjsc" address="185.116.160.0/24" comment="Generated blocklist for Green Web Samaneh Novin PJSC"
@@ -20,6 +20,7 @@ add list="anti-gwsn-as-green-web-samaneh-novin-pjsc" address="185.4.31.0/24" com
 add list="anti-gwsn-as-green-web-samaneh-novin-pjsc" address="185.50.37.0/24" comment="Generated blocklist for Green Web Samaneh Novin PJSC"
 add list="anti-gwsn-as-green-web-samaneh-novin-pjsc" address="185.50.38.0/24" comment="Generated blocklist for Green Web Samaneh Novin PJSC"
 add list="anti-gwsn-as-green-web-samaneh-novin-pjsc" address="185.50.39.0/24" comment="Generated blocklist for Green Web Samaneh Novin PJSC"
+add list="anti-gwsn-as-green-web-samaneh-novin-pjsc" address="193.141.126.0/24" comment="Generated blocklist for Green Web Samaneh Novin PJSC"
 add list="anti-gwsn-as-green-web-samaneh-novin-pjsc" address="193.141.127.0/24" comment="Generated blocklist for Green Web Samaneh Novin PJSC"
 add list="anti-gwsn-as-green-web-samaneh-novin-pjsc" address="193.141.64.0/24" comment="Generated blocklist for Green Web Samaneh Novin PJSC"
 add list="anti-gwsn-as-green-web-samaneh-novin-pjsc" address="193.141.65.0/24" comment="Generated blocklist for Green Web Samaneh Novin PJSC"

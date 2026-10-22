@@ -1,6 +1,6 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for xTom
-# Entries: 235
+# Entries: 238
 #
 /ip firewall address-list
 add list="anti-xtom-as-jp-xtom" address="103.125.232.0/24" comment="Generated blocklist for xTom"
@@ -175,6 +175,8 @@ add list="anti-xtom-as-jp-xtom" address="45.13.196.0/24" comment="Generated bloc
 add list="anti-xtom-as-jp-xtom" address="45.13.197.0/24" comment="Generated blocklist for xTom"
 add list="anti-xtom-as-jp-xtom" address="45.13.198.0/24" comment="Generated blocklist for xTom"
 add list="anti-xtom-as-jp-xtom" address="45.13.199.0/24" comment="Generated blocklist for xTom"
+add list="anti-xtom-as-jp-xtom" address="45.130.180.0/24" comment="Generated blocklist for xTom"
+add list="anti-xtom-as-jp-xtom" address="45.130.181.0/24" comment="Generated blocklist for xTom"
 add list="anti-xtom-as-jp-xtom" address="45.131.152.0/24" comment="Generated blocklist for xTom"
 add list="anti-xtom-as-jp-xtom" address="45.131.153.0/24" comment="Generated blocklist for xTom"
 add list="anti-xtom-as-jp-xtom" address="45.139.193.0/24" comment="Generated blocklist for xTom"
@@ -232,6 +234,7 @@ add list="anti-xtom-as-jp-xtom" address="88.214.20.0/24" comment="Generated bloc
 add list="anti-xtom-as-jp-xtom" address="88.214.23.0/24" comment="Generated blocklist for xTom"
 add list="anti-xtom-as-jp-xtom" address="88.218.193.0/24" comment="Generated blocklist for xTom"
 add list="anti-xtom-as-jp-xtom" address="89.106.207.0/24" comment="Generated blocklist for xTom"
+add list="anti-xtom-as-jp-xtom" address="91.220.25.0/24" comment="Generated blocklist for xTom"
 add list="anti-xtom-as-jp-xtom" address="92.118.190.0/24" comment="Generated blocklist for xTom"
 add list="anti-xtom-as-jp-xtom" address="92.60.41.0/24" comment="Generated blocklist for xTom"
 add list="anti-xtom-as-jp-xtom" address="92.60.42.0/24" comment="Generated blocklist for xTom"

@@ -1,6 +1,6 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for qnax.sh
-# Entries: 27
+# Entries: 28
 #
 /ip firewall address-list
 add list="anti-as268581-qnax-ltda" address="149.57.56.0/22" comment="Generated blocklist for qnax.sh"
@@ -17,6 +17,7 @@ add list="anti-as268581-qnax-ltda" address="185.194.204.0/23" comment="Generated
 add list="anti-as268581-qnax-ltda" address="185.194.204.0/24" comment="Generated blocklist for qnax.sh"
 add list="anti-as268581-qnax-ltda" address="185.194.205.0/24" comment="Generated blocklist for qnax.sh"
 add list="anti-as268581-qnax-ltda" address="209.14.2.0/23" comment="Generated blocklist for qnax.sh"
+add list="anti-as268581-qnax-ltda" address="209.14.2.0/24" comment="Generated blocklist for qnax.sh"
 add list="anti-as268581-qnax-ltda" address="209.14.68.0/22" comment="Generated blocklist for qnax.sh"
 add list="anti-as268581-qnax-ltda" address="209.14.68.0/23" comment="Generated blocklist for qnax.sh"
 add list="anti-as268581-qnax-ltda" address="209.14.68.0/24" comment="Generated blocklist for qnax.sh"

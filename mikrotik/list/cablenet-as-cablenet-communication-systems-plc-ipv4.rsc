@@ -1,6 +1,6 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for Cablenet CY
-# Entries: 34
+# Entries: 35
 #
 /ip firewall address-list
 add list="anti-cablenet-as-cablenet-communication-systems-plc" address="109.110.224.0/19" comment="Generated blocklist for Cablenet CY"
@@ -23,6 +23,7 @@ add list="anti-cablenet-as-cablenet-communication-systems-plc" address="212.32.5
 add list="anti-cablenet-as-cablenet-communication-systems-plc" address="212.50.96.0/19" comment="Generated blocklist for Cablenet CY"
 add list="anti-cablenet-as-cablenet-communication-systems-plc" address="213.133.80.0/20" comment="Generated blocklist for Cablenet CY"
 add list="anti-cablenet-as-cablenet-communication-systems-plc" address="213.140.192.0/19" comment="Generated blocklist for Cablenet CY"
+add list="anti-cablenet-as-cablenet-communication-systems-plc" address="213.169.149.0/24" comment="Generated blocklist for Cablenet CY"
 add list="anti-cablenet-as-cablenet-communication-systems-plc" address="216.241.128.0/19" comment="Generated blocklist for Cablenet CY"
 add list="anti-cablenet-as-cablenet-communication-systems-plc" address="46.251.96.0/19" comment="Generated blocklist for Cablenet CY"
 add list="anti-cablenet-as-cablenet-communication-systems-plc" address="64.59.208.0/20" comment="Generated blocklist for Cablenet CY"

@@ -1,6 +1,6 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for GorillaServers
-# Entries: 90
+# Entries: 91
 #
 /ip firewall address-list
 add list="anti-gorillaservers-gorillaservers-inc" address="104.156.140.0/24" comment="Generated blocklist for GorillaServers"
@@ -86,6 +86,7 @@ add list="anti-gorillaservers-gorillaservers-inc" address="23.239.114.0/24" comm
 add list="anti-gorillaservers-gorillaservers-inc" address="23.239.118.0/23" comment="Generated blocklist for GorillaServers"
 add list="anti-gorillaservers-gorillaservers-inc" address="23.239.96.0/19" comment="Generated blocklist for GorillaServers"
 add list="anti-gorillaservers-gorillaservers-inc" address="23.239.96.0/23" comment="Generated blocklist for GorillaServers"
+add list="anti-gorillaservers-gorillaservers-inc" address="23.27.246.0/24" comment="Generated blocklist for GorillaServers"
 add list="anti-gorillaservers-gorillaservers-inc" address="23.29.64.0/20" comment="Generated blocklist for GorillaServers"
 add list="anti-gorillaservers-gorillaservers-inc" address="23.29.67.0/24" comment="Generated blocklist for GorillaServers"
 add list="anti-gorillaservers-gorillaservers-inc" address="5.56.25.0/24" comment="Generated blocklist for GorillaServers"

@@ -1,6 +1,6 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for HostRoyale
-# Entries: 2744
+# Entries: 2750
 #
 /ip firewall address-list
 add list="anti-hostroyale-hostroyale-technologies-pvt-ltd" address="103.102.246.0/23" comment="Generated blocklist for HostRoyale"
@@ -1064,6 +1064,7 @@ add list="anti-hostroyale-hostroyale-technologies-pvt-ltd" address="168.143.168.
 add list="anti-hostroyale-hostroyale-technologies-pvt-ltd" address="168.143.192.0/19" comment="Generated blocklist for HostRoyale"
 add list="anti-hostroyale-hostroyale-technologies-pvt-ltd" address="168.143.80.0/20" comment="Generated blocklist for HostRoyale"
 add list="anti-hostroyale-hostroyale-technologies-pvt-ltd" address="168.205.72.0/22" comment="Generated blocklist for HostRoyale"
+add list="anti-hostroyale-hostroyale-technologies-pvt-ltd" address="170.245.40.0/22" comment="Generated blocklist for HostRoyale"
 add list="anti-hostroyale-hostroyale-technologies-pvt-ltd" address="171.22.253.0/24" comment="Generated blocklist for HostRoyale"
 add list="anti-hostroyale-hostroyale-technologies-pvt-ltd" address="172.111.12.0/22" comment="Generated blocklist for HostRoyale"
 add list="anti-hostroyale-hostroyale-technologies-pvt-ltd" address="172.245.117.0/24" comment="Generated blocklist for HostRoyale"
@@ -1104,6 +1105,7 @@ add list="anti-hostroyale-hostroyale-technologies-pvt-ltd" address="176.117.88.0
 add list="anti-hostroyale-hostroyale-technologies-pvt-ltd" address="176.117.92.0/22" comment="Generated blocklist for HostRoyale"
 add list="anti-hostroyale-hostroyale-technologies-pvt-ltd" address="176.118.195.0/24" comment="Generated blocklist for HostRoyale"
 add list="anti-hostroyale-hostroyale-technologies-pvt-ltd" address="176.119.8.0/21" comment="Generated blocklist for HostRoyale"
+add list="anti-hostroyale-hostroyale-technologies-pvt-ltd" address="176.124.48.0/22" comment="Generated blocklist for HostRoyale"
 add list="anti-hostroyale-hostroyale-technologies-pvt-ltd" address="176.126.198.0/23" comment="Generated blocklist for HostRoyale"
 add list="anti-hostroyale-hostroyale-technologies-pvt-ltd" address="176.126.198.0/24" comment="Generated blocklist for HostRoyale"
 add list="anti-hostroyale-hostroyale-technologies-pvt-ltd" address="176.126.199.0/24" comment="Generated blocklist for HostRoyale"
@@ -1208,6 +1210,7 @@ add list="anti-hostroyale-hostroyale-technologies-pvt-ltd" address="185.10.7.0/2
 add list="anti-hostroyale-hostroyale-technologies-pvt-ltd" address="185.108.104.0/24" comment="Generated blocklist for HostRoyale"
 add list="anti-hostroyale-hostroyale-technologies-pvt-ltd" address="185.108.105.0/24" comment="Generated blocklist for HostRoyale"
 add list="anti-hostroyale-hostroyale-technologies-pvt-ltd" address="185.108.106.0/24" comment="Generated blocklist for HostRoyale"
+add list="anti-hostroyale-hostroyale-technologies-pvt-ltd" address="185.12.184.0/22" comment="Generated blocklist for HostRoyale"
 add list="anti-hostroyale-hostroyale-technologies-pvt-ltd" address="185.12.36.0/24" comment="Generated blocklist for HostRoyale"
 add list="anti-hostroyale-hostroyale-technologies-pvt-ltd" address="185.12.38.0/23" comment="Generated blocklist for HostRoyale"
 add list="anti-hostroyale-hostroyale-technologies-pvt-ltd" address="185.124.240.0/24" comment="Generated blocklist for HostRoyale"
@@ -1402,6 +1405,7 @@ add list="anti-hostroyale-hostroyale-technologies-pvt-ltd" address="192.204.160.
 add list="anti-hostroyale-hostroyale-technologies-pvt-ltd" address="192.210.155.0/24" comment="Generated blocklist for HostRoyale"
 add list="anti-hostroyale-hostroyale-technologies-pvt-ltd" address="192.227.189.0/24" comment="Generated blocklist for HostRoyale"
 add list="anti-hostroyale-hostroyale-technologies-pvt-ltd" address="193.0.234.0/23" comment="Generated blocklist for HostRoyale"
+add list="anti-hostroyale-hostroyale-technologies-pvt-ltd" address="193.104.96.0/24" comment="Generated blocklist for HostRoyale"
 add list="anti-hostroyale-hostroyale-technologies-pvt-ltd" address="193.142.103.0/24" comment="Generated blocklist for HostRoyale"
 add list="anti-hostroyale-hostroyale-technologies-pvt-ltd" address="193.142.132.0/22" comment="Generated blocklist for HostRoyale"
 add list="anti-hostroyale-hostroyale-technologies-pvt-ltd" address="193.142.132.0/24" comment="Generated blocklist for HostRoyale"
@@ -1492,6 +1496,7 @@ add list="anti-hostroyale-hostroyale-technologies-pvt-ltd" address="194.31.176.0
 add list="anti-hostroyale-hostroyale-technologies-pvt-ltd" address="194.31.177.0/24" comment="Generated blocklist for HostRoyale"
 add list="anti-hostroyale-hostroyale-technologies-pvt-ltd" address="194.31.178.0/24" comment="Generated blocklist for HostRoyale"
 add list="anti-hostroyale-hostroyale-technologies-pvt-ltd" address="194.31.179.0/24" comment="Generated blocklist for HostRoyale"
+add list="anti-hostroyale-hostroyale-technologies-pvt-ltd" address="194.32.116.0/22" comment="Generated blocklist for HostRoyale"
 add list="anti-hostroyale-hostroyale-technologies-pvt-ltd" address="194.32.88.0/24" comment="Generated blocklist for HostRoyale"
 add list="anti-hostroyale-hostroyale-technologies-pvt-ltd" address="194.32.89.0/24" comment="Generated blocklist for HostRoyale"
 add list="anti-hostroyale-hostroyale-technologies-pvt-ltd" address="194.32.90.0/24" comment="Generated blocklist for HostRoyale"
@@ -2296,6 +2301,7 @@ add list="anti-hostroyale-hostroyale-technologies-pvt-ltd" address="78.138.54.0/
 add list="anti-hostroyale-hostroyale-technologies-pvt-ltd" address="78.138.55.0/24" comment="Generated blocklist for HostRoyale"
 add list="anti-hostroyale-hostroyale-technologies-pvt-ltd" address="78.138.63.0/24" comment="Generated blocklist for HostRoyale"
 add list="anti-hostroyale-hostroyale-technologies-pvt-ltd" address="78.138.8.0/24" comment="Generated blocklist for HostRoyale"
+add list="anti-hostroyale-hostroyale-technologies-pvt-ltd" address="78.142.252.0/22" comment="Generated blocklist for HostRoyale"
 add list="anti-hostroyale-hostroyale-technologies-pvt-ltd" address="78.156.160.0/20" comment="Generated blocklist for HostRoyale"
 add list="anti-hostroyale-hostroyale-technologies-pvt-ltd" address="78.156.176.0/24" comment="Generated blocklist for HostRoyale"
 add list="anti-hostroyale-hostroyale-technologies-pvt-ltd" address="78.156.177.0/24" comment="Generated blocklist for HostRoyale"

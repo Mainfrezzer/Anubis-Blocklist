@@ -1,6 +1,6 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for vultr
-# Entries: 1927
+# Entries: 1929
 #
 /ip firewall address-list
 add list="anti-as-vultr-the-constant-company-llc" address="103.102.133.0/24" comment="Generated blocklist for vultr"
@@ -586,6 +586,7 @@ add list="anti-as-vultr-the-constant-company-llc" address="161.129.173.0/24" com
 add list="anti-as-vultr-the-constant-company-llc" address="161.129.174.0/24" comment="Generated blocklist for vultr"
 add list="anti-as-vultr-the-constant-company-llc" address="161.129.175.0/24" comment="Generated blocklist for vultr"
 add list="anti-as-vultr-the-constant-company-llc" address="162.141.12.0/24" comment="Generated blocklist for vultr"
+add list="anti-as-vultr-the-constant-company-llc" address="162.141.187.0/24" comment="Generated blocklist for vultr"
 add list="anti-as-vultr-the-constant-company-llc" address="162.43.224.0/24" comment="Generated blocklist for vultr"
 add list="anti-as-vultr-the-constant-company-llc" address="162.43.225.0/24" comment="Generated blocklist for vultr"
 add list="anti-as-vultr-the-constant-company-llc" address="162.43.226.0/24" comment="Generated blocklist for vultr"
@@ -1707,6 +1708,7 @@ add list="anti-as-vultr-the-constant-company-llc" address="82.41.117.0/24" comme
 add list="anti-as-vultr-the-constant-company-llc" address="82.47.157.0/24" comment="Generated blocklist for vultr"
 add list="anti-as-vultr-the-constant-company-llc" address="82.97.196.0/24" comment="Generated blocklist for vultr"
 add list="anti-as-vultr-the-constant-company-llc" address="82.97.197.0/24" comment="Generated blocklist for vultr"
+add list="anti-as-vultr-the-constant-company-llc" address="84.75.252.0/24" comment="Generated blocklist for vultr"
 add list="anti-as-vultr-the-constant-company-llc" address="85.136.0.0/24" comment="Generated blocklist for vultr"
 add list="anti-as-vultr-the-constant-company-llc" address="85.136.1.0/24" comment="Generated blocklist for vultr"
 add list="anti-as-vultr-the-constant-company-llc" address="85.136.10.0/24" comment="Generated blocklist for vultr"

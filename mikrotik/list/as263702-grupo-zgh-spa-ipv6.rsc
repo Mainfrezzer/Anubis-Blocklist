@@ -1,6 +1,6 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for GRUPO ZGH SPA
-# Entries: 32
+# Entries: 33
 #
 /ipv6 firewall address-list
 add list="anti-as263702-grupo-zgh-spa" address="2803:3b80:1000::/36" comment="Generated blocklist for GRUPO ZGH SPA"
@@ -9,6 +9,7 @@ add list="anti-as263702-grupo-zgh-spa" address="2803:3b80:2000::/48" comment="Ge
 add list="anti-as263702-grupo-zgh-spa" address="2803:3b80:2001::/48" comment="Generated blocklist for GRUPO ZGH SPA"
 add list="anti-as263702-grupo-zgh-spa" address="2803:3b80:2002::/48" comment="Generated blocklist for GRUPO ZGH SPA"
 add list="anti-as263702-grupo-zgh-spa" address="2803:3b80:2006::/48" comment="Generated blocklist for GRUPO ZGH SPA"
+add list="anti-as263702-grupo-zgh-spa" address="2803:3b80:2a7c::/48" comment="Generated blocklist for GRUPO ZGH SPA"
 add list="anti-as263702-grupo-zgh-spa" address="2803:3b80:3000::/36" comment="Generated blocklist for GRUPO ZGH SPA"
 add list="anti-as263702-grupo-zgh-spa" address="2803:3b80:3020::/44" comment="Generated blocklist for GRUPO ZGH SPA"
 add list="anti-as263702-grupo-zgh-spa" address="2803:3b80:4000::/36" comment="Generated blocklist for GRUPO ZGH SPA"

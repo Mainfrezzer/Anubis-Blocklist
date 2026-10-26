@@ -1,6 +1,6 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for FDCservers.net
-# Entries: 843
+# Entries: 845
 #
 /ip firewall address-list
 add list="anti-fdcservers-fdcservers-net" address="103.119.112.0/24" comment="Generated blocklist for FDCservers.net"
@@ -35,6 +35,7 @@ add list="anti-fdcservers-fdcservers-net" address="166.88.27.0/24" comment="Gene
 add list="anti-fdcservers-fdcservers-net" address="166.88.50.0/24" comment="Generated blocklist for FDCservers.net"
 add list="anti-fdcservers-fdcservers-net" address="168.100.228.0/23" comment="Generated blocklist for FDCservers.net"
 add list="anti-fdcservers-fdcservers-net" address="168.100.236.0/23" comment="Generated blocklist for FDCservers.net"
+add list="anti-fdcservers-fdcservers-net" address="168.100.252.0/24" comment="Generated blocklist for FDCservers.net"
 add list="anti-fdcservers-fdcservers-net" address="168.222.13.0/24" comment="Generated blocklist for FDCservers.net"
 add list="anti-fdcservers-fdcservers-net" address="168.222.77.0/24" comment="Generated blocklist for FDCservers.net"
 add list="anti-fdcservers-fdcservers-net" address="169.40.111.0/24" comment="Generated blocklist for FDCservers.net"
@@ -92,6 +93,7 @@ add list="anti-fdcservers-fdcservers-net" address="195.172.132.0/23" comment="Ge
 add list="anti-fdcservers-fdcservers-net" address="195.172.146.0/23" comment="Generated blocklist for FDCservers.net"
 add list="anti-fdcservers-fdcservers-net" address="195.172.148.0/23" comment="Generated blocklist for FDCservers.net"
 add list="anti-fdcservers-fdcservers-net" address="195.172.208.0/23" comment="Generated blocklist for FDCservers.net"
+add list="anti-fdcservers-fdcservers-net" address="195.178.143.0/24" comment="Generated blocklist for FDCservers.net"
 add list="anti-fdcservers-fdcservers-net" address="195.210.108.0/24" comment="Generated blocklist for FDCservers.net"
 add list="anti-fdcservers-fdcservers-net" address="195.210.109.0/24" comment="Generated blocklist for FDCservers.net"
 add list="anti-fdcservers-fdcservers-net" address="195.40.102.0/23" comment="Generated blocklist for FDCservers.net"

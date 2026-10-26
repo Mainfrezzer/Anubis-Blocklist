@@ -1,6 +1,6 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for Datacamp
-# Entries: 4154
+# Entries: 4157
 #
 /ip firewall address-list
 add list="anti-cdnext-datacamp-limited" address="102.129.132.0/24" comment="Generated blocklist for Datacamp"
@@ -378,6 +378,7 @@ add list="anti-cdnext-datacamp-limited" address="130.255.168.0/24" comment="Gene
 add list="anti-cdnext-datacamp-limited" address="130.51.146.0/24" comment="Generated blocklist for Datacamp"
 add list="anti-cdnext-datacamp-limited" address="130.51.147.0/24" comment="Generated blocklist for Datacamp"
 add list="anti-cdnext-datacamp-limited" address="131.123.14.0/24" comment="Generated blocklist for Datacamp"
+add list="anti-cdnext-datacamp-limited" address="134.49.195.0/24" comment="Generated blocklist for Datacamp"
 add list="anti-cdnext-datacamp-limited" address="135.196.106.0/24" comment="Generated blocklist for Datacamp"
 add list="anti-cdnext-datacamp-limited" address="135.196.180.0/23" comment="Generated blocklist for Datacamp"
 add list="anti-cdnext-datacamp-limited" address="135.196.185.0/24" comment="Generated blocklist for Datacamp"
@@ -3268,6 +3269,8 @@ add list="anti-cdnext-datacamp-limited" address="64.8.234.0/23" comment="Generat
 add list="anti-cdnext-datacamp-limited" address="64.8.238.0/23" comment="Generated blocklist for Datacamp"
 add list="anti-cdnext-datacamp-limited" address="64.83.78.0/24" comment="Generated blocklist for Datacamp"
 add list="anti-cdnext-datacamp-limited" address="65.75.204.0/22" comment="Generated blocklist for Datacamp"
+add list="anti-cdnext-datacamp-limited" address="65.86.197.0/24" comment="Generated blocklist for Datacamp"
+add list="anti-cdnext-datacamp-limited" address="65.86.204.0/24" comment="Generated blocklist for Datacamp"
 add list="anti-cdnext-datacamp-limited" address="66.134.84.0/23" comment="Generated blocklist for Datacamp"
 add list="anti-cdnext-datacamp-limited" address="66.167.68.0/23" comment="Generated blocklist for Datacamp"
 add list="anti-cdnext-datacamp-limited" address="66.225.193.0/24" comment="Generated blocklist for Datacamp"

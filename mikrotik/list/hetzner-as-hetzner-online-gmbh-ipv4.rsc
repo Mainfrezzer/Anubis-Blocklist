@@ -1,6 +1,6 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for Hetzner
-# Entries: 481
+# Entries: 482
 #
 /ip firewall address-list
 add list="anti-hetzner-as-hetzner-online-gmbh" address="116.202.0.0/16" comment="Generated blocklist for Hetzner"
@@ -13,6 +13,7 @@ add list="anti-hetzner-as-hetzner-online-gmbh" address="138.201.0.0/16" comment=
 add list="anti-hetzner-as-hetzner-online-gmbh" address="142.132.128.0/17" comment="Generated blocklist for Hetzner"
 add list="anti-hetzner-as-hetzner-online-gmbh" address="144.76.0.0/16" comment="Generated blocklist for Hetzner"
 add list="anti-hetzner-as-hetzner-online-gmbh" address="148.251.0.0/16" comment="Generated blocklist for Hetzner"
+add list="anti-hetzner-as-hetzner-online-gmbh" address="149.245.242.0/24" comment="Generated blocklist for Hetzner"
 add list="anti-hetzner-as-hetzner-online-gmbh" address="157.180.0.0/17" comment="Generated blocklist for Hetzner"
 add list="anti-hetzner-as-hetzner-online-gmbh" address="157.90.0.0/16" comment="Generated blocklist for Hetzner"
 add list="anti-hetzner-as-hetzner-online-gmbh" address="159.69.0.0/16" comment="Generated blocklist for Hetzner"

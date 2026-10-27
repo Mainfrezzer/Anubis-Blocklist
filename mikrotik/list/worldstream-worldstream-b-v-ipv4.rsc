@@ -1,6 +1,6 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for WorldStream
-# Entries: 113
+# Entries: 114
 #
 /ip firewall address-list
 add list="anti-worldstream-worldstream-b-v" address="104.234.138.0/24" comment="Generated blocklist for WorldStream"
@@ -98,6 +98,7 @@ add list="anti-worldstream-worldstream-b-v" address="81.29.150.0/24" comment="Ge
 add list="anti-worldstream-worldstream-b-v" address="82.29.108.0/24" comment="Generated blocklist for WorldStream"
 add list="anti-worldstream-worldstream-b-v" address="82.39.154.0/24" comment="Generated blocklist for WorldStream"
 add list="anti-worldstream-worldstream-b-v" address="82.41.131.0/24" comment="Generated blocklist for WorldStream"
+add list="anti-worldstream-worldstream-b-v" address="83.98.152.0/22" comment="Generated blocklist for WorldStream"
 add list="anti-worldstream-worldstream-b-v" address="87.192.44.0/24" comment="Generated blocklist for WorldStream"
 add list="anti-worldstream-worldstream-b-v" address="87.232.81.0/24" comment="Generated blocklist for WorldStream"
 add list="anti-worldstream-worldstream-b-v" address="87.232.85.0/24" comment="Generated blocklist for WorldStream"

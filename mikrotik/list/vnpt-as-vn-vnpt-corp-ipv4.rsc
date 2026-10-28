@@ -1,8 +1,9 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for VNPT Corp
-# Entries: 3417
+# Entries: 3414
 #
 /ip firewall address-list
+add list="anti-vnpt-as-vn-vnpt-corp" address="101.45.202.0/24" comment="Generated blocklist for VNPT Corp"
 add list="anti-vnpt-as-vn-vnpt-corp" address="103.107.180.0/22" comment="Generated blocklist for VNPT Corp"
 add list="anti-vnpt-as-vn-vnpt-corp" address="103.120.242.0/23" comment="Generated blocklist for VNPT Corp"
 add list="anti-vnpt-as-vn-vnpt-corp" address="103.131.68.0/22" comment="Generated blocklist for VNPT Corp"
@@ -72,7 +73,6 @@ add list="anti-vnpt-as-vn-vnpt-corp" address="113.161.128.0/21" comment="Generat
 add list="anti-vnpt-as-vn-vnpt-corp" address="113.161.136.0/21" comment="Generated blocklist for VNPT Corp"
 add list="anti-vnpt-as-vn-vnpt-corp" address="113.161.143.0/24" comment="Generated blocklist for VNPT Corp"
 add list="anti-vnpt-as-vn-vnpt-corp" address="113.161.144.0/21" comment="Generated blocklist for VNPT Corp"
-add list="anti-vnpt-as-vn-vnpt-corp" address="113.161.147.0/24" comment="Generated blocklist for VNPT Corp"
 add list="anti-vnpt-as-vn-vnpt-corp" address="113.161.152.0/21" comment="Generated blocklist for VNPT Corp"
 add list="anti-vnpt-as-vn-vnpt-corp" address="113.161.16.0/20" comment="Generated blocklist for VNPT Corp"
 add list="anti-vnpt-as-vn-vnpt-corp" address="113.161.16.0/21" comment="Generated blocklist for VNPT Corp"
@@ -1124,7 +1124,6 @@ add list="anti-vnpt-as-vn-vnpt-corp" address="123.21.46.0/24" comment="Generated
 add list="anti-vnpt-as-vn-vnpt-corp" address="123.21.48.0/20" comment="Generated blocklist for VNPT Corp"
 add list="anti-vnpt-as-vn-vnpt-corp" address="123.21.48.0/24" comment="Generated blocklist for VNPT Corp"
 add list="anti-vnpt-as-vn-vnpt-corp" address="123.21.50.0/24" comment="Generated blocklist for VNPT Corp"
-add list="anti-vnpt-as-vn-vnpt-corp" address="123.21.51.0/24" comment="Generated blocklist for VNPT Corp"
 add list="anti-vnpt-as-vn-vnpt-corp" address="123.21.64.0/20" comment="Generated blocklist for VNPT Corp"
 add list="anti-vnpt-as-vn-vnpt-corp" address="123.21.80.0/20" comment="Generated blocklist for VNPT Corp"
 add list="anti-vnpt-as-vn-vnpt-corp" address="123.21.96.0/20" comment="Generated blocklist for VNPT Corp"
@@ -2952,6 +2951,7 @@ add list="anti-vnpt-as-vn-vnpt-corp" address="14.255.247.0/24" comment="Generate
 add list="anti-vnpt-as-vn-vnpt-corp" address="14.255.248.0/24" comment="Generated blocklist for VNPT Corp"
 add list="anti-vnpt-as-vn-vnpt-corp" address="14.255.250.0/24" comment="Generated blocklist for VNPT Corp"
 add list="anti-vnpt-as-vn-vnpt-corp" address="14.255.251.0/24" comment="Generated blocklist for VNPT Corp"
+add list="anti-vnpt-as-vn-vnpt-corp" address="14.255.252.0/24" comment="Generated blocklist for VNPT Corp"
 add list="anti-vnpt-as-vn-vnpt-corp" address="14.255.254.0/24" comment="Generated blocklist for VNPT Corp"
 add list="anti-vnpt-as-vn-vnpt-corp" address="14.255.255.0/24" comment="Generated blocklist for VNPT Corp"
 add list="anti-vnpt-as-vn-vnpt-corp" address="14.255.32.0/20" comment="Generated blocklist for VNPT Corp"
@@ -3235,9 +3235,6 @@ add list="anti-vnpt-as-vn-vnpt-corp" address="222.254.144.0/20" comment="Generat
 add list="anti-vnpt-as-vn-vnpt-corp" address="222.254.16.0/20" comment="Generated blocklist for VNPT Corp"
 add list="anti-vnpt-as-vn-vnpt-corp" address="222.254.160.0/20" comment="Generated blocklist for VNPT Corp"
 add list="anti-vnpt-as-vn-vnpt-corp" address="222.254.176.0/20" comment="Generated blocklist for VNPT Corp"
-add list="anti-vnpt-as-vn-vnpt-corp" address="222.254.184.0/24" comment="Generated blocklist for VNPT Corp"
-add list="anti-vnpt-as-vn-vnpt-corp" address="222.254.185.0/24" comment="Generated blocklist for VNPT Corp"
-add list="anti-vnpt-as-vn-vnpt-corp" address="222.254.186.0/24" comment="Generated blocklist for VNPT Corp"
 add list="anti-vnpt-as-vn-vnpt-corp" address="222.254.187.0/24" comment="Generated blocklist for VNPT Corp"
 add list="anti-vnpt-as-vn-vnpt-corp" address="222.254.188.0/24" comment="Generated blocklist for VNPT Corp"
 add list="anti-vnpt-as-vn-vnpt-corp" address="222.254.189.0/24" comment="Generated blocklist for VNPT Corp"

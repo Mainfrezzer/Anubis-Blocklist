@@ -1,6 +1,6 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for Amarutu
-# Entries: 63
+# Entries: 64
 #
 /ip firewall address-list
 add list="anti-amarutu-technology-amarutu-technology-ltd" address="103.100.170.0/24" comment="Generated blocklist for Amarutu"
@@ -45,6 +45,7 @@ add list="anti-amarutu-technology-amarutu-technology-ltd" address="198.144.120.0
 add list="anti-amarutu-technology-amarutu-technology-ltd" address="2.57.214.0/24" comment="Generated blocklist for Amarutu"
 add list="anti-amarutu-technology-amarutu-technology-ltd" address="2.57.215.0/24" comment="Generated blocklist for Amarutu"
 add list="anti-amarutu-technology-amarutu-technology-ltd" address="217.60.15.0/24" comment="Generated blocklist for Amarutu"
+add list="anti-amarutu-technology-amarutu-technology-ltd" address="217.60.16.0/24" comment="Generated blocklist for Amarutu"
 add list="anti-amarutu-technology-amarutu-technology-ltd" address="31.220.0.0/22" comment="Generated blocklist for Amarutu"
 add list="anti-amarutu-technology-amarutu-technology-ltd" address="31.220.40.0/23" comment="Generated blocklist for Amarutu"
 add list="anti-amarutu-technology-amarutu-technology-ltd" address="45.115.25.0/24" comment="Generated blocklist for Amarutu"

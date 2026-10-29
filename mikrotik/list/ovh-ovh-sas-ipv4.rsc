@@ -1,6 +1,6 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for ovh
-# Entries: 758
+# Entries: 757
 #
 /ip firewall address-list
 add list="anti-ovh-ovh-sas" address="103.166.228.0/24" comment="Generated blocklist for ovh"
@@ -262,7 +262,6 @@ add list="anti-ovh-ovh-sas" address="185.12.32.0/23" comment="Generated blocklis
 add list="anti-ovh-ovh-sas" address="185.127.28.0/24" comment="Generated blocklist for ovh"
 add list="anti-ovh-ovh-sas" address="185.129.220.0/24" comment="Generated blocklist for ovh"
 add list="anti-ovh-ovh-sas" address="185.129.222.0/24" comment="Generated blocklist for ovh"
-add list="anti-ovh-ovh-sas" address="185.133.74.0/24" comment="Generated blocklist for ovh"
 add list="anti-ovh-ovh-sas" address="185.135.188.0/24" comment="Generated blocklist for ovh"
 add list="anti-ovh-ovh-sas" address="185.137.181.0/24" comment="Generated blocklist for ovh"
 add list="anti-ovh-ovh-sas" address="185.146.195.0/24" comment="Generated blocklist for ovh"
@@ -377,7 +376,6 @@ add list="anti-ovh-ovh-sas" address="201.4.67.0/24" comment="Generated blocklist
 add list="anti-ovh-ovh-sas" address="201.50.22.0/24" comment="Generated blocklist for ovh"
 add list="anti-ovh-ovh-sas" address="202.181.0.0/24" comment="Generated blocklist for ovh"
 add list="anti-ovh-ovh-sas" address="202.2.60.0/22" comment="Generated blocklist for ovh"
-add list="anti-ovh-ovh-sas" address="202.91.169.0/24" comment="Generated blocklist for ovh"
 add list="anti-ovh-ovh-sas" address="202.92.214.0/23" comment="Generated blocklist for ovh"
 add list="anti-ovh-ovh-sas" address="203.27.201.0/24" comment="Generated blocklist for ovh"
 add list="anti-ovh-ovh-sas" address="203.5.184.0/24" comment="Generated blocklist for ovh"
@@ -445,6 +443,7 @@ add list="anti-ovh-ovh-sas" address="31.6.62.0/24" comment="Generated blocklist 
 add list="anti-ovh-ovh-sas" address="31.77.120.0/24" comment="Generated blocklist for ovh"
 add list="anti-ovh-ovh-sas" address="31.99.205.0/24" comment="Generated blocklist for ovh"
 add list="anti-ovh-ovh-sas" address="37.187.0.0/16" comment="Generated blocklist for ovh"
+add list="anti-ovh-ovh-sas" address="37.235.245.0/24" comment="Generated blocklist for ovh"
 add list="anti-ovh-ovh-sas" address="37.59.0.0/16" comment="Generated blocklist for ovh"
 add list="anti-ovh-ovh-sas" address="37.60.48.0/21" comment="Generated blocklist for ovh"
 add list="anti-ovh-ovh-sas" address="37.60.56.0/21" comment="Generated blocklist for ovh"

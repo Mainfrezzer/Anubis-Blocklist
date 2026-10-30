@@ -1,6 +1,6 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for Interserver
-# Entries: 120
+# Entries: 122
 #
 /ip firewall address-list
 add list="anti-is-as-1-interserver-inc" address="103.114.42.0/24" comment="Generated blocklist for Interserver"
@@ -13,6 +13,7 @@ add list="anti-is-as-1-interserver-inc" address="107.158.126.0/24" comment="Gene
 add list="anti-is-as-1-interserver-inc" address="107.181.114.0/24" comment="Generated blocklist for Interserver"
 add list="anti-is-as-1-interserver-inc" address="108.186.206.0/24" comment="Generated blocklist for Interserver"
 add list="anti-is-as-1-interserver-inc" address="108.186.221.0/24" comment="Generated blocklist for Interserver"
+add list="anti-is-as-1-interserver-inc" address="109.66.129.0/24" comment="Generated blocklist for Interserver"
 add list="anti-is-as-1-interserver-inc" address="130.250.190.0/24" comment="Generated blocklist for Interserver"
 add list="anti-is-as-1-interserver-inc" address="131.143.136.0/22" comment="Generated blocklist for Interserver"
 add list="anti-is-as-1-interserver-inc" address="136.0.213.0/24" comment="Generated blocklist for Interserver"
@@ -25,6 +26,7 @@ add list="anti-is-as-1-interserver-inc" address="155.2.192.0/24" comment="Genera
 add list="anti-is-as-1-interserver-inc" address="156.241.20.0/22" comment="Generated blocklist for Interserver"
 add list="anti-is-as-1-interserver-inc" address="156.241.24.0/22" comment="Generated blocklist for Interserver"
 add list="anti-is-as-1-interserver-inc" address="156.253.1.0/24" comment="Generated blocklist for Interserver"
+add list="anti-is-as-1-interserver-inc" address="156.253.240.0/21" comment="Generated blocklist for Interserver"
 add list="anti-is-as-1-interserver-inc" address="157.250.192.0/20" comment="Generated blocklist for Interserver"
 add list="anti-is-as-1-interserver-inc" address="161.129.64.0/21" comment="Generated blocklist for Interserver"
 add list="anti-is-as-1-interserver-inc" address="161.129.64.0/24" comment="Generated blocklist for Interserver"

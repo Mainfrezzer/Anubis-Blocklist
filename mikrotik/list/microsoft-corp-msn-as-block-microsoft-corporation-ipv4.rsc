@@ -1,6 +1,6 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for microsoft
-# Entries: 1234
+# Entries: 1233
 #
 /ip firewall address-list
 add list="anti-microsoft-corp-msn-as-block-microsoft-corporation" address="1.186.0.0/16" comment="Generated blocklist for microsoft"
@@ -1080,7 +1080,6 @@ add list="anti-microsoft-corp-msn-as-block-microsoft-corporation" address="64.15
 add list="anti-microsoft-corp-msn-as-block-microsoft-corporation" address="64.15.25.0/24" comment="Generated blocklist for microsoft"
 add list="anti-microsoft-corp-msn-as-block-microsoft-corporation" address="64.207.0.0/18" comment="Generated blocklist for microsoft"
 add list="anti-microsoft-corp-msn-as-block-microsoft-corporation" address="64.236.0.0/16" comment="Generated blocklist for microsoft"
-add list="anti-microsoft-corp-msn-as-block-microsoft-corporation" address="64.238.96.0/19" comment="Generated blocklist for microsoft"
 add list="anti-microsoft-corp-msn-as-block-microsoft-corporation" address="64.239.56.0/24" comment="Generated blocklist for microsoft"
 add list="anti-microsoft-corp-msn-as-block-microsoft-corporation" address="64.4.0.0/18" comment="Generated blocklist for microsoft"
 add list="anti-microsoft-corp-msn-as-block-microsoft-corporation" address="64.40.128.0/24" comment="Generated blocklist for microsoft"

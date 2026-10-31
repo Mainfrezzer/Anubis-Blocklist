@@ -1,6 +1,6 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for PT Telkom Indonesia Tb
-# Entries: 406
+# Entries: 391
 #
 /ipv6 firewall address-list
 add list="anti-telkomnet-as-ap-pt-telekomunikasi-indonesia" address="2001:4488:1001::/48" comment="Generated blocklist for PT Telkom Indonesia Tb"
@@ -246,21 +246,6 @@ add list="anti-telkomnet-as-ap-pt-telekomunikasi-indonesia" address="2001:448a:5
 add list="anti-telkomnet-as-ap-pt-telekomunikasi-indonesia" address="2001:448a:510d::/48" comment="Generated blocklist for PT Telkom Indonesia Tb"
 add list="anti-telkomnet-as-ap-pt-telekomunikasi-indonesia" address="2001:448a:510e::/48" comment="Generated blocklist for PT Telkom Indonesia Tb"
 add list="anti-telkomnet-as-ap-pt-telekomunikasi-indonesia" address="2001:448a:510f::/48" comment="Generated blocklist for PT Telkom Indonesia Tb"
-add list="anti-telkomnet-as-ap-pt-telekomunikasi-indonesia" address="2001:448a:5121::/48" comment="Generated blocklist for PT Telkom Indonesia Tb"
-add list="anti-telkomnet-as-ap-pt-telekomunikasi-indonesia" address="2001:448a:5122::/48" comment="Generated blocklist for PT Telkom Indonesia Tb"
-add list="anti-telkomnet-as-ap-pt-telekomunikasi-indonesia" address="2001:448a:5123::/48" comment="Generated blocklist for PT Telkom Indonesia Tb"
-add list="anti-telkomnet-as-ap-pt-telekomunikasi-indonesia" address="2001:448a:5124::/48" comment="Generated blocklist for PT Telkom Indonesia Tb"
-add list="anti-telkomnet-as-ap-pt-telekomunikasi-indonesia" address="2001:448a:5125::/48" comment="Generated blocklist for PT Telkom Indonesia Tb"
-add list="anti-telkomnet-as-ap-pt-telekomunikasi-indonesia" address="2001:448a:5126::/48" comment="Generated blocklist for PT Telkom Indonesia Tb"
-add list="anti-telkomnet-as-ap-pt-telekomunikasi-indonesia" address="2001:448a:5127::/48" comment="Generated blocklist for PT Telkom Indonesia Tb"
-add list="anti-telkomnet-as-ap-pt-telekomunikasi-indonesia" address="2001:448a:5128::/48" comment="Generated blocklist for PT Telkom Indonesia Tb"
-add list="anti-telkomnet-as-ap-pt-telekomunikasi-indonesia" address="2001:448a:5129::/48" comment="Generated blocklist for PT Telkom Indonesia Tb"
-add list="anti-telkomnet-as-ap-pt-telekomunikasi-indonesia" address="2001:448a:512a::/48" comment="Generated blocklist for PT Telkom Indonesia Tb"
-add list="anti-telkomnet-as-ap-pt-telekomunikasi-indonesia" address="2001:448a:512b::/48" comment="Generated blocklist for PT Telkom Indonesia Tb"
-add list="anti-telkomnet-as-ap-pt-telekomunikasi-indonesia" address="2001:448a:512c::/48" comment="Generated blocklist for PT Telkom Indonesia Tb"
-add list="anti-telkomnet-as-ap-pt-telekomunikasi-indonesia" address="2001:448a:512d::/48" comment="Generated blocklist for PT Telkom Indonesia Tb"
-add list="anti-telkomnet-as-ap-pt-telekomunikasi-indonesia" address="2001:448a:512e::/48" comment="Generated blocklist for PT Telkom Indonesia Tb"
-add list="anti-telkomnet-as-ap-pt-telekomunikasi-indonesia" address="2001:448a:512f::/48" comment="Generated blocklist for PT Telkom Indonesia Tb"
 add list="anti-telkomnet-as-ap-pt-telekomunikasi-indonesia" address="2001:448a:5130::/48" comment="Generated blocklist for PT Telkom Indonesia Tb"
 add list="anti-telkomnet-as-ap-pt-telekomunikasi-indonesia" address="2001:448a:5131::/48" comment="Generated blocklist for PT Telkom Indonesia Tb"
 add list="anti-telkomnet-as-ap-pt-telekomunikasi-indonesia" address="2001:448a:5132::/48" comment="Generated blocklist for PT Telkom Indonesia Tb"

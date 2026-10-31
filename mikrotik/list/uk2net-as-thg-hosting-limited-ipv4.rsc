@@ -1,6 +1,6 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for THG HOSTING
-# Entries: 117
+# Entries: 115
 #
 /ip firewall address-list
 add list="anti-uk2net-as-thg-hosting-limited" address="107.182.225.0/24" comment="Generated blocklist for THG HOSTING"
@@ -26,7 +26,6 @@ add list="anti-uk2net-as-thg-hosting-limited" address="146.185.16.0/20" comment=
 add list="anti-uk2net-as-thg-hosting-limited" address="173.244.195.0/24" comment="Generated blocklist for THG HOSTING"
 add list="anti-uk2net-as-thg-hosting-limited" address="173.244.208.0/23" comment="Generated blocklist for THG HOSTING"
 add list="anti-uk2net-as-thg-hosting-limited" address="173.244.210.0/24" comment="Generated blocklist for THG HOSTING"
-add list="anti-uk2net-as-thg-hosting-limited" address="173.244.213.0/24" comment="Generated blocklist for THG HOSTING"
 add list="anti-uk2net-as-thg-hosting-limited" address="173.244.216.0/24" comment="Generated blocklist for THG HOSTING"
 add list="anti-uk2net-as-thg-hosting-limited" address="173.244.222.0/24" comment="Generated blocklist for THG HOSTING"
 add list="anti-uk2net-as-thg-hosting-limited" address="173.255.128.0/24" comment="Generated blocklist for THG HOSTING"
@@ -97,7 +96,6 @@ add list="anti-uk2net-as-thg-hosting-limited" address="68.169.32.0/20" comment="
 add list="anti-uk2net-as-thg-hosting-limited" address="69.36.161.0/24" comment="Generated blocklist for THG HOSTING"
 add list="anti-uk2net-as-thg-hosting-limited" address="69.36.165.0/24" comment="Generated blocklist for THG HOSTING"
 add list="anti-uk2net-as-thg-hosting-limited" address="69.36.182.0/24" comment="Generated blocklist for THG HOSTING"
-add list="anti-uk2net-as-thg-hosting-limited" address="69.4.228.0/23" comment="Generated blocklist for THG HOSTING"
 add list="anti-uk2net-as-thg-hosting-limited" address="77.92.64.0/21" comment="Generated blocklist for THG HOSTING"
 add list="anti-uk2net-as-thg-hosting-limited" address="77.92.72.0/22" comment="Generated blocklist for THG HOSTING"
 add list="anti-uk2net-as-thg-hosting-limited" address="77.92.76.0/23" comment="Generated blocklist for THG HOSTING"

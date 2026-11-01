@@ -1,6 +1,6 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for Psychz Networks
-# Entries: 487
+# Entries: 490
 #
 /ip firewall address-list
 add list="anti-as40676-psychz-networks" address="103.126.136.0/24" comment="Generated blocklist for Psychz Networks"
@@ -181,6 +181,7 @@ add list="anti-as40676-psychz-networks" address="140.235.67.0/24" comment="Gener
 add list="anti-as40676-psychz-networks" address="141.140.30.0/24" comment="Generated blocklist for Psychz Networks"
 add list="anti-as40676-psychz-networks" address="142.248.32.0/22" comment="Generated blocklist for Psychz Networks"
 add list="anti-as40676-psychz-networks" address="143.20.14.0/24" comment="Generated blocklist for Psychz Networks"
+add list="anti-as40676-psychz-networks" address="144.225.65.0/24" comment="Generated blocklist for Psychz Networks"
 add list="anti-as40676-psychz-networks" address="144.225.87.0/24" comment="Generated blocklist for Psychz Networks"
 add list="anti-as40676-psychz-networks" address="145.223.52.0/24" comment="Generated blocklist for Psychz Networks"
 add list="anti-as40676-psychz-networks" address="145.223.56.0/24" comment="Generated blocklist for Psychz Networks"
@@ -193,6 +194,7 @@ add list="anti-as40676-psychz-networks" address="147.136.92.0/22" comment="Gener
 add list="anti-as40676-psychz-networks" address="147.189.128.0/24" comment="Generated blocklist for Psychz Networks"
 add list="anti-as40676-psychz-networks" address="147.189.131.0/24" comment="Generated blocklist for Psychz Networks"
 add list="anti-as40676-psychz-networks" address="147.189.135.0/24" comment="Generated blocklist for Psychz Networks"
+add list="anti-as40676-psychz-networks" address="147.90.50.0/24" comment="Generated blocklist for Psychz Networks"
 add list="anti-as40676-psychz-networks" address="150.241.208.0/24" comment="Generated blocklist for Psychz Networks"
 add list="anti-as40676-psychz-networks" address="151.158.91.0/24" comment="Generated blocklist for Psychz Networks"
 add list="anti-as40676-psychz-networks" address="151.240.169.0/24" comment="Generated blocklist for Psychz Networks"
@@ -244,6 +246,7 @@ add list="anti-as40676-psychz-networks" address="173.211.82.0/23" comment="Gener
 add list="anti-as40676-psychz-networks" address="173.224.208.0/20" comment="Generated blocklist for Psychz Networks"
 add list="anti-as40676-psychz-networks" address="176.111.217.0/24" comment="Generated blocklist for Psychz Networks"
 add list="anti-as40676-psychz-networks" address="177.177.241.0/24" comment="Generated blocklist for Psychz Networks"
+add list="anti-as40676-psychz-networks" address="177.202.112.0/24" comment="Generated blocklist for Psychz Networks"
 add list="anti-as40676-psychz-networks" address="178.83.145.0/24" comment="Generated blocklist for Psychz Networks"
 add list="anti-as40676-psychz-networks" address="181.215.121.0/24" comment="Generated blocklist for Psychz Networks"
 add list="anti-as40676-psychz-networks" address="181.215.122.0/24" comment="Generated blocklist for Psychz Networks"

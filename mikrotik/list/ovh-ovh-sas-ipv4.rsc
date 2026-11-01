@@ -1,6 +1,6 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for ovh
-# Entries: 759
+# Entries: 760
 #
 /ip firewall address-list
 add list="anti-ovh-ovh-sas" address="103.166.228.0/24" comment="Generated blocklist for ovh"
@@ -22,6 +22,7 @@ add list="anti-ovh-ovh-sas" address="104.234.135.0/24" comment="Generated blockl
 add list="anti-ovh-ovh-sas" address="104.234.198.0/24" comment="Generated blocklist for ovh"
 add list="anti-ovh-ovh-sas" address="104.234.50.0/24" comment="Generated blocklist for ovh"
 add list="anti-ovh-ovh-sas" address="104.234.60.0/24" comment="Generated blocklist for ovh"
+add list="anti-ovh-ovh-sas" address="104.234.77.0/24" comment="Generated blocklist for ovh"
 add list="anti-ovh-ovh-sas" address="104.234.94.0/24" comment="Generated blocklist for ovh"
 add list="anti-ovh-ovh-sas" address="104.234.95.0/24" comment="Generated blocklist for ovh"
 add list="anti-ovh-ovh-sas" address="104.239.79.0/24" comment="Generated blocklist for ovh"

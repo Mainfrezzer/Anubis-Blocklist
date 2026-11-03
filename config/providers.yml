@@ -359,3 +359,9 @@ providers:
     - name: Zkillu SAS
       asns:
         - AS215599
+    - name: TC DATACENTER LIMITED
+      asns:
+        - AS218785
+    - name: Eweka Internet Services B.V.
+      asns:
+        - AS34343

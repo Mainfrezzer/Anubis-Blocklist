@@ -1,6 +1,6 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for nexeon.com
-# Entries: 274
+# Entries: 276
 #
 /ip firewall address-list
 add list="anti-nexeon-nexeon-technologies-inc" address="103.243.188.0/22" comment="Generated blocklist for nexeon.com"
@@ -118,6 +118,7 @@ add list="anti-nexeon-nexeon-technologies-inc" address="172.245.69.0/24" comment
 add list="anti-nexeon-nexeon-technologies-inc" address="172.93.128.0/17" comment="Generated blocklist for nexeon.com"
 add list="anti-nexeon-nexeon-technologies-inc" address="172.93.128.0/24" comment="Generated blocklist for nexeon.com"
 add list="anti-nexeon-nexeon-technologies-inc" address="172.93.130.0/24" comment="Generated blocklist for nexeon.com"
+add list="anti-nexeon-nexeon-technologies-inc" address="172.93.131.0/24" comment="Generated blocklist for nexeon.com"
 add list="anti-nexeon-nexeon-technologies-inc" address="172.93.132.0/24" comment="Generated blocklist for nexeon.com"
 add list="anti-nexeon-nexeon-technologies-inc" address="172.93.136.0/24" comment="Generated blocklist for nexeon.com"
 add list="anti-nexeon-nexeon-technologies-inc" address="172.93.139.0/24" comment="Generated blocklist for nexeon.com"
@@ -252,6 +253,7 @@ add list="anti-nexeon-nexeon-technologies-inc" address="64.44.84.0/24" comment="
 add list="anti-nexeon-nexeon-technologies-inc" address="64.44.87.0/24" comment="Generated blocklist for nexeon.com"
 add list="anti-nexeon-nexeon-technologies-inc" address="64.44.88.0/21" comment="Generated blocklist for nexeon.com"
 add list="anti-nexeon-nexeon-technologies-inc" address="64.44.93.0/24" comment="Generated blocklist for nexeon.com"
+add list="anti-nexeon-nexeon-technologies-inc" address="64.44.97.0/24" comment="Generated blocklist for nexeon.com"
 add list="anti-nexeon-nexeon-technologies-inc" address="74.122.198.0/24" comment="Generated blocklist for nexeon.com"
 add list="anti-nexeon-nexeon-technologies-inc" address="96.47.164.0/24" comment="Generated blocklist for nexeon.com"
 add list="anti-nexeon-nexeon-technologies-inc" address="96.9.192.0/18" comment="Generated blocklist for nexeon.com"

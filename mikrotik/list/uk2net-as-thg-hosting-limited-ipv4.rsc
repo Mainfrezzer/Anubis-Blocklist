@@ -1,6 +1,6 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for THG HOSTING
-# Entries: 115
+# Entries: 113
 #
 /ip firewall address-list
 add list="anti-uk2net-as-thg-hosting-limited" address="107.182.225.0/24" comment="Generated blocklist for THG HOSTING"
@@ -60,7 +60,6 @@ add list="anti-uk2net-as-thg-hosting-limited" address="209.95.48.0/24" comment="
 add list="anti-uk2net-as-thg-hosting-limited" address="209.95.52.0/24" comment="Generated blocklist for THG HOSTING"
 add list="anti-uk2net-as-thg-hosting-limited" address="209.95.59.0/24" comment="Generated blocklist for THG HOSTING"
 add list="anti-uk2net-as-thg-hosting-limited" address="212.78.65.0/24" comment="Generated blocklist for THG HOSTING"
-add list="anti-uk2net-as-thg-hosting-limited" address="212.78.74.0/24" comment="Generated blocklist for THG HOSTING"
 add list="anti-uk2net-as-thg-hosting-limited" address="212.78.82.0/24" comment="Generated blocklist for THG HOSTING"
 add list="anti-uk2net-as-thg-hosting-limited" address="212.78.83.0/24" comment="Generated blocklist for THG HOSTING"
 add list="anti-uk2net-as-thg-hosting-limited" address="212.78.92.0/24" comment="Generated blocklist for THG HOSTING"
@@ -98,7 +97,6 @@ add list="anti-uk2net-as-thg-hosting-limited" address="69.36.165.0/24" comment="
 add list="anti-uk2net-as-thg-hosting-limited" address="69.36.182.0/24" comment="Generated blocklist for THG HOSTING"
 add list="anti-uk2net-as-thg-hosting-limited" address="77.92.64.0/21" comment="Generated blocklist for THG HOSTING"
 add list="anti-uk2net-as-thg-hosting-limited" address="77.92.72.0/22" comment="Generated blocklist for THG HOSTING"
-add list="anti-uk2net-as-thg-hosting-limited" address="77.92.76.0/23" comment="Generated blocklist for THG HOSTING"
 add list="anti-uk2net-as-thg-hosting-limited" address="77.92.78.0/23" comment="Generated blocklist for THG HOSTING"
 add list="anti-uk2net-as-thg-hosting-limited" address="77.92.80.0/20" comment="Generated blocklist for THG HOSTING"
 add list="anti-uk2net-as-thg-hosting-limited" address="82.163.72.0/23" comment="Generated blocklist for THG HOSTING"

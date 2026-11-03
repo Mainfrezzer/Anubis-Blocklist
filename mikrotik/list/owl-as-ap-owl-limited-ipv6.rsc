@@ -1,8 +1,10 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for owl.net
-# Entries: 266
+# Entries: 275
 #
 /ipv6 firewall address-list
+add list="anti-owl-as-ap-owl-limited" address="2403:fbc0:a001::/48" comment="Generated blocklist for owl.net"
+add list="anti-owl-as-ap-owl-limited" address="2403:fbc0:a002::/48" comment="Generated blocklist for owl.net"
 add list="anti-owl-as-ap-owl-limited" address="2a03:d9c0:3000::/48" comment="Generated blocklist for owl.net"
 add list="anti-owl-as-ap-owl-limited" address="2a03:d9c0:3001::/48" comment="Generated blocklist for owl.net"
 add list="anti-owl-as-ap-owl-limited" address="2a07:d880::/32" comment="Generated blocklist for owl.net"
@@ -19,6 +21,13 @@ add list="anti-owl-as-ap-owl-limited" address="2a07:d883:704::/48" comment="Gene
 add list="anti-owl-as-ap-owl-limited" address="2a07:d883:705::/48" comment="Generated blocklist for owl.net"
 add list="anti-owl-as-ap-owl-limited" address="2a07:d884:100::/48" comment="Generated blocklist for owl.net"
 add list="anti-owl-as-ap-owl-limited" address="2a07:d884::/48" comment="Generated blocklist for owl.net"
+add list="anti-owl-as-ap-owl-limited" address="2a07:d885:1::/48" comment="Generated blocklist for owl.net"
+add list="anti-owl-as-ap-owl-limited" address="2a07:d885:2::/48" comment="Generated blocklist for owl.net"
+add list="anti-owl-as-ap-owl-limited" address="2a07:d885:3::/48" comment="Generated blocklist for owl.net"
+add list="anti-owl-as-ap-owl-limited" address="2a07:d885:4::/48" comment="Generated blocklist for owl.net"
+add list="anti-owl-as-ap-owl-limited" address="2a07:d885:5::/48" comment="Generated blocklist for owl.net"
+add list="anti-owl-as-ap-owl-limited" address="2a07:d885:6::/48" comment="Generated blocklist for owl.net"
+add list="anti-owl-as-ap-owl-limited" address="2a07:d885::/48" comment="Generated blocklist for owl.net"
 add list="anti-owl-as-ap-owl-limited" address="2a07:d887:1000::/40" comment="Generated blocklist for owl.net"
 add list="anti-owl-as-ap-owl-limited" address="2a07:d887:100::/40" comment="Generated blocklist for owl.net"
 add list="anti-owl-as-ap-owl-limited" address="2a07:d887:1100::/40" comment="Generated blocklist for owl.net"

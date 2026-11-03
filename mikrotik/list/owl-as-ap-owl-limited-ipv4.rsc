@@ -1,6 +1,6 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for owl.net
-# Entries: 28
+# Entries: 33
 #
 /ip firewall address-list
 add list="anti-owl-as-ap-owl-limited" address="103.136.147.0/24" comment="Generated blocklist for owl.net"
@@ -24,9 +24,14 @@ add list="anti-owl-as-ap-owl-limited" address="45.130.20.0/24" comment="Generate
 add list="anti-owl-as-ap-owl-limited" address="45.130.21.0/24" comment="Generated blocklist for owl.net"
 add list="anti-owl-as-ap-owl-limited" address="45.130.22.0/24" comment="Generated blocklist for owl.net"
 add list="anti-owl-as-ap-owl-limited" address="45.130.23.0/24" comment="Generated blocklist for owl.net"
+add list="anti-owl-as-ap-owl-limited" address="45.131.155.0/24" comment="Generated blocklist for owl.net"
 add list="anti-owl-as-ap-owl-limited" address="45.147.50.0/24" comment="Generated blocklist for owl.net"
 add list="anti-owl-as-ap-owl-limited" address="45.147.51.0/24" comment="Generated blocklist for owl.net"
 add list="anti-owl-as-ap-owl-limited" address="45.66.219.0/24" comment="Generated blocklist for owl.net"
+add list="anti-owl-as-ap-owl-limited" address="45.82.76.0/24" comment="Generated blocklist for owl.net"
+add list="anti-owl-as-ap-owl-limited" address="45.82.77.0/24" comment="Generated blocklist for owl.net"
+add list="anti-owl-as-ap-owl-limited" address="45.82.78.0/24" comment="Generated blocklist for owl.net"
+add list="anti-owl-as-ap-owl-limited" address="45.82.79.0/24" comment="Generated blocklist for owl.net"
 add list="anti-owl-as-ap-owl-limited" address="80.66.197.0/24" comment="Generated blocklist for owl.net"
 add list="anti-owl-as-ap-owl-limited" address="80.66.198.0/24" comment="Generated blocklist for owl.net"
 add list="anti-owl-as-ap-owl-limited" address="88.214.21.0/24" comment="Generated blocklist for owl.net"

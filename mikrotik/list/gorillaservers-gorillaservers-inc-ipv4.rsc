@@ -1,6 +1,6 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for GorillaServers
-# Entries: 91
+# Entries: 93
 #
 /ip firewall address-list
 add list="anti-gorillaservers-gorillaservers-inc" address="104.156.140.0/24" comment="Generated blocklist for GorillaServers"
@@ -16,6 +16,7 @@ add list="anti-gorillaservers-gorillaservers-inc" address="107.181.234.0/23" com
 add list="anti-gorillaservers-gorillaservers-inc" address="107.181.236.0/22" comment="Generated blocklist for GorillaServers"
 add list="anti-gorillaservers-gorillaservers-inc" address="107.181.240.0/23" comment="Generated blocklist for GorillaServers"
 add list="anti-gorillaservers-gorillaservers-inc" address="107.181.244.0/22" comment="Generated blocklist for GorillaServers"
+add list="anti-gorillaservers-gorillaservers-inc" address="107.181.248.0/24" comment="Generated blocklist for GorillaServers"
 add list="anti-gorillaservers-gorillaservers-inc" address="107.181.252.0/22" comment="Generated blocklist for GorillaServers"
 add list="anti-gorillaservers-gorillaservers-inc" address="146.71.101.0/24" comment="Generated blocklist for GorillaServers"
 add list="anti-gorillaservers-gorillaservers-inc" address="146.71.102.0/24" comment="Generated blocklist for GorillaServers"
@@ -26,6 +27,7 @@ add list="anti-gorillaservers-gorillaservers-inc" address="146.71.106.0/24" comm
 add list="anti-gorillaservers-gorillaservers-inc" address="146.71.107.0/24" comment="Generated blocklist for GorillaServers"
 add list="anti-gorillaservers-gorillaservers-inc" address="146.71.108.0/24" comment="Generated blocklist for GorillaServers"
 add list="anti-gorillaservers-gorillaservers-inc" address="146.71.110.0/24" comment="Generated blocklist for GorillaServers"
+add list="anti-gorillaservers-gorillaservers-inc" address="146.71.113.0/24" comment="Generated blocklist for GorillaServers"
 add list="anti-gorillaservers-gorillaservers-inc" address="146.71.114.0/24" comment="Generated blocklist for GorillaServers"
 add list="anti-gorillaservers-gorillaservers-inc" address="146.71.115.0/24" comment="Generated blocklist for GorillaServers"
 add list="anti-gorillaservers-gorillaservers-inc" address="146.71.116.0/24" comment="Generated blocklist for GorillaServers"

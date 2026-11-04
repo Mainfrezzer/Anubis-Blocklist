@@ -1,22 +1,12 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for Latitude.sh
-# Entries: 287
+# Entries: 277
 #
 /ipv6 firewall address-list
 add list="anti-latitude-sh-latitude-sh" address="2602:fad4:1::/48" comment="Generated blocklist for Latitude.sh"
 add list="anti-latitude-sh-latitude-sh" address="2602:fad4:2::/48" comment="Generated blocklist for Latitude.sh"
 add list="anti-latitude-sh-latitude-sh" address="2602:fad4:40::/48" comment="Generated blocklist for Latitude.sh"
 add list="anti-latitude-sh-latitude-sh" address="2602:fad4:41::/48" comment="Generated blocklist for Latitude.sh"
-add list="anti-latitude-sh-latitude-sh" address="2602:ff62:103::/48" comment="Generated blocklist for Latitude.sh"
-add list="anti-latitude-sh-latitude-sh" address="2602:ff62:108::/48" comment="Generated blocklist for Latitude.sh"
-add list="anti-latitude-sh-latitude-sh" address="2602:ff62:109::/48" comment="Generated blocklist for Latitude.sh"
-add list="anti-latitude-sh-latitude-sh" address="2602:ff62:10a::/48" comment="Generated blocklist for Latitude.sh"
-add list="anti-latitude-sh-latitude-sh" address="2602:ff62:10b::/48" comment="Generated blocklist for Latitude.sh"
-add list="anti-latitude-sh-latitude-sh" address="2602:ff62:10c::/48" comment="Generated blocklist for Latitude.sh"
-add list="anti-latitude-sh-latitude-sh" address="2602:ff62:10d::/48" comment="Generated blocklist for Latitude.sh"
-add list="anti-latitude-sh-latitude-sh" address="2602:ff62:10e::/48" comment="Generated blocklist for Latitude.sh"
-add list="anti-latitude-sh-latitude-sh" address="2602:ff62:10f::/48" comment="Generated blocklist for Latitude.sh"
-add list="anti-latitude-sh-latitude-sh" address="2602:ff62:110::/48" comment="Generated blocklist for Latitude.sh"
 add list="anti-latitude-sh-latitude-sh" address="2603:f100::/29" comment="Generated blocklist for Latitude.sh"
 add list="anti-latitude-sh-latitude-sh" address="2603:f300::/29" comment="Generated blocklist for Latitude.sh"
 add list="anti-latitude-sh-latitude-sh" address="2603:f3e0::/29" comment="Generated blocklist for Latitude.sh"

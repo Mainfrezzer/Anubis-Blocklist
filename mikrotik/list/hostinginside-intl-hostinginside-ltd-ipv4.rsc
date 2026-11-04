@@ -1,6 +1,6 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for HostingInside
-# Entries: 20
+# Entries: 19
 #
 /ip firewall address-list
 add list="anti-hostinginside-intl-hostinginside-ltd" address="103.131.189.0/24" comment="Generated blocklist for HostingInside"
@@ -13,7 +13,6 @@ add list="anti-hostinginside-intl-hostinginside-ltd" address="103.37.5.0/24" com
 add list="anti-hostinginside-intl-hostinginside-ltd" address="103.98.73.0/24" comment="Generated blocklist for HostingInside"
 add list="anti-hostinginside-intl-hostinginside-ltd" address="103.98.74.0/24" comment="Generated blocklist for HostingInside"
 add list="anti-hostinginside-intl-hostinginside-ltd" address="103.98.75.0/24" comment="Generated blocklist for HostingInside"
-add list="anti-hostinginside-intl-hostinginside-ltd" address="2.58.240.0/24" comment="Generated blocklist for HostingInside"
 add list="anti-hostinginside-intl-hostinginside-ltd" address="2.58.241.0/24" comment="Generated blocklist for HostingInside"
 add list="anti-hostinginside-intl-hostinginside-ltd" address="2.58.242.0/24" comment="Generated blocklist for HostingInside"
 add list="anti-hostinginside-intl-hostinginside-ltd" address="2.58.243.0/24" comment="Generated blocklist for HostingInside"

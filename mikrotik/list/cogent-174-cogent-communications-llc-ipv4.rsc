@@ -1,6 +1,6 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for Cogent
-# Entries: 4066
+# Entries: 4057
 #
 /ip firewall address-list
 add list="anti-cogent-174-cogent-communications-llc" address="100.43.22.0/23" comment="Generated blocklist for Cogent"
@@ -471,15 +471,10 @@ add list="anti-cogent-174-cogent-communications-llc" address="154.13.161.0/24" c
 add list="anti-cogent-174-cogent-communications-llc" address="154.13.198.0/23" comment="Generated blocklist for Cogent"
 add list="anti-cogent-174-cogent-communications-llc" address="154.13.200.0/22" comment="Generated blocklist for Cogent"
 add list="anti-cogent-174-cogent-communications-llc" address="154.13.204.0/22" comment="Generated blocklist for Cogent"
-add list="anti-cogent-174-cogent-communications-llc" address="154.13.204.0/23" comment="Generated blocklist for Cogent"
-add list="anti-cogent-174-cogent-communications-llc" address="154.13.206.0/23" comment="Generated blocklist for Cogent"
-add list="anti-cogent-174-cogent-communications-llc" address="154.13.212.0/22" comment="Generated blocklist for Cogent"
 add list="anti-cogent-174-cogent-communications-llc" address="154.13.24.0/23" comment="Generated blocklist for Cogent"
 add list="anti-cogent-174-cogent-communications-llc" address="154.13.244.0/22" comment="Generated blocklist for Cogent"
 add list="anti-cogent-174-cogent-communications-llc" address="154.13.248.0/22" comment="Generated blocklist for Cogent"
 add list="anti-cogent-174-cogent-communications-llc" address="154.13.252.0/22" comment="Generated blocklist for Cogent"
-add list="anti-cogent-174-cogent-communications-llc" address="154.13.252.0/23" comment="Generated blocklist for Cogent"
-add list="anti-cogent-174-cogent-communications-llc" address="154.13.254.0/23" comment="Generated blocklist for Cogent"
 add list="anti-cogent-174-cogent-communications-llc" address="154.13.26.0/23" comment="Generated blocklist for Cogent"
 add list="anti-cogent-174-cogent-communications-llc" address="154.13.65.0/24" comment="Generated blocklist for Cogent"
 add list="anti-cogent-174-cogent-communications-llc" address="154.13.68.0/23" comment="Generated blocklist for Cogent"
@@ -1101,7 +1096,6 @@ add list="anti-cogent-174-cogent-communications-llc" address="185.209.51.0/24" c
 add list="anti-cogent-174-cogent-communications-llc" address="185.218.226.0/24" comment="Generated blocklist for Cogent"
 add list="anti-cogent-174-cogent-communications-llc" address="185.220.248.0/24" comment="Generated blocklist for Cogent"
 add list="anti-cogent-174-cogent-communications-llc" address="185.221.217.0/24" comment="Generated blocklist for Cogent"
-add list="anti-cogent-174-cogent-communications-llc" address="185.224.2.0/24" comment="Generated blocklist for Cogent"
 add list="anti-cogent-174-cogent-communications-llc" address="185.225.1.0/24" comment="Generated blocklist for Cogent"
 add list="anti-cogent-174-cogent-communications-llc" address="185.226.105.0/24" comment="Generated blocklist for Cogent"
 add list="anti-cogent-174-cogent-communications-llc" address="185.236.192.0/24" comment="Generated blocklist for Cogent"
@@ -1299,8 +1293,6 @@ add list="anti-cogent-174-cogent-communications-llc" address="204.217.164.0/22" 
 add list="anti-cogent-174-cogent-communications-llc" address="204.217.176.0/24" comment="Generated blocklist for Cogent"
 add list="anti-cogent-174-cogent-communications-llc" address="204.217.180.0/23" comment="Generated blocklist for Cogent"
 add list="anti-cogent-174-cogent-communications-llc" address="204.217.213.0/24" comment="Generated blocklist for Cogent"
-add list="anti-cogent-174-cogent-communications-llc" address="204.217.214.0/23" comment="Generated blocklist for Cogent"
-add list="anti-cogent-174-cogent-communications-llc" address="204.217.233.0/24" comment="Generated blocklist for Cogent"
 add list="anti-cogent-174-cogent-communications-llc" address="204.225.232.0/24" comment="Generated blocklist for Cogent"
 add list="anti-cogent-174-cogent-communications-llc" address="204.233.235.0/24" comment="Generated blocklist for Cogent"
 add list="anti-cogent-174-cogent-communications-llc" address="204.240.0.0/14" comment="Generated blocklist for Cogent"
@@ -1428,7 +1420,6 @@ add list="anti-cogent-174-cogent-communications-llc" address="206.225.10.0/24" c
 add list="anti-cogent-174-cogent-communications-llc" address="206.228.0.0/14" comment="Generated blocklist for Cogent"
 add list="anti-cogent-174-cogent-communications-llc" address="206.229.154.0/23" comment="Generated blocklist for Cogent"
 add list="anti-cogent-174-cogent-communications-llc" address="206.232.0.0/14" comment="Generated blocklist for Cogent"
-add list="anti-cogent-174-cogent-communications-llc" address="206.232.108.0/22" comment="Generated blocklist for Cogent"
 add list="anti-cogent-174-cogent-communications-llc" address="206.232.116.0/22" comment="Generated blocklist for Cogent"
 add list="anti-cogent-174-cogent-communications-llc" address="206.232.27.0/24" comment="Generated blocklist for Cogent"
 add list="anti-cogent-174-cogent-communications-llc" address="206.232.28.0/24" comment="Generated blocklist for Cogent"

@@ -1,6 +1,6 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for nexeon.com
-# Entries: 276
+# Entries: 277
 #
 /ip firewall address-list
 add list="anti-nexeon-nexeon-technologies-inc" address="103.243.188.0/22" comment="Generated blocklist for nexeon.com"
@@ -220,6 +220,7 @@ add list="anti-nexeon-nexeon-technologies-inc" address="64.44.160.0/20" comment=
 add list="anti-nexeon-nexeon-technologies-inc" address="64.44.176.0/21" comment="Generated blocklist for nexeon.com"
 add list="anti-nexeon-nexeon-technologies-inc" address="64.44.184.0/21" comment="Generated blocklist for nexeon.com"
 add list="anti-nexeon-nexeon-technologies-inc" address="64.44.192.0/21" comment="Generated blocklist for nexeon.com"
+add list="anti-nexeon-nexeon-technologies-inc" address="64.44.196.0/24" comment="Generated blocklist for nexeon.com"
 add list="anti-nexeon-nexeon-technologies-inc" address="64.44.200.0/21" comment="Generated blocklist for nexeon.com"
 add list="anti-nexeon-nexeon-technologies-inc" address="64.44.200.0/24" comment="Generated blocklist for nexeon.com"
 add list="anti-nexeon-nexeon-technologies-inc" address="64.44.205.0/24" comment="Generated blocklist for nexeon.com"

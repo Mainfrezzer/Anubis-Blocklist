@@ -365,3 +365,6 @@ providers:
     - name: Eweka Internet Services B.V.
       asns:
         - AS34343
+    - name: Bucklog SARL
+      asns:
+        - AS211590

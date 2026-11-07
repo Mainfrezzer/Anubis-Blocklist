@@ -368,3 +368,36 @@ providers:
     - name: Bucklog SARL
       asns:
         - AS211590
+    - name: Zenlayer Inc
+      asns:
+        - AS21859
+    - name: NetIT Solutions LTD
+      asns:
+        - AS328528
+    - name: Feo Prest SRL
+      asns:
+        - AS208137
+    - name: Realcloud OU
+      asns:
+        - AS206804
+    - name: ONYPHE SAS
+      asns:
+        - AS213412    
+    - name: Hurricane Electric LLC
+      asns:
+        - AS6939
+    - name: IP Volume inc
+      asns:
+        - AS202425
+    - name: Beijing Volcano Engine Technology Co., Ltd.
+      asns:
+        - AS137718
+    - name: Artnet Sp. z o.o.
+      asns:
+        - AS197155
+    - name: NSEC - Sistemas Informaticos, S.A.
+      asns:
+        - AS211680
+    - name: Virtual Machine Solutions LLC
+      asns:
+        - AS25693

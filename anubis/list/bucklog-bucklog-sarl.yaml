@@ -1,0 +1,8 @@
+- name: anti bucklog-bucklog-sarl
+  action: CHALLENGE
+  challenge:
+    difficulty: 64
+    algorithm: fast
+  remote_addresses:
+  - 170.39.217.0/24
+  - 185.177.72.0/24

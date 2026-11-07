@@ -1,6 +1,6 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for Latitude.sh
-# Entries: 1100
+# Entries: 1101
 #
 /ip firewall address-list
 add list="anti-latitude-sh-latitude-sh" address="102.129.192.0/24" comment="Generated blocklist for Latitude.sh"
@@ -88,6 +88,7 @@ add list="anti-latitude-sh-latitude-sh" address="109.94.97.0/24" comment="Genera
 add list="anti-latitude-sh-latitude-sh" address="109.94.98.0/24" comment="Generated blocklist for Latitude.sh"
 add list="anti-latitude-sh-latitude-sh" address="109.94.99.0/24" comment="Generated blocklist for Latitude.sh"
 add list="anti-latitude-sh-latitude-sh" address="130.185.125.0/24" comment="Generated blocklist for Latitude.sh"
+add list="anti-latitude-sh-latitude-sh" address="134.222.156.0/22" comment="Generated blocklist for Latitude.sh"
 add list="anti-latitude-sh-latitude-sh" address="134.82.72.0/24" comment="Generated blocklist for Latitude.sh"
 add list="anti-latitude-sh-latitude-sh" address="135.196.18.0/24" comment="Generated blocklist for Latitude.sh"
 add list="anti-latitude-sh-latitude-sh" address="136.144.35.0/24" comment="Generated blocklist for Latitude.sh"

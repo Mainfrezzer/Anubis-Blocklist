@@ -1,0 +1,8 @@
+- name: anti netit-solutions-ltd-netit-solutions-ltd
+  action: CHALLENGE
+  challenge:
+    difficulty: 64
+    algorithm: fast
+  remote_addresses:
+  - 102.220.213.0/24
+  - 102.36.160.0/24

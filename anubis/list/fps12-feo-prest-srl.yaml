@@ -1,0 +1,8 @@
+- name: anti fps12-feo-prest-srl
+  action: CHALLENGE
+  challenge:
+    difficulty: 64
+    algorithm: fast
+  remote_addresses:
+  - 213.177.179.0/24
+  - 213.209.159.0/24

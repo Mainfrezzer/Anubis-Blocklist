@@ -1,0 +1,13 @@
+- name: anti as-bitsight-nsec-sistemas-informaticos-s-a
+  action: CHALLENGE
+  challenge:
+    difficulty: 64
+    algorithm: fast
+  remote_addresses:
+  - 185.180.143.0/24
+  - 185.226.198.0/24
+  - 2a10:3c0:100::/48
+  - 2a10:3c0:101::/48
+  - 2a10:3c0:2::/48
+  - 45.156.128.0/24
+  - 45.156.129.0/24

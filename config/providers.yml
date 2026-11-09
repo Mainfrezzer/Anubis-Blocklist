@@ -407,3 +407,6 @@ providers:
     - name: Rackforest Zrt. (AS211212)
       asns:
         - AS62214
+    - name: SolidCore Hosting LTD
+      asns:
+        - AS199457

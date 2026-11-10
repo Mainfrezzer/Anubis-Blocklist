@@ -1,9 +1,8 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for Keminet
-# Entries: 29
+# Entries: 28
 #
 /ip firewall address-list
-add list="anti-keminet-keminet-shpk" address="103.124.165.0/24" comment="Generated blocklist for Keminet"
 add list="anti-keminet-keminet-shpk" address="103.124.167.0/24" comment="Generated blocklist for Keminet"
 add list="anti-keminet-keminet-shpk" address="109.104.140.0/24" comment="Generated blocklist for Keminet"
 add list="anti-keminet-keminet-shpk" address="109.104.141.0/24" comment="Generated blocklist for Keminet"

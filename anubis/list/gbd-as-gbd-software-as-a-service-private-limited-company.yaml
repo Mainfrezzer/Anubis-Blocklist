@@ -1,0 +1,8 @@
+- name: anti gbd-as-gbd-software-as-a-service-private-limited-company
+  action: CHALLENGE
+  challenge:
+    difficulty: 64
+    algorithm: fast
+  remote_addresses:
+  - 185.196.52.0/22
+  - 185.203.184.0/22

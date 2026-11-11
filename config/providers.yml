@@ -413,3 +413,6 @@ providers:
     - name: Black HOST Ltd
       asns:
         - AS12989
+    - name: GRUPO PANAGLOBAL 15 S.A
+      asns:
+        - AS264617

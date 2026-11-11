@@ -10,18 +10,17 @@ permissions:
 
 jobs:
   update-mikrotik-blocklists:
-    runs-on:
-      - ubuntu-latest
+    runs-on: ubuntu-latest
 
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-        
-      - name: Install Python YAML 
-        run: | 
-            sudo apt-get update 
-            sudo apt-get install -y python3-yaml
-            
+
+      - name: Install Python YAML
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y python3-yaml
+
       - name: Generate MikroTik blocklists
         env:
           CONFIG: config/providers.yml
@@ -37,6 +36,7 @@ jobs:
           import re
           import time
           import urllib.request
+          import ipaddress
 
           import yaml
 
@@ -80,9 +80,10 @@ jobs:
 
                       print(
                           f"Request failed (attempt {attempt}/{retries}): "
-                          f"{exc}"
+                          f"{exc}",
+                          flush=True,
                       )
-                      print(f"Retrying in {delay}s...")
+                      print(f"Retrying in {delay}s...", flush=True)
 
                       time.sleep(delay)
 
@@ -109,11 +110,11 @@ jobs:
               family,
               comment,
           ):
-              # Don't create empty files.
               if not prefixes:
                   print(
                       f"Skipping {filename}: "
-                      f"no {family} prefixes"
+                      f"no {family} prefixes",
+                      flush=True,
                   )
                   return False
 
@@ -147,16 +148,20 @@ jobs:
 
               print(
                   f"Generated {filename}: "
-                  f"{len(sorted_prefixes)} {family} prefixes"
+                  f"{len(sorted_prefixes)} {family} prefixes",
+                  flush=True,
               )
 
               return True
 
-          # Remove old generated lists.
-          for filename in os.listdir(output_dir):
-              if filename.endswith(".rsc"):
-                  os.remove(os.path.join(output_dir, filename))
+          # Generate into a temporary directory.
+          # Existing files remain untouched until generation succeeds.
+          temp_dir = os.path.join(output_dir, ".generated")
 
+          os.makedirs(temp_dir, exist_ok=True)
+
+          generated_files = set()
+          used_slugs = set()
           all_prefixes = set()
 
           for provider in providers:
@@ -173,46 +178,111 @@ jobs:
                       asn = "AS" + asn
 
                   if not re.fullmatch(r"AS[0-9]+", asn):
-                      raise SystemExit(
-                          f"Invalid ASN: {configured_asn}"
+                      print(
+                          f"WARNING: Invalid ASN {configured_asn}, "
+                          "skipping",
+                          flush=True,
                       )
+                      continue
 
-                  print(f"Fetching {asn}")
+                  print(f"Fetching {asn}", flush=True)
 
                   prefixes_url = (
                       "https://stat.ripe.net/data/"
                       f"announced-prefixes/data.json?resource={asn}"
                   )
 
-                  prefixes_data = get_json(prefixes_url)
+                  # Fetch prefixes independently.
+                  try:
+                      prefixes_data = get_json(prefixes_url)
 
-                  prefixes = {
-                      item["prefix"]
-                      for item in prefixes_data["data"]["prefixes"]
-                      if item.get("prefix")
-                  }
+                      prefixes = {
+                          item["prefix"]
+                          for item in prefixes_data.get(
+                              "data", {}
+                          ).get("prefixes", [])
+                          if isinstance(item, dict)
+                          and item.get("prefix")
+                      }
+
+                  except Exception as exc:
+                      print(
+                          f"  ERROR fetching prefixes for {asn}: {exc}",
+                          flush=True,
+                      )
+                      print(f"  Skipping {asn}", flush=True)
+                      continue
 
                   if not prefixes:
-                      raise SystemExit(
-                          f"No announced prefixes returned for {asn}"
+                      print(
+                          f"  No announced prefixes for {asn}, skipping",
+                          flush=True,
+                      )
+                      continue
+
+                  # Validate and normalize prefixes.
+                  valid_prefixes = set()
+
+                  for prefix in prefixes:
+                      try:
+                          network = ipaddress.ip_network(
+                              prefix,
+                              strict=False,
+                          )
+
+                          valid_prefixes.add(str(network))
+
+                      except ValueError as exc:
+                          print(
+                              f"  WARNING: Invalid prefix {prefix}: {exc}",
+                              flush=True,
+                          )
+
+                  if not valid_prefixes:
+                      print(
+                          f"  No valid prefixes for {asn}, skipping",
+                          flush=True,
+                      )
+                      continue
+
+                  provider_prefixes.update(valid_prefixes)
+                  all_prefixes.update(valid_prefixes)
+
+                  # Overview is optional.
+                  # Failure must not discard successfully retrieved prefixes.
+                  try:
+                      overview_url = (
+                          "https://stat.ripe.net/data/"
+                          f"as-overview/data.json?resource={asn}"
                       )
 
-                  provider_prefixes.update(prefixes)
-                  all_prefixes.update(prefixes)
+                      overview = get_json(overview_url)
 
-                  overview_url = (
-                      "https://stat.ripe.net/data/"
-                      f"as-overview/data.json?resource={asn}"
+                      holder = overview.get("data", {}).get("holder")
+
+                      if holder:
+                          holder_names.append(holder)
+
+                  except Exception as exc:
+                      print(
+                          f"  WARNING: Could not retrieve overview "
+                          f"for {asn}: {exc}",
+                          flush=True,
+                      )
+
+                  print(
+                      f"  {len(valid_prefixes)} prefixes",
+                      flush=True,
                   )
 
-                  overview = get_json(overview_url)
-
-                  holder = overview.get("data", {}).get("holder")
-
-                  if holder:
-                      holder_names.append(holder)
-
-                  print(f"  {len(prefixes)} prefixes")
+              # Skip providers without successfully retrieved prefixes.
+              if not provider_prefixes:
+                  print(
+                      f"Skipping provider {provider_name}: "
+                      "no prefixes retrieved successfully",
+                      flush=True,
+                  )
+                  continue
 
               # Prefer the AS holder returned by RIPEstat.
               # Fall back to the configured provider name.
@@ -221,47 +291,69 @@ jobs:
               else:
                   rule_name_source = provider_name
 
-              slug = slugify(rule_name_source)
+              base_slug = slugify(rule_name_source)
 
-              if not slug:
-                  slug = slugify(provider_name)
+              if not base_slug:
+                  base_slug = slugify(provider_name)
+
+              if not base_slug:
+                  base_slug = "provider"
+
+              # Ensure every provider has a unique slug.
+              slug = base_slug
+              counter = 2
+
+              while slug in used_slugs:
+                  slug = f"{base_slug}-{counter}"
+                  counter += 1
+
+              used_slugs.add(slug)
 
               list_name = f"anti-{slug}"
 
+              # Separate IPv4 and IPv6 prefixes.
               ipv4_prefixes = {
                   prefix
                   for prefix in provider_prefixes
-                  if ":" not in prefix
+                  if ipaddress.ip_network(prefix).version == 4
               }
 
               ipv6_prefixes = {
                   prefix
                   for prefix in provider_prefixes
-                  if ":" in prefix
+                  if ipaddress.ip_network(prefix).version == 6
               }
 
+              comment = f"Generated blocklist for {provider_name}"
+
               # Provider IPv4 list.
-              write_mikrotik_list(
-                  os.path.join(
-                      output_dir,
-                      f"{slug}-ipv4.rsc",
-                  ),
+              ipv4_filename = f"{slug}-ipv4.rsc"
+
+              if write_mikrotik_list(
+                  os.path.join(temp_dir, ipv4_filename),
                   list_name,
                   ipv4_prefixes,
                   "ipv4",
-                  f"Generated blocklist for {provider_name}",
-              )
+                  comment,
+              ):
+                  generated_files.add(ipv4_filename)
 
               # Provider IPv6 list.
-              write_mikrotik_list(
-                  os.path.join(
-                      output_dir,
-                      f"{slug}-ipv6.rsc",
-                  ),
+              ipv6_filename = f"{slug}-ipv6.rsc"
+
+              if write_mikrotik_list(
+                  os.path.join(temp_dir, ipv6_filename),
                   list_name,
                   ipv6_prefixes,
                   "ipv6",
-                  f"Generated blocklist for {provider_name}",
+                  comment,
+              ):
+                  generated_files.add(ipv6_filename)
+
+          if not all_prefixes:
+              raise SystemExit(
+                  "ERROR: No prefixes retrieved from any provider. "
+                  "Existing blocklists will be preserved."
               )
 
           # --------------------------------------------------------------
@@ -271,19 +363,20 @@ jobs:
           all_ipv4 = {
               prefix
               for prefix in all_prefixes
-              if ":" not in prefix
+              if ipaddress.ip_network(prefix).version == 4
           }
 
-          write_mikrotik_list(
+          if write_mikrotik_list(
               os.path.join(
-                  output_dir,
+                  temp_dir,
                   "blocklist-ipv4.rsc",
               ),
               "anti-all-configured-providers",
               all_ipv4,
               "ipv4",
               "Generated blocklist for all configured providers",
-          )
+          ):
+              generated_files.add("blocklist-ipv4.rsc")
 
           # --------------------------------------------------------------
           # Combined IPv6 list
@@ -292,30 +385,165 @@ jobs:
           all_ipv6 = {
               prefix
               for prefix in all_prefixes
-              if ":" in prefix
+              if ipaddress.ip_network(prefix).version == 6
           }
 
-          write_mikrotik_list(
+          if write_mikrotik_list(
               os.path.join(
-                  output_dir,
+                  temp_dir,
                   "blocklist-ipv6.rsc",
               ),
               "anti-all-configured-providers",
               all_ipv6,
               "ipv6",
               "Generated blocklist for all configured providers",
+          ):
+              generated_files.add("blocklist-ipv6.rsc")
+
+          print(
+              f"Total unique prefixes: {len(all_prefixes)}",
+              flush=True,
           )
 
           print(
-              f"Total unique prefixes: {len(all_prefixes)}"
+              f"Total IPv4 prefixes: {len(all_ipv4)}",
+              flush=True,
           )
 
           print(
-              f"Total IPv4 prefixes: {len(all_ipv4)}"
+              f"Total IPv6 prefixes: {len(all_ipv6)}",
+              flush=True,
           )
 
+          if not generated_files:
+              raise SystemExit(
+                  "ERROR: No blocklist files generated. "
+                  "Existing files will be preserved."
+              )
+
+          # --------------------------------------------------------------
+          # Validate generated RouterOS files before replacement.
+          # --------------------------------------------------------------
+
+          add_pattern = re.compile(
+              r'^add\s+'
+              r'list="([^"]+)"\s+'
+              r'address="([^"]+)"\s+'
+              r'comment="([^"]*)"$'
+          )
+
+          for filename in sorted(generated_files):
+              filepath = os.path.join(temp_dir, filename)
+
+              if filename.endswith("-ipv4.rsc"):
+                  family = 4
+                  expected_menu = "/ip firewall address-list"
+              else:
+                  family = 6
+                  expected_menu = "/ipv6 firewall address-list"
+
+              with open(filepath, "r", encoding="utf-8") as f:
+                  lines = [
+                      line.rstrip("\n")
+                      for line in f
+                  ]
+
+              if expected_menu not in lines:
+                  raise SystemExit(
+                      f"{filename}: missing {expected_menu}"
+                  )
+
+              entries = 0
+
+              for line in lines:
+                  if not line or line.startswith("#"):
+                      continue
+
+                  if line == expected_menu:
+                      continue
+
+                  match = add_pattern.fullmatch(line)
+
+                  if not match:
+                      raise SystemExit(
+                          f"{filename}: invalid RouterOS line:\n{line}"
+                      )
+
+                  list_name, address, comment = match.groups()
+
+                  try:
+                      network = ipaddress.ip_network(
+                          address,
+                          strict=False,
+                      )
+
+                  except ValueError as exc:
+                      raise SystemExit(
+                          f"{filename}: invalid address {address}"
+                      ) from exc
+
+                  if network.version != family:
+                      raise SystemExit(
+                          f"{filename}: {address} is not IPv{family}"
+                      )
+
+                  if not list_name:
+                      raise SystemExit(
+                          f"{filename}: empty list name"
+                      )
+
+                  entries += 1
+
+              if entries == 0:
+                  raise SystemExit(
+                      f"{filename}: no address-list entries"
+                  )
+
+              print(
+                  f"Validated {filename}: "
+                  f"{entries} IPv{family} entries",
+                  flush=True,
+              )
+
+          print("MikroTik validation successful", flush=True)
+
+          # --------------------------------------------------------------
+          # Verify every temporary file exists before replacement.
+          # --------------------------------------------------------------
+
+          for filename in generated_files:
+              source = os.path.join(temp_dir, filename)
+
+              if not os.path.isfile(source):
+                  raise SystemExit(
+                      f"ERROR: Generated file is missing: {source}"
+                  )
+
+          # --------------------------------------------------------------
+          # Replace existing files only after successful generation.
+          # --------------------------------------------------------------
+
+          for filename in os.listdir(output_dir):
+              filepath = os.path.join(output_dir, filename)
+
+              if (
+                  filename.endswith(".rsc")
+                  and os.path.isfile(filepath)
+              ):
+                  os.remove(filepath)
+
+          for filename in sorted(generated_files):
+              source = os.path.join(temp_dir, filename)
+              destination = os.path.join(output_dir, filename)
+
+              os.replace(source, destination)
+
+          # Remove temporary directory.
+          os.rmdir(temp_dir)
+
           print(
-              f"Total IPv6 prefixes: {len(all_ipv6)}"
+              f"Successfully updated {len(generated_files)} blocklist files",
+              flush=True,
           )
           PY
 
@@ -392,6 +620,7 @@ jobs:
                           address,
                           strict=False,
                       )
+
                   except ValueError as exc:
                       raise SystemExit(
                           f"{filename}: invalid address {address}"

@@ -1,10 +1,9 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for ukserver.com
-# Entries: 8
+# Entries: 7
 #
 /ipv6 firewall address-list
 add list="anti-ukservers-as-uk-dedicated-servers-limited" address="2001:678:10b0::/48" comment="Generated blocklist for ukserver.com"
-add list="anti-ukservers-as-uk-dedicated-servers-limited" address="2a00:10e8:100::/48" comment="Generated blocklist for ukserver.com"
 add list="anti-ukservers-as-uk-dedicated-servers-limited" address="2a01:a500::/32" comment="Generated blocklist for ukserver.com"
 add list="anti-ukservers-as-uk-dedicated-servers-limited" address="2a01:a502::/32" comment="Generated blocklist for ukserver.com"
 add list="anti-ukservers-as-uk-dedicated-servers-limited" address="2a01:a507::/32" comment="Generated blocklist for ukserver.com"

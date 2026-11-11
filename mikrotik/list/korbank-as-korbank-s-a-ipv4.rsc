@@ -1,6 +1,6 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for Korbank S. A.
-# Entries: 33
+# Entries: 34
 #
 /ip firewall address-list
 add list="anti-korbank-as-korbank-s-a" address="185.203.128.0/22" comment="Generated blocklist for Korbank S. A."
@@ -12,6 +12,7 @@ add list="anti-korbank-as-korbank-s-a" address="185.5.216.0/22" comment="Generat
 add list="anti-korbank-as-korbank-s-a" address="193.239.56.0/22" comment="Generated blocklist for Korbank S. A."
 add list="anti-korbank-as-korbank-s-a" address="212.127.78.0/24" comment="Generated blocklist for Korbank S. A."
 add list="anti-korbank-as-korbank-s-a" address="212.127.88.0/21" comment="Generated blocklist for Korbank S. A."
+add list="anti-korbank-as-korbank-s-a" address="212.127.92.0/24" comment="Generated blocklist for Korbank S. A."
 add list="anti-korbank-as-korbank-s-a" address="213.109.46.0/24" comment="Generated blocklist for Korbank S. A."
 add list="anti-korbank-as-korbank-s-a" address="213.109.47.0/24" comment="Generated blocklist for Korbank S. A."
 add list="anti-korbank-as-korbank-s-a" address="79.110.192.0/20" comment="Generated blocklist for Korbank S. A."

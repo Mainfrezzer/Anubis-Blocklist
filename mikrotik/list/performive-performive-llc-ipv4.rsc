@@ -1,6 +1,6 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for Performive LLC
-# Entries: 235
+# Entries: 234
 #
 /ip firewall address-list
 add list="anti-performive-performive-llc" address="103.208.220.0/23" comment="Generated blocklist for Performive LLC"
@@ -85,7 +85,6 @@ add list="anti-performive-performive-llc" address="162.253.71.0/24" comment="Gen
 add list="anti-performive-performive-llc" address="172.83.41.0/24" comment="Generated blocklist for Performive LLC"
 add list="anti-performive-performive-llc" address="172.83.43.0/24" comment="Generated blocklist for Performive LLC"
 add list="anti-performive-performive-llc" address="172.83.44.0/24" comment="Generated blocklist for Performive LLC"
-add list="anti-performive-performive-llc" address="172.83.46.0/24" comment="Generated blocklist for Performive LLC"
 add list="anti-performive-performive-llc" address="172.83.47.0/24" comment="Generated blocklist for Performive LLC"
 add list="anti-performive-performive-llc" address="172.98.64.0/23" comment="Generated blocklist for Performive LLC"
 add list="anti-performive-performive-llc" address="172.98.66.0/24" comment="Generated blocklist for Performive LLC"

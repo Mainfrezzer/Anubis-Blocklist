@@ -1,9 +1,10 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for HGC Global Communications Limited (announce for iOVZ for example)
-# Entries: 74
+# Entries: 75
 #
 /ipv6 firewall address-list
 add list="anti-hutchison-as-ap-hgc-global-communications-limited" address="2001:df3:3d00::/48" comment="Generated blocklist for HGC Global Communications Limited (announce for iOVZ for example)"
+add list="anti-hutchison-as-ap-hgc-global-communications-limited" address="2401:b60:2000::/36" comment="Generated blocklist for HGC Global Communications Limited (announce for iOVZ for example)"
 add list="anti-hutchison-as-ap-hgc-global-communications-limited" address="2403:4a00:4a00::/48" comment="Generated blocklist for HGC Global Communications Limited (announce for iOVZ for example)"
 add list="anti-hutchison-as-ap-hgc-global-communications-limited" address="2403:4a00:5001::/48" comment="Generated blocklist for HGC Global Communications Limited (announce for iOVZ for example)"
 add list="anti-hutchison-as-ap-hgc-global-communications-limited" address="2403:4a00:5003::/48" comment="Generated blocklist for HGC Global Communications Limited (announce for iOVZ for example)"

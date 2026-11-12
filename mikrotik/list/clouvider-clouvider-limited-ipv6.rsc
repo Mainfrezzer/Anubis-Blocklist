@@ -1,6 +1,6 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for Clouvider Limited
-# Entries: 1118
+# Entries: 1136
 #
 /ipv6 firewall address-list
 add list="anti-clouvider-clouvider-limited" address="2604:ea80:1000::/40" comment="Generated blocklist for Clouvider Limited"
@@ -169,8 +169,26 @@ add list="anti-clouvider-clouvider-limited" address="2a0a:54c1:1::/48" comment="
 add list="anti-clouvider-clouvider-limited" address="2a0a:54c1:4::/48" comment="Generated blocklist for Clouvider Limited"
 add list="anti-clouvider-clouvider-limited" address="2a0a:54c1:52::/48" comment="Generated blocklist for Clouvider Limited"
 add list="anti-clouvider-clouvider-limited" address="2a0a:54c1:8::/48" comment="Generated blocklist for Clouvider Limited"
+add list="anti-clouvider-clouvider-limited" address="2a0a:54c2:10::/48" comment="Generated blocklist for Clouvider Limited"
+add list="anti-clouvider-clouvider-limited" address="2a0a:54c2:11::/48" comment="Generated blocklist for Clouvider Limited"
+add list="anti-clouvider-clouvider-limited" address="2a0a:54c2:12::/48" comment="Generated blocklist for Clouvider Limited"
+add list="anti-clouvider-clouvider-limited" address="2a0a:54c2:13::/48" comment="Generated blocklist for Clouvider Limited"
+add list="anti-clouvider-clouvider-limited" address="2a0a:54c2:14::/48" comment="Generated blocklist for Clouvider Limited"
+add list="anti-clouvider-clouvider-limited" address="2a0a:54c2:15::/48" comment="Generated blocklist for Clouvider Limited"
+add list="anti-clouvider-clouvider-limited" address="2a0a:54c2:16::/48" comment="Generated blocklist for Clouvider Limited"
 add list="anti-clouvider-clouvider-limited" address="2a0a:54c2:1::/48" comment="Generated blocklist for Clouvider Limited"
+add list="anti-clouvider-clouvider-limited" address="2a0a:54c2:1c::/48" comment="Generated blocklist for Clouvider Limited"
+add list="anti-clouvider-clouvider-limited" address="2a0a:54c2:29::/48" comment="Generated blocklist for Clouvider Limited"
+add list="anti-clouvider-clouvider-limited" address="2a0a:54c2:2::/48" comment="Generated blocklist for Clouvider Limited"
+add list="anti-clouvider-clouvider-limited" address="2a0a:54c2:3c::/48" comment="Generated blocklist for Clouvider Limited"
+add list="anti-clouvider-clouvider-limited" address="2a0a:54c2:4::/48" comment="Generated blocklist for Clouvider Limited"
+add list="anti-clouvider-clouvider-limited" address="2a0a:54c2:56::/48" comment="Generated blocklist for Clouvider Limited"
+add list="anti-clouvider-clouvider-limited" address="2a0a:54c2:5::/48" comment="Generated blocklist for Clouvider Limited"
+add list="anti-clouvider-clouvider-limited" address="2a0a:54c2:6::/48" comment="Generated blocklist for Clouvider Limited"
+add list="anti-clouvider-clouvider-limited" address="2a0a:54c2:7::/48" comment="Generated blocklist for Clouvider Limited"
 add list="anti-clouvider-clouvider-limited" address="2a0a:54c2::/32" comment="Generated blocklist for Clouvider Limited"
+add list="anti-clouvider-clouvider-limited" address="2a0a:54c2:c::/48" comment="Generated blocklist for Clouvider Limited"
+add list="anti-clouvider-clouvider-limited" address="2a0a:54c2:d::/48" comment="Generated blocklist for Clouvider Limited"
 add list="anti-clouvider-clouvider-limited" address="2a0a:8dc0:1000::/36" comment="Generated blocklist for Clouvider Limited"
 add list="anti-clouvider-clouvider-limited" address="2a0a:8dc0:2000::/36" comment="Generated blocklist for Clouvider Limited"
 add list="anti-clouvider-clouvider-limited" address="2a0a:8dc0:3000::/36" comment="Generated blocklist for Clouvider Limited"

@@ -1,6 +1,6 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for ucloud.cn
-# Entries: 746
+# Entries: 744
 #
 /ip firewall address-list
 add list="anti-ucloud-hk-as-ap-ucloud-information-technology-hk-limited" address="101.237.228.0/24" comment="Generated blocklist for ucloud.cn"
@@ -251,7 +251,6 @@ add list="anti-ucloud-hk-as-ap-ucloud-information-technology-hk-limited" address
 add list="anti-ucloud-hk-as-ap-ucloud-information-technology-hk-limited" address="128.1.47.0/24" comment="Generated blocklist for ucloud.cn"
 add list="anti-ucloud-hk-as-ap-ucloud-information-technology-hk-limited" address="128.1.48.0/24" comment="Generated blocklist for ucloud.cn"
 add list="anti-ucloud-hk-as-ap-ucloud-information-technology-hk-limited" address="128.1.49.0/24" comment="Generated blocklist for ucloud.cn"
-add list="anti-ucloud-hk-as-ap-ucloud-information-technology-hk-limited" address="128.1.61.0/24" comment="Generated blocklist for ucloud.cn"
 add list="anti-ucloud-hk-as-ap-ucloud-information-technology-hk-limited" address="128.1.79.0/24" comment="Generated blocklist for ucloud.cn"
 add list="anti-ucloud-hk-as-ap-ucloud-information-technology-hk-limited" address="128.14.224.0/24" comment="Generated blocklist for ucloud.cn"
 add list="anti-ucloud-hk-as-ap-ucloud-information-technology-hk-limited" address="128.14.225.0/24" comment="Generated blocklist for ucloud.cn"
@@ -684,7 +683,6 @@ add list="anti-ucloud-hk-as-ap-ucloud-information-technology-hk-limited" address
 add list="anti-ucloud-hk-as-ap-ucloud-information-technology-hk-limited" address="23.248.163.0/24" comment="Generated blocklist for ucloud.cn"
 add list="anti-ucloud-hk-as-ap-ucloud-information-technology-hk-limited" address="23.248.174.0/23" comment="Generated blocklist for ucloud.cn"
 add list="anti-ucloud-hk-as-ap-ucloud-information-technology-hk-limited" address="23.248.184.0/24" comment="Generated blocklist for ucloud.cn"
-add list="anti-ucloud-hk-as-ap-ucloud-information-technology-hk-limited" address="23.248.185.0/24" comment="Generated blocklist for ucloud.cn"
 add list="anti-ucloud-hk-as-ap-ucloud-information-technology-hk-limited" address="23.91.100.0/24" comment="Generated blocklist for ucloud.cn"
 add list="anti-ucloud-hk-as-ap-ucloud-information-technology-hk-limited" address="23.91.101.0/24" comment="Generated blocklist for ucloud.cn"
 add list="anti-ucloud-hk-as-ap-ucloud-information-technology-hk-limited" address="23.91.96.0/24" comment="Generated blocklist for ucloud.cn"

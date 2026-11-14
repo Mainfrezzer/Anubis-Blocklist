@@ -1,6 +1,6 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for Bahnhof AB (never heard of it, lmao)
-# Entries: 123
+# Entries: 124
 #
 /ip firewall address-list
 add list="anti-bahnhof-bahnhof-ab" address="109.169.100.0/23" comment="Generated blocklist for Bahnhof AB (never heard of it, lmao)"
@@ -117,6 +117,7 @@ add list="anti-bahnhof-bahnhof-ab" address="81.88.78.0/23" comment="Generated bl
 add list="anti-bahnhof-bahnhof-ab" address="82.196.96.0/19" comment="Generated blocklist for Bahnhof AB (never heard of it, lmao)"
 add list="anti-bahnhof-bahnhof-ab" address="85.24.128.0/17" comment="Generated blocklist for Bahnhof AB (never heard of it, lmao)"
 add list="anti-bahnhof-bahnhof-ab" address="88.151.172.0/22" comment="Generated blocklist for Bahnhof AB (never heard of it, lmao)"
+add list="anti-bahnhof-bahnhof-ab" address="89.31.248.0/24" comment="Generated blocklist for Bahnhof AB (never heard of it, lmao)"
 add list="anti-bahnhof-bahnhof-ab" address="91.132.176.0/22" comment="Generated blocklist for Bahnhof AB (never heard of it, lmao)"
 add list="anti-bahnhof-bahnhof-ab" address="91.194.26.0/24" comment="Generated blocklist for Bahnhof AB (never heard of it, lmao)"
 add list="anti-bahnhof-bahnhof-ab" address="91.207.80.0/23" comment="Generated blocklist for Bahnhof AB (never heard of it, lmao)"

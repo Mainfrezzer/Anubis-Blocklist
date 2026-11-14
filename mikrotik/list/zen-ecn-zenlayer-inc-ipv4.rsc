@@ -1,6 +1,6 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for Zenlayer Inc
-# Entries: 1755
+# Entries: 1758
 #
 /ip firewall address-list
 add list="anti-zen-ecn-zenlayer-inc" address="101.33.12.0/24" comment="Generated blocklist for Zenlayer Inc"
@@ -696,6 +696,8 @@ add list="anti-zen-ecn-zenlayer-inc" address="152.32.230.0/24" comment="Generate
 add list="anti-zen-ecn-zenlayer-inc" address="152.32.232.0/24" comment="Generated blocklist for Zenlayer Inc"
 add list="anti-zen-ecn-zenlayer-inc" address="153.43.44.0/24" comment="Generated blocklist for Zenlayer Inc"
 add list="anti-zen-ecn-zenlayer-inc" address="153.75.54.0/24" comment="Generated blocklist for Zenlayer Inc"
+add list="anti-zen-ecn-zenlayer-inc" address="153.75.55.0/24" comment="Generated blocklist for Zenlayer Inc"
+add list="anti-zen-ecn-zenlayer-inc" address="153.75.56.0/24" comment="Generated blocklist for Zenlayer Inc"
 add list="anti-zen-ecn-zenlayer-inc" address="154.193.129.0/24" comment="Generated blocklist for Zenlayer Inc"
 add list="anti-zen-ecn-zenlayer-inc" address="154.194.56.0/24" comment="Generated blocklist for Zenlayer Inc"
 add list="anti-zen-ecn-zenlayer-inc" address="154.197.45.0/24" comment="Generated blocklist for Zenlayer Inc"
@@ -831,6 +833,7 @@ add list="anti-zen-ecn-zenlayer-inc" address="157.119.23.0/24" comment="Generate
 add list="anti-zen-ecn-zenlayer-inc" address="158.173.78.0/24" comment="Generated blocklist for Zenlayer Inc"
 add list="anti-zen-ecn-zenlayer-inc" address="16.5.42.0/24" comment="Generated blocklist for Zenlayer Inc"
 add list="anti-zen-ecn-zenlayer-inc" address="160.202.100.0/24" comment="Generated blocklist for Zenlayer Inc"
+add list="anti-zen-ecn-zenlayer-inc" address="160.202.210.0/23" comment="Generated blocklist for Zenlayer Inc"
 add list="anti-zen-ecn-zenlayer-inc" address="162.128.100.0/24" comment="Generated blocklist for Zenlayer Inc"
 add list="anti-zen-ecn-zenlayer-inc" address="162.128.102.0/24" comment="Generated blocklist for Zenlayer Inc"
 add list="anti-zen-ecn-zenlayer-inc" address="162.128.103.0/24" comment="Generated blocklist for Zenlayer Inc"

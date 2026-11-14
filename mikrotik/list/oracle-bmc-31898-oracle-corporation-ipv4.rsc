@@ -1,6 +1,6 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for Oracle Cloud
-# Entries: 2871
+# Entries: 2875
 #
 /ip firewall address-list
 add list="anti-oracle-bmc-31898-oracle-corporation" address="101.0.112.0/21" comment="Generated blocklist for Oracle Cloud"
@@ -185,6 +185,7 @@ add list="anti-oracle-bmc-31898-oracle-corporation" address="129.148.208.0/20" c
 add list="anti-oracle-bmc-31898-oracle-corporation" address="129.148.208.0/21" comment="Generated blocklist for Oracle Cloud"
 add list="anti-oracle-bmc-31898-oracle-corporation" address="129.148.224.0/19" comment="Generated blocklist for Oracle Cloud"
 add list="anti-oracle-bmc-31898-oracle-corporation" address="129.148.32.0/19" comment="Generated blocklist for Oracle Cloud"
+add list="anti-oracle-bmc-31898-oracle-corporation" address="129.148.40.0/24" comment="Generated blocklist for Oracle Cloud"
 add list="anti-oracle-bmc-31898-oracle-corporation" address="129.148.8.0/22" comment="Generated blocklist for Oracle Cloud"
 add list="anti-oracle-bmc-31898-oracle-corporation" address="129.149.0.0/21" comment="Generated blocklist for Oracle Cloud"
 add list="anti-oracle-bmc-31898-oracle-corporation" address="129.149.112.0/21" comment="Generated blocklist for Oracle Cloud"
@@ -607,6 +608,7 @@ add list="anti-oracle-bmc-31898-oracle-corporation" address="136.248.253.0/24" c
 add list="anti-oracle-bmc-31898-oracle-corporation" address="136.248.64.0/18" comment="Generated blocklist for Oracle Cloud"
 add list="anti-oracle-bmc-31898-oracle-corporation" address="137.131.0.0/18" comment="Generated blocklist for Oracle Cloud"
 add list="anti-oracle-bmc-31898-oracle-corporation" address="137.131.128.0/17" comment="Generated blocklist for Oracle Cloud"
+add list="anti-oracle-bmc-31898-oracle-corporation" address="137.131.169.0/24" comment="Generated blocklist for Oracle Cloud"
 add list="anti-oracle-bmc-31898-oracle-corporation" address="137.184.253.0/24" comment="Generated blocklist for Oracle Cloud"
 add list="anti-oracle-bmc-31898-oracle-corporation" address="137.23.0.0/19" comment="Generated blocklist for Oracle Cloud"
 add list="anti-oracle-bmc-31898-oracle-corporation" address="137.23.126.0/24" comment="Generated blocklist for Oracle Cloud"
@@ -666,7 +668,6 @@ add list="anti-oracle-bmc-31898-oracle-corporation" address="138.3.240.0/20" com
 add list="anti-oracle-bmc-31898-oracle-corporation" address="138.3.64.0/19" comment="Generated blocklist for Oracle Cloud"
 add list="anti-oracle-bmc-31898-oracle-corporation" address="138.3.96.0/19" comment="Generated blocklist for Oracle Cloud"
 add list="anti-oracle-bmc-31898-oracle-corporation" address="139.177.104.0/21" comment="Generated blocklist for Oracle Cloud"
-add list="anti-oracle-bmc-31898-oracle-corporation" address="139.177.229.0/24" comment="Generated blocklist for Oracle Cloud"
 add list="anti-oracle-bmc-31898-oracle-corporation" address="139.177.230.0/24" comment="Generated blocklist for Oracle Cloud"
 add list="anti-oracle-bmc-31898-oracle-corporation" address="139.177.251.0/24" comment="Generated blocklist for Oracle Cloud"
 add list="anti-oracle-bmc-31898-oracle-corporation" address="139.177.252.0/24" comment="Generated blocklist for Oracle Cloud"
@@ -686,6 +687,7 @@ add list="anti-oracle-bmc-31898-oracle-corporation" address="140.204.114.0/23" c
 add list="anti-oracle-bmc-31898-oracle-corporation" address="140.204.116.0/23" comment="Generated blocklist for Oracle Cloud"
 add list="anti-oracle-bmc-31898-oracle-corporation" address="140.204.118.0/23" comment="Generated blocklist for Oracle Cloud"
 add list="anti-oracle-bmc-31898-oracle-corporation" address="140.204.12.0/23" comment="Generated blocklist for Oracle Cloud"
+add list="anti-oracle-bmc-31898-oracle-corporation" address="140.204.12.0/24" comment="Generated blocklist for Oracle Cloud"
 add list="anti-oracle-bmc-31898-oracle-corporation" address="140.204.120.0/23" comment="Generated blocklist for Oracle Cloud"
 add list="anti-oracle-bmc-31898-oracle-corporation" address="140.204.122.0/23" comment="Generated blocklist for Oracle Cloud"
 add list="anti-oracle-bmc-31898-oracle-corporation" address="140.204.124.0/23" comment="Generated blocklist for Oracle Cloud"
@@ -1762,6 +1764,7 @@ add list="anti-oracle-bmc-31898-oracle-corporation" address="162.88.5.0/24" comm
 add list="anti-oracle-bmc-31898-oracle-corporation" address="162.88.8.0/24" comment="Generated blocklist for Oracle Cloud"
 add list="anti-oracle-bmc-31898-oracle-corporation" address="163.128.253.0/24" comment="Generated blocklist for Oracle Cloud"
 add list="anti-oracle-bmc-31898-oracle-corporation" address="163.176.0.0/16" comment="Generated blocklist for Oracle Cloud"
+add list="anti-oracle-bmc-31898-oracle-corporation" address="163.176.208.0/24" comment="Generated blocklist for Oracle Cloud"
 add list="anti-oracle-bmc-31898-oracle-corporation" address="163.192.0.0/18" comment="Generated blocklist for Oracle Cloud"
 add list="anti-oracle-bmc-31898-oracle-corporation" address="163.192.128.0/19" comment="Generated blocklist for Oracle Cloud"
 add list="anti-oracle-bmc-31898-oracle-corporation" address="163.192.192.0/19" comment="Generated blocklist for Oracle Cloud"
@@ -1774,6 +1777,7 @@ add list="anti-oracle-bmc-31898-oracle-corporation" address="164.152.16.0/20" co
 add list="anti-oracle-bmc-31898-oracle-corporation" address="164.152.192.0/21" comment="Generated blocklist for Oracle Cloud"
 add list="anti-oracle-bmc-31898-oracle-corporation" address="164.152.240.0/20" comment="Generated blocklist for Oracle Cloud"
 add list="anti-oracle-bmc-31898-oracle-corporation" address="164.152.32.0/19" comment="Generated blocklist for Oracle Cloud"
+add list="anti-oracle-bmc-31898-oracle-corporation" address="164.152.42.0/24" comment="Generated blocklist for Oracle Cloud"
 add list="anti-oracle-bmc-31898-oracle-corporation" address="164.153.143.0/24" comment="Generated blocklist for Oracle Cloud"
 add list="anti-oracle-bmc-31898-oracle-corporation" address="164.153.173.0/24" comment="Generated blocklist for Oracle Cloud"
 add list="anti-oracle-bmc-31898-oracle-corporation" address="165.1.104.0/23" comment="Generated blocklist for Oracle Cloud"

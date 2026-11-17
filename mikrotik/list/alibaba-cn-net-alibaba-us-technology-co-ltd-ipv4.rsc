@@ -1,6 +1,6 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for alibaba
-# Entries: 1194
+# Entries: 1206
 #
 /ip firewall address-list
 add list="anti-alibaba-cn-net-alibaba-us-technology-co-ltd" address="103.135.210.0/23" comment="Generated blocklist for alibaba"
@@ -405,6 +405,7 @@ add list="anti-alibaba-cn-net-alibaba-us-technology-co-ltd" address="43.125.68.0
 add list="anti-alibaba-cn-net-alibaba-us-technology-co-ltd" address="43.125.8.0/21" comment="Generated blocklist for alibaba"
 add list="anti-alibaba-cn-net-alibaba-us-technology-co-ltd" address="43.125.8.0/22" comment="Generated blocklist for alibaba"
 add list="anti-alibaba-cn-net-alibaba-us-technology-co-ltd" address="43.126.0.0/18" comment="Generated blocklist for alibaba"
+add list="anti-alibaba-cn-net-alibaba-us-technology-co-ltd" address="43.126.128.0/17" comment="Generated blocklist for alibaba"
 add list="anti-alibaba-cn-net-alibaba-us-technology-co-ltd" address="43.126.64.0/18" comment="Generated blocklist for alibaba"
 add list="anti-alibaba-cn-net-alibaba-us-technology-co-ltd" address="43.90.0.0/16" comment="Generated blocklist for alibaba"
 add list="anti-alibaba-cn-net-alibaba-us-technology-co-ltd" address="43.90.0.0/17" comment="Generated blocklist for alibaba"
@@ -429,10 +430,22 @@ add list="anti-alibaba-cn-net-alibaba-us-technology-co-ltd" address="43.93.192.0
 add list="anti-alibaba-cn-net-alibaba-us-technology-co-ltd" address="43.93.64.0/18" comment="Generated blocklist for alibaba"
 add list="anti-alibaba-cn-net-alibaba-us-technology-co-ltd" address="43.94.0.0/18" comment="Generated blocklist for alibaba"
 add list="anti-alibaba-cn-net-alibaba-us-technology-co-ltd" address="43.94.0.0/19" comment="Generated blocklist for alibaba"
+add list="anti-alibaba-cn-net-alibaba-us-technology-co-ltd" address="43.94.128.0/18" comment="Generated blocklist for alibaba"
+add list="anti-alibaba-cn-net-alibaba-us-technology-co-ltd" address="43.94.128.0/19" comment="Generated blocklist for alibaba"
+add list="anti-alibaba-cn-net-alibaba-us-technology-co-ltd" address="43.94.160.0/19" comment="Generated blocklist for alibaba"
+add list="anti-alibaba-cn-net-alibaba-us-technology-co-ltd" address="43.94.192.0/18" comment="Generated blocklist for alibaba"
+add list="anti-alibaba-cn-net-alibaba-us-technology-co-ltd" address="43.94.192.0/19" comment="Generated blocklist for alibaba"
+add list="anti-alibaba-cn-net-alibaba-us-technology-co-ltd" address="43.94.224.0/19" comment="Generated blocklist for alibaba"
 add list="anti-alibaba-cn-net-alibaba-us-technology-co-ltd" address="43.94.32.0/19" comment="Generated blocklist for alibaba"
+add list="anti-alibaba-cn-net-alibaba-us-technology-co-ltd" address="43.94.64.0/18" comment="Generated blocklist for alibaba"
+add list="anti-alibaba-cn-net-alibaba-us-technology-co-ltd" address="43.94.64.0/19" comment="Generated blocklist for alibaba"
+add list="anti-alibaba-cn-net-alibaba-us-technology-co-ltd" address="43.94.96.0/19" comment="Generated blocklist for alibaba"
+add list="anti-alibaba-cn-net-alibaba-us-technology-co-ltd" address="43.95.0.0/18" comment="Generated blocklist for alibaba"
+add list="anti-alibaba-cn-net-alibaba-us-technology-co-ltd" address="43.95.0.0/19" comment="Generated blocklist for alibaba"
 add list="anti-alibaba-cn-net-alibaba-us-technology-co-ltd" address="43.95.192.0/18" comment="Generated blocklist for alibaba"
 add list="anti-alibaba-cn-net-alibaba-us-technology-co-ltd" address="43.95.192.0/19" comment="Generated blocklist for alibaba"
 add list="anti-alibaba-cn-net-alibaba-us-technology-co-ltd" address="43.95.224.0/19" comment="Generated blocklist for alibaba"
+add list="anti-alibaba-cn-net-alibaba-us-technology-co-ltd" address="43.95.32.0/19" comment="Generated blocklist for alibaba"
 add list="anti-alibaba-cn-net-alibaba-us-technology-co-ltd" address="43.96.0.0/24" comment="Generated blocklist for alibaba"
 add list="anti-alibaba-cn-net-alibaba-us-technology-co-ltd" address="43.96.10.0/24" comment="Generated blocklist for alibaba"
 add list="anti-alibaba-cn-net-alibaba-us-technology-co-ltd" address="43.96.100.0/24" comment="Generated blocklist for alibaba"
@@ -1122,7 +1135,6 @@ add list="anti-alibaba-cn-net-alibaba-us-technology-co-ltd" address="8.216.148.0
 add list="anti-alibaba-cn-net-alibaba-us-technology-co-ltd" address="8.216.192.0/18" comment="Generated blocklist for alibaba"
 add list="anti-alibaba-cn-net-alibaba-us-technology-co-ltd" address="8.216.64.0/18" comment="Generated blocklist for alibaba"
 add list="anti-alibaba-cn-net-alibaba-us-technology-co-ltd" address="8.216.69.0/24" comment="Generated blocklist for alibaba"
-add list="anti-alibaba-cn-net-alibaba-us-technology-co-ltd" address="8.216.72.0/24" comment="Generated blocklist for alibaba"
 add list="anti-alibaba-cn-net-alibaba-us-technology-co-ltd" address="8.216.74.0/24" comment="Generated blocklist for alibaba"
 add list="anti-alibaba-cn-net-alibaba-us-technology-co-ltd" address="8.217.0.0/16" comment="Generated blocklist for alibaba"
 add list="anti-alibaba-cn-net-alibaba-us-technology-co-ltd" address="8.217.0.0/17" comment="Generated blocklist for alibaba"

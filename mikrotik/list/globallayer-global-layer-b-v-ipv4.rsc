@@ -1,6 +1,6 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for Global Layer
-# Entries: 151
+# Entries: 154
 #
 /ip firewall address-list
 add list="anti-globallayer-global-layer-b-v" address="104.238.13.0/24" comment="Generated blocklist for Global Layer"
@@ -76,6 +76,7 @@ add list="anti-globallayer-global-layer-b-v" address="188.95.54.0/24" comment="G
 add list="anti-globallayer-global-layer-b-v" address="188.95.55.0/24" comment="Generated blocklist for Global Layer"
 add list="anti-globallayer-global-layer-b-v" address="191.44.78.0/24" comment="Generated blocklist for Global Layer"
 add list="anti-globallayer-global-layer-b-v" address="193.23.245.0/24" comment="Generated blocklist for Global Layer"
+add list="anti-globallayer-global-layer-b-v" address="195.21.128.0/24" comment="Generated blocklist for Global Layer"
 add list="anti-globallayer-global-layer-b-v" address="201.4.27.0/24" comment="Generated blocklist for Global Layer"
 add list="anti-globallayer-global-layer-b-v" address="202.58.110.0/24" comment="Generated blocklist for Global Layer"
 add list="anti-globallayer-global-layer-b-v" address="212.135.104.0/23" comment="Generated blocklist for Global Layer"
@@ -132,6 +133,8 @@ add list="anti-globallayer-global-layer-b-v" address="78.41.63.0/24" comment="Ge
 add list="anti-globallayer-global-layer-b-v" address="80.174.135.0/24" comment="Generated blocklist for Global Layer"
 add list="anti-globallayer-global-layer-b-v" address="80.174.203.0/24" comment="Generated blocklist for Global Layer"
 add list="anti-globallayer-global-layer-b-v" address="80.174.204.0/24" comment="Generated blocklist for Global Layer"
+add list="anti-globallayer-global-layer-b-v" address="83.245.13.0/24" comment="Generated blocklist for Global Layer"
+add list="anti-globallayer-global-layer-b-v" address="83.245.66.0/24" comment="Generated blocklist for Global Layer"
 add list="anti-globallayer-global-layer-b-v" address="84.236.132.0/24" comment="Generated blocklist for Global Layer"
 add list="anti-globallayer-global-layer-b-v" address="85.204.178.0/24" comment="Generated blocklist for Global Layer"
 add list="anti-globallayer-global-layer-b-v" address="85.204.183.0/24" comment="Generated blocklist for Global Layer"

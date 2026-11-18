@@ -1,9 +1,8 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for Black HOST Ltd
-# Entries: 22
+# Entries: 21
 #
 /ip firewall address-list
-add list="anti-blackhost-black-host-ltd" address="163.8.33.0/24" comment="Generated blocklist for Black HOST Ltd"
 add list="anti-blackhost-black-host-ltd" address="168.222.185.0/24" comment="Generated blocklist for Black HOST Ltd"
 add list="anti-blackhost-black-host-ltd" address="168.222.186.0/24" comment="Generated blocklist for Black HOST Ltd"
 add list="anti-blackhost-black-host-ltd" address="168.222.187.0/24" comment="Generated blocklist for Black HOST Ltd"

@@ -1,6 +1,6 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for Hurricane Electric LLC
-# Entries: 240
+# Entries: 239
 #
 /ip firewall address-list
 add list="anti-hurricane-hurricane-electric-llc" address="100.42.24.0/24" comment="Generated blocklist for Hurricane Electric LLC"
@@ -223,7 +223,6 @@ add list="anti-hurricane-hurricane-electric-llc" address="74.82.22.0/23" comment
 add list="anti-hurricane-hurricane-electric-llc" address="74.82.46.0/24" comment="Generated blocklist for Hurricane Electric LLC"
 add list="anti-hurricane-hurricane-electric-llc" address="74.82.48.0/22" comment="Generated blocklist for Hurricane Electric LLC"
 add list="anti-hurricane-hurricane-electric-llc" address="78.17.200.0/22" comment="Generated blocklist for Hurricane Electric LLC"
-add list="anti-hurricane-hurricane-electric-llc" address="84.236.132.0/24" comment="Generated blocklist for Hurricane Electric LLC"
 add list="anti-hurricane-hurricane-electric-llc" address="84.247.59.0/24" comment="Generated blocklist for Hurricane Electric LLC"
 add list="anti-hurricane-hurricane-electric-llc" address="86.104.8.0/24" comment="Generated blocklist for Hurricane Electric LLC"
 add list="anti-hurricane-hurricane-electric-llc" address="88.148.7.0/24" comment="Generated blocklist for Hurricane Electric LLC"

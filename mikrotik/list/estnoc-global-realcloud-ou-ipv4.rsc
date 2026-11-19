@@ -1,10 +1,9 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for EstNOC
-# Entries: 57
+# Entries: 56
 #
 /ip firewall address-list
 add list="anti-estnoc-global-realcloud-ou" address="103.140.186.0/24" comment="Generated blocklist for EstNOC"
-add list="anti-estnoc-global-realcloud-ou" address="103.140.187.0/24" comment="Generated blocklist for EstNOC"
 add list="anti-estnoc-global-realcloud-ou" address="141.98.212.0/24" comment="Generated blocklist for EstNOC"
 add list="anti-estnoc-global-realcloud-ou" address="141.98.213.0/24" comment="Generated blocklist for EstNOC"
 add list="anti-estnoc-global-realcloud-ou" address="141.98.214.0/24" comment="Generated blocklist for EstNOC"

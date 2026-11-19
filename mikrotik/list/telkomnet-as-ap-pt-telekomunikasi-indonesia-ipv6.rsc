@@ -1,6 +1,6 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for PT Telkom Indonesia Tb
-# Entries: 398
+# Entries: 403
 #
 /ipv6 firewall address-list
 add list="anti-telkomnet-as-ap-pt-telekomunikasi-indonesia" address="2001:4488:1001::/48" comment="Generated blocklist for PT Telkom Indonesia Tb"
@@ -97,6 +97,11 @@ add list="anti-telkomnet-as-ap-pt-telekomunikasi-indonesia" address="2001:448a:1
 add list="anti-telkomnet-as-ap-pt-telekomunikasi-indonesia" address="2001:448a:1110::/48" comment="Generated blocklist for PT Telkom Indonesia Tb"
 add list="anti-telkomnet-as-ap-pt-telekomunikasi-indonesia" address="2001:448a:1130::/48" comment="Generated blocklist for PT Telkom Indonesia Tb"
 add list="anti-telkomnet-as-ap-pt-telekomunikasi-indonesia" address="2001:448a:1131::/48" comment="Generated blocklist for PT Telkom Indonesia Tb"
+add list="anti-telkomnet-as-ap-pt-telekomunikasi-indonesia" address="2001:448a:1133::/48" comment="Generated blocklist for PT Telkom Indonesia Tb"
+add list="anti-telkomnet-as-ap-pt-telekomunikasi-indonesia" address="2001:448a:1136::/48" comment="Generated blocklist for PT Telkom Indonesia Tb"
+add list="anti-telkomnet-as-ap-pt-telekomunikasi-indonesia" address="2001:448a:1138::/48" comment="Generated blocklist for PT Telkom Indonesia Tb"
+add list="anti-telkomnet-as-ap-pt-telekomunikasi-indonesia" address="2001:448a:1139::/48" comment="Generated blocklist for PT Telkom Indonesia Tb"
+add list="anti-telkomnet-as-ap-pt-telekomunikasi-indonesia" address="2001:448a:113b::/48" comment="Generated blocklist for PT Telkom Indonesia Tb"
 add list="anti-telkomnet-as-ap-pt-telekomunikasi-indonesia" address="2001:448a:1172::/48" comment="Generated blocklist for PT Telkom Indonesia Tb"
 add list="anti-telkomnet-as-ap-pt-telekomunikasi-indonesia" address="2001:448a:1173::/48" comment="Generated blocklist for PT Telkom Indonesia Tb"
 add list="anti-telkomnet-as-ap-pt-telekomunikasi-indonesia" address="2001:448a:1174::/48" comment="Generated blocklist for PT Telkom Indonesia Tb"

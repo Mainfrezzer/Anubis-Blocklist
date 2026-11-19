@@ -1,6 +1,6 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for GSL Networks
-# Entries: 592
+# Entries: 591
 #
 /ip firewall address-list
 add list="anti-gslnetworks-as-ap-gsl-networks-pty-ltd" address="102.129.173.0/24" comment="Generated blocklist for GSL Networks"
@@ -245,7 +245,6 @@ add list="anti-gslnetworks-as-ap-gsl-networks-pty-ltd" address="173.244.42.0/24"
 add list="anti-gslnetworks-as-ap-gsl-networks-pty-ltd" address="173.244.43.0/24" comment="Generated blocklist for GSL Networks"
 add list="anti-gslnetworks-as-ap-gsl-networks-pty-ltd" address="173.244.49.0/24" comment="Generated blocklist for GSL Networks"
 add list="anti-gslnetworks-as-ap-gsl-networks-pty-ltd" address="173.244.56.0/24" comment="Generated blocklist for GSL Networks"
-add list="anti-gslnetworks-as-ap-gsl-networks-pty-ltd" address="173.244.62.0/24" comment="Generated blocklist for GSL Networks"
 add list="anti-gslnetworks-as-ap-gsl-networks-pty-ltd" address="176.110.216.0/24" comment="Generated blocklist for GSL Networks"
 add list="anti-gslnetworks-as-ap-gsl-networks-pty-ltd" address="176.110.217.0/24" comment="Generated blocklist for GSL Networks"
 add list="anti-gslnetworks-as-ap-gsl-networks-pty-ltd" address="176.110.218.0/24" comment="Generated blocklist for GSL Networks"

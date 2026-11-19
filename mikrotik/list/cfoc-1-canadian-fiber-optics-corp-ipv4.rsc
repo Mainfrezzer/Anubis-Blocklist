@@ -1,9 +1,10 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for Canadian Fiber Optics Corp (have hosting customer)
-# Entries: 13
+# Entries: 14
 #
 /ip firewall address-list
 add list="anti-cfoc-1-canadian-fiber-optics-corp" address="192.139.176.0/24" comment="Generated blocklist for Canadian Fiber Optics Corp (have hosting customer)"
+add list="anti-cfoc-1-canadian-fiber-optics-corp" address="192.139.177.0/24" comment="Generated blocklist for Canadian Fiber Optics Corp (have hosting customer)"
 add list="anti-cfoc-1-canadian-fiber-optics-corp" address="192.139.182.0/24" comment="Generated blocklist for Canadian Fiber Optics Corp (have hosting customer)"
 add list="anti-cfoc-1-canadian-fiber-optics-corp" address="192.139.183.0/24" comment="Generated blocklist for Canadian Fiber Optics Corp (have hosting customer)"
 add list="anti-cfoc-1-canadian-fiber-optics-corp" address="23.168.208.0/24" comment="Generated blocklist for Canadian Fiber Optics Corp (have hosting customer)"

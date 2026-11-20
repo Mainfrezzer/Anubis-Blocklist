@@ -1,10 +1,9 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for UAB Bacloud
-# Entries: 42
+# Entries: 41
 #
 /ip firewall address-list
 add list="anti-ist-as-uab-bacloud" address="158.173.79.0/24" comment="Generated blocklist for UAB Bacloud"
-add list="anti-ist-as-uab-bacloud" address="178.83.26.0/24" comment="Generated blocklist for UAB Bacloud"
 add list="anti-ist-as-uab-bacloud" address="185.177.150.0/24" comment="Generated blocklist for UAB Bacloud"
 add list="anti-ist-as-uab-bacloud" address="185.23.16.0/24" comment="Generated blocklist for UAB Bacloud"
 add list="anti-ist-as-uab-bacloud" address="185.25.48.0/22" comment="Generated blocklist for UAB Bacloud"

@@ -1,16 +1,12 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for Interserver
-# Entries: 30
+# Entries: 25
 #
 /ipv6 firewall address-list
 add list="anti-is-as-1-interserver-inc" address="2601:2018::/29" comment="Generated blocklist for Interserver"
 add list="anti-is-as-1-interserver-inc" address="2601:2020::/29" comment="Generated blocklist for Interserver"
 add list="anti-is-as-1-interserver-inc" address="2601:2020::/32" comment="Generated blocklist for Interserver"
-add list="anti-is-as-1-interserver-inc" address="2601:2023::/32" comment="Generated blocklist for Interserver"
 add list="anti-is-as-1-interserver-inc" address="2601:2024::/32" comment="Generated blocklist for Interserver"
-add list="anti-is-as-1-interserver-inc" address="2601:2025::/32" comment="Generated blocklist for Interserver"
-add list="anti-is-as-1-interserver-inc" address="2601:2026::/32" comment="Generated blocklist for Interserver"
-add list="anti-is-as-1-interserver-inc" address="2601:2027::/32" comment="Generated blocklist for Interserver"
 add list="anti-is-as-1-interserver-inc" address="2604:a00::/32" comment="Generated blocklist for Interserver"
 add list="anti-is-as-1-interserver-inc" address="2a05:b900::/29" comment="Generated blocklist for Interserver"
 add list="anti-is-as-1-interserver-inc" address="2a0a:8180:c8c4::/48" comment="Generated blocklist for Interserver"
@@ -28,7 +24,6 @@ add list="anti-is-as-1-interserver-inc" address="2a0f:e5c0::/29" comment="Genera
 add list="anti-is-as-1-interserver-inc" address="2a10:34c0::/29" comment="Generated blocklist for Interserver"
 add list="anti-is-as-1-interserver-inc" address="2a10:6d00::/29" comment="Generated blocklist for Interserver"
 add list="anti-is-as-1-interserver-inc" address="2a10:fa80:e::/48" comment="Generated blocklist for Interserver"
-add list="anti-is-as-1-interserver-inc" address="2a11:7440::/29" comment="Generated blocklist for Interserver"
 add list="anti-is-as-1-interserver-inc" address="2a12:a800:11::/48" comment="Generated blocklist for Interserver"
 add list="anti-is-as-1-interserver-inc" address="2a13:2b40::/29" comment="Generated blocklist for Interserver"
 add list="anti-is-as-1-interserver-inc" address="2a13:9080::/29" comment="Generated blocklist for Interserver"

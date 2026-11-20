@@ -1,9 +1,8 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for Interserver
-# Entries: 123
+# Entries: 111
 #
 /ip firewall address-list
-add list="anti-is-as-1-interserver-inc" address="103.114.42.0/24" comment="Generated blocklist for Interserver"
 add list="anti-is-as-1-interserver-inc" address="103.197.16.0/22" comment="Generated blocklist for Interserver"
 add list="anti-is-as-1-interserver-inc" address="104.218.48.0/21" comment="Generated blocklist for Interserver"
 add list="anti-is-as-1-interserver-inc" address="104.234.93.0/24" comment="Generated blocklist for Interserver"
@@ -59,19 +58,14 @@ add list="anti-is-as-1-interserver-inc" address="173.240.152.0/23" comment="Gene
 add list="anti-is-as-1-interserver-inc" address="173.240.158.0/23" comment="Generated blocklist for Interserver"
 add list="anti-is-as-1-interserver-inc" address="174.138.176.0/20" comment="Generated blocklist for Interserver"
 add list="anti-is-as-1-interserver-inc" address="184.174.80.0/24" comment="Generated blocklist for Interserver"
-add list="anti-is-as-1-interserver-inc" address="185.136.204.0/24" comment="Generated blocklist for Interserver"
-add list="anti-is-as-1-interserver-inc" address="185.242.244.0/24" comment="Generated blocklist for Interserver"
 add list="anti-is-as-1-interserver-inc" address="191.96.88.0/22" comment="Generated blocklist for Interserver"
-add list="anti-is-as-1-interserver-inc" address="192.153.171.0/24" comment="Generated blocklist for Interserver"
 add list="anti-is-as-1-interserver-inc" address="192.195.185.0/24" comment="Generated blocklist for Interserver"
 add list="anti-is-as-1-interserver-inc" address="192.64.80.0/21" comment="Generated blocklist for Interserver"
 add list="anti-is-as-1-interserver-inc" address="194.180.184.0/24" comment="Generated blocklist for Interserver"
-add list="anti-is-as-1-interserver-inc" address="195.66.120.0/24" comment="Generated blocklist for Interserver"
 add list="anti-is-as-1-interserver-inc" address="198.96.88.0/21" comment="Generated blocklist for Interserver"
 add list="anti-is-as-1-interserver-inc" address="198.96.89.0/24" comment="Generated blocklist for Interserver"
 add list="anti-is-as-1-interserver-inc" address="199.231.184.0/21" comment="Generated blocklist for Interserver"
 add list="anti-is-as-1-interserver-inc" address="199.88.242.0/24" comment="Generated blocklist for Interserver"
-add list="anti-is-as-1-interserver-inc" address="2.56.101.0/24" comment="Generated blocklist for Interserver"
 add list="anti-is-as-1-interserver-inc" address="203.188.171.0/24" comment="Generated blocklist for Interserver"
 add list="anti-is-as-1-interserver-inc" address="204.13.232.0/21" comment="Generated blocklist for Interserver"
 add list="anti-is-as-1-interserver-inc" address="205.209.96.0/19" comment="Generated blocklist for Interserver"
@@ -79,8 +73,6 @@ add list="anti-is-as-1-interserver-inc" address="206.206.90.0/24" comment="Gener
 add list="anti-is-as-1-interserver-inc" address="206.72.192.0/20" comment="Generated blocklist for Interserver"
 add list="anti-is-as-1-interserver-inc" address="208.73.200.0/21" comment="Generated blocklist for Interserver"
 add list="anti-is-as-1-interserver-inc" address="209.159.144.0/20" comment="Generated blocklist for Interserver"
-add list="anti-is-as-1-interserver-inc" address="213.139.217.0/24" comment="Generated blocklist for Interserver"
-add list="anti-is-as-1-interserver-inc" address="213.139.218.0/24" comment="Generated blocklist for Interserver"
 add list="anti-is-as-1-interserver-inc" address="216.158.224.0/20" comment="Generated blocklist for Interserver"
 add list="anti-is-as-1-interserver-inc" address="216.219.80.0/20" comment="Generated blocklist for Interserver"
 add list="anti-is-as-1-interserver-inc" address="216.225.153.0/24" comment="Generated blocklist for Interserver"
@@ -88,10 +80,7 @@ add list="anti-is-as-1-interserver-inc" address="216.225.154.0/23" comment="Gene
 add list="anti-is-as-1-interserver-inc" address="216.225.156.0/22" comment="Generated blocklist for Interserver"
 add list="anti-is-as-1-interserver-inc" address="31.57.96.0/24" comment="Generated blocklist for Interserver"
 add list="anti-is-as-1-interserver-inc" address="38.156.12.0/24" comment="Generated blocklist for Interserver"
-add list="anti-is-as-1-interserver-inc" address="45.12.61.0/24" comment="Generated blocklist for Interserver"
 add list="anti-is-as-1-interserver-inc" address="45.202.80.0/21" comment="Generated blocklist for Interserver"
-add list="anti-is-as-1-interserver-inc" address="45.85.160.0/24" comment="Generated blocklist for Interserver"
-add list="anti-is-as-1-interserver-inc" address="45.86.12.0/24" comment="Generated blocklist for Interserver"
 add list="anti-is-as-1-interserver-inc" address="5.231.240.0/24" comment="Generated blocklist for Interserver"
 add list="anti-is-as-1-interserver-inc" address="50.114.179.0/24" comment="Generated blocklist for Interserver"
 add list="anti-is-as-1-interserver-inc" address="50.20.202.0/23" comment="Generated blocklist for Interserver"
@@ -123,6 +112,5 @@ add list="anti-is-as-1-interserver-inc" address="89.106.1.0/24" comment="Generat
 add list="anti-is-as-1-interserver-inc" address="89.144.55.0/24" comment="Generated blocklist for Interserver"
 add list="anti-is-as-1-interserver-inc" address="91.208.95.0/24" comment="Generated blocklist for Interserver"
 add list="anti-is-as-1-interserver-inc" address="92.119.157.0/24" comment="Generated blocklist for Interserver"
-add list="anti-is-as-1-interserver-inc" address="93.190.245.0/24" comment="Generated blocklist for Interserver"
 add list="anti-is-as-1-interserver-inc" address="95.134.164.0/24" comment="Generated blocklist for Interserver"
 add list="anti-is-as-1-interserver-inc" address="96.126.176.0/24" comment="Generated blocklist for Interserver"

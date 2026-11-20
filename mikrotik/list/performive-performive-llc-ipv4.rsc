@@ -1,6 +1,6 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for Performive LLC
-# Entries: 234
+# Entries: 231
 #
 /ip firewall address-list
 add list="anti-performive-performive-llc" address="103.208.220.0/23" comment="Generated blocklist for Performive LLC"
@@ -164,7 +164,6 @@ add list="anti-performive-performive-llc" address="199.102.104.0/22" comment="Ge
 add list="anti-performive-performive-llc" address="199.116.112.0/24" comment="Generated blocklist for Performive LLC"
 add list="anti-performive-performive-llc" address="199.116.114.0/24" comment="Generated blocklist for Performive LLC"
 add list="anti-performive-performive-llc" address="199.116.115.0/24" comment="Generated blocklist for Performive LLC"
-add list="anti-performive-performive-llc" address="199.116.116.0/24" comment="Generated blocklist for Performive LLC"
 add list="anti-performive-performive-llc" address="199.116.117.0/24" comment="Generated blocklist for Performive LLC"
 add list="anti-performive-performive-llc" address="199.116.118.0/24" comment="Generated blocklist for Performive LLC"
 add list="anti-performive-performive-llc" address="199.116.119.0/24" comment="Generated blocklist for Performive LLC"
@@ -225,9 +224,7 @@ add list="anti-performive-performive-llc" address="69.50.138.0/24" comment="Gene
 add list="anti-performive-performive-llc" address="72.37.216.0/23" comment="Generated blocklist for Performive LLC"
 add list="anti-performive-performive-llc" address="74.116.0.0/23" comment="Generated blocklist for Performive LLC"
 add list="anti-performive-performive-llc" address="74.116.2.0/24" comment="Generated blocklist for Performive LLC"
-add list="anti-performive-performive-llc" address="74.116.3.0/24" comment="Generated blocklist for Performive LLC"
 add list="anti-performive-performive-llc" address="74.119.144.0/24" comment="Generated blocklist for Performive LLC"
-add list="anti-performive-performive-llc" address="74.119.145.0/24" comment="Generated blocklist for Performive LLC"
 add list="anti-performive-performive-llc" address="74.119.146.0/24" comment="Generated blocklist for Performive LLC"
 add list="anti-performive-performive-llc" address="74.119.147.0/24" comment="Generated blocklist for Performive LLC"
 add list="anti-performive-performive-llc" address="78.40.59.0/24" comment="Generated blocklist for Performive LLC"

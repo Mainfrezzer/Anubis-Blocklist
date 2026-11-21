@@ -1,6 +1,6 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for amazon
-# Entries: 6837
+# Entries: 6839
 #
 /ipv6 firewall address-list
 add list="anti-amazon-02-amazon-com-inc" address="2001:1b74:d0a::/48" comment="Generated blocklist for amazon"
@@ -1206,6 +1206,7 @@ add list="anti-amazon-02-amazon-com-inc" address="2600:1f61:8010::/44" comment="
 add list="anti-amazon-02-amazon-com-inc" address="2600:1f61:8020::/44" comment="Generated blocklist for amazon"
 add list="anti-amazon-02-amazon-com-inc" address="2600:1f61:8050::/44" comment="Generated blocklist for amazon"
 add list="anti-amazon-02-amazon-com-inc" address="2600:1f61:8060::/44" comment="Generated blocklist for amazon"
+add list="anti-amazon-02-amazon-com-inc" address="2600:1f61:8061::/48" comment="Generated blocklist for amazon"
 add list="anti-amazon-02-amazon-com-inc" address="2600:1f61:8070::/46" comment="Generated blocklist for amazon"
 add list="anti-amazon-02-amazon-com-inc" address="2600:1f61:8074::/46" comment="Generated blocklist for amazon"
 add list="anti-amazon-02-amazon-com-inc" address="2600:1f61:8080::/44" comment="Generated blocklist for amazon"
@@ -3530,6 +3531,7 @@ add list="anti-amazon-02-amazon-com-inc" address="2600:9000:30d2::/48" comment="
 add list="anti-amazon-02-amazon-com-inc" address="2600:9000:30d3::/48" comment="Generated blocklist for amazon"
 add list="anti-amazon-02-amazon-com-inc" address="2600:9000:30d4::/48" comment="Generated blocklist for amazon"
 add list="anti-amazon-02-amazon-com-inc" address="2600:9000:30d7::/48" comment="Generated blocklist for amazon"
+add list="anti-amazon-02-amazon-com-inc" address="2600:9000:30d8::/48" comment="Generated blocklist for amazon"
 add list="anti-amazon-02-amazon-com-inc" address="2600:9000:30d9::/48" comment="Generated blocklist for amazon"
 add list="anti-amazon-02-amazon-com-inc" address="2600:9000:30da::/48" comment="Generated blocklist for amazon"
 add list="anti-amazon-02-amazon-com-inc" address="2600:9000:30dc::/48" comment="Generated blocklist for amazon"

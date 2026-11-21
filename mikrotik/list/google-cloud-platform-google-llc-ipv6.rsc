@@ -1,6 +1,6 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for google
-# Entries: 341
+# Entries: 343
 #
 /ipv6 firewall address-list
 add list="anti-google-cloud-platform-google-llc" address="2001:671:fc00::/40" comment="Generated blocklist for google"
@@ -53,6 +53,7 @@ add list="anti-google-cloud-platform-google-llc" address="2600:1900:4290::/44" c
 add list="anti-google-cloud-platform-google-llc" address="2600:1900:42a0::/44" comment="Generated blocklist for google"
 add list="anti-google-cloud-platform-google-llc" address="2600:1900:42c0::/44" comment="Generated blocklist for google"
 add list="anti-google-cloud-platform-google-llc" address="2600:1900:42e0::/44" comment="Generated blocklist for google"
+add list="anti-google-cloud-platform-google-llc" address="2600:1900:4300::/44" comment="Generated blocklist for google"
 add list="anti-google-cloud-platform-google-llc" address="2600:1900:4334::/46" comment="Generated blocklist for google"
 add list="anti-google-cloud-platform-google-llc" address="2600:1900:434b::/48" comment="Generated blocklist for google"
 add list="anti-google-cloud-platform-google-llc" address="2600:1900:434c::/46" comment="Generated blocklist for google"
@@ -317,6 +318,7 @@ add list="anti-google-cloud-platform-google-llc" address="2607:4240::/48" commen
 add list="anti-google-cloud-platform-google-llc" address="2607:6bc0:8007::/48" comment="Generated blocklist for google"
 add list="anti-google-cloud-platform-google-llc" address="2607:8d40:ff0::/48" comment="Generated blocklist for google"
 add list="anti-google-cloud-platform-google-llc" address="2607:9180:1000::/40" comment="Generated blocklist for google"
+add list="anti-google-cloud-platform-google-llc" address="2607:9180:2000::/40" comment="Generated blocklist for google"
 add list="anti-google-cloud-platform-google-llc" address="2607:d0c0:bffe::/47" comment="Generated blocklist for google"
 add list="anti-google-cloud-platform-google-llc" address="2620:117:bff0::/44" comment="Generated blocklist for google"
 add list="anti-google-cloud-platform-google-llc" address="2620:121:5050::/44" comment="Generated blocklist for google"

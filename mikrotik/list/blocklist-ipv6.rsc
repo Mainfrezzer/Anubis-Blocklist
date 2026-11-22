@@ -1,6 +1,6 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for all configured providers
-# Entries: 19642
+# Entries: 19644
 #
 /ipv6 firewall address-list
 add list="anti-all-configured-providers" address="2001:19f0:1000::/38" comment="Generated blocklist for all configured providers"
@@ -15708,6 +15708,7 @@ add list="anti-all-configured-providers" address="2a0a:c802:4::/48" comment="Gen
 add list="anti-all-configured-providers" address="2a0a:c802:5::/48" comment="Generated blocklist for all configured providers"
 add list="anti-all-configured-providers" address="2a0a:c802:6::/48" comment="Generated blocklist for all configured providers"
 add list="anti-all-configured-providers" address="2a0a:c802:7::/48" comment="Generated blocklist for all configured providers"
+add list="anti-all-configured-providers" address="2a0a:c802:8::/48" comment="Generated blocklist for all configured providers"
 add list="anti-all-configured-providers" address="2a0a:c802::/48" comment="Generated blocklist for all configured providers"
 add list="anti-all-configured-providers" address="2a0a:ce00:1000::/48" comment="Generated blocklist for all configured providers"
 add list="anti-all-configured-providers" address="2a0a:ce00:1001::/48" comment="Generated blocklist for all configured providers"
@@ -19504,10 +19505,12 @@ add list="anti-all-configured-providers" address="2a14:7583:e500::/40" comment="
 add list="anti-all-configured-providers" address="2a14:7583:ef30::/48" comment="Generated blocklist for all configured providers"
 add list="anti-all-configured-providers" address="2a14:7583:ef80::/44" comment="Generated blocklist for all configured providers"
 add list="anti-all-configured-providers" address="2a14:7583:f000::/46" comment="Generated blocklist for all configured providers"
+add list="anti-all-configured-providers" address="2a14:7583:f028::/46" comment="Generated blocklist for all configured providers"
 add list="anti-all-configured-providers" address="2a14:7583:f034::/46" comment="Generated blocklist for all configured providers"
 add list="anti-all-configured-providers" address="2a14:7583:f040::/46" comment="Generated blocklist for all configured providers"
 add list="anti-all-configured-providers" address="2a14:7583:f044::/46" comment="Generated blocklist for all configured providers"
 add list="anti-all-configured-providers" address="2a14:7583:f048::/46" comment="Generated blocklist for all configured providers"
+add list="anti-all-configured-providers" address="2a14:7583:f058::/46" comment="Generated blocklist for all configured providers"
 add list="anti-all-configured-providers" address="2a14:7583:f080::/46" comment="Generated blocklist for all configured providers"
 add list="anti-all-configured-providers" address="2a14:7583:f084::/46" comment="Generated blocklist for all configured providers"
 add list="anti-all-configured-providers" address="2a14:7583:f088::/46" comment="Generated blocklist for all configured providers"
@@ -19518,7 +19521,6 @@ add list="anti-all-configured-providers" address="2a14:7583:f09c::/46" comment="
 add list="anti-all-configured-providers" address="2a14:7583:f0a4::/46" comment="Generated blocklist for all configured providers"
 add list="anti-all-configured-providers" address="2a14:7583:f0a8::/46" comment="Generated blocklist for all configured providers"
 add list="anti-all-configured-providers" address="2a14:7583:f0ac::/46" comment="Generated blocklist for all configured providers"
-add list="anti-all-configured-providers" address="2a14:7583:f0b4::/46" comment="Generated blocklist for all configured providers"
 add list="anti-all-configured-providers" address="2a14:7583:f0c4::/46" comment="Generated blocklist for all configured providers"
 add list="anti-all-configured-providers" address="2a14:7583:f0c8::/46" comment="Generated blocklist for all configured providers"
 add list="anti-all-configured-providers" address="2a14:7583:f0dc::/46" comment="Generated blocklist for all configured providers"

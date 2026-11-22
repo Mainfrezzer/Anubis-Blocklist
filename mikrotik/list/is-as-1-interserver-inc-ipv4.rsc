@@ -1,6 +1,6 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for Interserver
-# Entries: 111
+# Entries: 110
 #
 /ip firewall address-list
 add list="anti-is-as-1-interserver-inc" address="103.197.16.0/22" comment="Generated blocklist for Interserver"
@@ -81,7 +81,6 @@ add list="anti-is-as-1-interserver-inc" address="216.225.156.0/22" comment="Gene
 add list="anti-is-as-1-interserver-inc" address="31.57.96.0/24" comment="Generated blocklist for Interserver"
 add list="anti-is-as-1-interserver-inc" address="38.156.12.0/24" comment="Generated blocklist for Interserver"
 add list="anti-is-as-1-interserver-inc" address="45.202.80.0/21" comment="Generated blocklist for Interserver"
-add list="anti-is-as-1-interserver-inc" address="5.231.240.0/24" comment="Generated blocklist for Interserver"
 add list="anti-is-as-1-interserver-inc" address="50.114.179.0/24" comment="Generated blocklist for Interserver"
 add list="anti-is-as-1-interserver-inc" address="50.20.202.0/23" comment="Generated blocklist for Interserver"
 add list="anti-is-as-1-interserver-inc" address="50.20.206.0/23" comment="Generated blocklist for Interserver"

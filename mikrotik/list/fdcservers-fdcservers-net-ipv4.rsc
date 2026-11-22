@@ -1,6 +1,6 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for FDCservers.net
-# Entries: 857
+# Entries: 856
 #
 /ip firewall address-list
 add list="anti-fdcservers-fdcservers-net" address="103.119.112.0/24" comment="Generated blocklist for FDCservers.net"
@@ -627,7 +627,6 @@ add list="anti-fdcservers-fdcservers-net" address="64.145.24.0/23" comment="Gene
 add list="anti-fdcservers-fdcservers-net" address="64.145.28.0/23" comment="Generated blocklist for FDCservers.net"
 add list="anti-fdcservers-fdcservers-net" address="64.145.30.0/23" comment="Generated blocklist for FDCservers.net"
 add list="anti-fdcservers-fdcservers-net" address="64.145.8.0/23" comment="Generated blocklist for FDCservers.net"
-add list="anti-fdcservers-fdcservers-net" address="64.204.160.0/24" comment="Generated blocklist for FDCservers.net"
 add list="anti-fdcservers-fdcservers-net" address="64.204.165.0/24" comment="Generated blocklist for FDCservers.net"
 add list="anti-fdcservers-fdcservers-net" address="64.51.232.0/23" comment="Generated blocklist for FDCservers.net"
 add list="anti-fdcservers-fdcservers-net" address="64.69.112.0/24" comment="Generated blocklist for FDCservers.net"

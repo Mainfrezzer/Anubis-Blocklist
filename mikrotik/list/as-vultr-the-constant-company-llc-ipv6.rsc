@@ -1,6 +1,6 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for vultr
-# Entries: 3021
+# Entries: 3022
 #
 /ipv6 firewall address-list
 add list="anti-as-vultr-the-constant-company-llc" address="2001:19f0:1000::/38" comment="Generated blocklist for vultr"
@@ -2965,10 +2965,12 @@ add list="anti-as-vultr-the-constant-company-llc" address="2a14:7581:fa1::/48" c
 add list="anti-as-vultr-the-constant-company-llc" address="2a14:7583:e500::/40" comment="Generated blocklist for vultr"
 add list="anti-as-vultr-the-constant-company-llc" address="2a14:7583:ef30::/48" comment="Generated blocklist for vultr"
 add list="anti-as-vultr-the-constant-company-llc" address="2a14:7583:f000::/46" comment="Generated blocklist for vultr"
+add list="anti-as-vultr-the-constant-company-llc" address="2a14:7583:f028::/46" comment="Generated blocklist for vultr"
 add list="anti-as-vultr-the-constant-company-llc" address="2a14:7583:f034::/46" comment="Generated blocklist for vultr"
 add list="anti-as-vultr-the-constant-company-llc" address="2a14:7583:f040::/46" comment="Generated blocklist for vultr"
 add list="anti-as-vultr-the-constant-company-llc" address="2a14:7583:f044::/46" comment="Generated blocklist for vultr"
 add list="anti-as-vultr-the-constant-company-llc" address="2a14:7583:f048::/46" comment="Generated blocklist for vultr"
+add list="anti-as-vultr-the-constant-company-llc" address="2a14:7583:f058::/46" comment="Generated blocklist for vultr"
 add list="anti-as-vultr-the-constant-company-llc" address="2a14:7583:f080::/46" comment="Generated blocklist for vultr"
 add list="anti-as-vultr-the-constant-company-llc" address="2a14:7583:f084::/46" comment="Generated blocklist for vultr"
 add list="anti-as-vultr-the-constant-company-llc" address="2a14:7583:f088::/46" comment="Generated blocklist for vultr"
@@ -2979,7 +2981,6 @@ add list="anti-as-vultr-the-constant-company-llc" address="2a14:7583:f09c::/46" 
 add list="anti-as-vultr-the-constant-company-llc" address="2a14:7583:f0a4::/46" comment="Generated blocklist for vultr"
 add list="anti-as-vultr-the-constant-company-llc" address="2a14:7583:f0a8::/46" comment="Generated blocklist for vultr"
 add list="anti-as-vultr-the-constant-company-llc" address="2a14:7583:f0ac::/46" comment="Generated blocklist for vultr"
-add list="anti-as-vultr-the-constant-company-llc" address="2a14:7583:f0b4::/46" comment="Generated blocklist for vultr"
 add list="anti-as-vultr-the-constant-company-llc" address="2a14:7583:f0c4::/46" comment="Generated blocklist for vultr"
 add list="anti-as-vultr-the-constant-company-llc" address="2a14:7583:f0c8::/46" comment="Generated blocklist for vultr"
 add list="anti-as-vultr-the-constant-company-llc" address="2a14:7583:f0dc::/46" comment="Generated blocklist for vultr"

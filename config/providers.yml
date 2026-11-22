@@ -416,3 +416,6 @@ providers:
     - name: GRUPO PANAGLOBAL 15 S.A
       asns:
         - AS264617
+    - name: Netiface America, Inc.
+      asns:
+        - AS401626

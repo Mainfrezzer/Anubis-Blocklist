@@ -1,4 +1,4 @@
-- name: anti farice-as-farice-ehf
+- name: anti farice-as-korda-ehf
   action: CHALLENGE
   challenge:
     difficulty: 64

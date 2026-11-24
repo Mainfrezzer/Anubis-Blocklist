@@ -1,10 +1,9 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for MivoCloud
-# Entries: 21
+# Entries: 20
 #
 /ip firewall address-list
 add list="anti-mivocloud-mivocloud-srl" address="185.163.44.0/22" comment="Generated blocklist for MivoCloud"
-add list="anti-mivocloud-mivocloud-srl" address="185.225.16.0/22" comment="Generated blocklist for MivoCloud"
 add list="anti-mivocloud-mivocloud-srl" address="185.225.16.0/24" comment="Generated blocklist for MivoCloud"
 add list="anti-mivocloud-mivocloud-srl" address="185.225.17.0/24" comment="Generated blocklist for MivoCloud"
 add list="anti-mivocloud-mivocloud-srl" address="185.225.19.0/24" comment="Generated blocklist for MivoCloud"

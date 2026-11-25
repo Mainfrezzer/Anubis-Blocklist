@@ -1,6 +1,6 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for GoDaddy
-# Entries: 192
+# Entries: 190
 #
 /ip firewall address-list
 add list="anti-as-26496-go-daddy-com-llc-godaddy-com-llc" address="103.44.220.0/24" comment="Generated blocklist for GoDaddy"
@@ -47,7 +47,6 @@ add list="anti-as-26496-go-daddy-com-llc-godaddy-com-llc" address="148.72.44.0/2
 add list="anti-as-26496-go-daddy-com-llc-godaddy-com-llc" address="148.72.88.0/22" comment="Generated blocklist for GoDaddy"
 add list="anti-as-26496-go-daddy-com-llc-godaddy-com-llc" address="160.153.64.0/18" comment="Generated blocklist for GoDaddy"
 add list="anti-as-26496-go-daddy-com-llc-godaddy-com-llc" address="166.62.0.0/19" comment="Generated blocklist for GoDaddy"
-add list="anti-as-26496-go-daddy-com-llc-godaddy-com-llc" address="166.62.10.0/23" comment="Generated blocklist for GoDaddy"
 add list="anti-as-26496-go-daddy-com-llc-godaddy-com-llc" address="166.62.112.0/20" comment="Generated blocklist for GoDaddy"
 add list="anti-as-26496-go-daddy-com-llc-godaddy-com-llc" address="166.62.116.0/22" comment="Generated blocklist for GoDaddy"
 add list="anti-as-26496-go-daddy-com-llc-godaddy-com-llc" address="166.62.12.0/22" comment="Generated blocklist for GoDaddy"
@@ -59,7 +58,6 @@ add list="anti-as-26496-go-daddy-com-llc-godaddy-com-llc" address="166.62.26.0/2
 add list="anti-as-26496-go-daddy-com-llc-godaddy-com-llc" address="166.62.28.0/24" comment="Generated blocklist for GoDaddy"
 add list="anti-as-26496-go-daddy-com-llc-godaddy-com-llc" address="166.62.32.0/19" comment="Generated blocklist for GoDaddy"
 add list="anti-as-26496-go-daddy-com-llc-godaddy-com-llc" address="166.62.4.0/22" comment="Generated blocklist for GoDaddy"
-add list="anti-as-26496-go-daddy-com-llc-godaddy-com-llc" address="166.62.6.0/23" comment="Generated blocklist for GoDaddy"
 add list="anti-as-26496-go-daddy-com-llc-godaddy-com-llc" address="166.62.64.0/18" comment="Generated blocklist for GoDaddy"
 add list="anti-as-26496-go-daddy-com-llc-godaddy-com-llc" address="166.62.64.0/19" comment="Generated blocklist for GoDaddy"
 add list="anti-as-26496-go-daddy-com-llc-godaddy-com-llc" address="166.62.64.0/22" comment="Generated blocklist for GoDaddy"

@@ -1,6 +1,6 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for Realcloud OU
-# Entries: 56
+# Entries: 55
 #
 /ip firewall address-list
 add list="anti-estnoc-global-realcloud-ou-2" address="103.140.186.0/24" comment="Generated blocklist for Realcloud OU"
@@ -37,7 +37,6 @@ add list="anti-estnoc-global-realcloud-ou-2" address="37.0.12.0/24" comment="Gen
 add list="anti-estnoc-global-realcloud-ou-2" address="37.77.56.0/24" comment="Generated blocklist for Realcloud OU"
 add list="anti-estnoc-global-realcloud-ou-2" address="37.77.60.0/24" comment="Generated blocklist for Realcloud OU"
 add list="anti-estnoc-global-realcloud-ou-2" address="37.77.62.0/24" comment="Generated blocklist for Realcloud OU"
-add list="anti-estnoc-global-realcloud-ou-2" address="45.128.132.0/24" comment="Generated blocklist for Realcloud OU"
 add list="anti-estnoc-global-realcloud-ou-2" address="45.128.133.0/24" comment="Generated blocklist for Realcloud OU"
 add list="anti-estnoc-global-realcloud-ou-2" address="45.128.134.0/24" comment="Generated blocklist for Realcloud OU"
 add list="anti-estnoc-global-realcloud-ou-2" address="45.128.135.0/24" comment="Generated blocklist for Realcloud OU"

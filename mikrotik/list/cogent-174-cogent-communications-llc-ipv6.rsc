@@ -1,6 +1,6 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for Cogent
-# Entries: 536
+# Entries: 535
 #
 /ipv6 firewall address-list
 add list="anti-cogent-174-cogent-communications-llc" address="2001:550:100:8::/64" comment="Generated blocklist for Cogent"
@@ -172,7 +172,6 @@ add list="anti-cogent-174-cogent-communications-llc" address="2001:550:3700::/48
 add list="anti-cogent-174-cogent-communications-llc" address="2001:550:3701::/48" comment="Generated blocklist for Cogent"
 add list="anti-cogent-174-cogent-communications-llc" address="2001:550:3702::/48" comment="Generated blocklist for Cogent"
 add list="anti-cogent-174-cogent-communications-llc" address="2001:550:3703::/48" comment="Generated blocklist for Cogent"
-add list="anti-cogent-174-cogent-communications-llc" address="2001:550:3704::/48" comment="Generated blocklist for Cogent"
 add list="anti-cogent-174-cogent-communications-llc" address="2001:550:3800::/48" comment="Generated blocklist for Cogent"
 add list="anti-cogent-174-cogent-communications-llc" address="2001:550:3801::/48" comment="Generated blocklist for Cogent"
 add list="anti-cogent-174-cogent-communications-llc" address="2001:550:3803::/48" comment="Generated blocklist for Cogent"

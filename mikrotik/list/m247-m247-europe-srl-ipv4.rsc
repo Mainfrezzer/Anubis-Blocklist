@@ -1,6 +1,6 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for M247
-# Entries: 4718
+# Entries: 4717
 #
 /ip firewall address-list
 add list="anti-m247-m247-europe-srl" address="102.128.164.0/24" comment="Generated blocklist for M247"
@@ -2577,7 +2577,6 @@ add list="anti-m247-m247-europe-srl" address="206.195.133.0/24" comment="Generat
 add list="anti-m247-m247-europe-srl" address="206.195.134.0/24" comment="Generated blocklist for M247"
 add list="anti-m247-m247-europe-srl" address="206.195.135.0/24" comment="Generated blocklist for M247"
 add list="anti-m247-m247-europe-srl" address="206.195.136.0/24" comment="Generated blocklist for M247"
-add list="anti-m247-m247-europe-srl" address="206.212.247.0/24" comment="Generated blocklist for M247"
 add list="anti-m247-m247-europe-srl" address="206.232.10.0/24" comment="Generated blocklist for M247"
 add list="anti-m247-m247-europe-srl" address="206.232.104.0/24" comment="Generated blocklist for M247"
 add list="anti-m247-m247-europe-srl" address="206.232.105.0/24" comment="Generated blocklist for M247"

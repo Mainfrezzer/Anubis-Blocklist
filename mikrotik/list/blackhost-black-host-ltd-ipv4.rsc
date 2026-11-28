@@ -1,8 +1,13 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for Black HOST Ltd
-# Entries: 21
+# Entries: 31
 #
 /ip firewall address-list
+add list="anti-blackhost-black-host-ltd" address="13.141.1.0/24" comment="Generated blocklist for Black HOST Ltd"
+add list="anti-blackhost-black-host-ltd" address="134.202.246.0/24" comment="Generated blocklist for Black HOST Ltd"
+add list="anti-blackhost-black-host-ltd" address="134.202.250.0/24" comment="Generated blocklist for Black HOST Ltd"
+add list="anti-blackhost-black-host-ltd" address="134.202.251.0/24" comment="Generated blocklist for Black HOST Ltd"
+add list="anti-blackhost-black-host-ltd" address="134.202.253.0/24" comment="Generated blocklist for Black HOST Ltd"
 add list="anti-blackhost-black-host-ltd" address="168.222.185.0/24" comment="Generated blocklist for Black HOST Ltd"
 add list="anti-blackhost-black-host-ltd" address="168.222.186.0/24" comment="Generated blocklist for Black HOST Ltd"
 add list="anti-blackhost-black-host-ltd" address="168.222.187.0/24" comment="Generated blocklist for Black HOST Ltd"
@@ -13,9 +18,14 @@ add list="anti-blackhost-black-host-ltd" address="194.54.182.0/24" comment="Gene
 add list="anti-blackhost-black-host-ltd" address="194.54.183.0/24" comment="Generated blocklist for Black HOST Ltd"
 add list="anti-blackhost-black-host-ltd" address="2.59.21.0/24" comment="Generated blocklist for Black HOST Ltd"
 add list="anti-blackhost-black-host-ltd" address="2.59.22.0/24" comment="Generated blocklist for Black HOST Ltd"
+add list="anti-blackhost-black-host-ltd" address="208.110.135.0/24" comment="Generated blocklist for Black HOST Ltd"
+add list="anti-blackhost-black-host-ltd" address="208.110.136.0/24" comment="Generated blocklist for Black HOST Ltd"
 add list="anti-blackhost-black-host-ltd" address="212.104.140.0/24" comment="Generated blocklist for Black HOST Ltd"
 add list="anti-blackhost-black-host-ltd" address="212.104.141.0/24" comment="Generated blocklist for Black HOST Ltd"
 add list="anti-blackhost-black-host-ltd" address="213.254.179.0/24" comment="Generated blocklist for Black HOST Ltd"
+add list="anti-blackhost-black-host-ltd" address="43.240.150.0/24" comment="Generated blocklist for Black HOST Ltd"
+add list="anti-blackhost-black-host-ltd" address="43.240.151.0/24" comment="Generated blocklist for Black HOST Ltd"
+add list="anti-blackhost-black-host-ltd" address="43.255.81.0/24" comment="Generated blocklist for Black HOST Ltd"
 add list="anti-blackhost-black-host-ltd" address="45.12.60.0/24" comment="Generated blocklist for Black HOST Ltd"
 add list="anti-blackhost-black-host-ltd" address="64.22.82.0/24" comment="Generated blocklist for Black HOST Ltd"
 add list="anti-blackhost-black-host-ltd" address="79.182.16.0/24" comment="Generated blocklist for Black HOST Ltd"

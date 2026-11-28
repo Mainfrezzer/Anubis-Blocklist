@@ -1,6 +1,6 @@
 # Generated automatically. Do not edit manually.
 # Generated blocklist for PacketHub
-# Entries: 926
+# Entries: 924
 #
 /ip firewall address-list
 add list="anti-packethubsa-as-ap-packethub-s-a" address="103.173.150.0/24" comment="Generated blocklist for PacketHub"
@@ -67,7 +67,6 @@ add list="anti-packethubsa-as-ap-packethub-s-a" address="185.102.50.0/24" commen
 add list="anti-packethubsa-as-ap-packethub-s-a" address="185.102.51.0/24" comment="Generated blocklist for PacketHub"
 add list="anti-packethubsa-as-ap-packethub-s-a" address="185.135.45.0/24" comment="Generated blocklist for PacketHub"
 add list="anti-packethubsa-as-ap-packethub-s-a" address="185.168.158.0/24" comment="Generated blocklist for PacketHub"
-add list="anti-packethubsa-as-ap-packethub-s-a" address="185.169.1.0/24" comment="Generated blocklist for PacketHub"
 add list="anti-packethubsa-as-ap-packethub-s-a" address="185.183.214.0/24" comment="Generated blocklist for PacketHub"
 add list="anti-packethubsa-as-ap-packethub-s-a" address="185.183.215.0/24" comment="Generated blocklist for PacketHub"
 add list="anti-packethubsa-as-ap-packethub-s-a" address="185.183.88.0/24" comment="Generated blocklist for PacketHub"
@@ -285,7 +284,6 @@ add list="anti-packethubsa-as-ap-packethub-s-a" address="187.40.41.0/24" comment
 add list="anti-packethubsa-as-ap-packethub-s-a" address="187.40.42.0/24" comment="Generated blocklist for PacketHub"
 add list="anti-packethubsa-as-ap-packethub-s-a" address="187.40.43.0/24" comment="Generated blocklist for PacketHub"
 add list="anti-packethubsa-as-ap-packethub-s-a" address="187.40.44.0/24" comment="Generated blocklist for PacketHub"
-add list="anti-packethubsa-as-ap-packethub-s-a" address="187.40.47.0/24" comment="Generated blocklist for PacketHub"
 add list="anti-packethubsa-as-ap-packethub-s-a" address="187.40.48.0/24" comment="Generated blocklist for PacketHub"
 add list="anti-packethubsa-as-ap-packethub-s-a" address="187.40.49.0/24" comment="Generated blocklist for PacketHub"
 add list="anti-packethubsa-as-ap-packethub-s-a" address="187.40.53.0/24" comment="Generated blocklist for PacketHub"
